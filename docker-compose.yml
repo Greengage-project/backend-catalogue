@@ -1,8 +1,7 @@
 version: "3.7"
 services:
-
   catalogue:
-    image: 'cataloguedev'
+    image: "cataloguedev"
     container_name: catalogue-integrated
     volumes:
       - ./catalogue:/app
@@ -31,6 +30,8 @@ services:
       driver: "json-file"
       options:
         tag: "{{.ImageName}}|{{.Name}}|{{.ImageFullID}}|{{.FullID}}"
+    extra_hosts:
+      - "auth1.localhost:172.17.0.1"
 
 networks:
   traefik-public:

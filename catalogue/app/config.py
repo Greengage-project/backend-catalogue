@@ -33,6 +33,11 @@ class Settings(BaseSettings):
     AUTH_SERVICE_NAME: str = "auth"
     AUTH_PORT: int = 80
     AUTH_SERVICE: str = "auth:80"
+
+    KEYCLOAK_CLIENT_ID: str
+    KEYCLOAK_CLIENT_SECRET: str
+    KEYCLOAK_REALM: str
+    KEYCLOAK_URL_REALM: str     
     
     @validator("SQLALCHEMY_DATABASE_URI", pre=True)
     def assemble_db_connection(cls, v: Optional[str], values: Dict[str, Any]) -> Any:
