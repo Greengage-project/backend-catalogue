@@ -23,7 +23,7 @@
     },
     "form": "survey_template",
     "format": "editable_source_document",
-    "id": "guidelines_for_surveys",
+    "id": "Co_producers_perceptions_questionnaire",
     "instructions_translations": {
         "en": "./interlinkers/knowledge/co-producers-perceptions-Questionnaire/instructions.md"
     },
@@ -36,10 +36,10 @@
     ],
     "licence": "public_domain",
     "name_translations": {
-        "en": "Guidelines for surveys",
-        "es": "Directrices para las encuestas",
-        "it": "Linee guida per i sondaggi",
-        "lv": "Aptauju vadl\u012bnijas"
+        "en": "Co-producers' perceptions questionnaire",
+        "es": "Cuestionario sobre las percepciones de los coproductores",
+        "it": "Questionario sulle percezioni dei coproduttori",
+        "lv": "Līdzražotāju uztveres anketa"
     },
     "problemprofiles": [
         "UND_PROBLEM_3"

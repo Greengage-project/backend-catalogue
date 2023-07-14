@@ -19,13 +19,13 @@
         "zgz"
     ],
     "file_translations": {
-        "en": "./interlinkers/knowledge/Setting-Out-For-Your-Co-Production-Jorney/resource.docx"
+        "en": "./interlinkers/knowledge/Setting-Out-For-Your-Co-Production-Journey/resource.docx"
     },
     "form": "guidelines",
     "format": "pdf",
-    "id": "setting_out_for_your_co_production_jorney",
+    "id": "setting_out_for_your_co_production_journey",
     "instructions_translations": {
-        "en": "./interlinkers/knowledge/Setting-Out-For-Your-Co-Production-Jorney/instructions.md"
+        "en": "./interlinkers/knowledge/Setting-Out-For-Your-Co-Production-Journey/instructions.md"
     },
     "is_sustainability_related": true,
     "languages": [
@@ -36,10 +36,10 @@
     ],
     "licence": "public_domain",
     "name_translations": {
-        "en": "Setting Out for your Co-Production Jorney",
-        "es": "Puesta en marcha del viaje de coproducci&oacute;n",
+        "en": "Setting Out for your Co-Production Journey",
+        "es": "Puesta en marcha del viaje de coproducci\u00f3n",
         "it": "Partenza per il viaggio di co-produzione",
-        "lv": "Izbrauk&#353;ana uz kopra&#382;o&#353;anas projektu Jorney"
+        "lv": "Uzs\u0101kot kopra\u017eo\u0161anas ce\u013cojumu"
     },
     "problemprofiles": [
         "ORG_PROBLEM_1",
