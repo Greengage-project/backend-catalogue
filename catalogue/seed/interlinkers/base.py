@@ -6,7 +6,10 @@ from slugify import slugify
 from problemprofiles.problemprofiles import WithProblemProfiles
 from pydantic import BaseModel, Extra, FilePath, HttpUrl, conlist, validator
 from configuration import Languages, Environments
+from datetime import datetime
+
 # https://docs.google.com/spreadsheets/d/1tJ2BfX4EOdbBqEbrJWg8a3MENw13vYiPZM_S4wWWgWQ/edit#gid=0
+
 
 class FormTypes(Enum):
     software = "software"
@@ -27,6 +30,17 @@ class Formats(Enum):
     open_document = "open_document"
     structured_format = "structured_format"
     software = "sofware"
+    collection = "collection"
+    dataset = "dataset"
+    event = "event"
+    image = "image"
+    text = "text"
+    interactive_resource = "interactive_resource (website)"
+    physical_object = "physical_object (hardware)"
+    moving_image = "moving_image (video)"
+    service = "service"
+    sound = "sound"
+    still_image = "still_image"
 
 
 class Difficulties(Enum):
@@ -83,6 +97,38 @@ class AdministrativeScopes(Enum):
     local = "local"
 
 
+class Audiences(Enum):
+    community_members_and_citizens = "Community Members & Citizens"
+    cs_project_leaders_and_initiators = "CS Project Leaders & Initiators"
+    csos_and_ngos = "CSOs & NGOs"
+    educators = "Educators"
+    policy_and_decision_makers = "Policy & Decision Makers"
+    research_and_academics = "Research & Academics"
+    all_audiences = "ALL Audiences"
+
+
+class Themes(Enum):
+    introduction_to_cs = "Introduction to CS"
+    best_practices = "Best Practices"
+    project_management = "Project Management"
+    research_design_and_methods = "Research design and methods"
+    engagement = "Engagement"
+    co_creation = "Co-creation"
+    communication = "Communication"
+    event_planning = "Event planning"
+    cs_stories = "CS stories"
+    empowerment = "Empowerment"
+    data_quality_and_standards = "Data quality and standards"
+    instructions = "Instructions"
+    link_with_formal_education = "Link with formal education"
+    regulations_and_ethics = "Regulations and ethics"
+    impact = "Impact"
+    evaluation_of_citizen_science = "Evaluation of citizen science"
+    project_sustainability = "Project sustainability"
+    transferability = "Transferability"
+    reflections_on_science = "Reflections on science"
+
+
 class InterlinkerSchema(WithProblemProfiles, extra=Extra.forbid):
     is_sustainability_related: bool
     name_translations: dict
@@ -121,7 +167,6 @@ class InterlinkerSchema(WithProblemProfiles, extra=Extra.forbid):
     tags_translations: Dict[str,  conlist(str, min_items=1)]
     # FOR 1
     # Tags that can be used to characterize the INTERLINKER
-
 
     ## INTERLINKER SPECIFIC
     difficulty: Difficulties
@@ -179,7 +224,7 @@ class InterlinkerSchema(WithProblemProfiles, extra=Extra.forbid):
     # Type of the format used to encode the knowledge of the INTERLINKER
     # This input will be:
     # - Shown on the platform interface in the page showing the details of the INTERLINKER
-    
+
     instructions_translations:  Dict[str,  Union[HttpUrl, FilePath]]
 
     # AUTOMATICALLY GENERATED
@@ -187,3 +232,34 @@ class InterlinkerSchema(WithProblemProfiles, extra=Extra.forbid):
     type: Optional[str]
     languages: Optional[List[Languages]]
     environments: Optional[List[Environments]]
+
+    # EXTRA FOR GREENGAGE
+    audience: Optional[Audiences]
+    # This field describes the audience for which the INTERLINKER is particularly suitable.
+
+    authors: Optional[List[str]]
+    # List of authors of the INTERLINKER
+
+    citizen_science_description: Optional[dict]
+    # Citizen science related description
+
+    creation_date: Optional[datetime]
+    # Creation date of the asset
+
+    doi: Optional[str]
+    # Digital Object Identifier of the asset. A unique alphanumeric string assigned to a digital object.
+
+    themes: Optional[List[Themes]]
+    # List of themes or categories that the INTERLINKER is associated with.
+
+    publication_date: Optional[datetime]
+    # Publication date of the asset in the GREENGAGE Catalogue
+
+    publisher: Optional[str]
+    # Publishers of the asset
+
+    snapshots: Optional[List[HttpUrl]]
+    # Snapshots of the asset
+
+    url: Optional[HttpUrl]
+    # Indicates official URL where more detailed information about the resource can be found.

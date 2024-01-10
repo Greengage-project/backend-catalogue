@@ -14,6 +14,6 @@ class SoftwareInterlinkers(Enum):
 
 class Schema(InterlinkerSchema):
     # language: str
-    
+
     softwareinterlinker: SoftwareInterlinkers
     file_translations:  Dict[str,  FilePath]

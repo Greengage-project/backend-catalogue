@@ -120,6 +120,61 @@
                 "$ref": "#/definitions/Environments"
             }
         },
+        "audience": {
+            "$ref": "#/definitions/Audiences"
+        },
+        "authors": {
+            "title": "Authors",
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "citizen_science_description": {
+            "title": "Citizen Science Description",
+            "type": "object"
+        },
+        "creation_date": {
+            "title": "Creation Date",
+            "type": "string",
+            "format": "date-time"
+        },
+        "doi": {
+            "title": "Doi",
+            "type": "string"
+        },
+        "themes": {
+            "type": "array",
+            "items": {
+                "$ref": "#/definitions/Themes"
+            }
+        },
+        "publication_date": {
+            "title": "Publication Date",
+            "type": "string",
+            "format": "date-time"
+        },
+        "publisher": {
+            "title": "Publisher",
+            "type": "string"
+        },
+        "snapshots": {
+            "title": "Snapshots",
+            "type": "array",
+            "items": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 2083,
+                "format": "uri"
+            }
+        },
+        "url": {
+            "title": "Url",
+            "minLength": 1,
+            "maxLength": 2083,
+            "format": "uri",
+            "type": "string"
+        },
         "softwareinterlinker": {
             "$ref": "#/definitions/SoftwareInterlinkers"
         },
@@ -236,7 +291,18 @@
                 "editable_source_document",
                 "open_document",
                 "structured_format",
-                "sofware"
+                "sofware",
+                "collection",
+                "dataset",
+                "event",
+                "image",
+                "text",
+                "interactive_resource (website)",
+                "physical_object (hardware)",
+                "moving_image (video)",
+                "service",
+                "sound",
+                "still_image"
             ]
         },
         "Languages": {
@@ -256,6 +322,44 @@
                 "varam",
                 "mef",
                 "zgz"
+            ]
+        },
+        "Audiences": {
+            "title": "Audiences",
+            "description": "An enumeration.",
+            "enum": [
+                "Community Members & Citizens",
+                "CS Project Leaders & Initiators",
+                "CSOs & NGOs",
+                "Educators",
+                "Policy & Decision Makers",
+                "Research & Academics",
+                "ALL Audiences"
+            ]
+        },
+        "Themes": {
+            "title": "Themes",
+            "description": "An enumeration.",
+            "enum": [
+                "Introduction to CS",
+                "Best Practices",
+                "Project Management",
+                "Research design and methods",
+                "Engagement",
+                "Co-creation",
+                "Communication",
+                "Event planning",
+                "CS stories",
+                "Empowerment",
+                "Data quality and standards",
+                "Instructions",
+                "Link with formal education",
+                "Regulations and ethics",
+                "Impact",
+                "Evaluation of citizen science",
+                "Project sustainability",
+                "Transferability",
+                "Reflections on science"
             ]
         },
         "SoftwareInterlinkers": {

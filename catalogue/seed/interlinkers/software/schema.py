@@ -21,6 +21,7 @@ class AuthMethods(Enum):
     header = "header"
     cookie = "cookie"
 
+
 class Capabilities(BaseModel):
     instantiate: bool
     view: bool
@@ -31,6 +32,7 @@ class Capabilities(BaseModel):
     open_in_modal: bool
     shortcut: bool
 
+
 class CapabilitiesTranslations(BaseModel):
     instantiate_text_translations: Optional[Dict[str, str]]
     view_text_translations: Optional[Dict[str, str]]
@@ -38,6 +40,7 @@ class CapabilitiesTranslations(BaseModel):
     edit_text_translations: Optional[Dict[str, str]]
     delete_text_translations: Optional[Dict[str, str]]
     preview_text_translations: Optional[Dict[str, str]]
+
 
 class InternalIntegration(BaseModel):
     service_name: str
@@ -48,6 +51,7 @@ class InternalIntegration(BaseModel):
     capabilities: Capabilities
     capabilities_translations: CapabilitiesTranslations
     auth_method: AuthMethods
+
 
 class Schema(InterlinkerSchema):
     logotype: Optional[FilePath]
