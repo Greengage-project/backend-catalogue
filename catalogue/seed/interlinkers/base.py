@@ -72,10 +72,10 @@ class Targets(Enum):
     citizens = "all;citizens"
     potential_end_users = "all;citizens;potential_end_users"
     expert_citizens = "all;citizens;expert_citizens"
+    cs_project_leaders_and_initiators = "all;cs_project_leaders_and_initiators"
     research_organizations = "all;research_organizations"
     universities = "all;research_organizations;universities"
     other_research_entities = "all;research_organizations;other_research_entities"
-
 
 class ProblemProfiles(str):
     pass
@@ -95,16 +95,6 @@ class AdministrativeScopes(Enum):
     eu = "eu"
     national = "national"
     local = "local"
-
-
-class Audiences(Enum):
-    community_members_and_citizens = "Community Members & Citizens"
-    cs_project_leaders_and_initiators = "CS Project Leaders & Initiators"
-    csos_and_ngos = "CSOs & NGOs"
-    educators = "Educators"
-    policy_and_decision_makers = "Policy & Decision Makers"
-    research_and_academics = "Research & Academics"
-    all_audiences = "ALL Audiences"
 
 
 class Themes(Enum):
@@ -234,13 +224,10 @@ class InterlinkerSchema(WithProblemProfiles, extra=Extra.forbid):
     environments: Optional[List[Environments]]
 
     # EXTRA FOR GREENGAGE
-    audience: Optional[Audiences]
-    # This field describes the audience for which the INTERLINKER is particularly suitable.
-
     authors: Optional[List[str]]
     # List of authors of the INTERLINKER
 
-    citizen_science_description: Optional[dict]
+    citizen_science_description_translations: Optional[dict]
     # Citizen science related description
 
     creation_date: Optional[datetime]
@@ -249,17 +236,8 @@ class InterlinkerSchema(WithProblemProfiles, extra=Extra.forbid):
     doi: Optional[str]
     # Digital Object Identifier of the asset. A unique alphanumeric string assigned to a digital object.
 
-    themes: Optional[List[Themes]]
+    themes: Optional[Themes]
     # List of themes or categories that the INTERLINKER is associated with.
-
-    publication_date: Optional[datetime]
-    # Publication date of the asset in the GREENGAGE Catalogue
 
     publisher: Optional[str]
     # Publishers of the asset
-
-    snapshots: Optional[List[HttpUrl]]
-    # Snapshots of the asset
-
-    url: Optional[HttpUrl]
-    # Indicates official URL where more detailed information about the resource can be found.

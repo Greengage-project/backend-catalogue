@@ -130,14 +130,14 @@
                 "type": "string"
             }
         },
-        "citizen_science_description": {
-            "title": "Citizen Science Description",
+        "citizen_science_description_translations": {
+            "title": "Citizen Science Description Translations",
             "type": "object"
         },
         "creation_date": {
             "title": "Creation Date",
             "type": "string",
-            "format": "date-time"
+            "format": "date"
         },
         "doi": {
             "title": "Doi",
@@ -152,27 +152,10 @@
         "publication_date": {
             "title": "Publication Date",
             "type": "string",
-            "format": "date-time"
+            "format": "date"
         },
         "publisher": {
             "title": "Publisher",
-            "type": "string"
-        },
-        "snapshots": {
-            "title": "Snapshots",
-            "type": "array",
-            "items": {
-                "type": "string",
-                "minLength": 1,
-                "maxLength": 2083,
-                "format": "uri"
-            }
-        },
-        "url": {
-            "title": "Url",
-            "minLength": 1,
-            "maxLength": 2083,
-            "format": "uri",
             "type": "string"
         },
         "softwareinterlinker": {

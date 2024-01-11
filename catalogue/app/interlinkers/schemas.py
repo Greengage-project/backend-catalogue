@@ -20,7 +20,8 @@ from app.config import settings
 Difficulties = choice(["very_easy", "easy", "medium", "difficult", "very_difficult"])
 
 Targets = choice(["all", "all;pas", "all;pas;public_servants", "all;pas;politicians", "all;businesses", "all;businesses;smes", "all;businesses;freelancers", "all;businesses;large_companies", "all;businesses;private_non_profit",
-                  "all;citizens", "all;citizens;potential_end_users", "all;citizens;expert_citizens", "all;research_organizations", "all;research_organizations;universities", "all;research_organizations;other_research_entities"])
+                  "all;citizens", "all;citizens;potential_end_users", "all;citizens;expert_citizens", "all;research_organizations", "all;research_organizations;universities", "all;research_organizations;other_research_entities", 
+                  "all;cs_project_leaders_and_initiators"])
 InterlinkerTypes = choice(["enabling_services", "enabling_services;implementing_software_and_artifacts", "enabling_services;operation_services",
                           "enhancing_services", "enhancing_services;onboarding_services", "enhancing_services;followup_services", "enhancing_services:external_experts"])
 AdministrativeScopes = choice(["eu", "national", "local"])
@@ -31,6 +32,11 @@ FormTypes = choice(["visual_template", "document_template", "canvas", "best_prac
 Formats = choice(["pdf", "editable_source_document",
                  "open_document", "structured_format"])
 
+Themes = choice(["Introduction to CS", "Best Practices", "Project Management", 
+                 "Research design and methods", "Engagement", "Co-creation", "Communication",
+                 "Event planning", "CS stories", "Empowerment", "Data quality and standards",
+                 "Instructions", "Link with formal education", "Regulations and ethics", "Impact",
+                 "Evaluation of citizen science", "Project sustainability", "Transferability", "Reflections on science"])
 
 class BaseInterlinkerBase(ArtefactBase):
     published: Optional[bool]
@@ -45,7 +51,16 @@ class BaseInterlinkerBase(ArtefactBase):
     form: Optional[FormTypes]
     format: Optional[Formats]
     is_sustainability_related: bool
-
+    
+    # GREENGAGE
+    authors: Optional[List[str]]
+    citizen_science_description_translations: Optional[dict]
+    creation_date: Optional[datetime]
+    doi: Optional[str]
+    themes: Optional[List[Themes]]
+    publisher: Optional[str]
+    external_link: Optional[str]
+    
 class BaseInterlinkerCreate(ArtefactCreate, BaseInterlinkerBase):
     logotype: Optional[str]
     snapshots: Optional[List[str]]
@@ -68,6 +83,15 @@ class BaseInterlinkerPatch(ArtefactPatch):
     snapshots: Optional[List[str]]
     instructions_translations: Optional[dict]
     is_sustainability_related: Optional[bool]
+    
+    # GREENGAGE
+    authors: Optional[List[str]]
+    citizen_science_description_translations: Optional[dict]
+    creation_date: Optional[datetime]
+    doi: Optional[str]
+    themes: Optional[List[Themes]]
+    publisher: Optional[str]
+    external_link: Optional[str]
     
 class BaseInterlinkerORM(ArtefactORM, BaseInterlinkerBase):
     id: uuid.UUID
