@@ -36,7 +36,7 @@ jobs:
         uses: actions/setup-python@v2
         if: steps.verify-changed-files.outputs.any_changed == 'true'
         with:
-          python-version: 3.8 #install the python needed
+          python-version: 3.9.17 #install the python needed
 
       - name: Install dependencies and run input script if pull request from weblate
         if: github.event_name == 'pull_request' && steps.verify-changed-files.outputs.any_changed == 'true'
