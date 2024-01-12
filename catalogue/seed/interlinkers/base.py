@@ -6,7 +6,7 @@ from slugify import slugify
 from problemprofiles.problemprofiles import WithProblemProfiles
 from pydantic import BaseModel, Extra, FilePath, HttpUrl, conlist, validator
 from configuration import Languages, Environments
-from datetime import datetime
+from datetime import date
 
 # https://docs.google.com/spreadsheets/d/1tJ2BfX4EOdbBqEbrJWg8a3MENw13vYiPZM_S4wWWgWQ/edit#gid=0
 
@@ -230,13 +230,13 @@ class InterlinkerSchema(WithProblemProfiles, extra=Extra.forbid):
     citizen_science_description_translations: Optional[dict]
     # Citizen science related description
 
-    creation_date: Optional[datetime]
+    creation_date: Optional[date]
     # Creation date of the asset
 
     doi: Optional[str]
     # Digital Object Identifier of the asset. A unique alphanumeric string assigned to a digital object.
 
-    themes: Optional[Themes]
+    themes: Optional[List[Themes]]
     # List of themes or categories that the INTERLINKER is associated with.
 
     publisher: Optional[str]

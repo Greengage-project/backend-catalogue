@@ -1,5 +1,5 @@
 import uuid
-from datetime import datetime
+from datetime import datetime, date
 from enum import Enum
 from typing import Dict, List, Literal, Optional, Union
 
@@ -55,7 +55,7 @@ class BaseInterlinkerBase(ArtefactBase):
     # GREENGAGE
     authors: Optional[List[str]]
     citizen_science_description_translations: Optional[dict]
-    creation_date: Optional[datetime]
+    creation_date: Optional[date]
     doi: Optional[str]
     themes: Optional[List[Themes]]
     publisher: Optional[str]
@@ -87,7 +87,7 @@ class BaseInterlinkerPatch(ArtefactPatch):
     # GREENGAGE
     authors: Optional[List[str]]
     citizen_science_description_translations: Optional[dict]
-    creation_date: Optional[datetime]
+    creation_date: Optional[date]
     doi: Optional[str]
     themes: Optional[List[Themes]]
     publisher: Optional[str]

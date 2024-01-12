@@ -9,7 +9,7 @@ from sqlalchemy import (
     Enum,
     ForeignKey,
     String,
-    DateTime
+    Date
 )
 from sqlalchemy.dialects.postgresql import HSTORE, UUID
 from sqlalchemy.orm import backref, relationship
@@ -61,9 +61,9 @@ class Interlinker(Artefact):
     authors = Column(ARRAY(String), nullable=True)
     citizen_science_description_translations = Column(HSTORE)
     citizen_science_description = translation_hybrid(citizen_science_description_translations)
-    creation_date = Column(DateTime, nullable=True)
+    creation_date = Column(Date, nullable=True)
     doi = Column(String, nullable=True)
-    themes = Column(String, nullable=True)
+    themes = Column(ARRAY(String), nullable=True)
     publisher = Column(String, nullable=True)
     external_link = Column(String, nullable=True)    
 
