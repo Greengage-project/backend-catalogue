@@ -74,8 +74,6 @@
     },
     "creation_date": "2017-01-01",
     "doi": "",
-    "themes": [
-        "Data quality and standards"
-    ],
+    "theme": "Data quality and standards",
     "publisher": "Apache Software Foundation"
 }

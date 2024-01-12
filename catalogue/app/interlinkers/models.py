@@ -63,7 +63,7 @@ class Interlinker(Artefact):
     citizen_science_description = translation_hybrid(citizen_science_description_translations)
     creation_date = Column(Date, nullable=True)
     doi = Column(String, nullable=True)
-    themes = Column(ARRAY(String), nullable=True)
+    theme = Column(String, nullable=True)
     publisher = Column(String, nullable=True)
     external_link = Column(String, nullable=True)    
 
