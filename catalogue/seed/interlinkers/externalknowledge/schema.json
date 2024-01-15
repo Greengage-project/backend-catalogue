@@ -140,7 +140,7 @@
             "title": "Doi",
             "type": "string"
         },
-        "themes": {
+        "theme": {
             "$ref": "#/definitions/Themes"
         },
         "publisher": {

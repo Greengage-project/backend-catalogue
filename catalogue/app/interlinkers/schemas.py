@@ -89,7 +89,7 @@ class BaseInterlinkerPatch(ArtefactPatch):
     citizen_science_description_translations: Optional[dict]
     creation_date: Optional[date]
     doi: Optional[str]
-    themes: Optional[Themes]
+    theme: Optional[Themes]
     publisher: Optional[str]
     external_link: Optional[str]
 

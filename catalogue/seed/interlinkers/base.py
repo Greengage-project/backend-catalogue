@@ -236,8 +236,8 @@ class InterlinkerSchema(WithProblemProfiles, extra=Extra.forbid):
     doi: Optional[str]
     # Digital Object Identifier of the asset. A unique alphanumeric string assigned to a digital object.
 
-    themes: Optional[Themes]
-    # List of themes or categories that the INTERLINKER is associated with.
+    theme: Optional[Themes]
+    # The theme of the asset
 
     publisher: Optional[str]
     # Publishers of the asset
