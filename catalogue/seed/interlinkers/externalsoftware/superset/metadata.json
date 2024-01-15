@@ -71,7 +71,7 @@
     "targets": [
         "all"
     ],
-    "themes": "Data quality and standards",
+    "theme": "Data quality and standards",
     "type": "software",
     "types": [
         "enabling_services;operation_services"
