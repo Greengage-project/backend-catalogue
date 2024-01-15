@@ -21,7 +21,7 @@ DELIMITER = ";"
 def add_to_weblate(key: str, obj: dict, data: dict):
     for lang_code in lang_keys:
         ref = data.get("id", "").lower()
-        for translatable_element in ["name_translations", "description_translations"]:
+        for translatable_element in ["name_translations", "description_translations", "citizen_science_description_translations"]:
             if translatable_element in data:
                 addon = translatable_element.replace("_translations", "")
                 prefix = key + DELIMITER if key else ""

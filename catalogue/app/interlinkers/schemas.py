@@ -42,7 +42,7 @@ class BaseInterlinkerBase(ArtefactBase):
     published: Optional[bool]
     difficulty: Difficulties
     targets: Optional[List[Targets]]
-    
+
     types: Optional[List[InterlinkerTypes]]
     administrative_scopes: Optional[List[AdministrativeScopes]]
     # domain: Optional[str]
@@ -51,7 +51,7 @@ class BaseInterlinkerBase(ArtefactBase):
     form: Optional[FormTypes]
     format: Optional[Formats]
     is_sustainability_related: bool
-    
+
     # GREENGAGE
     authors: Optional[List[str]]
     citizen_science_description_translations: Optional[dict]
@@ -60,17 +60,17 @@ class BaseInterlinkerBase(ArtefactBase):
     theme: Optional[Themes]
     publisher: Optional[str]
     external_link: Optional[str]
-    
+
 class BaseInterlinkerCreate(ArtefactCreate, BaseInterlinkerBase):
     logotype: Optional[str]
     snapshots: Optional[List[str]]
     instructions_translations: dict
-    
+
 class BaseInterlinkerPatch(ArtefactPatch):
     published: Optional[bool]
     difficulty: Optional[Difficulties]
     targets: Optional[List[Targets]]
-    
+
     types: Optional[List[InterlinkerTypes]]
     administrative_scopes: Optional[List[AdministrativeScopes]]
     # domain: Optional[str]
@@ -83,7 +83,7 @@ class BaseInterlinkerPatch(ArtefactPatch):
     snapshots: Optional[List[str]]
     instructions_translations: Optional[dict]
     is_sustainability_related: Optional[bool]
-    
+
     # GREENGAGE
     authors: Optional[List[str]]
     citizen_science_description_translations: Optional[dict]
@@ -92,13 +92,15 @@ class BaseInterlinkerPatch(ArtefactPatch):
     themes: Optional[Themes]
     publisher: Optional[str]
     external_link: Optional[str]
-    
+
 class BaseInterlinkerORM(ArtefactORM, BaseInterlinkerBase):
     id: uuid.UUID
     created_at: datetime
     updated_at: Optional[datetime]
 
     instructions: str
+
+    citizen_science_description: Optional[str]
 
     class Config:
         orm_mode = True
@@ -208,7 +210,6 @@ class SoftwareInterlinkerOut(BaseInterlinkerOut, SoftwareBaseInterlinkerORM):
 #
 #     class Config:
 #         orm_mode = True
-
 ### 
 
 
@@ -236,7 +237,7 @@ class KnowledgeBaseInterlinkerORM(BaseInterlinkerORM, KnowledgeBaseInterlinkerBa
     name_translations: dict
     genesis_asset_id_translations: dict
     genesis_asset_id: str
-    
+
     class Config:
         orm_mode = True
 

@@ -11,14 +11,14 @@
         "lv": "Nav"
     },
     "description_translations": {
-        "en": "<p>Apache Superset is a modern, enterprise-ready business intelligence web application. It is fast, lightweight, intuitive, and loaded with options that make it easy for users of all skill sets to explore and visualize their data, from simple pie charts to highly detailed deck.gl geospatial charts.</p>"
-        
+        "en": "<p>Apache Superset is a modern, enterprise-ready business intelligence web application. It is fast, lightweight, intuitive, and loaded with options that make it easy for users of all skill sets to explore and visualize their data, from simple pie charts to highly detailed deck.gl geospatial charts.</p>",
+        "es":"<p>Apache Superset es una moderna aplicaci\u00F3n web de inteligencia de negocio preparada para empresas. Es r\u00E1pida, ligera, intuitiva y est\u00E1 repleta de opciones que facilitan a los usuarios de todos los niveles la exploraci\u00F3n y visualizaci\u00F3n de sus datos, desde sencillos gr\u00E1ficos circulares hasta gr\u00E1ficos geoespaciales deck.gl muy detallados.</p>",
+        "it":"<p>Apache Superset \u00E8 un'applicazione web di business intelligence moderna e pronta per le aziende. \u00C8 veloce, leggera, intuitiva e ricca di opzioni che facilitano l'esplorazione e la visualizzazione dei dati da parte di utenti di qualsiasi livello, da semplici grafici a torta a grafici geospaziali altamente dettagliati.</p>",
+        "nl":"<p>Apache Superset is een moderne business intelligence webapplicatie die geschikt is voor bedrijven. Het is snel, licht, intu\u00EFtief en zit vol met opties die het gebruikers van alle niveaus gemakkelijk maken om hun gegevens te verkennen en te visualiseren, van eenvoudige cirkeldiagrammen tot zeer gedetailleerde deck.gl geospatiale grafieken.</p>"
     },
     "difficulty": "medium",
     "environments": [
-        "varam",
-        "mef",
-        "zgz"
+        ""
     ],
     "id": "apache_superset",
     "instructions_translations": {
@@ -29,7 +29,8 @@
         "lv",
         "en",
         "es",
-        "it"
+        "it",
+        "nl"
     ],
     "licence": "permissive",
     "logotype": "./interlinkers/externalsoftware/superset/logo.png",
