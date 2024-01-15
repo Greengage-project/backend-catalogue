@@ -18,7 +18,9 @@
     },
     "difficulty": "medium",
     "environments": [
-        ""
+        "varam",
+        "mef",
+        "zgz"
     ],
     "id": "apache_superset",
     "instructions_translations": {
