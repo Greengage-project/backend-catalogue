@@ -120,9 +120,6 @@
                 "$ref": "#/definitions/Environments"
             }
         },
-        "audience": {
-            "$ref": "#/definitions/Audiences"
-        },
         "authors": {
             "title": "Authors",
             "type": "array",
@@ -144,15 +141,7 @@
             "type": "string"
         },
         "themes": {
-            "type": "array",
-            "items": {
-                "$ref": "#/definitions/Themes"
-            }
-        },
-        "publication_date": {
-            "title": "Publication Date",
-            "type": "string",
-            "format": "date"
+            "$ref": "#/definitions/Themes"
         },
         "publisher": {
             "title": "Publisher",
@@ -212,6 +201,7 @@
                 "all;citizens",
                 "all;citizens;potential_end_users",
                 "all;citizens;expert_citizens",
+                "all;cs_project_leaders_and_initiators",
                 "all;research_organizations",
                 "all;research_organizations;universities",
                 "all;research_organizations;other_research_entities"
@@ -305,19 +295,6 @@
                 "varam",
                 "mef",
                 "zgz"
-            ]
-        },
-        "Audiences": {
-            "title": "Audiences",
-            "description": "An enumeration.",
-            "enum": [
-                "Community Members & Citizens",
-                "CS Project Leaders & Initiators",
-                "CSOs & NGOs",
-                "Educators",
-                "Policy & Decision Makers",
-                "Research & Academics",
-                "ALL Audiences"
             ]
         },
         "Themes": {
