@@ -93,13 +93,14 @@ jobs:
           cache-from: type=registry,ref=projectgreengage/backend-catalogue:buildcache
           cache-to: type=registry,ref=projectgreengage/backend-catalogue:buildcache,mode=max
 
-      - name: Trigger Dev Deployment
-        uses: octokit/request-action@v2.x
-        id: trigger_dev_deployment
-        with:
-          route: POST /repos/{owner}/{repo}/dispatches
-          owner: Greengage-project
-          repo: interlink-project
-          event_type: update-dev-environment
-        env:
-          GITHUB_TOKEN: ${{ secrets.GREENGAGE_PROJECT_GITHUB_TOKEN }}
+      # NO DEV DEPLOYMENT IN GREENGAGE
+      # - name: Trigger Dev Deployment
+      #   uses: octokit/request-action@v2.x
+      #   id: trigger_dev_deployment
+      #   with:
+      #     route: POST /repos/{owner}/{repo}/dispatches
+      #     owner: Greengage-project
+      #     repo: interlink-project
+      #     event_type: update-dev-environment
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.GREENGAGE_PROJECT_GITHUB_TOKEN }}
