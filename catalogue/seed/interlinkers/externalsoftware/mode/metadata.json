@@ -19,8 +19,8 @@
     "creation_date": "2017-01-01",
     "description_translations": {
         "en": "<p>MODE software technology uses smartphones to automatically track the distances travelled and transport modes used, thus enabling software developers, system integrators and transport operators to design innovative mobility services. MODE provides the missing link for the development of innovative mobility services: automatic, reliable recognition of the means of transport used, and travelled routes using smartphones.</p>",
-        "es": "<p>La tecnolog\u00EDa de software MODE utiliza los tel\u00E9fonos inteligentes para realizar un seguimiento autom\u00E1tico de las distancias recorridas y los medios de transporte utilizados, lo que permite a los desarrolladores de software, integradores de sistemas y operadores de transporte dise\u00F1ar servicios de movilidad innovadores. MODE proporciona el eslab\u00F3n que faltaba para el desarrollo de servicios de movilidad innovadores: el reconocimiento autom\u00E1tico y fiable de los medios de transporte utilizados y las rutas recorridas mediante tel\u00E9fonos inteligentes.</p>",
-        "it": "<p>La tecnologia software MODE utilizza gli smartphone per tracciare automaticamente le distanze percorse e le modalit\u00E0 di trasporto utilizzate, consentendo cos\u00EC agli sviluppatori di software, agli integratori di sistemi e agli operatori dei trasporti di progettare servizi di mobilit\u00E0 innovativi. MODE fornisce l'anello mancante per lo sviluppo di servizi di mobilit\u00E0 innovativi: il riconoscimento automatico e affidabile dei mezzi di trasporto utilizzati e dei percorsi effettuati tramite smartphone.</p>",
+        "es": "<p>La tecnolog\u00eda de software MODE utiliza los tel\u00e9fonos inteligentes para realizar un seguimiento autom\u00e1tico de las distancias recorridas y los medios de transporte utilizados, lo que permite a los desarrolladores de software, integradores de sistemas y operadores de transporte dise\u00f1ar servicios de movilidad innovadores. MODE proporciona el eslab\u00f3n que faltaba para el desarrollo de servicios de movilidad innovadores: el reconocimiento autom\u00e1tico y fiable de los medios de transporte utilizados y las rutas recorridas mediante tel\u00e9fonos inteligentes.</p>",
+        "it": "<p>La tecnologia software MODE utilizza gli smartphone per tracciare automaticamente le distanze percorse e le modalit\u00e0 di trasporto utilizzate, consentendo cos\u00ec agli sviluppatori di software, agli integratori di sistemi e agli operatori dei trasporti di progettare servizi di mobilit\u00e0 innovativi. MODE fornisce l'anello mancante per lo sviluppo di servizi di mobilit\u00e0 innovativi: il riconoscimento automatico e affidabile dei mezzi di trasporto utilizzati e dei percorsi effettuati tramite smartphone.</p>",
         "nl": "<p>MODE-softwaretechnologie gebruikt smartphones om automatisch de afgelegde afstanden en gebruikte vervoersmiddelen te volgen, waardoor softwareontwikkelaars, systeemintegrators en vervoersbedrijven innovatieve mobiliteitsdiensten kunnen ontwerpen. MODE biedt de ontbrekende schakel voor de ontwikkeling van innovatieve mobiliteitsdiensten: automatische, betrouwbare herkenning van de gebruikte vervoermiddelen en afgelegde routes met behulp van smartphones.</p>"
     },
     "difficulty": "medium",
@@ -51,9 +51,7 @@
         "en": "Softare that tracks travelled distances and transport modes used",
         "es": ""
     },
-    "problemprofiles": [
-        
-    ],
+    "problemprofiles": [],
     "publisher": "AIT",
     "regulations_and_standards_translations": {
         "en": "None",
