@@ -1,0 +1,82 @@
+{
+    "administrative_scopes": [
+        "eu",
+        "national",
+        "local"
+    ],
+    "authors": [
+        "Acryl Data",
+        "LinkedIn"
+    ],
+    "citizen_science_description_translations": {
+        "en": ""
+    },
+    "constraints_and_limitations_translations": {
+        "en": "None",
+        "es": "Ninguno",
+        "it": "Nessuno",
+        "lv": "Nav"
+    },
+    "creation_date": "2017-09-19",
+    "description_translations": {
+        "en": "<p>DataHub is an open-source metadata platform designed to democratise data discovery. It acts as a centralised system for companies and teams to track, manage, and find data within their organisation. Its primary aim is to streamline the process of accessing and understanding data assets, making it easier for teams to derive insights and make informed decisions.</p>",
+        "es": "<p>DataHub es una plataforma de metadatos de c\u00F3digo abierto dise\u00F1ada para democratizar el descubrimiento de datos. Act\u00FAa como un sistema centralizado para que las empresas y los equipos rastreen, gestionen y encuentren datos dentro de su organizaci\u00F3n. Su principal objetivo es agilizar el proceso de acceso y comprensi\u00F3n de los activos de datos, facilitando a los equipos la obtenci\u00F3n de informaci\u00F3n y la toma de decisiones informadas.</p>",
+        "it": "<p>DataHub \u00E8 una piattaforma di metadati open-source progettata per democratizzare la scoperta dei dati. Funge da sistema centralizzato per le aziende e i team per tracciare, gestire e trovare i dati all'interno della loro organizzazione. Il suo obiettivo principale \u00E8 quello di semplificare il processo di accesso e comprensione degli asset di dati, rendendo pi\u00F9 facile per i team ricavare approfondimenti e prendere decisioni informate.</p>",
+        "nl": "<p>DataHub is een open-source metadataplatform dat is ontworpen om het vinden van gegevens te democratiseren. Het fungeert als een gecentraliseerd systeem voor bedrijven en teams om gegevens binnen hun organisatie op te sporen, te beheren en te vinden. Het primaire doel is het stroomlijnen van het proces van toegang tot en inzicht in datamateriaal, zodat het voor teams eenvoudiger wordt om inzichten te verkrijgen en weloverwogen beslissingen te nemen.</p>"
+    },
+    "difficulty": "easy",
+    "doi": "",
+    "environments": [
+        "varam",
+        "mef",
+        "zgz"
+    ],
+    "id": "datahub",
+    "instructions_translations": {
+        "en": "./interlinkers/externalsoftware/datahub/instructions.md"
+    },
+    "is_sustainability_related": false,
+    "languages": [
+        "lv",
+        "en",
+        "es",
+        "it",
+        "nl"
+    ],
+    "licence": "permissive",
+    "logotype": "./interlinkers/externalsoftware/datahub/logo.svg",
+    "name_translations": {
+        "en": "DataHub"
+    },
+    "overview_text": {
+        "en": "Open-source metadata platform designed to democratise data discovery",
+        "es": ""
+    },
+    "problemprofiles": [
+        "ORG_PROBLEM_6.2"
+    ],
+    "publisher": "Acryl Data & LinkedIn",
+    "regulations_and_standards_translations": {
+        "en": "None",
+        "es": ""
+    },
+    "tags_translations": {
+        "en": [
+            "data discovery",
+            "democratisation",
+            "dataset",
+            "data visualization"
+        ]
+    },
+    "targets": [
+        "all"
+    ],
+    "theme": "Data quality and standards",
+    "type": "software",
+    "types": [
+        "enabling_services;operation_services"
+    ],
+    "uri_translations": {
+        "en": "https://datahub.16.171.94.204.nip.io/"
+    }
+}

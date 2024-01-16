@@ -1,0 +1,81 @@
+{
+    "administrative_scopes": [
+        "eu",
+        "national",
+        "local"
+    ],
+    "authors": [
+        "Apache Software Foundation"
+    ],
+    "citizen_science_description_translations": {
+        "en": ""
+    },
+    "constraints_and_limitations_translations": {
+        "en": "None",
+        "es": "Ninguno",
+        "it": "Nessuno",
+        "lv": "Nav"
+    },
+    "creation_date": "2017-01-01",
+    "description_translations": {
+        "en": "<p>Apache Druid is a high-performance, distributed data store designed for real-time analytics on large-scale datasets. It excels in scenarios where fast queries and ingest are crucial, such as in business intelligence applications, operational analytics, and real-time monitoring. Druid is known for its ability to handle high concurrency, its columnar storage format, and its ability to scale horizontally. It supports streaming and batch data ingestion, and its architecture allows for efficient data summarisation, fast aggregation queries, and low-latency data access. Druid is often used in conjunction with big data technologies like Hadoop and Kafka, making it a popular choice for organisations looking to implement real-time analytics solutions.</p>",
+        "es": "<p>Apache Druid es un almac\u00E9n de datos distribuido de alto rendimiento dise\u00F1ado para el an\u00E1lisis en tiempo real de conjuntos de datos a gran escala. Destaca en escenarios en los que las consultas y la ingesta r\u00E1pidas son cruciales, como en aplicaciones de inteligencia de negocio, an\u00E1lisis operativos y monitorizaci\u00F3n en tiempo real. Druid es conocido por su capacidad para gestionar una gran concurrencia, su formato de almacenamiento en columnas y su capacidad para escalar horizontalmente. Admite la ingesti\u00F3n de datos en flujo y por lotes, y su arquitectura permite resumir los datos con eficacia, realizar consultas de agregaci\u00F3n r\u00E1pidas y acceder a los datos con baja latencia. Druid se utiliza a menudo junto con tecnolog\u00EDas de big data como Hadoop y Kafka, lo que lo convierte en una opci\u00F3n popular para las organizaciones que buscan implantar soluciones de an\u00E1lisis en tiempo real.</p>",
+        "it": "<p>Apache Druid \u00E8 un archivio dati distribuito ad alte prestazioni, progettato per l'analisi in tempo reale di insiemi di dati su larga scala. Eccelle negli scenari in cui la rapidit\u00E0 delle query e dell'ingest \u00E8 fondamentale, come nelle applicazioni di business intelligence, nell'analisi operativa e nel monitoraggio in tempo reale. Druid \u00E8 noto per la sua capacit\u00E0 di gestire un'elevata concorrenza, il suo formato di archiviazione colonnare e la sua capacit\u00E0 di scalare orizzontalmente. Supporta l'ingestione di dati in streaming e in batch e la sua architettura consente una sintesi efficiente dei dati, query di aggregazione veloci e accesso ai dati a bassa latenza. Druid viene spesso utilizzato insieme a tecnologie per i big data come Hadoop e Kafka, il che lo rende una scelta popolare per le organizzazioni che vogliono implementare soluzioni di analisi in tempo reale.</p>",
+        "nl": "<p>Apache Druid is een krachtige, gedistribueerde dataopslag die is ontworpen voor real-time analyse van grootschalige datasets. Het blinkt uit in scenario's waar snelle queries en ingest cruciaal zijn, zoals in business intelligence toepassingen, operationele analyses en real-time monitoring. Druid staat bekend om zijn vermogen om om te gaan met hoge concurrency, zijn columnaire opslagformaat en zijn vermogen om horizontaal te schalen. Het ondersteunt streaming en batch data ingestion en de architectuur zorgt voor effici\u00EBnte datasamenvatting, snelle aggregatie queries en low-latency datatoegang. Druid wordt vaak gebruikt in combinatie met big data technologie\u00EBn zoals Hadoop en Kafka, waardoor het een populaire keuze is voor organisaties die real-time analytics oplossingen willen implementeren.</p>"
+    },
+    "difficulty": "medium",
+    "doi": "",
+    "environments": [
+        "varam",
+        "mef",
+        "zgz"
+    ],
+    "id": "druid",
+    "instructions_translations": {
+        "en": "./interlinkers/externalsoftware/druid/instructions.md"
+    },
+    "is_sustainability_related": false,
+    "languages": [
+        "lv",
+        "en",
+        "es",
+        "it",
+        "nl"
+    ],
+    "licence": "permissive",
+    "logotype": "./interlinkers/externalsoftware/druid/logo.png",
+    "name_translations": {
+        "en": "Apache Druid"
+    },
+    "overview_text": {
+        "en": "High-performance, distributed data store designed for real-time analytics on large-scale datasets",
+        "es": ""
+    },
+    "problemprofiles": [
+        
+    ],
+    "publisher": "Apache Software Foundation",
+    "regulations_and_standards_translations": {
+        "en": "None",
+        "es": ""
+    },
+    "tags_translations": {
+        "en": [
+            "data storage",
+            "SQL",
+            "distributed",
+            "large scale data"
+        ]
+    },
+    "targets": [
+        "all"
+    ],
+    "theme": "Data quality and standards",
+    "type": "software",
+    "types": [
+        "enabling_services;operation_services"
+    ],
+    "uri_translations": {
+        "en": "https://druid.16.171.94.204.nip.io/"
+    }
+}

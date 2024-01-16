@@ -1,0 +1,80 @@
+{
+    "administrative_scopes": [
+        "eu",
+        "national",
+        "local"
+    ],
+    "authors": [
+        "VRVis"
+    ],
+    "citizen_science_description_translations": {
+        "en": ""
+    },
+    "constraints_and_limitations_translations": {
+        "en": "None",
+        "es": "Ninguno",
+        "it": "Nessuno",
+        "lv": "Nav"
+    },
+    "creation_date": "2017-01-01",
+    "description_translations": {
+        "en": "<p>The data quality dashboard is a web-based tool that allows users to monitor the quality of collected data. It provides both visual and numeric representations of data quality through visual cues, quality metrics, and statistics, allowing users to quickly identify potential issues. The dashboard also offers a variety of features for data exploration and analysis, including the ability to filter data by time, location, and other parameters.</p>",
+        "es": "<p>El panel de calidad de datos es una herramienta web que permite a los usuarios supervisar la calidad de los datos recopilados. Proporciona representaciones visuales y num\u00E9ricas de la calidad de los datos a trav\u00E9s de se\u00F1ales visuales, m\u00E9tricas de calidad y estad\u00EDsticas, lo que permite a los usuarios identificar r\u00E1pidamente posibles problemas. El panel tambi\u00E9n ofrece diversas funciones para la exploraci\u00F3n y el an\u00E1lisis de datos, incluida la posibilidad de filtrar los datos por tiempo, ubicaci\u00F3n y otros par\u00E1metros.</p>",
+        "it": "<p>Il cruscotto della qualit\u00E0 dei dati \u00E8 uno strumento basato sul web che consente agli utenti di monitorare la qualit\u00E0 dei dati raccolti. Fornisce rappresentazioni sia visive che numeriche della qualit\u00E0 dei dati attraverso indicazioni visive, metriche di qualit\u00E0 e statistiche, consentendo agli utenti di identificare rapidamente potenziali problemi. Il cruscotto offre anche una serie di funzioni per l'esplorazione e l'analisi dei dati, tra cui la possibilit\u00E0 di filtrare i dati in base al tempo, alla posizione e ad altri parametri.</p>",
+        "nl": "<p>Het dashboard voor gegevenskwaliteit is een webtool waarmee gebruikers de kwaliteit van verzamelde gegevens kunnen bewaken. Het biedt zowel visuele als numerieke weergaven van de gegevenskwaliteit door middel van visuele aanwijzingen, kwaliteitsmetingen en statistieken, zodat gebruikers snel potenti\u00EBle problemen kunnen identificeren. Het dashboard biedt ook verschillende functies voor het verkennen en analyseren van gegevens, waaronder de mogelijkheid om gegevens te filteren op tijd, locatie en andere parameters.</p>"
+    },
+    "difficulty": "medium",
+    "doi": "",
+    "environments": [
+        "varam",
+        "mef",
+        "zgz"
+    ],
+    "id": "data_quality",
+    "instructions_translations": {
+        "en": "./interlinkers/externalsoftware/data_quality/instructions.md"
+    },
+    "is_sustainability_related": false,
+    "languages": [
+        "lv",
+        "en",
+        "es",
+        "it",
+        "nl"
+    ],
+    "licence": "permissive",
+    "logotype": "./interlinkers/externalsoftware/data_quality/logo.jpg",
+    "name_translations": {
+        "en": "Data Quality Dashboard"
+    },
+    "overview_text": {
+        "en": "Web-based tool that allows users to monitor the quality of collected data",
+        "es": ""
+    },
+    "problemprofiles": [
+        
+    ],
+    "publisher": "VRVis",
+    "regulations_and_standards_translations": {
+        "en": "None",
+        "es": ""
+    },
+    "tags_translations": {
+        "en": [
+            "data quality",
+            "dashboard",
+            "data monitoring"
+        ]
+    },
+    "targets": [
+        "all"
+    ],
+    "theme": "Data quality and standards",
+    "type": "software",
+    "types": [
+        "enabling_services;operation_services"
+    ],
+    "uri_translations": {
+        "en": "https://greengage-project.github.io/Documentation/tools/DataQualityDashboard/"
+    }
+}
