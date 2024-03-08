@@ -853,5 +853,260 @@
             "it": "Definizione delle regole per un hackathon o un concorso",
             "lv": "Hakatona vai Konkursa noteikumu defin\u0113\u0161ana"
         }
+    },
+    {
+        "description_translations": {
+            "en": "This problem addresses the need to train different stakeholders in the Citizen Science process.",
+            "es": "Este problema aborda la necesidad de entrenar a los diferentes interesados en el proceso de Ciencia Ciudadana.",
+            "it": "Questo problema riguarda la necessit\u00E0 di formare i diversi soggetti interessati al processo di Citizen Science.",
+            "lv": "\u0160\u012B probl\u0113ma attiecas uz nepiecie\u0161am\u012Bbu apm\u0101c\u012Bt da\u017E\u0101das ieinteres\u0113t\u0101s personas pilsonisk\u0101s zin\u0101tnes proces\u0101.",
+            "nl": "Dit probleem heeft betrekking op de noodzaak om verschillende belanghebbenden te trainen in het Citizen Science proces.",
+            "dk": "Dette problem omhandler behovet for at uddanne forskellige interessenter i Citizen Science-processen."
+        },
+        "functionality_translations": {
+            "en": "Enablers should provide guidance on different training aspects.",
+            "es": "Los habilitadores deben orientar sobre los distintos aspectos de la formaci\u00F3n.",
+            "it": "I facilitatori dovrebbero fornire indicazioni sui diversi aspetti della formazione.",
+            "lv": "Veicin\u0101t\u0101jiem b\u016Btu j\u0101sniedz nor\u0101d\u012Bjumi par da\u017E\u0101diem apm\u0101c\u012Bbas aspektiem.",
+            "nl": "Enablers moeten begeleiding bieden bij verschillende trainingsaspecten.",
+            "dk": "Enablers b\u00F8r give vejledning om forskellige tr\u00E6ningsaspekter."
+        },
+        "id": "CS_PROBLEM_1",
+        "name_translations": {
+            "en": "Training on CS",
+            "es": "Formaci\u00F3n en CS",
+            "it": "Formazione su CS",
+            "lv": "Apm\u0101c\u012Bba par CS",
+            "nl": "Training op CS",
+            "dk": "Uddannelse i CS"
+        }
+    },
+    {
+        "description_translations": {
+            "en": "CS research design and methods",
+            "es": "Este problema aborda la necesidad de definir las reglas de una competici\u00f3n (hackathon, concurso) en la que pueden participar diferentes equipos.",
+            "it": "Questo problema si riferisce alla necessit\u00e0 di definire delle regole per una competizione (hackathon, concorso) a cui prendono parte diverse squadre.",
+            "lv": "\u0160\u012b probl\u0113ma ir saist\u012bta ar nepiecie\u0161am\u012bbu defin\u0113t noteikumus par konkursu (hackathon, konkursu), kur\u0101 var piedal\u012bties da\u017e\u0101das komandas."
+        },
+        "functionality_translations": {
+            "en": "Enablers to support Citizen Science research problems definition and providing methods to carry out Citizen Science.",
+            "es": ""
+        },
+        "id": "CS_PROBLEM_2",
+        "name_translations": {
+            "en": "CS research design and methods",
+            "es": "CS research design and methods",
+            "it": "CS research design and methods",
+            "lv": "CS research design and methods"
+        }
+    },
+    {
+        "description_translations": {
+            "en": "CS campaign execution and management",
+            "es": "CS campaign execution and management.",
+            "it": "CS campaign execution and management.",
+            "lv": "CS campaign execution and management."
+        },
+        "functionality_translations": {
+            "en": "Enablers to support execution and management of Citizen Science campaigns.",
+            "es": ""
+        },
+        "id": "CS_PROBLEM_3",
+        "name_translations": {
+            "en": "CS campaign execution and management",
+            "es": "CS campaign execution and management",
+            "it": "CS campaign execution and management",
+            "lv": "CS campaign execution and management"
+        }
+    },
+    {
+        "description_translations": {
+            "en": "CS communication and dissemination",
+            "es": "CS communication and dissemination",
+            "it": "CS communication and dissemination",
+            "lv": "CS communication and dissemination"
+        },
+        "functionality_translations": {
+            "en": "Enablers to aid in Citizen Science communication and dissemination",
+            "es": ""
+        },
+        "id": "CS_PROBLEM_4",
+        "name_translations": {
+            "en": "CS communication and dissemination",
+            "es": "CS communication and dissemination",
+            "it": "CS communication and dissemination",
+            "lv": "CS communication and dissemination"
+        }
+    },
+    {
+        "description_translations": {
+            "en": "Publish CS stories",
+            "es": "Publish CS stories",
+            "it": "Publish CS stories",
+            "lv": "Publish CS stories"
+        },
+        "functionality_translations": {
+            "en": "Enablers to aid in publishing Citizen Science stories",
+            "es": ""
+        },
+        "id": "CS_PROBLEM_5",
+        "name_translations": {
+            "en": "Publish CS stories",
+            "es": "Publish CS stories",
+            "it": "Publish CS stories",
+            "lv": "Publish CS stories"
+        }
+    },
+    {
+        "description_translations": {
+            "en": "Citizen empowerment",
+            "es": "Citizen empowerment",
+            "it": "Citizen empowerment",
+            "lv": "Citizen empowerment"
+        },
+        "functionality_translations": {
+            "en": "Enablers to facilitate Citizen empowerment",
+            "es": ""
+        },
+        "id": "CS_PROBLEM_6",
+        "name_translations": {
+            "en": "Citizen empowerment",
+            "es": "Citizen empowerment",
+            "it": "Citizen empowerment",
+            "lv": "Citizen empowerment"
+        }
+    },
+    {
+        "description_translations": {
+            "en": "Data quality and standards",
+            "es": "Data quality and standards",
+            "it": "Data quality and standards",
+            "lv": "Data quality and standards"
+        },
+        "functionality_translations": {
+            "en": "Enablers to guide on the assurance of data quality and compliance with standards",
+            "es": ""
+        },
+        "id": "CS_PROBLEM_7",
+        "name_translations": {
+            "en": "Data quality and standards",
+            "es": "Data quality and standards",
+            "it": "Data quality and standards",
+            "lv": "Data quality and standards"
+        }
+    },
+    {
+        "description_translations": {
+            "en": "Data protocol definition",
+            "es": "Data protocol definition",
+            "it": "Data protocol definition",
+            "lv": "Data protocol definition"
+        },
+        "functionality_translations": {
+            "en": "Enablers to aid in Data protocol definition",
+            "es": ""
+        },
+        "id": "CS_PROBLEM_8",
+        "name_translations": {
+            "en": "Data protocol definition",
+            "es": "Data protocol definition",
+            "it": "Data protocol definition",
+            "lv": "Data protocol definition"
+        }
+    },
+    {
+        "description_translations": {
+            "en": "Crowdsourcing and data analyisis guidelines",
+            "es": "Crowdsourcing and data analyisis guidelines",
+            "it": "Crowdsourcing and data analyisis guidelines",
+            "lv": "Crowdsourcing and data analyisis guidelines"
+        },
+        "functionality_translations": {
+            "en": "Enablers to support crowdsourcing and offering data analyisis guidelines",
+            "es": ""
+        },
+        "id": "CS_PROBLEM_9",
+        "name_translations": {
+            "en": "Crowdsourcing and data analyisis guidelines",
+            "es": "Crowdsourcing and data analyisis guidelines",
+            "it": "Crowdsourcing and data analyisis guidelines",
+            "lv": "Crowdsourcing and data analyisis guidelines"
+        }
+    },
+    {
+        "description_translations": {
+            "en": "Link with formal education",
+            "es": "Link with formal education",
+            "it": "Link with formal educations",
+            "lv": "Link with formal education"
+        },
+        "functionality_translations": {
+            "en": "Enablers to link with formal education",
+            "es": ""
+        },
+        "id": "CS_PROBLEM_10",
+        "name_translations": {
+            "en": "Link with formal education",
+            "es": "Link with formal education",
+            "it": "Link with formal education",
+            "lv": "Link with formal education"
+        }
+    },
+    {
+        "description_translations": {
+            "en": "Evaluation of citizen science",
+            "es": "Evaluation of citizen science",
+            "it": "Evaluation of citizen science",
+            "lv": "Evaluation of citizen science"
+        },
+        "functionality_translations": {
+            "en": "Enablers to support evaluation of Citizen Science experiments",
+            "es": ""
+        },
+        "id": "CS_PROBLEM_11",
+        "name_translations": {
+            "en": "Evaluation of citizen science",
+            "es": "Evaluation of citizen science",
+            "it": "Evaluation of citizen science",
+            "lv": "Evaluation of citizen science"
+        }
+    },
+    {
+        "description_translations": {
+            "en": "Project sustainability",
+            "es": "Project sustainability",
+            "it": "Project sustainability",
+            "lv": "Project sustainability "
+        },
+        "functionality_translations": {
+            "en": "Enablers to foster Project sustainability ",
+            "es": ""
+        },
+        "id": "CS_PROBLEM_12",
+        "name_translations": {
+            "en": "Project sustainability ",
+            "es": "Project sustainability ",
+            "it": "Project sustainability ",
+            "lv": "Project sustainability "
+        }
+    },
+    {
+        "description_translations": {
+            "en": "Reflections on science",
+            "es": "Reflections on science",
+            "it": "Reflections on science",
+            "lv": "Reflections on science"
+        },
+        "functionality_translations": {
+            "en": "Enablers to aid reflection about science",
+            "es": ""
+        },
+        "id": "CS_PROBLEM_12",
+        "name_translations": {
+            "en": "Reflections on science",
+            "es": "Reflections on science",
+            "it": "Reflections on science",
+            "lv": "Reflections on science"
+        }
     }
 ]
