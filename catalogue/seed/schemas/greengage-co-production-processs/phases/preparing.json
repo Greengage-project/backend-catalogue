@@ -106,8 +106,8 @@
             "problemprofiles": [
                 "CS_PROBLEM_1",
 				"CS_PROBLEM_8",
-				"DEF_PROBLEM_7",
-                "DEF_PROBLEM_8", 
+				"ORG_PROBLEM_7",
+                "ORG_PROBLEM_8", 
 				"ORG_PROBLEM_9"
             ],
             "tasks": [
@@ -129,7 +129,7 @@
 						"nl": ""
                     },
                     "problemprofiles": [
-                        "DEF_PROBLEM_7", 
+                        "ORG_PROBLEM_7", 
 						"CS_PROBLEM_1"
                     ],
                     "id": "task-training-pos-citizen-science",
@@ -153,8 +153,8 @@
 						"nl": ""
                     },
                     "problemprofiles": [
-                        "DEF_PROBLEM_8", 
-						"DEF_PROBLEM_7", 
+                        "ORG_PROBLEM_8", 
+						"ORG_PROBLEM_7", 
 						"CS_PROBLEM_1"
                     ],
                     "id": "task-training-pos-ethics",
@@ -179,7 +179,7 @@
                     },
                     "problemprofiles": [
                         "ORG_PROBLEM_9", 
-						"DEF_PROBLEM_7", 
+						"ORG_PROBLEM_7", 
 						"CS_PROBLEM_1"
                     ],
                     "id": "task-training-pos-data-management",
@@ -444,8 +444,8 @@
             "problemprofiles": [
                 "CS_PROBLEM_1",
 				"CS_PROBLEM_2",
-				"DEF_PROBLEM_7",
-				"DEF_PROBLEM_8",
+				"ORG_PROBLEM_7",
+				"ORG_PROBLEM_8",
 				"UND_PROBLEM_6"
             ],
             "tasks": [
@@ -515,7 +515,7 @@
                     },
                     "problemprofiles": [
                         "CS_PROBLEM_1", 
-						"DEF_PROBLEM_7"
+						"ORG_PROBLEM_7"
                     ],
                     "id": "task-create-additional-materials",
                     "prerequisites": []
