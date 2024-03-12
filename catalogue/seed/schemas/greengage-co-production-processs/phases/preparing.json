@@ -6,7 +6,7 @@
         "es": "Preparando",
         "it": "",
         "lv": "",
-		"dk": "",
+		"da": "",
 		"nl": ""
     },
     "description_translations": {
@@ -14,7 +14,7 @@
         "es": "Esta fase detalla la preparación para la realización de una co-exploración temática. Consta de los siguientes pasos: a) Selección del tema; b) Formación de los propietarios piloto; c) Incorporación del equipo central y d) Formación del equipo central.",
         "it": "",
         "lv": "",
-		"dk": "",
+		"da": "",
 		"nl": ""
     },
     "objectives": [
@@ -24,7 +24,7 @@
                 "es": "Selección de la temática",
                 "it": "",
                 "lv": "",
-				"dk": "",
+				"da": "",
 				"nl": ""
             },
             "description_translations": {
@@ -32,7 +32,7 @@
                 "es": "Este objetivo requiere que los Propietarios de los Pilotos decidan qué \"tema\" se considerará principal para la co-exploración temática que se producirá, por ejemplo, la calidad del aire. ",
                 "it": "",
                 "lv": "",
-				"dk": "",
+				"da": "",
 				"nl": ""
             },
             "problemprofiles": ["ORG_PROBLEM_1"],
@@ -43,14 +43,14 @@
                         "es": "Analizar y priorizar las áreas temáticas de la OC",
                         "it": "",
                         "lv": "",
-				        "dk": "",
+				        "da": "",
 						"nl": ""
                     },
                     "description_translations": {
                         "en": "Analyse and prioritize CO thematic areas among those already identified by the Pilot Owners",
                         "es": "Analizar y priorizar las áreas temáticas de las OC entre las ya identificadas por los Propietarios Piloto.",                        "it": "",
                         "lv": "",
-				        "dk": "",
+				        "da": "",
 						"nl": ""
                     },
                     "problemprofiles": [
@@ -65,7 +65,7 @@
                         "es": "Selección razonada de un área temática de coexploración",
                         "it": "",
                         "lv": "",
-				        "dk": "",
+				        "da": "",
 						"nl": ""
                     },
                     "description_translations": {
@@ -73,7 +73,7 @@
                         "es": "Esta tarea requiere que los Pilotos Propietarios razonen su selección de un área de coexploración temática determinada, es decir, que indiquen por qué es necesaria una exploración sobre este tema.",                        
 						"it": "",
                         "lv": "",
-				        "dk": "",
+				        "da": "",
 						"nl": ""
                     },
                     "problemprofiles": [
@@ -92,7 +92,7 @@
                 "es": "Formación y preparación de propietarios de pilotos",
                 "it": "",
                 "lv": "",
-				"dk": "",
+				"da": "",
 				"nl": ""
             },
             "description_translations": {
@@ -100,7 +100,7 @@
                 "es": "Los propietarios de los pilotos reciben formación sobre Ciencia Ciudadana, ética, gestión de datos, herramientas ofrecidas por GREENGAGE y el concepto de co-exploraciones temáticas. Además, elaboran una lista de los conjuntos de datos disponibles y necesarios (que se obtendrán mediante crowdsourcing) durante la coexploración temática.",
                 "it": "",
                 "lv": "",
-				"dk": "",
+				"da": "",
 				"nl": ""
             },
             "problemprofiles": [
@@ -117,7 +117,7 @@
                         "es": "Formación sobre ciencia ciudadana ",
                         "it": "",
                         "lv": "",
-						"dk": "",
+						"da": "",
 						"nl": ""
                     },
                     "description_translations": {
@@ -125,7 +125,7 @@
                         "es": "Esta tarea consiste en proporcionar formación genérica en Ciencia Ciudadana a los Propietarios de Pilotos",
                         "it": "",
                         "lv": "",
-						"dk": "",
+						"da": "",
 						"nl": ""
                     },
                     "problemprofiles": [
@@ -141,7 +141,7 @@
                         "es": "Formación sobre ética",
                         "it": "",
                         "lv": "",
-						"dk": "",
+						"da": "",
 						"nl": ""
                     },
                     "description_translations": {
@@ -149,7 +149,7 @@
                         "es": "Esta tarea consiste en impartir formación sobre ética a los pilotos propietarios",
                         "it": "",
                         "lv": "",
-						"dk": "",
+						"da": "",
 						"nl": ""
                     },
                     "problemprofiles": [
@@ -166,7 +166,7 @@
                         "es": "Formación sobre gestión de datos",
                         "it": "",
                         "lv": "",
-						"dk": "",
+						"da": "",
 						"nl": ""
                     },
                     "description_translations": {
@@ -174,7 +174,7 @@
                         "es": "Esta tarea consiste en impartir formación sobre gestión de datos a los pilotos propietarios",
                         "it": "",
                         "lv": "",
-						"dk": "",
+						"da": "",
 						"nl": ""
                     },
                     "problemprofiles": [
@@ -191,7 +191,7 @@
                         "es": "Formación sobre GREEN Engine y caja de herramientas",
                         "it": "",
                         "lv": "",
-						"dk": "",
+						"da": "",
 						"nl": ""
                     },
                     "description_translations": {
@@ -199,7 +199,7 @@
                         "es": "Esta tarea consiste en impartir formación sobre el motor VERDE y la caja de herramientas a los pilotos propietarios.",
                         "it": "",
                         "lv": "",
-						"dk": "",
+						"da": "",
 						"nl": ""
                     },
                     "problemprofiles": [
@@ -214,7 +214,7 @@
                         "es": "Formación en codiseño de exploración temática",
                         "it": "",
                         "lv": "",
-						"dk": "",
+						"da": "",
 						"nl": ""
                     },
                     "description_translations": {
@@ -222,7 +222,7 @@
                         "es": "Esta tarea consiste en proporcionar formación a los Propietarios de Pilotos sobre cómo diseñar conjuntamente una co-exploración temática con el apoyo de la metodología, las herramientas y los conocimientos de GREENGAGE.",
                         "it": "",
                         "lv": "",
-						"dk": "",
+						"da": "",
 						"nl": ""
                     },
                     "problemprofiles": [
@@ -237,7 +237,7 @@
                         "es": "Elaborar un inventario de conjuntos de datos",
                         "it": "",
                         "lv": "",
-						"dk": "",
+						"da": "",
 						"nl": ""
                     },
                     "description_translations": {
@@ -245,7 +245,7 @@
                         "es": "Esta tarea requiere que los Propietarios de los Pilotos elaboren un inventario inicial de conjuntos de datos para la coexploración temátic",
                         "it": "",
                         "lv": "",
-						"dk": "",
+						"da": "",
 						"nl": ""
                     },
                     "problemprofiles": [
@@ -271,7 +271,7 @@
                 "es": "Incorporación del equipo central",
                 "it": "",
                 "lv": "",
-				"dk": "",
+				"da": "",
 				"nl": ""
             },
             "description_translations": {
@@ -279,7 +279,7 @@
                 "es": "En este objetivo, se reúne el equipo central. Para ello, se necesitan los siguientes pasos: a) Construir un mapa de las partes interesadas potenciales; b) Crear una página en Wordpress con información sobre la co-exploración temática; c) Crear una campaña de comunicación para invitar a los ciudadanos a participar en la co-exploración temática de CO, d) Crear Discourse para gestionar el compromiso de la comunidad y e) Organizar un taller para presentar GREENGAGE al equipo central y recoger sus comentarios.",
                 "it": "",
                 "lv": "",
-				"dk": "",
+				"da": "",
 				"nl": ""
             },
             "problemprofiles": [
@@ -289,7 +289,7 @@
 				"DEF_PROBLEM_3",
 				"ORG_PROBLEM_4",
 				"ORG_PROBLEM_5", 
-				"UND_PROBLEM_2", 
+				"UND_PROBLEM_2" 
             ],
             "tasks": [
                 {
@@ -298,7 +298,7 @@
 						"es": "Elaborar un mapa de los posibles actores interesados",
                         "it": "",
                         "lv": "",
-						"dk": "",
+						"da": "",
 						"nl": ""
                     },
                     "description_translations": {
@@ -306,7 +306,7 @@
 						"es": "Esta tarea requiere que los propietarios de los proyectos piloto definan un mapa de las posibles partes interesadas en participar o afectadas por la coexploración temática.",
                         "it": "",
                         "lv": "",
-						"dk": "",
+						"da": "",
 						"nl": ""
                     },
                     "problemprofiles": [
@@ -323,7 +323,7 @@
                         "es": "Configurar página en Wordpress con información sobre la co-exploración temática",
                         "it": "",
                         "lv": "",
-						"dk": "",
+						"da": "",
 						"nl": ""
                     },
                     "description_translations": {
@@ -331,7 +331,7 @@
                         "es": "Esta tarea requiere que los propietarios de los pilotos creen una página en Wordpress con información sobre la co-exploración temática.",
                         "it": "",
                         "lv": "",
-						"dk": "",
+						"da": "",
 						"nl": ""
                     },
                     "problemprofiles": [
@@ -346,7 +346,7 @@
                         "es": "Puesta en marcha de una campaña de comunicación para invitar a los ciudadanos a participar en la coexploración temática de CO",
                         "it": "",
                         "lv": "",
-						"dk": "",
+						"da": "",
 						"nl": ""
                     },
                     "description_translations": {
@@ -354,7 +354,7 @@
                         "es": "Esta tarea pone en marcha una campaña de comunicación para invitar a los ciudadanos a participar en la coexploración temática de CO",
                         "it": "",
                         "lv": "",
-						"dk": "",
+						"da": "",
 						"nl": ""
                     },
                     "problemprofiles": [
@@ -372,7 +372,7 @@
                         "es": "Configurar Discourse para gestionar la participación de la comunidad",
                         "it": "",
                         "lv": "",
-						"dk": "",
+						"da": "",
 						"nl": ""
                     },
                     "description_translations": {
@@ -380,7 +380,7 @@
                         "es": "Esta tarea crea un espacio de discusión para gestionar la participación de la comunidad en esta coexploración temática.",
                         "it": "",
                         "lv": "",
-						"dk": "",
+						"da": "",
 						"nl": ""
                     },
                     "problemprofiles": [
@@ -398,7 +398,7 @@
                         "es": "Organizar un taller para presentar GREENGAGE al equipo central y recabar sus opiniones.",
                         "it": "",
                         "lv": "",
-						"dk": "",
+						"da": "",
 						"nl": ""
                     },
                     "description_translations": {
@@ -406,7 +406,7 @@
                         "es": "Esta tarea sugiere la organización de un taller para presentar GREENGAGE al equipo central y recabar su opinión.",
                         "it": "",
                         "lv": "",
-						"dk": "",
+						"da": "",
 						"nl": ""
                     },
                     "problemprofiles": [
@@ -430,7 +430,7 @@
                 "es": "Formación del equipo central",
                 "it": "",
                 "lv": "",
-				"dk": "",
+				"da": "",
 				"nl": ""
             },
             "description_translations": {
@@ -438,7 +438,7 @@
                 "es": "En este objetivo, se reúne el equipo central. Para ello, se necesitan los siguientes pasos: a) Construir un mapa de las partes interesadas potenciales; b) Crear una página en Wordpress con información sobre la co-exploración temática; c) Crear una campaña de comunicación para invitar a los ciudadanos a participar en la co-exploración temática de CO, d) Crear Discourse para gestionar el compromiso de la comunidad y e) Organizar un taller para presentar GREENGAGE al equipo central y recoger sus comentarios.",
                 "it": "",
                 "lv": "",
-				"dk": "",
+				"da": "",
 				"nl": ""
             },
             "problemprofiles": [
@@ -455,7 +455,7 @@
 						"es": "Comprender el área temática",
                         "it": "",
                         "lv": "",
-						"dk": "",
+						"da": "",
 						"nl": ""
                     },
                     "description_translations": {
@@ -463,7 +463,7 @@
 						"es": "Esta tarea requiere que el equipo central se implique en la comprensión conjunta del área temática seleccionada",
                         "it": "",
                         "lv": "",
-						"dk": "",
+						"da": "",
 						"nl": ""
                     },
                     "problemprofiles": [
@@ -479,7 +479,7 @@
                         "es": "Preparar un plan de formación específico para el piloto",
                         "it": "",
                         "lv": "",
-						"dk": "",
+						"da": "",
 						"nl": ""
                     },
                     "description_translations": {
@@ -487,7 +487,7 @@
                         "es": "Esta tarea requiere que los propietarios del proyecto piloto, en colaboración con el equipo central, definan un plan de formación específico para los participantes en la coexploración temática.",
                         "it": "",
                         "lv": "",
-						"dk": "",
+						"da": "",
 						"nl": ""
                     },
                     "problemprofiles": [
@@ -502,7 +502,7 @@
                         "es": "Crear material de formación adicional",
                         "it": "",
                         "lv": "",
-						"dk": "",
+						"da": "",
 						"nl": ""
                     },
                     "description_translations": {
@@ -510,7 +510,7 @@
                         "es": "Esta tarea requiere que los propietarios de los pilotos, en cooperación con el equipo central y el consorcio GREENAGE, creen material de formación adicional.",
                         "it": "",
                         "lv": "",
-						"dk": "",
+						"da": "",
 						"nl": ""
                     },
                     "problemprofiles": [
@@ -526,7 +526,7 @@
                         "es": "Formación sobre el marco ético GREENGAGE",
                         "it": "",
                         "lv": "",
-						"dk": "",
+						"da": "",
 						"nl": ""
                     },
                     "description_translations": {
@@ -534,7 +534,7 @@
                         "es": "Esta tarea requiere que los propietarios del piloto formen al equipo central sobre el marco ético de GREENGAGE",
                         "it": "",
                         "lv": "",
-						"dk": "",
+						"da": "",
 						"nl": ""
                     },
                     "problemprofiles": [
@@ -552,7 +552,7 @@
                         "es": "Organizar un taller para presentar GREENGAGE al equipo central y recabar sus opiniones.",
                         "it": "",
                         "lv": "",
-						"dk": "",
+						"da": "",
 						"nl": ""
                     },
                     "description_translations": {
@@ -560,7 +560,7 @@
                         "es": "Esta tarea sugiere la organización de un taller para presentar GREENGAGE al equipo central y recabar su opinión.",
                         "it": "",
                         "lv": "",
-						"dk": "",
+						"da": "",
 						"nl": ""
                     },
                     "problemprofiles": [
