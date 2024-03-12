@@ -635,7 +635,7 @@
                     "problemprofiles": [
                         "DEF_PROBLEM_3"
                     ],
-                    "id": "task-organize_workshop_to_introduce_greengage_to_core_team_and_gather_their_feedback_2",
+                    "id": "task-organize_workshop_to_introduce_greengage_to_core_team_and_gather_their_feedback",
                     "prerequisites": [
                         {
                             "item": "task-training_on_greengage_ethical_framework",
