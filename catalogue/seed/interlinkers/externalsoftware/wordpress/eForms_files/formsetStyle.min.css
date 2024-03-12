@@ -1,0 +1,11 @@
+*{box-sizing:border-box}
+body{margin:0;padding:0;background:#fafafa}
+.widgetBackGroundColorHighlight:not(.widgetreadonly){background-color:#dee3ff !important}
+.widgetBackGroundColorHighlight:not(.widgetreadonly):not(.widgetMandatoryBorder):not(.dataInvalid){outline:0}
+.widgetMandatoryBorder{outline:1.5px solid red}
+.buttonfield>.caption>svg{width:100% !important;height:100% !important}
+body.fade-out{opacity:.3;transition:none}
+select[disabled]{-webkit-appearance:none;-moz-appearance:none;appearance:none}
+.subform .subKeywordsContainer #emptyValue{display:none !important}
+select[disabled]::-ms-expand{display:none;color:black !important}
+@media all and (-ms-high-contrast:none),(-ms-high-contrast:active){button,input,optgroup,select,textarea{font-size:18px !important;align-items:center !important;font-weight:normal !important}

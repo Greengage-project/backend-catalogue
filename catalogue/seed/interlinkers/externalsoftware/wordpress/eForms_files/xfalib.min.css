@@ -1,0 +1,95 @@
+@-ms-viewport{width:device-width}
+.formLoading{text-align:center;vertical-align:middle;background-color:white;height:100%;width:100%}
+.xfaform{position:relative}
+input:not([type="radio"]),select,textarea{border:0;padding:0;margin:0;-webkit-border-radius:0;-moz-border-radius:0;background-color:rgba(255,255,255,0)}
+input[type="radio"]{padding:0;margin:0}
+.widgetError{background-color:#d3d3d3 !important}
+.widgetMandatoryBorder{outline:1.5px solid red}
+.dataInvalid{outline:2px solid orange}
+#xfa_ui_freeze{position:fixed;left:0;right:0;top:0;bottom:0;width:100%;height:100%;background-color:rgba(0,0,0,0.3);cursor:wait !important;z-index:100000}
+input:focus,textarea:focus{outline:0;cursor:auto}
+input[readonly="readonly"][type="text"]:focus,textarea[readonly="readonly"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus,select:focus,.imagefieldwidget>img:focus,.listBoxWidget>ol>li:focus{outline:#000 dashed 1px}
+input[type="button"]:focus{outline:#000 dashed 2px}
+.page{background-color:rgba(255,255,255,1);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffffff,endColorstr=#ffffffff);overflow:hidden}
+.page>div,.field>div,.draw>*{position:absolute}
+table .field>*,table .draw>*,table .field div>*:not(.datepicker-calendar-icon){top:0;left:0}
+.draw p{margin-top:0;margin-bottom:0}
+.subform{overflow:visible}
+div.widget>textarea,table.widget>textarea{resize:none;overflow:hidden}
+svg|rect{fill-opacity:.0}
+svg|text{white-space:pre;-webkit-text-size-adjust:auto}
+svg|tspan{white-space:pre;-webkit-text-size-adjust:auto}
+input[type=date]::-webkit-outer-spin-button{-webkit-appearance:none}
+input[type=date]::-webkit-inner-spin-button{-webkit-appearance:none}
+.neutral{opacity:.5;filter:alpha(opacity=50)}
+#error-msg{background-color:#ee0101;z-index:990;display:none;position:absolute;opacity:.85;color:#fff;font-size:21px;border:2px solid #ddd;box-shadow:0 0 6px #000;-moz-box-shadow:0 0 6px #000;-webkit-box-shadow:0 0 6px #000;padding:4px 10px 4px 10px;border-radius:6px;-moz-border-radius:6px;-webkit-border-radius:6px}
+#warning-msg{background-color:orange;z-index:990;display:none;position:absolute;opacity:.85;color:#fff;font-size:21px;border:2px solid #ddd;box-shadow:0 0 6px #000;-moz-box-shadow:0 0 6px #000;-webkit-box-shadow:0 0 6px #000;padding:4px 10px 4px 10px;border-radius:6px;-moz-border-radius:6px;-webkit-border-radius:6px}
+input[type="button"]:active{background-color:rgba(0,0,0,0.21)}
+.dateTimeEdit input{width:100%;height:100%}
+.hideElement{visibility:hidden !important}
+#msgBox_container{font-family:Arial,sans-serif;font-size:12px;min-width:300px;max-width:600px;background:#FFF;border:solid 5px #999;color:#000;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px}
+#msgBox_title{font-size:14px;font-weight:bold;text-align:center;line-height:1.75em;color:#666;background:#CCC top repeat-x;border:solid 1px #FFF;border-bottom:solid 1px #999;cursor:default;padding:0;margin:0}
+#msgBox_content{background:16px 16px no-repeat;padding:1em 1.75em;margin:0}
+#msgBox_message{padding-left:48px}
+#msgBox_panel{text-align:center;margin:1em 0 0 1em}
+#msgBox_prompt{margin:.5em 0}
+input#msgBox_Ok,input#msgBox_Yes,input#msgBox_No,input#msgBox_Cancel{background-color:buttonFace;padding:5px 10px;-webkit-box-shadow:rgba(0,0,0,1) 0 1px 0;-moz-box-shadow:rgba(0,0,0,1) 0 1px 0;box-shadow:rgba(0,0,0,1) 0 1px 0;text-shadow:rgba(0,0,0,.4) 0 1px 0;color:buttonText;font-size:14px;font-family:Georgia,serif;text-decoration:none;vertical-align:middle;outline:0;border:2px outset buttonface}
+input#msgBox_Ok:focus,input#msgBox_Yes:focus,input#msgBox_No:focus,input#msgBox_Cancel:focus{outline:highlight}
+input#msgBox_Ok:hover,input#msgBox_Yes:hover,input#msgBox_No:hover,input#msgBox_Cancel:hover{outline:0;border:2px outset buttonface}
+.msgBoxType0{background-image:url(https://ec.europa.eu/research/participants/submission/eforms/lc/etc.clientlibs/fd/xfaforms/clientlibs/xfalib/resources/images/A_Warning_Lg_N.png)}
+.msgBoxType1{background-image:url(https://ec.europa.eu/research/participants/submission/eforms/lc/etc.clientlibs/fd/xfaforms/clientlibs/xfalib/resources/images/A_Alert2_Lg_N.png)}
+.msgBoxType2{background-image:url(https://ec.europa.eu/research/participants/submission/eforms/lc/etc.clientlibs/fd/xfaforms/clientlibs/xfalib/resources/images/C_QuestionBubble_Xl_N.png)}
+.msgBoxType3{background-image:url(https://ec.europa.eu/research/participants/submission/eforms/lc/etc.clientlibs/fd/xfaforms/clientlibs/xfalib/resources/images/A_InfoBlue_32x32_N.png)}
+.datetimepicker{border:0;background-color:#FFF;display:none;position:absolute;cursor:default;z-index:100;outline:solid #ccc 2px}
+.datetimepicker .dp-clear{overflow:auto;background-color:#f5f5f5;text-align:center}
+.datetimepicker .dp-clear a{cursor:pointer;height:40px;line-height:40px;padding:0 5px 0 5px;text-align:center;display:inline-block;font-size:.875rem;color:#969696}
+.datetimepicker-notouch .dp-close a:hover{color:#c8bbff}
+.datetimepicker .dp-header{height:40px;line-height:40px;color:#555;margin-bottom:5px;background-color:#e6e6e6}
+.datetimepicker .dp-header .dp-leftnav,.datetimepicker .dp-header .dp-rightnav,.datetimepicker .dp-header .dp-caption{float:left;text-align:center;cursor:pointer;height:40px}
+.datetimepicker-notouch .dp-header .dp-caption:not(.disabled):hover{color:#969696}
+.datetimepicker .dp-header .dp-rightnav{float:right;background:url(https://ec.europa.eu/research/participants/submission/eforms/lc/libs/settings/wcm/designs/europeancommission/fd/xfaforms/clientlibs/xfalib/resources/images/rightnav.png) no-repeat center center;width:40px}
+.datetimepicker .dp-header .dp-leftnav{width:40px;background:url(https://ec.europa.eu/research/participants/submission/eforms/lc/libs/settings/wcm/designs/europeancommission/fd/xfaforms/clientlibs/xfalib/resources/images/leftnav.png) no-repeat center center}
+.datetimepicker .dp-header .dp-rightnav:hover{background:url(https://ec.europa.eu/research/participants/submission/eforms/lc/libs/settings/wcm/designs/europeancommission/fd/xfaforms/clientlibs/xfalib/resources/images/rightnav_hover.png) no-repeat center center}
+.datetimepicker .dp-header .dp-leftnav:hover{background:url(https://ec.europa.eu/research/participants/submission/eforms/lc/libs/settings/wcm/designs/europeancommission/fd/xfaforms/clientlibs/xfalib/resources/images/leftnav_hover.png) no-repeat center center}
+.datetimepicker .view{display:none}
+.datetimepicker .view ul{display:block;list-style:none;margin:0;padding:0;overflow:hidden;box-sizing:border-box;-moz-box-sizing:border-box}
+.datetimepicker .view ul li{float:left;padding:0;text-align:center;border:0;box-sizing:border-box;-moz-box-sizing:border-box;color:#666}
+.datetimepicker .view ul.header li{color:#555}
+.datetimepicker .view ul:not(.header) li:not(.disabled){cursor:pointer}
+.datetimepicker .view ul.header{color:#000;background-color:#FFF;border-bottom:#e6e6e6 1px solid}
+.datetimepicker-notouch .view ul:not(.header) li:not(.disabled):hover{color:black;background-color:#e6e6e6;opacity:.5}
+.datetimepicker .view ul li.disabled{color:#ccc}
+.datetimepicker .view ul li.dp-selected{outline:0;background-color:#666;color:#fff;opacity:1.0}
+.datetimepicker .view ul li.dp-focus{border:1px dashed black}
+.datepicker-calendar-icon{position:absolute;top:0;right:0;z-index:10;height:100%;background:url(https://ec.europa.eu/research/participants/submission/eforms/lc/libs/settings/wcm/designs/europeancommission/fd/xfaforms/clientlibs/xfalib/resources/images/calendar.png) no-repeat center center;background-size:contain}
+.datefieldwidget.widgetreadonly .datepicker-calendar-icon{display:none}
+.dropDownList .placeHolder{color:gray}
+.dropDownList select{width:100%;height:100%}
+div#iEBox_container{font-family:Arial,sans-serif;font-size:12px;min-width:300px;background:#FFF;border:solid 2px #999;color:#000;-moz-border-radius:10px;-webkit-border-radius:10px;border-radius:10px;display:none;-moz-box-shadow:10px 10px 5px #888;-webkit-box-shadow:10px 10px 5px #888;box-shadow:0 0 15px #888;-moz-user-select:none;-khtml-user-select:none;-webkit-user-select:none;-o-user-select:none;position:absolute;z-index:99998;padding:0;margin:0;line-height:0}
+#iEBox_title{font-size:14px;font-weight:normal;text-align:center;line-height:1.75em;color:#555;background:#fff top repeat-x;cursor:default;padding:10px;margin:0;display:inline-block;vertical-align:middle}
+#iEBox_content{background:16px 16px no-repeat;padding:10px 10px;margin:0;min-width:300px}
+#iEBox_canvas{border:4px #aaa dashed;-ms-touch-action:pinch-zoom;touch-action:pinch-zoom}
+#iEBox_panel{text-align:center;margin:0;background-color:black;-moz-border-top-right-radius:8px;-webkit-border-top-right-radius:8px;border-top-right-radius:8px;-moz-border-top-left-radius:8px;-webkit-border-top-left-radius:8px;border-top-left-radius:8px;overflow:hidden;background:#afb0b5;-ms-touch-action:pinch-zoom;touch-action:pinch-zoom}
+#iEBox_prompt{margin:.5em 0}
+div.iEBox_button{background:no-repeat;width:40px;height:40px;background-size:40px 40px;display:inline-block;margin:10px}
+div#iEBox_Geo{background-image:url('https://ec.europa.eu/research/participants/submission/eforms/lc/libs/settings/wcm/designs/europeancommission/fd/xfaforms/clientlibs/xfalib/resources/images/iEBox_geo.png');width:40px;height:40px;background-size:40px 40px;display:none;vertical-align:middle}
+div#iEBox_Brush{background-image:url('https://ec.europa.eu/research/participants/submission/eforms/lc/libs/settings/wcm/designs/europeancommission/fd/xfaforms/clientlibs/xfalib/resources/images/iEBox_brush.png');width:40px;height:40px;background-size:40px 40px;vertical-align:middle}
+div#iEBox_incBrush{background-image:url('https://ec.europa.eu/research/participants/submission/eforms/lc/libs/settings/wcm/designs/europeancommission/fd/xfaforms/clientlibs/xfalib/resources/images/iEBox_geo.png');width:40px;height:40px;background-size:40px 40px;vertical-align:middle}
+div#iEBox_Ok{background-image:url('https://ec.europa.eu/research/participants/submission/eforms/lc/libs/settings/wcm/designs/europeancommission/fd/xfaforms/clientlibs/xfalib/resources/images/iEBox_ok.png');vertical-align:middle;float:right}
+div#iEBox_Clear{background-image:url('https://ec.europa.eu/research/participants/submission/eforms/lc/libs/settings/wcm/designs/europeancommission/fd/xfaforms/clientlibs/xfalib/resources/images/iEBox_clear.png');vertical-align:middle}
+div#iEBox_Cancel{background:url('https://ec.europa.eu/research/participants/submission/eforms/lc/libs/settings/wcm/designs/europeancommission/fd/xfaforms/clientlibs/xfalib/resources/images/iEBox_close.png') center no-repeat;float:right}
+div#iEBox_moveframe{padding:0;margin:0;border:0 dotted rgba(0,0,0,0.5);-moz-border-radius:10px;-webkit-border-radius:10px;border-radius:10px;-moz-box-shadow:10px 10px 5px #888;-webkit-box-shadow:10px 10px 5px #888;box-shadow:0 0 15px #888;display:none;position:absolute}
+div.disable_button{filter:url("data:image/svg+xml;utf8,<svgxmlns=\'http://www.w3.org/2000/svg\'><filterid=\'grayscale\'><feColorMatrixtype=\'matrix\'values=\'0.33330.33330.3333000.33330.33330.3333000.33330.33330.33330000010\'/></filter></svg>#grayscale");filter:grayscale(100%);-webkit-filter:grayscale(100%);-moz-filter:grayscale(100%);-ms-filter:grayscale(100%);-o-filter:grayscale(100%)}
+div.sc_popUpMenu{display:none;width:20px;height:20px;background:no-repeat;background-size:20px 20px;background-image:url('https://ec.europa.eu/research/participants/submission/eforms/lc/libs/settings/wcm/designs/europeancommission/fd/xfaforms/clientlibs/xfalib/resources/images/iEBox_no.png');z-index:9999;position:absolute;left:0;top:0}
+div#iEBox_brushList{position:absolute;z-index:99999;background-color:white;-moz-box-shadow:10px 10px 5px #888;-webkit-box-shadow:10px 10px 5px #888;box-shadow:0 0 15px #888;display:none}
+div#iEBox_brushList div:hover{background-color:gray}
+fieldset#iEBox_caption{border:4px dashed #aaa;border-bottom:0;border-left:0;border-right:0;margin-right:4px;margin-left:1px;margin-top:0;text-align:center;padding:0}
+fieldset#iEBox_caption>legend{width:auto;background-color:#fff;padding:2px}
+.emptyScribble{background:url(https://ec.europa.eu/research/participants/submission/eforms/lc/libs/settings/wcm/designs/europeancommission/fd/xfaforms/clientlibs/xfalib/resources/images/signature.png) no-repeat}
+div#iEBox_canvases{white-space:nowrap}
+div .listBoxWidget,table.listBoxWidget{overflow:auto}
+div.listBoxWidget>ol,table.listBoxWidget>ol{list-style-type:none;padding:5px;margin:0;outline:0}
+ol>li.item-selectable{background-color:rgba(255,255,255,0);color:black;padding-left:5px;cursor:pointer}
+ol>li.item-selected{background:#99c1da;color:white;padding-left:5px;cursor:pointer}
+.filePreview{position:absolute;top:-1000px;bottom:-1000px;visibility:hidden;height:0}
+.richTextWidget{overflow:auto}
