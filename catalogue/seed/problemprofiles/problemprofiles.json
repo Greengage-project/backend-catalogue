@@ -861,7 +861,7 @@
             "it": "Questo problema riguarda la necessit\u00E0 di formare i diversi soggetti interessati al processo di Citizen Science.",
             "lv": "\u0160\u012B probl\u0113ma attiecas uz nepiecie\u0161am\u012Bbu apm\u0101c\u012Bt da\u017E\u0101das ieinteres\u0113t\u0101s personas pilsonisk\u0101s zin\u0101tnes proces\u0101.",
             "nl": "Dit probleem heeft betrekking op de noodzaak om verschillende belanghebbenden te trainen in het Citizen Science proces.",
-            "dk": "Dette problem omhandler behovet for at uddanne forskellige interessenter i Citizen Science-processen."
+            "da": "Dette problem omhandler behovet for at uddanne forskellige interessenter i Citizen Science-processen."
         },
         "functionality_translations": {
             "en": "Enablers should provide guidance on different training aspects.",
@@ -869,7 +869,7 @@
             "it": "I facilitatori dovrebbero fornire indicazioni sui diversi aspetti della formazione.",
             "lv": "Veicin\u0101t\u0101jiem b\u016Btu j\u0101sniedz nor\u0101d\u012Bjumi par da\u017E\u0101diem apm\u0101c\u012Bbas aspektiem.",
             "nl": "Enablers moeten begeleiding bieden bij verschillende trainingsaspecten.",
-            "dk": "Enablers b\u00F8r give vejledning om forskellige tr\u00E6ningsaspekter."
+            "da": "Enablers b\u00F8r give vejledning om forskellige tr\u00E6ningsaspekter."
         },
         "id": "CS_PROBLEM_1",
         "name_translations": {
@@ -878,7 +878,7 @@
             "it": "Formazione su CS",
             "lv": "Apm\u0101c\u012Bba par CS",
             "nl": "Training op CS",
-            "dk": "Uddannelse i CS"
+            "da": "Uddannelse i CS"
         }
     },
     {
@@ -888,7 +888,7 @@
             "it": "Questo problema riguarda la necessit\u00E0 di trovare o creare facilitatori che supportino la definizione dei problemi di ricerca in Citizen Science e forniscano metodi per svolgere la Citizen Science.",
             "lv": "\u0160\u012B probl\u0113ma risina nepiecie\u0161am\u012bbu atrast vai izveidot veicin\u0101t\u0101jus, kas atbalsta pilsonisk\u0101s zin\u0101tnes p\u0113t\u012bjumu probl\u0113mu defin\u012b\u0161anu un nodro\u0161ina metodes, lai veiktu pilsonisk\u0101s zin\u0101tnes.",
             "nl": "Dit probleem heeft betrekking op de noodzaak om enablers te vinden of te cre\u00EBren die de definitie van onderzoeksproblemen in Citizen Science ondersteunen en methoden bieden om Citizen Science uit te voeren.",
-            "dk": "Dette problem omhandler behovet for at finde eller skabe enablers, der underst\u00F8tter definitionen af forskningsproblemer i Citizen Science og giver metoder til at udf\u00F8re Citizen Science."
+            "da": "Dette problem omhandler behovet for at finde eller skabe enablers, der underst\u00F8tter definitionen af forskningsproblemer i Citizen Science og giver metoder til at udf\u00F8re Citizen Science."
         },
         "functionality_translations": {
             "en": "Enablers to support Citizen Science research problems definition and providing methods to carry out Citizen Science.",
@@ -896,7 +896,7 @@
             "it": "Facilitatori per supportare la definizione dei problemi di ricerca in Citizen Science e fornire metodi per svolgere la Citizen Science.",
             "lv": "Veicin\u0101t\u0101ji, lai atbalst\u012btu pilsonisk\u0101s zin\u0101tnes p\u0113t\u012bjumu probl\u0113mu defin\u012b\u0161anu un metodes, lai veiktu pilsonisk\u0101s zin\u0101tnes.",
             "nl": "Facilitators om de definitie van onderzoeksproblemen in Citizen Science te ondersteunen en methoden te bieden om Citizen Science uit te voeren.",
-            "dk": "Facilitatorer til at underst\u00F8tte definitionen af forskningsproblemer i Citizen Science og metoder til at udf\u00F8re Citizen Science."
+            "da": "Facilitatorer til at underst\u00F8tte definitionen af forskningsproblemer i Citizen Science og metoder til at udf\u00F8re Citizen Science."
         
         },
         "id": "CS_PROBLEM_2",
@@ -906,7 +906,7 @@
             "it": "Progettazione e metodi di ricerca in CS",
             "lv": "CS p\u0113t\u012Bjumu dizains un metodes",
             "nl": "CS onderzoeksontwerp en methoden",
-            "dk": "CS forskningsdesign og metoder"
+            "da": "CS forskningsdesign og metoder"
         }
     },
     {
@@ -916,7 +916,7 @@
             "it": "Questo problema riguarda la necessit\u00E0 di trovare o creare facilitatori che supportino l'esecuzione e la gestione delle campagne di Citizen Science.",
             "lv": "\u0160\u012B probl\u0113ma risina nepiecie\u0161am\u012bbu atrast vai izveidot veicin\u0101t\u0101jus, kas atbalsta pilsonisk\u0101s zin\u0101tnes kampa\u0146u izpildi un vad\u012bbu.",
             "nl": "Dit probleem heeft betrekking op de noodzaak om enablers te vinden of te cre\u00EBren die de uitvoering en het beheer van Citizen Science-campagnes ondersteunen.",
-            "dk": "Dette problem omhandler behovet for at finde eller skabe enablers, der underst\u00F8tter udf\u00F8relse og ledelse af Citizen Science-kampagner."
+            "da": "Dette problem omhandler behovet for at finde eller skabe enablers, der underst\u00F8tter udf\u00F8relse og ledelse af Citizen Science-kampagner."
         },
         "functionality_translations": {
             "en": "Enablers to support execution and management of Citizen Science campaigns.",
@@ -924,7 +924,7 @@
             "it": "Facilitatori per supportare l'esecuzione e la gestione delle campagne di Citizen Science.",
             "lv": "Veicin\u0101t\u0101ji, lai atbalst\u012btu pilsonisk\u0101s zin\u0101tnes kampa\u0146u izpildi un vad\u012bbu.",
             "nl": "Enablers om de uitvoering en het beheer van Citizen Science-campagnes te ondersteunen.",
-            "dk": "Enablers til at underst\u00F8tte udf\u00F8relse og ledelse af Citizen Science-kampagner."
+            "da": "Enablers til at underst\u00F8tte udf\u00F8relse og ledelse af Citizen Science-kampagner."
         },
         "id": "CS_PROBLEM_3",
         "name_translations": {
@@ -933,7 +933,7 @@
             "it": "Esecuzione e gestione della campagna CS",
             "lv": "CS kampa\u0146u izpilde un vad\u012Bba",
             "nl": "CS campagne uitvoering en management",
-            "dk": "CS kampagne udf\u00F8relse og ledelse"
+            "da": "CS kampagne udf\u00F8relse og ledelse"
         }
     },
     {
@@ -943,7 +943,7 @@
             "it": "Questo problema riguarda le esigenze di comunicazione e diffusione che un processo di Citizen Science pu\u00F2 avere",
             "lv": "\u0160\u012B probl\u0113ma risina komunik\u0101cijas un izplat\u012b\u0161anas vajadz\u012bbas, kas var b\u016Bt pilsonisk\u0101s zin\u0101tnes procesam",
             "nl": "Dit probleem heeft betrekking op de communicatie- en verspreidingsbehoeften die een Citizen Science-proces kan hebben",
-            "dk": "Dette problem omhandler kommunikations- og udbredelsesbehov, som en Citizen Science-proces kan have"
+            "da": "Dette problem omhandler kommunikations- og udbredelsesbehov, som en Citizen Science-proces kan have"
         },
         "functionality_translations": {
             "en": "Enablers to aid in Citizen Science communication and dissemination",
@@ -951,7 +951,7 @@
             "it": "Strumenti di supporto alla comunicazione e alla divulgazione della Citizen Science",
             "lv": "Veicin\u0101t\u0101ji, lai pal\u012bdz\u0113tu pilsonisk\u0101s zin\u0101tnes komunik\u0101cij\u0101 un izplat\u012b\u0161an\u0101",
             "nl": "Enablers om te helpen bij communicatie en verspreiding van Citizen Science",
-            "dk": "Enablers til at hj\u00e6lpe med kommunikation og udbredelse af Citizen Science"
+            "da": "Enablers til at hj\u00e6lpe med kommunikation og udbredelse af Citizen Science"
         },
         "id": "CS_PROBLEM_4",
         "name_translations": {
@@ -960,7 +960,7 @@
             "it": "CS communication and dissemination",
             "lv": "CS communication and dissemination",
             "nl": "CS communicatie en verspreiding",
-            "dk": "CS kommunikation og udbredelse"
+            "da": "CS kommunikation og udbredelse"
         }
     },
     {
@@ -970,7 +970,7 @@
             "it": "Questo problema riguarda la necessit\u00E0 di pubblicazione di casi di Citizen Science",
             "lv": "\u0160\u012B probl\u0113ma risina nepiecie\u0161am\u012bbu public\u0113t pilsonisk\u0101s zin\u0101tnes gad\u012bjumus",
             "nl": "Dit probleem heeft betrekking op de publicatie van Citizen Science-gevallen",
-            "dk": "Dette problem omhandler behovet for offentligg\u00f8relse af borgerforskningssager"
+            "da": "Dette problem omhandler behovet for offentligg\u00f8relse af borgerforskningssager"
         },
         "functionality_translations": {
             "en": "Enablers to aid in publishing Citizen Science stories",
@@ -978,7 +978,7 @@
             "it": "Strumenti di supporto alla pubblicazione di casi di Citizen Science",
             "lv": "Veicin\u0101t\u0101ji, lai pal\u012bdz\u0113tu public\u0113t pilsonisk\u0101s zin\u0101tnes st\u0101stus",
             "nl": "Enablers om te helpen bij het publiceren van Citizen Science-verhalen",
-            "dk": "Enablers til at hj\u00e6lpe med at offentligg\u00f8re borgerforskningssager"
+            "da": "Enablers til at hj\u00e6lpe med at offentligg\u00f8re borgerforskningssager"
         },
         "id": "CS_PROBLEM_5",
         "name_translations": {
@@ -987,7 +987,7 @@
             "it": "Pubblicare casi di Citizen Science",
             "lv": "Public\u0113t pilsonisk\u0101s zin\u0101tnes st\u0101stus",
             "nl": "Publiceer CS-verhalen",
-            "dk": "Publicer CS-historier"
+            "da": "Publicer CS-historier"
         }
     },
     {
@@ -997,7 +997,7 @@
             "it": "Questo problema riguarda la necessit\u00E0 di risorse che facilitino l'empowerment dei cittadini",
             "lv": "\u0160\u012B probl\u0113ma risina nepiecie\u0161am\u012bbu p\u0113c resursiem, kas atvieglo pilso\u0146u pilnvaro\u0161anu",
             "nl": "Dit probleem heeft betrekking op de behoefte aan middelen die burgermachtiging vergemakkelijken",
-            "dk": "Dette problem omhandler behovet for ressourcer, der lette borgerm\u00e6gtigelse"
+            "da": "Dette problem omhandler behovet for ressourcer, der lette borgerm\u00e6gtigelse"
         },
         "functionality_translations": {
             "en": "Enablers to facilitate Citizen empowerment",
@@ -1005,7 +1005,7 @@
             "it": "Strumenti di supporto per facilitare l'empowerment dei cittadini",
             "lv": "Veicin\u0101t\u0101ji, lai atvieglotu pilso\u0146u pilnvaro\u0161anu",
             "nl": "Enablers om burgermachtiging te vergemakkelijken",
-            "dk": "Enablers til at lette borgerm\u00e6gtigelse"
+            "da": "Enablers til at lette borgerm\u00e6gtigelse"
         },
         "id": "CS_PROBLEM_6",
         "name_translations": {
@@ -1014,7 +1014,7 @@
             "it": "Potenziamento dei cittadini",
             "lv": "Pilso\u0146u pilnvaro\u0161ana",
             "nl": "Burgermachtiging",
-            "dk": "Borgerm\u00e6gtigelse"
+            "da": "Borgerm\u00e6gtigelse"
         }
     },
     {
@@ -1024,7 +1024,7 @@
             "it": "Questo problema riguarda la necessit\u00E0 di risorse che facilitino l'assicurazione della qualit\u00E0 dei dati e la conformit\u00E0 agli standard",
             "lv": "\u0160\u012B probl\u0113ma risina nepiecie\u0161am\u012bbu p\u0113c resursiem, kas atvieglo datu kvalit\u0101tes nodro\u0161in\u0101\u0161anu un atbilst\u012bbu standartiem",
             "nl": "Dit probleem heeft betrekking op de behoefte aan middelen die de waarborging van de kwaliteit van gegevens en de naleving van normen vergemakkelijken",
-            "dk": "Dette problem omhandler behovet for ressourcer, der lette sikring af datakvalitet og overholdelse af standarder"
+            "da": "Dette problem omhandler behovet for ressourcer, der lette sikring af datakvalitet og overholdelse af standarder"
         },
         "functionality_translations": {
             "en": "Enablers to guide on the assurance of data quality and compliance with standards",
@@ -1032,7 +1032,7 @@
             "it": "Facilitatori per guidare sull'assicurazione della qualit\u00e0 dei dati e la conformit\u00e0 agli standard",
             "lv": "Veicin\u0101t\u0101ji, lai vad\u012btu datu kvalit\u0101tes nodro\u0161in\u0101\u0161anu un atbilst\u012bbu standartiem",
             "nl": "Enablers om te begeleiden bij de waarborging van de kwaliteit van gegevens en de naleving van normen",
-            "dk": "Enablers til at guide om sikring af datakvalitet og overholdelse af standarder"
+            "da": "Enablers til at guide om sikring af datakvalitet og overholdelse af standarder"
         },
         "id": "CS_PROBLEM_7",
         "name_translations": {
@@ -1041,7 +1041,7 @@
             "it": "Qualit\u00E0 e standard dei dati",
             "lv": "Datu kvalit\u0101te un standarti",
             "nl": "Gegevenskwaliteit en -normen",
-            "dk": "Datakvalitet og -standarder"
+            "da": "Datakvalitet og -standarder"
         }
     },
     {
@@ -1051,7 +1051,7 @@
             "it": "Questo problema riguarda la necessit\u00E0 di risorse che aiutino la definizione del protocollo dei dati, come raccogliere, memorizzare e condividere i dati",
             "lv": "\u0160\u012B probl\u0113ma risina nepiecie\u0161am\u012bbu p\u0113c resursiem, kas pal\u012bdz datu protokola defin\u012b\u0161an\u0101, k\u0101 sav\u0101kt, uzglab\u0101t un kop\u012bt datu",
             "nl": "Dit probleem heeft betrekking op de behoefte aan middelen die helpen bij de definitie van het dataprotocol, hoe gegevens te verzamelen, op te slaan en te delen",
-            "dk": "Dette problem omhandler behovet for ressourcer, der hj\u00e6lper med definitionen af dataprotokollen"
+            "da": "Dette problem omhandler behovet for ressourcer, der hj\u00e6lper med definitionen af dataprotokollen"
         },
         "functionality_translations": {
             "en": "Enablers to aid in Data protocol definition",
@@ -1059,7 +1059,7 @@
             "it": "Facilitatori per aiutare nella definizione del protocollo dati",
             "lv": "Veicin\u0101t\u0101ji, lai pal\u012bdz\u0113tu datu protokola defin\u012b\u0161an\u0101",
             "nl": "Enablers om te helpen bij de definitie van het dataprotocol",
-            "dk": "Enablers til at hj\u00e6lpe med definitionen af dataprotokollen"
+            "da": "Enablers til at hj\u00e6lpe med definitionen af dataprotokollen"
         },
         "id": "CS_PROBLEM_8",
         "name_translations": {
@@ -1068,7 +1068,7 @@
             "it": "Definizione del protocollo dati",
             "lv": "Datu protokola defin\u012b\u0161ana",
             "nl": "Definitie van het dataprotocol",
-            "dk": "Definition af dataprotokollen"
+            "da": "Definition af dataprotokollen"
         }
     },
     {
@@ -1078,7 +1078,7 @@
             "it": "Risorse che supportano il crowdsourcing e offrono linee guida per l'analisi dei dati",
             "lv": "Resursi, kas atbalsta crowdsourcing un pied\u0101v\u0101 datu anal\u012Bzes vadl\u012Bnijas",
             "nl": "Middelen die crowdsourcing ondersteunen en richtlijnen voor gegevensanalyse bieden",
-            "dk": "Ressourcer, der underst\u00f8tter crowdsourcing og tilbyder retningslinjer for dataanalyse"
+            "da": "Ressourcer, der underst\u00f8tter crowdsourcing og tilbyder retningslinjer for dataanalyse"
         },
         "functionality_translations": {
             "en": "Enablers to support crowdsourcing and offering data analyisis guidelines",
@@ -1086,7 +1086,7 @@
             "it": "Facilitatori per supportare il crowdsourcing e offrire linee guida per l'analisi dei dati",
             "lv": "Veicin\u0101t\u0101ji, lai atbalst\u012btu crowdsourcing un pied\u0101v\u0101tu datu anal\u012Bzes vadl\u012Bnijas",
             "nl": "Enablers om crowdsourcing te ondersteunen en richtlijnen voor gegevensanalyse te bieden",
-            "dk": "Enablers til at underst\u00f8tte crowdsourcing og tilbyde retningslinjer for dataanalyse"
+            "da": "Enablers til at underst\u00f8tte crowdsourcing og tilbyde retningslinjer for dataanalyse"
         },
         "id": "CS_PROBLEM_9",
         "name_translations": {
@@ -1095,7 +1095,7 @@
             "it": "Linee guida per il crowdsourcing e l'analisi dei dati",
             "lv": "Crowdsourcing un datu anal\u012Bzes vadl\u012Bnijas",
             "nl": "Crowdsourcing en data-analyserichtlijnen",
-            "dk": "Crowdsourcing og dataanalyseretningslinjer"
+            "da": "Crowdsourcing og dataanalyseretningslinjer"
         }
     },
     {
@@ -1105,7 +1105,7 @@
             "it": "Queste risorse supportano qualsiasi tipo di relazione con l'istruzione formale",
             "lv": "Resursi atbalsta jebk\u0101da veida attiec\u012bbas ar form\u0101lo izgl\u012Bt\u012bbu",
             "nl": "Deze middelen ondersteunen elk soort relatie met formeel onderwijs",
-            "dk": "Disse ressourcer underst\u00f8tter enhver form for forhold til formel uddannelse"
+            "da": "Disse ressourcer underst\u00f8tter enhver form for forhold til formel uddannelse"
         },
         "functionality_translations": {
             "en": "Enablers to link with formal education",
@@ -1113,7 +1113,7 @@
             "it": "Enablers to link with formal education",
             "lv": "Enablers to link with formal education",
             "nl": "Enablers om te koppelen aan formeel onderwijs",
-            "dk": "Enablers til at koble sig til formel uddannelse"
+            "da": "Enablers til at koble sig til formel uddannelse"
         },
         "id": "CS_PROBLEM_10",
         "name_translations": {
@@ -1122,7 +1122,7 @@
             "it": "Link con l'educazione formale",
             "lv": "Link with formal education",
             "nl": "Koppeling met formeel onderwijs",
-            "dk": "Kobling til formel uddannelse"
+            "da": "Kobling til formel uddannelse"
         }
     },
     {
@@ -1132,7 +1132,7 @@
             "it": "Questo problema riguarda la necessit\u00E0 di risorse che supportino la valutazione degli esperimenti di Citizen Science",
             "lv": "\u0160\u012B probl\u0113ma risina nepiecie\u0161am\u012bbu p\u0113c resursiem, kas atbalsta pilsonisk\u0101s zin\u0101tnes eksperimentu nov\u0113rt\u0113\u0161anu",
             "nl": "Dit probleem heeft betrekking op de behoefte aan middelen die de evaluatie van Citizen Science-experimenten ondersteunen",
-            "dk": "Dette problem omhandler behovet for ressourcer, der underst\u00f8tter evaluering af Citizen Science-eksperimenter"
+            "da": "Dette problem omhandler behovet for ressourcer, der underst\u00f8tter evaluering af Citizen Science-eksperimenter"
         },
         "functionality_translations": {
             "en": "Enablers to support evaluation of Citizen Science experiments",
@@ -1140,7 +1140,7 @@
             "it": "Facilitatori per supportare la valutazione degli esperimenti di Citizen Science",
             "lv": "Veicin\u0101t\u0101ji, lai atbalst\u012btu pilsonisk\u0101s zin\u0101tnes eksperimentu nov\u0113rt\u0113\u0161anu",
             "nl": "Enablers om de evaluatie van Citizen Science-experimenten te ondersteunen",
-            "dk": "Enablers til at underst\u00f8tte evaluering af Citizen Science-eksperimenter"
+            "da": "Enablers til at underst\u00f8tte evaluering af Citizen Science-eksperimenter"
         },
         "id": "CS_PROBLEM_11",
         "name_translations": {
@@ -1149,7 +1149,7 @@
             "it": "Evaluazione della citizen science",
             "lv": "Pilsonisk\u0101s zin\u0101tnes nov\u0113rt\u0113\u0161ana",
             "nl": "Evaluatie van burgerwetenschap",
-            "dk": "Evaluering af borgerforskning"
+            "da": "Evaluering af borgerforskning"
         }
     },
     {
@@ -1159,7 +1159,7 @@
             "it": "Questo problema riguarda la necessit\u00E0 di definire un piano di sostenibilit\u00E0 per il progetto per renderlo sostenibile nel lungo termine",
             "lv": "\u0160\u012B probl\u0113ma risina nepiecie\u0161am\u012bbu defin\u0113t ilgtermi\u0146a ilgtsp\u0113jas pl\u0101nu projektam, lai to padar\u012Btu ilgtsp\u0113j\u012bgu",
             "nl": "Dit probleem heeft betrekking op de noodzaak om een duurzaamheidsplan voor het project te defini\u00EBren om het op lange termijn levensvatbaar te maken",
-            "dk": "Dette problem omhandler behovet for at definere en b\u00E6redygtighedsplan for projektet for at g\u00F8re det levedygtigt p\u00E5 lang sigt"
+            "da": "Dette problem omhandler behovet for at definere en b\u00E6redygtighedsplan for projektet for at g\u00F8re det levedygtigt p\u00E5 lang sigt"
         },
         "functionality_translations": {
             "en": "Enablers to foster Project sustainability ",
@@ -1167,7 +1167,7 @@
             "it": "Enablers to foster Project sustainability ",
             "lv": "Enablers to foster Project sustainability ",
             "nl": "Enablers om projectduurzaamheid te bevorderen",
-            "dk": "Enablers til at fremme projektbæredygtighed"
+            "da": "Enablers til at fremme projektbæredygtighed"
         },
         "id": "CS_PROBLEM_12",
         "name_translations": {
@@ -1176,7 +1176,7 @@
             "it": "Sostenibilit\u00e0 del progetto",
             "lv": "Project sustainability",
             "nl": "Projectduurzaamheid",
-            "dk": "Projektb\u00e6redygtighed"
+            "da": "Projektb\u00e6redygtighed"
 
         }
     },
@@ -1187,7 +1187,7 @@
             "it": "Questo problema riguarda la necessit\u00E0 di risorse che aiutino a riflettere sul processo di Citizen Science",
             "lv": "\u0160\u012B probl\u0113ma risina nepiecie\u0161am\u012bbu p\u0113c resursiem, kas pal\u012bdz\u0113tu p\u0101rdom\u0101t par pilsonisko zin\u0101tni",
             "nl": "Dit probleem heeft betrekking op de behoefte aan middelen die helpen bij reflectie over het Citizen Science-proces",
-            "dk": "Dette problem omhandler behovet for ressourcer, der hj\u00e6lper med refleksion over Citizen Science-processen"
+            "da": "Dette problem omhandler behovet for ressourcer, der hj\u00e6lper med refleksion over Citizen Science-processen"
         },
         "functionality_translations": {
             "en": "Enablers to aid reflection about SC",
@@ -1195,7 +1195,7 @@
             "it": "Facilitatori per aiutare a riflettere sulla scienza cittadina",
             "lv": "Veicin\u0101t\u0101ji, lai pal\u012bdz\u0113tu p\u0101rdom\u0101m par pilsonisko zin\u0101tni",
             "nl": "Enablers om te helpen bij reflectie over SC",
-            "dk": "Enablers til at hj\u00e6lpe med refleksion om SC"
+            "da": "Enablers til at hj\u00e6lpe med refleksion om SC"
         },
         "id": "CS_PROBLEM_13",
         "name_translations": {
@@ -1204,7 +1204,7 @@
             "it": "Riflessioni sulla scienza cittadina",
             "lv": "P\u0101rdomas par pilsonisko zin\u0101tni",
             "nl": "Reflecties over SC",
-            "dk": "Refleksioner om SC"
+            "da": "Refleksioner om SC"
         }
     }
 ]

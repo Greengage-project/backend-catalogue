@@ -13,7 +13,7 @@ class Languages(Enum):
     lv = "lv"
     it = "it"
     nl = "nl"
-    dk = "dk"
+    da = "da"
 
 
 lang_keys = [e.value for e in Languages]
