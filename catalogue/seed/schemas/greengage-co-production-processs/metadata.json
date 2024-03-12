@@ -1,12 +1,12 @@
 {
     "author": "",
     "description_translations": {
+        "da": "",
         "en": "GREENGAGE co-production process thematic co-explorations. This co-production process summarizes very the main steps of a co-production process guiding the creation of a thematic co-exploration",
         "es": "",
         "it": "",
         "lv": "",
-		"da": "",
-		"nl": ""
+        "nl": ""
     },
     "environments": [
         "varam",
@@ -19,23 +19,23 @@
         "es",
         "it",
         "lv",
-		"da",
-		"nl"
+        "da",
+        "nl"
     ],
     "licence": "permissive",
     "name_translations": {
+        "da": "",
         "en": "GREENGAGE thematic co-exploration schema",
         "es": "",
         "it": "",
         "lv": "",
-		"da": "",
-		"nl": ""
+        "nl": ""
     },
     "tags_translations": {
         "en": [
             "citizen observatory",
             "coproduction",
-			"thematic co-exploration"
+            "thematic co-exploration"
         ]
     }
 }

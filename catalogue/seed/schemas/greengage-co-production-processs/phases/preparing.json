@@ -6,577 +6,651 @@
         "es": "Preparando",
         "it": "",
         "lv": "",
-		"da": "",
-		"nl": ""
+        "da": "",
+        "nl": ""
     },
     "description_translations": {
         "en": "This phase details with the preparation for the realization of a thematic co-exploration. It consists of the following steps: a) Theme selection; b) Pilot Owners' training; c) Core team Onboarding and d) Core team Training",
-        "es": "Esta fase detalla la preparación para la realización de una co-exploración temática. Consta de los siguientes pasos: a) Selección del tema; b) Formación de los propietarios piloto; c) Incorporación del equipo central y d) Formación del equipo central.",
+        "es": "Esta fase detalla la preparaci\u00f3n para la realizaci\u00f3n de una co-exploraci\u00f3n tem\u00e1tica. Consta de los siguientes pasos: a) Selecci\u00f3n del tema; b) Formaci\u00f3n de los propietarios piloto; c) Incorporaci\u00f3n del equipo central y d) Formaci\u00f3n del equipo central.",
         "it": "",
         "lv": "",
-		"da": "",
-		"nl": ""
+        "da": "",
+        "nl": ""
     },
     "objectives": [
         {
             "name_translations": {
                 "en": "Theme selection",
-                "es": "Selección de la temática",
+                "es": "Selecci\u00f3n de la tem\u00e1tica",
                 "it": "",
                 "lv": "",
-				"da": "",
-				"nl": ""
+                "da": "",
+                "nl": ""
             },
             "description_translations": {
                 "en": "This objective requires that Pilot Owners decide what \"theme\" will be considered as main topic for the thematic co-exploration to be produced, e.g. air quality. ",
-                "es": "Este objetivo requiere que los Propietarios de los Pilotos decidan qué \"tema\" se considerará principal para la co-exploración temática que se producirá, por ejemplo, la calidad del aire. ",
+                "es": "Este objetivo requiere que los Propietarios de los Pilotos decidan qu\u00e9 \"tema\" se considerar\u00e1 principal para la co-exploraci\u00f3n tem\u00e1tica que se producir\u00e1, por ejemplo, la calidad del aire. ",
                 "it": "",
                 "lv": "",
-				"da": "",
-				"nl": ""
+                "da": "",
+                "nl": ""
             },
-            "problemprofiles": ["ORG_PROBLEM_1"],
+            "problemprofiles": [
+                "ORG_PROBLEM_1"
+            ],
             "tasks": [
                 {
                     "name_translations": {
                         "en": "Analyse and prioritize CO thematic areas",
-                        "es": "Analizar y priorizar las áreas temáticas de la OC",
+                        "es": "Analizar y priorizar las \u00e1reas tem\u00e1ticas de la OC",
                         "it": "",
                         "lv": "",
-				        "da": "",
-						"nl": ""
+                        "da": "",
+                        "nl": ""
                     },
                     "description_translations": {
                         "en": "Analyse and prioritize CO thematic areas among those already identified by the Pilot Owners",
-                        "es": "Analizar y priorizar las áreas temáticas de las OC entre las ya identificadas por los Propietarios Piloto.",                        "it": "",
+                        "es": "Analizar y priorizar las \u00e1reas tem\u00e1ticas de las OC entre las ya identificadas por los Propietarios Piloto.",
+                        "it": "",
                         "lv": "",
-				        "da": "",
-						"nl": ""
+                        "da": "",
+                        "nl": ""
                     },
                     "problemprofiles": [
                         "ORG_PROBLEM_1"
                     ],
-                    "id": "task-analyse-prioritize-thematic-area",
+                    "id": "task-analyse_and_prioritize_co_thematic_areas",
                     "prerequisites": []
                 },
-				{
+                {
                     "name_translations": {
                         "en": "Reasoned selection of a thematic co-exploration area",
-                        "es": "Selección razonada de un área temática de coexploración",
+                        "es": "Selecci\u00f3n razonada de un \u00e1rea tem\u00e1tica de coexploraci\u00f3n",
                         "it": "",
                         "lv": "",
-				        "da": "",
-						"nl": ""
+                        "da": "",
+                        "nl": ""
                     },
                     "description_translations": {
                         "en": "This task requires that Pilot Owners reason their selection of a given thematic co-exploration area, i.e. indicating why an exploration on this topic is needed.",
-                        "es": "Esta tarea requiere que los Pilotos Propietarios razonen su selección de un área de coexploración temática determinada, es decir, que indiquen por qué es necesaria una exploración sobre este tema.",                        
-						"it": "",
+                        "es": "Esta tarea requiere que los Pilotos Propietarios razonen su selecci\u00f3n de un \u00e1rea de coexploraci\u00f3n tem\u00e1tica determinada, es decir, que indiquen por qu\u00e9 es necesaria una exploraci\u00f3n sobre este tema.",
+                        "it": "",
                         "lv": "",
-				        "da": "",
-						"nl": ""
+                        "da": "",
+                        "nl": ""
                     },
                     "problemprofiles": [
-                        "ORG_PROBLEM_1", "CS_PROBLEM_2"
+                        "ORG_PROBLEM_1",
+                        "CS_PROBLEM_2"
                     ],
-                    "id": "task-reason-selection-thematic-area",
-                    "prerequisites": []
+                    "id": "task-reasoned_selection_of_a_thematic_co_exploration_area",
+                    "prerequisites": [
+                        {
+                            "item": "task-analyse_and_prioritize_co_thematic_areas",
+                            "type": "previous"
+                        }
+                    ]
                 }
             ],
-            "id": "objective-theme-selection",
+            "id": "objective-theme_selection",
             "prerequisites": []
         },
         {
             "name_translations": {
                 "en": "Pilots owners' training & preparing",
-                "es": "Formación y preparación de propietarios de pilotos",
+                "es": "Formaci\u00f3n y preparaci\u00f3n de propietarios de pilotos",
                 "it": "",
                 "lv": "",
-				"da": "",
-				"nl": ""
+                "da": "",
+                "nl": ""
             },
             "description_translations": {
                 "en": "The pilot owners are trained on Citizen Science, ethics, data management, tools offered by GREENGAGE and the concept of thematic co-explorations. Besides, they list the datasets available and required (to be crowdsourced) during the thematic co-exploration.",
-                "es": "Los propietarios de los pilotos reciben formación sobre Ciencia Ciudadana, ética, gestión de datos, herramientas ofrecidas por GREENGAGE y el concepto de co-exploraciones temáticas. Además, elaboran una lista de los conjuntos de datos disponibles y necesarios (que se obtendrán mediante crowdsourcing) durante la coexploración temática.",
+                "es": "Los propietarios de los pilotos reciben formaci\u00f3n sobre Ciencia Ciudadana, \u00e9tica, gesti\u00f3n de datos, herramientas ofrecidas por GREENGAGE y el concepto de co-exploraciones tem\u00e1ticas. Adem\u00e1s, elaboran una lista de los conjuntos de datos disponibles y necesarios (que se obtendr\u00e1n mediante crowdsourcing) durante la coexploraci\u00f3n tem\u00e1tica.",
                 "it": "",
                 "lv": "",
-				"da": "",
-				"nl": ""
+                "da": "",
+                "nl": ""
             },
             "problemprofiles": [
                 "CS_PROBLEM_1",
-				"CS_PROBLEM_8",
-				"ORG_PROBLEM_7",
-                "ORG_PROBLEM_8", 
-				"ORG_PROBLEM_9"
+                "CS_PROBLEM_8",
+                "ORG_PROBLEM_7",
+                "ORG_PROBLEM_8",
+                "ORG_PROBLEM_9"
             ],
             "tasks": [
                 {
                     "name_translations": {
                         "en": "Training about Citizen Science ",
-                        "es": "Formación sobre ciencia ciudadana ",
+                        "es": "Formaci\u00f3n sobre ciencia ciudadana ",
                         "it": "",
                         "lv": "",
-						"da": "",
-						"nl": ""
+                        "da": "",
+                        "nl": ""
                     },
                     "description_translations": {
                         "en": "This task is about providing generic Citizen Science training to Pilot Owners",
-                        "es": "Esta tarea consiste en proporcionar formación genérica en Ciencia Ciudadana a los Propietarios de Pilotos",
+                        "es": "Esta tarea consiste en proporcionar formaci\u00f3n gen\u00e9rica en Ciencia Ciudadana a los Propietarios de Pilotos",
                         "it": "",
                         "lv": "",
-						"da": "",
-						"nl": ""
+                        "da": "",
+                        "nl": ""
                     },
                     "problemprofiles": [
-                        "ORG_PROBLEM_7", 
-						"CS_PROBLEM_1"
+                        "ORG_PROBLEM_7",
+                        "CS_PROBLEM_1"
                     ],
-                    "id": "task-training-pos-citizen-science",
+                    "id": "task-training_about_citizen_science",
                     "prerequisites": []
                 },
-				{
+                {
                     "name_translations": {
                         "en": "Training about Ethics",
-                        "es": "Formación sobre ética",
+                        "es": "Formaci\u00f3n sobre \u00e9tica",
                         "it": "",
                         "lv": "",
-						"da": "",
-						"nl": ""
+                        "da": "",
+                        "nl": ""
                     },
                     "description_translations": {
                         "en": "This task is about providing training on Ethics to Pilot Owners",
-                        "es": "Esta tarea consiste en impartir formación sobre ética a los pilotos propietarios",
+                        "es": "Esta tarea consiste en impartir formaci\u00f3n sobre \u00e9tica a los pilotos propietarios",
                         "it": "",
                         "lv": "",
-						"da": "",
-						"nl": ""
+                        "da": "",
+                        "nl": ""
                     },
                     "problemprofiles": [
-                        "ORG_PROBLEM_8", 
-						"ORG_PROBLEM_7", 
-						"CS_PROBLEM_1"
+                        "ORG_PROBLEM_8",
+                        "ORG_PROBLEM_7",
+                        "CS_PROBLEM_1"
                     ],
-                    "id": "task-training-pos-ethics",
-                    "prerequisites": []
+                    "id": "task-training_about_ethics",
+                    "prerequisites": [
+                        {
+                            "item": "task-training_about_citizen_science",
+                            "type": "previous"
+                        }
+                    ]
                 },
-				{
+                {
                     "name_translations": {
                         "en": "Training about Data Management",
-                        "es": "Formación sobre gestión de datos",
+                        "es": "Formaci\u00f3n sobre gesti\u00f3n de datos",
                         "it": "",
                         "lv": "",
-						"da": "",
-						"nl": ""
+                        "da": "",
+                        "nl": ""
                     },
                     "description_translations": {
                         "en": "This task is about providing training on Data Management to Pilot Owners",
-                        "es": "Esta tarea consiste en impartir formación sobre gestión de datos a los pilotos propietarios",
+                        "es": "Esta tarea consiste en impartir formaci\u00f3n sobre gesti\u00f3n de datos a los pilotos propietarios",
                         "it": "",
                         "lv": "",
-						"da": "",
-						"nl": ""
+                        "da": "",
+                        "nl": ""
                     },
                     "problemprofiles": [
-                        "ORG_PROBLEM_9", 
-						"ORG_PROBLEM_7", 
-						"CS_PROBLEM_1"
+                        "ORG_PROBLEM_9",
+                        "ORG_PROBLEM_7",
+                        "CS_PROBLEM_1"
                     ],
-                    "id": "task-training-pos-data-management",
-                    "prerequisites": []
+                    "id": "task-training_about_data_management",
+                    "prerequisites": [
+                        {
+                            "item": "task-training_about_ethics",
+                            "type": "previous"
+                        }
+                    ]
                 },
-				{
+                {
                     "name_translations": {
                         "en": "Training on GREEN Engine and toolbox",
-                        "es": "Formación sobre GREEN Engine y caja de herramientas",
+                        "es": "Formaci\u00f3n sobre GREEN Engine y caja de herramientas",
                         "it": "",
                         "lv": "",
-						"da": "",
-						"nl": ""
+                        "da": "",
+                        "nl": ""
                     },
                     "description_translations": {
                         "en": "This task is about providing training on GREEN Engine and toolbox to Pilot Owners",
-                        "es": "Esta tarea consiste en impartir formación sobre el motor VERDE y la caja de herramientas a los pilotos propietarios.",
+                        "es": "Esta tarea consiste en impartir formaci\u00f3n sobre el motor VERDE y la caja de herramientas a los pilotos propietarios.",
                         "it": "",
                         "lv": "",
-						"da": "",
-						"nl": ""
+                        "da": "",
+                        "nl": ""
                     },
                     "problemprofiles": [
                         "CS_PROBLEM_1"
                     ],
-                    "id": "task-training-pos-greenengine-toolbox",
-                    "prerequisites": []
+                    "id": "task-training_on_green_engine_and_toolbox",
+                    "prerequisites": [
+                        {
+                            "item": "task-training_about_data_management",
+                            "type": "previous"
+                        }
+                    ]
                 },
-				{
+                {
                     "name_translations": {
                         "en": "Training on thematic co-exploration co-design",
-                        "es": "Formación en codiseño de exploración temática",
+                        "es": "Formaci\u00f3n en codise\u00f1o de exploraci\u00f3n tem\u00e1tica",
                         "it": "",
                         "lv": "",
-						"da": "",
-						"nl": ""
+                        "da": "",
+                        "nl": ""
                     },
                     "description_translations": {
                         "en": "This task is about providing training to Pilot Owners on how to co-design a thematic co-exploration with the support of GREENGAGE methodology, tools and knowledge assets",
-                        "es": "Esta tarea consiste en proporcionar formación a los Propietarios de Pilotos sobre cómo diseñar conjuntamente una co-exploración temática con el apoyo de la metodología, las herramientas y los conocimientos de GREENGAGE.",
+                        "es": "Esta tarea consiste en proporcionar formaci\u00f3n a los Propietarios de Pilotos sobre c\u00f3mo dise\u00f1ar conjuntamente una co-exploraci\u00f3n tem\u00e1tica con el apoyo de la metodolog\u00eda, las herramientas y los conocimientos de GREENGAGE.",
                         "it": "",
                         "lv": "",
-						"da": "",
-						"nl": ""
+                        "da": "",
+                        "nl": ""
                     },
                     "problemprofiles": [
                         "CS_PROBLEM_1"
                     ],
-                    "id": "task-training-pos-thematic-coexploration-codesign",
-                    "prerequisites": []
+                    "id": "task-training_on_thematic_co_exploration_co_design",
+                    "prerequisites": [
+                        {
+                            "item": "task-training_on_green_engine_and_toolbox",
+                            "type": "previous"
+                        }
+                    ]
                 },
-				{
+                {
                     "name_translations": {
                         "en": "Develop dataset inventory",
                         "es": "Elaborar un inventario de conjuntos de datos",
                         "it": "",
                         "lv": "",
-						"da": "",
-						"nl": ""
+                        "da": "",
+                        "nl": ""
                     },
                     "description_translations": {
                         "en": "This task requires that Pilot Owners develop an initial dataset inventory for the thematic co-exploration",
-                        "es": "Esta tarea requiere que los Propietarios de los Pilotos elaboren un inventario inicial de conjuntos de datos para la coexploración temátic",
+                        "es": "Esta tarea requiere que los Propietarios de los Pilotos elaboren un inventario inicial de conjuntos de datos para la coexploraci\u00f3n tem\u00e1tic",
                         "it": "",
                         "lv": "",
-						"da": "",
-						"nl": ""
+                        "da": "",
+                        "nl": ""
                     },
                     "problemprofiles": [
-                        "ORG_PROBLEM_9", 
-						"CS_PROBLEM_8", 
-						"CS_PROBLEM_9"
+                        "ORG_PROBLEM_9",
+                        "CS_PROBLEM_8",
+                        "CS_PROBLEM_9"
                     ],
-                    "id": "task-develop-dataset-inventory",
-                    "prerequisites": []
+                    "id": "task-develop_dataset_inventory",
+                    "prerequisites": [
+                        {
+                            "item": "task-training_on_thematic_co_exploration_co_design",
+                            "type": "previous"
+                        }
+                    ]
                 }
             ],
             "prerequisites": [
                 {
-                    "item": "objective-theme-selection",
+                    "item": "objective-theme_selection",
                     "type": "previous"
                 }
             ],
-            "id": "objective-pilot-owners-training-preparing"
-        }, 
+            "id": "objective-pilots_owners_training_preparing"
+        },
         {
             "name_translations": {
                 "en": "Core team onboarding",
-                "es": "Incorporación del equipo central",
+                "es": "Incorporaci\u00f3n del equipo central",
                 "it": "",
                 "lv": "",
-				"da": "",
-				"nl": ""
+                "da": "",
+                "nl": ""
             },
             "description_translations": {
                 "en": "In this objective, the core team is assembled. For that, the following steps are needed: a) Build map of potential stakeholders; b) Set up page in Wordpress with info about the thematic co-exploration; c) Set up communication campaign to invite citizens to take part in CO's thematic co-exploration, d) Set up Discourse to manage community engagement and e) Organize workshop to introduce GREENGAGE to core team and gather their feedback",
-                "es": "En este objetivo, se reúne el equipo central. Para ello, se necesitan los siguientes pasos: a) Construir un mapa de las partes interesadas potenciales; b) Crear una página en Wordpress con información sobre la co-exploración temática; c) Crear una campaña de comunicación para invitar a los ciudadanos a participar en la co-exploración temática de CO, d) Crear Discourse para gestionar el compromiso de la comunidad y e) Organizar un taller para presentar GREENGAGE al equipo central y recoger sus comentarios.",
+                "es": "En este objetivo, se re\u00fane el equipo central. Para ello, se necesitan los siguientes pasos: a) Construir un mapa de las partes interesadas potenciales; b) Crear una p\u00e1gina en Wordpress con informaci\u00f3n sobre la co-exploraci\u00f3n tem\u00e1tica; c) Crear una campa\u00f1a de comunicaci\u00f3n para invitar a los ciudadanos a participar en la co-exploraci\u00f3n tem\u00e1tica de CO, d) Crear Discourse para gestionar el compromiso de la comunidad y e) Organizar un taller para presentar GREENGAGE al equipo central y recoger sus comentarios.",
                 "it": "",
                 "lv": "",
-				"da": "",
-				"nl": ""
+                "da": "",
+                "nl": ""
             },
             "problemprofiles": [
                 "BUILD_PROBLEM_1",
-				"CS_PROBLEM_4", 
-				"CS_PROBLEM_6", 
-				"DEF_PROBLEM_3",
-				"ORG_PROBLEM_4",
-				"ORG_PROBLEM_5", 
-				"UND_PROBLEM_2" 
+                "CS_PROBLEM_4",
+                "CS_PROBLEM_6",
+                "DEF_PROBLEM_3",
+                "ORG_PROBLEM_4",
+                "ORG_PROBLEM_5",
+                "UND_PROBLEM_2"
             ],
             "tasks": [
                 {
                     "name_translations": {
-						"en": "Build map of potential stakeholders",
-						"es": "Elaborar un mapa de los posibles actores interesados",
+                        "en": "Build map of potential stakeholders",
+                        "es": "Elaborar un mapa de los posibles actores interesados",
                         "it": "",
                         "lv": "",
-						"da": "",
-						"nl": ""
+                        "da": "",
+                        "nl": ""
                     },
                     "description_translations": {
- 						"en": "This task requires pilot owners to define a map of potential stakeholders interested on participating or affected by the thematic co-exploration",
-						"es": "Esta tarea requiere que los propietarios de los proyectos piloto definan un mapa de las posibles partes interesadas en participar o afectadas por la coexploración temática.",
+                        "en": "This task requires pilot owners to define a map of potential stakeholders interested on participating or affected by the thematic co-exploration",
+                        "es": "Esta tarea requiere que los propietarios de los proyectos piloto definan un mapa de las posibles partes interesadas en participar o afectadas por la coexploraci\u00f3n tem\u00e1tica.",
                         "it": "",
                         "lv": "",
-						"da": "",
-						"nl": ""
+                        "da": "",
+                        "nl": ""
                     },
                     "problemprofiles": [
-                        "ORG_PROBLEM_5", 
-						"UND_PROBLEM_2", 
-						"CS_PROBLEM_6"
+                        "ORG_PROBLEM_5",
+                        "UND_PROBLEM_2",
+                        "CS_PROBLEM_6"
                     ],
-                    "id": "task-build-map-stakeholders",
+                    "id": "task-build_map_of_potential_stakeholders",
                     "prerequisites": []
                 },
-				{
+                {
                     "name_translations": {
                         "en": "Set up page in Wordpress with info about the thematic co-exploration",
-                        "es": "Configurar página en Wordpress con información sobre la co-exploración temática",
+                        "es": "Configurar p\u00e1gina en Wordpress con informaci\u00f3n sobre la co-exploraci\u00f3n tem\u00e1tica",
                         "it": "",
                         "lv": "",
-						"da": "",
-						"nl": ""
+                        "da": "",
+                        "nl": ""
                     },
                     "description_translations": {
                         "en": "This task requires pilot owners to set up page in Wordpress with info about the thematic co-exploration",
-                        "es": "Esta tarea requiere que los propietarios de los pilotos creen una página en Wordpress con información sobre la co-exploración temática.",
+                        "es": "Esta tarea requiere que los propietarios de los pilotos creen una p\u00e1gina en Wordpress con informaci\u00f3n sobre la co-exploraci\u00f3n tem\u00e1tica.",
                         "it": "",
                         "lv": "",
-						"da": "",
-						"nl": ""
+                        "da": "",
+                        "nl": ""
                     },
                     "problemprofiles": [
                         "CS_PROBLEM_6"
                     ],
-                    "id": "task-setup-wordpress-page",
-                    "prerequisites": []
+                    "id": "task-set_up_page_in_wordpress_with_info_about_the_thematic_co_exploration",
+                    "prerequisites": [
+                        {
+                            "item": "task-build_map_of_potential_stakeholders",
+                            "type": "previous"
+                        }
+                    ]
                 },
-				{
+                {
                     "name_translations": {
                         "en": "Set up communication campaign to invite citizens to take part in CO's thematic co-exploration",
-                        "es": "Puesta en marcha de una campaña de comunicación para invitar a los ciudadanos a participar en la coexploración temática de CO",
+                        "es": "Puesta en marcha de una campa\u00f1a de comunicaci\u00f3n para invitar a los ciudadanos a participar en la coexploraci\u00f3n tem\u00e1tica de CO",
                         "it": "",
                         "lv": "",
-						"da": "",
-						"nl": ""
+                        "da": "",
+                        "nl": ""
                     },
                     "description_translations": {
                         "en": "This task sets up communication campaign to invite citizens to take part in CO's thematic co-exploration",
-                        "es": "Esta tarea pone en marcha una campaña de comunicación para invitar a los ciudadanos a participar en la coexploración temática de CO",
+                        "es": "Esta tarea pone en marcha una campa\u00f1a de comunicaci\u00f3n para invitar a los ciudadanos a participar en la coexploraci\u00f3n tem\u00e1tica de CO",
                         "it": "",
                         "lv": "",
-						"da": "",
-						"nl": ""
+                        "da": "",
+                        "nl": ""
                     },
                     "problemprofiles": [
-                        "ORG_PROBLEM_4", 
-						"CS_PROBLEM_4", 
-						"CS_PROBLEM_6", 
-						"BUILD_PROBLEM_1"
+                        "ORG_PROBLEM_4",
+                        "CS_PROBLEM_4",
+                        "CS_PROBLEM_6",
+                        "BUILD_PROBLEM_1"
                     ],
-                    "id": "task-setup-communication-campaign",
-                    "prerequisites": []
+                    "id": "task-set_up_communication_campaign_to_invite_citizens_to_take_part_in_co_s_thematic_co_exploration",
+                    "prerequisites": [
+                        {
+                            "item": "task-set_up_page_in_wordpress_with_info_about_the_thematic_co_exploration",
+                            "type": "previous"
+                        }
+                    ]
                 },
-				{
+                {
                     "name_translations": {
                         "en": "Set up Discourse to manage community engagement",
-                        "es": "Configurar Discourse para gestionar la participación de la comunidad",
+                        "es": "Configurar Discourse para gestionar la participaci\u00f3n de la comunidad",
                         "it": "",
                         "lv": "",
-						"da": "",
-						"nl": ""
+                        "da": "",
+                        "nl": ""
                     },
                     "description_translations": {
                         "en": "This task sets up Discourse space to manage community engagement within this thematic co-exploration",
-                        "es": "Esta tarea crea un espacio de discusión para gestionar la participación de la comunidad en esta coexploración temática.",
+                        "es": "Esta tarea crea un espacio de discusi\u00f3n para gestionar la participaci\u00f3n de la comunidad en esta coexploraci\u00f3n tem\u00e1tica.",
                         "it": "",
                         "lv": "",
-						"da": "",
-						"nl": ""
+                        "da": "",
+                        "nl": ""
                     },
                     "problemprofiles": [
-                        "ORG_PROBLEM_4", 
-						"CS_PROBLEM_4", 
-						"CS_PROBLEM_6", 
-						"BUILD_PROBLEM_1"
+                        "ORG_PROBLEM_4",
+                        "CS_PROBLEM_4",
+                        "CS_PROBLEM_6",
+                        "BUILD_PROBLEM_1"
                     ],
-                    "id": "task-setup-discourse-space",
-                    "prerequisites": []
+                    "id": "task-set_up_discourse_to_manage_community_engagement",
+                    "prerequisites": [
+                        {
+                            "item": "task-set_up_communication_campaign_to_invite_citizens_to_take_part_in_co_s_thematic_co_exploration",
+                            "type": "previous"
+                        }
+                    ]
                 },
-				{
+                {
                     "name_translations": {
                         "en": "Organize workshop to introduce GREENGAGE to core team and gather their feedback",
                         "es": "Organizar un taller para presentar GREENGAGE al equipo central y recabar sus opiniones.",
                         "it": "",
                         "lv": "",
-						"da": "",
-						"nl": ""
+                        "da": "",
+                        "nl": ""
                     },
                     "description_translations": {
                         "en": "This task suggests the organization of a workshop to introduce GREENGAGE to core team and gather their feedback",
-                        "es": "Esta tarea sugiere la organización de un taller para presentar GREENGAGE al equipo central y recabar su opinión.",
+                        "es": "Esta tarea sugiere la organizaci\u00f3n de un taller para presentar GREENGAGE al equipo central y recabar su opini\u00f3n.",
                         "it": "",
                         "lv": "",
-						"da": "",
-						"nl": ""
+                        "da": "",
+                        "nl": ""
                     },
                     "problemprofiles": [
                         "DEF_PROBLEM_3"
                     ],
-                    "id": "task-organize-workshop-greengage-coreteam",
-                    "prerequisites": []
+                    "id": "task-organize_workshop_to_introduce_greengage_to_core_team_and_gather_their_feedback",
+                    "prerequisites": [
+                        {
+                            "item": "task-set_up_discourse_to_manage_community_engagement",
+                            "type": "previous"
+                        }
+                    ]
                 }
             ],
             "prerequisites": [
                 {
-                    "item": "objective-pilot-owners-training-preparing",
+                    "item": "objective-pilots_owners_training_preparing",
                     "type": "previous"
                 }
             ],
-            "id": "objective-coreteam-onboarding"
-        }, 
+            "id": "objective-core_team_onboarding"
+        },
         {
             "name_translations": {
                 "en": "Core team training",
-                "es": "Formación del equipo central",
+                "es": "Formaci\u00f3n del equipo central",
                 "it": "",
                 "lv": "",
-				"da": "",
-				"nl": ""
+                "da": "",
+                "nl": ""
             },
             "description_translations": {
                 "en": "In this objective, the core team is trained. For that, the following steps are needed: a) Understand the thematic area; b) Prepare a training plan specific for the pilot; c) Create additional training material; d) Training on GREENGAGE ethical framework and e) Training on GREENGAGE technologies",
-                "es": "En este objetivo, se reúne el equipo central. Para ello, se necesitan los siguientes pasos: a) Construir un mapa de las partes interesadas potenciales; b) Crear una página en Wordpress con información sobre la co-exploración temática; c) Crear una campaña de comunicación para invitar a los ciudadanos a participar en la co-exploración temática de CO, d) Crear Discourse para gestionar el compromiso de la comunidad y e) Organizar un taller para presentar GREENGAGE al equipo central y recoger sus comentarios.",
+                "es": "En este objetivo, se re\u00fane el equipo central. Para ello, se necesitan los siguientes pasos: a) Construir un mapa de las partes interesadas potenciales; b) Crear una p\u00e1gina en Wordpress con informaci\u00f3n sobre la co-exploraci\u00f3n tem\u00e1tica; c) Crear una campa\u00f1a de comunicaci\u00f3n para invitar a los ciudadanos a participar en la co-exploraci\u00f3n tem\u00e1tica de CO, d) Crear Discourse para gestionar el compromiso de la comunidad y e) Organizar un taller para presentar GREENGAGE al equipo central y recoger sus comentarios.",
                 "it": "",
                 "lv": "",
-				"da": "",
-				"nl": ""
+                "da": "",
+                "nl": ""
             },
             "problemprofiles": [
                 "CS_PROBLEM_1",
-				"CS_PROBLEM_2",
-				"ORG_PROBLEM_7",
-				"ORG_PROBLEM_8",
-				"UND_PROBLEM_6"
+                "CS_PROBLEM_2",
+                "ORG_PROBLEM_7",
+                "ORG_PROBLEM_8",
+                "UND_PROBLEM_6"
             ],
             "tasks": [
                 {
                     "name_translations": {
-						"en": "Understand the thematic area",
-						"es": "Comprender el área temática",
+                        "en": "Understand the thematic area",
+                        "es": "Comprender el \u00e1rea tem\u00e1tica",
                         "it": "",
                         "lv": "",
-						"da": "",
-						"nl": ""
+                        "da": "",
+                        "nl": ""
                     },
                     "description_translations": {
- 						"en": "This task requires core team to get involved in the joint understanding of the selected thematic area",
-						"es": "Esta tarea requiere que el equipo central se implique en la comprensión conjunta del área temática seleccionada",
+                        "en": "This task requires core team to get involved in the joint understanding of the selected thematic area",
+                        "es": "Esta tarea requiere que el equipo central se implique en la comprensi\u00f3n conjunta del \u00e1rea tem\u00e1tica seleccionada",
                         "it": "",
                         "lv": "",
-						"da": "",
-						"nl": ""
+                        "da": "",
+                        "nl": ""
                     },
                     "problemprofiles": [
-                        "UND_PROBLEM_6", 
-						"CS_PROBLEM_2"
+                        "UND_PROBLEM_6",
+                        "CS_PROBLEM_2"
                     ],
-                    "id": "task-understand-thematic-area",
+                    "id": "task-understand_the_thematic_area",
                     "prerequisites": []
                 },
-				{
+                {
                     "name_translations": {
                         "en": "Prepare a training plan specific for the pilot",
-                        "es": "Preparar un plan de formación específico para el piloto",
+                        "es": "Preparar un plan de formaci\u00f3n espec\u00edfico para el piloto",
                         "it": "",
                         "lv": "",
-						"da": "",
-						"nl": ""
+                        "da": "",
+                        "nl": ""
                     },
                     "description_translations": {
                         "en": "This task requires pilot owners in cooperation with core team to define a specific training plan for thematic co-exploration's participants",
-                        "es": "Esta tarea requiere que los propietarios del proyecto piloto, en colaboración con el equipo central, definan un plan de formación específico para los participantes en la coexploración temática.",
+                        "es": "Esta tarea requiere que los propietarios del proyecto piloto, en colaboraci\u00f3n con el equipo central, definan un plan de formaci\u00f3n espec\u00edfico para los participantes en la coexploraci\u00f3n tem\u00e1tica.",
                         "it": "",
                         "lv": "",
-						"da": "",
-						"nl": ""
+                        "da": "",
+                        "nl": ""
                     },
                     "problemprofiles": [
                         "CS_PROBLEM_1"
                     ],
-                    "id": "task-prepare-training-plan",
-                    "prerequisites": []
+                    "id": "task-prepare_a_training_plan_specific_for_the_pilot",
+                    "prerequisites": [
+                        {
+                            "item": "task-understand_the_thematic_area",
+                            "type": "previous"
+                        }
+                    ]
                 },
-				{
+                {
                     "name_translations": {
                         "en": "Create additional training material",
-                        "es": "Crear material de formación adicional",
+                        "es": "Crear material de formaci\u00f3n adicional",
                         "it": "",
                         "lv": "",
-						"da": "",
-						"nl": ""
+                        "da": "",
+                        "nl": ""
                     },
                     "description_translations": {
                         "en": "This task requires pilot owners in cooperation with core team and GREENAGE consortium to create additional training material",
-                        "es": "Esta tarea requiere que los propietarios de los pilotos, en cooperación con el equipo central y el consorcio GREENAGE, creen material de formación adicional.",
+                        "es": "Esta tarea requiere que los propietarios de los pilotos, en cooperaci\u00f3n con el equipo central y el consorcio GREENAGE, creen material de formaci\u00f3n adicional.",
                         "it": "",
                         "lv": "",
-						"da": "",
-						"nl": ""
+                        "da": "",
+                        "nl": ""
                     },
                     "problemprofiles": [
-                        "CS_PROBLEM_1", 
-						"ORG_PROBLEM_7"
+                        "CS_PROBLEM_1",
+                        "ORG_PROBLEM_7"
                     ],
-                    "id": "task-create-additional-materials",
-                    "prerequisites": []
+                    "id": "task-create_additional_training_material",
+                    "prerequisites": [
+                        {
+                            "item": "task-prepare_a_training_plan_specific_for_the_pilot",
+                            "type": "previous"
+                        }
+                    ]
                 },
-				{
+                {
                     "name_translations": {
                         "en": "Training on GREENGAGE ethical framework",
-                        "es": "Formación sobre el marco ético GREENGAGE",
+                        "es": "Formaci\u00f3n sobre el marco \u00e9tico GREENGAGE",
                         "it": "",
                         "lv": "",
-						"da": "",
-						"nl": ""
+                        "da": "",
+                        "nl": ""
                     },
                     "description_translations": {
                         "en": "This task requires pilot owners to train core team about GREENGAGE ethical framework",
-                        "es": "Esta tarea requiere que los propietarios del piloto formen al equipo central sobre el marco ético de GREENGAGE",
+                        "es": "Esta tarea requiere que los propietarios del piloto formen al equipo central sobre el marco \u00e9tico de GREENGAGE",
                         "it": "",
                         "lv": "",
-						"da": "",
-						"nl": ""
+                        "da": "",
+                        "nl": ""
                     },
                     "problemprofiles": [
-                        "ORG_PROBLEM_4", 
-						"CS_PROBLEM_4", 
-						"CS_PROBLEM_6", 
-						"BUILD_PROBLEM_1"
+                        "ORG_PROBLEM_4",
+                        "CS_PROBLEM_4",
+                        "CS_PROBLEM_6",
+                        "BUILD_PROBLEM_1"
                     ],
-                    "id": "task-setup-discourse-space",
-                    "prerequisites": []
+                    "id": "task-training_on_greengage_ethical_framework",
+                    "prerequisites": [
+                        {
+                            "item": "task-create_additional_training_material",
+                            "type": "previous"
+                        }
+                    ]
                 },
-				{
+                {
                     "name_translations": {
                         "en": "Organize workshop to introduce GREENGAGE to core team and gather their feedback",
                         "es": "Organizar un taller para presentar GREENGAGE al equipo central y recabar sus opiniones.",
                         "it": "",
                         "lv": "",
-						"da": "",
-						"nl": ""
+                        "da": "",
+                        "nl": ""
                     },
                     "description_translations": {
                         "en": "This task suggests the organization of a workshop to introduce GREENGAGE to core team and gather their feedback",
-                        "es": "Esta tarea sugiere la organización de un taller para presentar GREENGAGE al equipo central y recabar su opinión.",
+                        "es": "Esta tarea sugiere la organizaci\u00f3n de un taller para presentar GREENGAGE al equipo central y recabar su opini\u00f3n.",
                         "it": "",
                         "lv": "",
-						"da": "",
-						"nl": ""
+                        "da": "",
+                        "nl": ""
                     },
                     "problemprofiles": [
                         "DEF_PROBLEM_3"
                     ],
-                    "id": "task-organize-workshop-greengage-coreteam",
-                    "prerequisites": []
+                    "id": "task-organize_workshop_to_introduce_greengage_to_core_team_and_gather_their_feedback",
+                    "prerequisites": [
+                        {
+                            "item": "task-training_on_greengage_ethical_framework",
+                            "type": "previous"
+                        }
+                    ]
                 }
             ],
             "prerequisites": [
                 {
-                    "item": "objective-pilot-owners-training-preparing",
+                    "item": "objective-core_team_onboarding",
                     "type": "previous"
                 }
             ],
-            "id": "objective-coreteam-onboarding"
+            "id": "objective-core_team_training"
         }
     ],
     "is_part_of_codelivery": false
