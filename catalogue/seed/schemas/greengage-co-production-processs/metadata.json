@@ -5,7 +5,7 @@
         "es": "",
         "it": "",
         "lv": "",
-		"dk": "",
+		"da": "",
 		"nl": ""
     },
     "environments": [
@@ -19,7 +19,7 @@
         "es",
         "it",
         "lv",
-		"dk",
+		"da",
 		"nl"
     ],
     "licence": "permissive",
@@ -28,8 +28,8 @@
         "es": "",
         "it": "",
         "lv": "",
-		"dk",
-		"nl"
+		"da": "",
+		"nl": ""
     },
     "tags_translations": {
         "en": [
