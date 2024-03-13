@@ -614,34 +614,6 @@
                             "type": "previous"
                         }
                     ]
-                },
-                {
-                    "name_translations": {
-                        "en": "Organize workshop to introduce GREENGAGE to core team and gather their feedback",
-                        "es": "Organizar un taller para presentar GREENGAGE al equipo central y recabar sus opiniones.",
-                        "it": "",
-                        "lv": "",
-                        "da": "",
-                        "nl": ""
-                    },
-                    "description_translations": {
-                        "en": "This task suggests the organization of a workshop to introduce GREENGAGE to core team and gather their feedback",
-                        "es": "Esta tarea sugiere la organizaci\u00f3n de un taller para presentar GREENGAGE al equipo central y recabar su opini\u00f3n.",
-                        "it": "",
-                        "lv": "",
-                        "da": "",
-                        "nl": ""
-                    },
-                    "problemprofiles": [
-                        "DEF_PROBLEM_3"
-                    ],
-                    "id": "task-organize_workshop_to_introduce_greengage_to_core_team_and_gather_their_feedback",
-                    "prerequisites": [
-                        {
-                            "item": "task-training_on_greengage_ethical_framework",
-                            "type": "previous"
-                        }
-                    ]
                 }
             ],
             "prerequisites": [
