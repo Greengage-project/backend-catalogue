@@ -1104,34 +1104,6 @@
                                     "CS_PROBLEM_6",
                                     "BUILD_PROBLEM_1"
                                 ]
-                            },
-                            {
-                                "description_translations": {
-                                    "da": "",
-                                    "en": "This task suggests the organization of a workshop to introduce GREENGAGE to core team and gather their feedback",
-                                    "es": "Esta tarea sugiere la organizaci\u00f3n de un taller para presentar GREENGAGE al equipo central y recabar su opini\u00f3n.",
-                                    "it": "",
-                                    "lv": "",
-                                    "nl": ""
-                                },
-                                "id": "task-organize_workshop_to_introduce_greengage_to_core_team_and_gather_their_feedback",
-                                "name_translations": {
-                                    "da": "",
-                                    "en": "Organize workshop to introduce GREENGAGE to core team and gather their feedback",
-                                    "es": "Organizar un taller para presentar GREENGAGE al equipo central y recabar sus opiniones.",
-                                    "it": "",
-                                    "lv": "",
-                                    "nl": ""
-                                },
-                                "prerequisites": [
-                                    {
-                                        "item": "task-training_on_greengage_ethical_framework",
-                                        "type": "previous"
-                                    }
-                                ],
-                                "problemprofiles": [
-                                    "DEF_PROBLEM_3"
-                                ]
                             }
                         ]
                     }

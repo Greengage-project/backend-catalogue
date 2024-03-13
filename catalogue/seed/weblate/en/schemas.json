@@ -165,8 +165,6 @@
     "greengage-co-production;phase-preparing;objective-core_team_training;name": "Core team training",
     "greengage-co-production;phase-preparing;objective-core_team_training;task-create_additional_training_material;description": "This task requires pilot owners in cooperation with core team and GREENAGE consortium to create additional training material",
     "greengage-co-production;phase-preparing;objective-core_team_training;task-create_additional_training_material;name": "Create additional training material",
-    "greengage-co-production;phase-preparing;objective-core_team_training;task-organize_workshop_to_introduce_greengage_to_core_team_and_gather_their_feedback;description": "This task suggests the organization of a workshop to introduce GREENGAGE to core team and gather their feedback",
-    "greengage-co-production;phase-preparing;objective-core_team_training;task-organize_workshop_to_introduce_greengage_to_core_team_and_gather_their_feedback;name": "Organize workshop to introduce GREENGAGE to core team and gather their feedback",
     "greengage-co-production;phase-preparing;objective-core_team_training;task-prepare_a_training_plan_specific_for_the_pilot;description": "This task requires pilot owners in cooperation with core team to define a specific training plan for thematic co-exploration's participants",
     "greengage-co-production;phase-preparing;objective-core_team_training;task-prepare_a_training_plan_specific_for_the_pilot;name": "Prepare a training plan specific for the pilot",
     "greengage-co-production;phase-preparing;objective-core_team_training;task-training_on_greengage_ethical_framework;description": "This task requires pilot owners to train core team about GREENGAGE ethical framework",
