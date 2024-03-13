@@ -169,6 +169,8 @@
     "greengage-co-production;phase-preparing;objective-core_team_training;task-prepare_a_training_plan_specific_for_the_pilot;name": "Prepare a training plan specific for the pilot",
     "greengage-co-production;phase-preparing;objective-core_team_training;task-training_on_greengage_ethical_framework;description": "This task requires pilot owners to train core team about GREENGAGE ethical framework",
     "greengage-co-production;phase-preparing;objective-core_team_training;task-training_on_greengage_ethical_framework;name": "Training on GREENGAGE ethical framework",
+    "greengage-co-production;phase-preparing;objective-core_team_training;task-training_on_greengage_technologies;description": "This task requires pilot owners to train core team about GREENGAGE technologies",
+    "greengage-co-production;phase-preparing;objective-core_team_training;task-training_on_greengage_technologies;name": "Training on GREENGAGE technologies",
     "greengage-co-production;phase-preparing;objective-core_team_training;task-understand_the_thematic_area;description": "This task requires core team to get involved in the joint understanding of the selected thematic area",
     "greengage-co-production;phase-preparing;objective-core_team_training;task-understand_the_thematic_area;name": "Understand the thematic area",
     "greengage-co-production;phase-preparing;objective-pilots_owners_training_preparing;description": "The pilot owners are trained on Citizen Science, ethics, data management, tools offered by GREENGAGE and the concept of thematic co-explorations. Besides, they list the datasets available and required (to be crowdsourced) during the thematic co-exploration.",

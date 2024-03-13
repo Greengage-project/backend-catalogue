@@ -364,6 +364,7 @@ async def create_coproductionschema(db, schema_data):
                 if task_in_db := await crud.treeitems.get_by_names(db=db, name_translations=task_data["name_translations"], parent_id=db_objective.id):
                     print(
                         f"{bcolors.WARNING}Updating existing task {task_in_db.name}{bcolors.ENDC}")
+                    print(task_in_db.id)
                     db_task = await crud.treeitems.update(db=db, db_obj=task_in_db, obj_in=schemas.TreeItemPatch(**task_data))
                 else:
                     task_name = task_data.get(
@@ -383,7 +384,8 @@ async def create_coproductionschema(db, schema_data):
                 sum = list(task_data["problemprofiles"]) + \
                     list(objective_data["problemprofiles"])
                 await crud.treeitems.sync_problemprofiles(db=db, treeitem=db_task, problemprofiles=sum, commit=False)
-
+               
+                print(f"{bcolors.OKCYAN}Analysing prerequisites on {task_data}, {db_task.id} {bcolors.ENDC}")
                 items_resume[task_data["id"]] = {
                     "db_id": db_task.id,
                     "prerequisites": task_data.get("prerequisites", [])
@@ -399,15 +401,19 @@ async def create_coproductionschema(db, schema_data):
                 print(f"{bcolors.FAIL}Removing objective {child.name}{bcolors.ENDC}")
                 await crud.treeitems.remove(db=db, id=child.id)
 
+    print(items_resume.items())
     for key, resume in items_resume.items():
         db_treeitem = await crud.treeitems.get(db=db, id=resume["db_id"])
+        print("este es el resume de", db_treeitem.name, resume)
         await crud.treeitems.clear_prerequisites(db=db, treeitem=db_treeitem, commit=False)
         for prerequisite_id in resume["prerequisites"]:
             if (ref := prerequisite_id.get("item", None)):
                 db_prerequisite = await crud.treeitems.get(
                     db=db, id=items_resume[ref]["db_id"])
-
-                print(db_prerequisite, "is a prerequisite for", db_treeitem)
+                print(ref)
+                print(items_resume[ref])
+                print(items_resume[ref]["db_id"])
+                print(db_prerequisite.id, "is a prerequisite for", db_treeitem.id)
                 await crud.treeitems.add_prerequisite(db=db, treeitem=db_treeitem, prerequisite=db_prerequisite)
 
     for child in SCHEMA.children:

@@ -32,6 +32,8 @@ class CRUDTreeItemMetadata(CRUDBase[TreeItemMetadata, TreeItemCreate, TreeItemPa
                     TreeItemMetadata.name_translations["es"] == name_translations["es"],
                     TreeItemMetadata.name_translations["it"] == name_translations["it"],
                     TreeItemMetadata.name_translations["lv"] == name_translations["lv"],
+                    # TreeItemMetadata.name_translations["nl"] == name_translations["nl"],
+                    # TreeItemMetadata.name_translations["da"] == name_translations["da"],
                 ),
                 *queries
             )

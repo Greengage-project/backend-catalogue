@@ -59,6 +59,7 @@ class CRUDBase(Generic[ModelType, CreateSchemaType, PatchSchemaType]):
                 and_(self.model.name_translations["it"] != None, self.model.name_translations["it"] == name_translations["it"]),
                 and_(self.model.name_translations["lv"] != None, self.model.name_translations["lv"] == name_translations["lv"]),
                 and_(self.model.name_translations["nl"] != None, self.model.name_translations["nl"] == name_translations["nl"]),
+                and_(self.model.name_translations["da"] != None, self.model.name_translations["da"] == name_translations["da"]),
             ),
         ).first()
 

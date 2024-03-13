@@ -1206,5 +1206,140 @@
             "nl": "Reflecties over SC",
             "da": "Refleksioner om SC"
         }
+    },
+    {
+        "description_translations": {
+            "en": "",
+            "es": "",
+            "it": "",
+            "lv": "",
+            "nl": "",
+            "da": ""
+        },
+        "functionality_translations": {
+            "en": "",
+            "es": "",
+            "it": "",
+            "lv": "",
+            "nl": "",
+            "da": ""
+        },
+        "id": "DEF_PROBLEM_7",
+        "name_translations": {
+            "en": "Training",
+            "es": "",
+            "it": "",
+            "lv": "",
+            "nl": "",
+            "da": ""
+        }
+    },
+    {
+        "description_translations": {
+            "en": "",
+            "es": "",
+            "it": "",
+            "lv": "",
+            "nl": "",
+            "da": ""
+        },
+        "functionality_translations": {
+            "en": "",
+            "es": "",
+            "it": "",
+            "lv": "",
+            "nl": "",
+            "da": ""
+        },
+        "id": "DEF_PROBLEM_8",
+        "name_translations": {
+            "en": "Regulation and ethics",
+            "es": "",
+            "it": "",
+            "lv": "",
+            "nl": "",
+            "da": ""
+        }
+    },
+    {
+        "description_translations": {
+            "en": "",
+            "es": "",
+            "it": "",
+            "lv": "",
+            "nl": "",
+            "da": ""
+        },
+        "functionality_translations": {
+            "en": "",
+            "es": "",
+            "it": "",
+            "lv": "",
+            "nl": "",
+            "da": ""
+        },
+        "id": "SUS_PROBLEM_2",
+        "name_translations": {
+            "en": "Publish best practices",
+            "es": "",
+            "it": "",
+            "lv": "",
+            "nl": "",
+            "da": ""
+        }
+    },
+    {
+        "description_translations": {
+            "en": "",
+            "es": "",
+            "it": "",
+            "lv": "",
+            "nl": "",
+            "da": ""
+        },
+        "functionality_translations": {
+            "en": "",
+            "es": "",
+            "it": "",
+            "lv": "",
+            "nl": "",
+            "da": ""
+        },
+        "id": "SUS_PROBLEM_3",
+        "name_translations": {
+            "en": "Impact and exploitation",
+            "es": "",
+            "it": "",
+            "lv": "",
+            "nl": "",
+            "da": ""
+        }
+    },
+    {
+        "description_translations": {
+            "en": "",
+            "es": "",
+            "it": "",
+            "lv": "",
+            "nl": "",
+            "da": ""
+        },
+        "functionality_translations": {
+            "en": "",
+            "es": "",
+            "it": "",
+            "lv": "",
+            "nl": "",
+            "da": ""
+        },
+        "id": "SUS_PROBLEM_4",
+        "name_translations": {
+            "en": "Transferability and handover",
+            "es": "",
+            "it": "",
+            "lv": "",
+            "nl": "",
+            "da": ""
+        }
     }
 ]

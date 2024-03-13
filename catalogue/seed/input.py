@@ -2,7 +2,7 @@ import json
 from pathlib import Path
 from configuration import lang_keys
 
-lang_keys = ["en", "es", "it", "lv"]
+lang_keys = ["en", "es", "it", "lv", "nl", "da"]
 
 interlinker_paths = {}
 for interlinker_metadata_path in Path("./interlinkers").glob("**/metadata.json"):
