@@ -404,16 +404,11 @@ async def create_coproductionschema(db, schema_data):
     print(items_resume.items())
     for key, resume in items_resume.items():
         db_treeitem = await crud.treeitems.get(db=db, id=resume["db_id"])
-        print("este es el resume de", db_treeitem.name, resume)
         await crud.treeitems.clear_prerequisites(db=db, treeitem=db_treeitem, commit=False)
         for prerequisite_id in resume["prerequisites"]:
             if (ref := prerequisite_id.get("item", None)):
                 db_prerequisite = await crud.treeitems.get(
                     db=db, id=items_resume[ref]["db_id"])
-                print(ref)
-                print(items_resume[ref])
-                print(items_resume[ref]["db_id"])
-                print(db_prerequisite.id, "is a prerequisite for", db_treeitem.id)
                 await crud.treeitems.add_prerequisite(db=db, treeitem=db_treeitem, prerequisite=db_prerequisite)
 
     for child in SCHEMA.children:
