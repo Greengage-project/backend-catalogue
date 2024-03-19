@@ -4556,7 +4556,7 @@
                             "ORG_PROBLEM_2",
                             "ORG_PROBLEM_4",
                             "ORG_PROBLEM_5",
-                            "ORG_PROBLEM_6.1",
+                            "ORG_PROBLEM_6",
                             "DEF_PROBLEM_5",
                             "CS_PROBLEM_2",
                             "VAL_PROBLEM_1"
@@ -4642,7 +4642,7 @@
                                 "problemprofiles": [
                                     "ORG_PROBLEM_2",
                                     "ORG_PROBLEM_4",
-                                    "ORG_PROBLEM_6.1"
+                                    "ORG_PROBLEM_6"
                                 ]
                             },
                             {
@@ -4670,7 +4670,7 @@
                                     }
                                 ],
                                 "problemprofiles": [
-                                    "ORG_PROBLEM_6.1",
+                                    "ORG_PROBLEM_6",
                                     "DEF_PROBLEM_5",
                                     "CS_PROBLEM_2",
                                     "VAL_PROBLEM_1"

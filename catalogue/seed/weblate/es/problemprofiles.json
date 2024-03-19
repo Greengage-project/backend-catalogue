@@ -89,6 +89,8 @@
     "problemprofile;org_problem_6.2;name": "Visualizaci\u00f3n de datos",
     "problemprofile;org_problem_6.3;description": "Este problema est\u00e1 relacionado con la necesidad de apoyar el debate abierto entre los miembros del equipo de coproducci\u00f3n. Por ejemplo, un foro de debate en el que el equipo de cocreaci\u00f3n pueda discutir ideas, caracter\u00edsticas del servicio y planificar acciones.",
     "problemprofile;org_problem_6.3;name": "Tablero de discusi\u00f3n",
+    "problemprofile;org_problem_6;description": "",
+    "problemprofile;org_problem_6;name": "Planificaci\u00f3n de activos de coproducci\u00f3n",
     "problemprofile;org_problem_7;description": "Este punto del problema aborda la necesidad de apoyar al equipo de coproducci\u00f3n en la definici\u00f3n de un acuerdo para no revelar la informaci\u00f3n confidencial que necesitan compartir entre s\u00ed como parte necesaria de la coproducci\u00f3n de un servicio conjunto.",
     "problemprofile;org_problem_7;name": "Definici\u00f3n de acuerdo de confidencialidad (NDA)",
     "problemprofile;org_problem_8;description": "Este punto del problema aborda la necesidad de informaci\u00f3n sobre buenas pr\u00e1cticas, plantillas y ejemplos para preparar documentos que definan de manera formal los acuerdos para una red de colaboraci\u00f3n de las partes interesadas. Esta necesidad puede surgir durante el compromiso inicial de las partes interesadas para redactar de las partes interesadas para redactar los t\u00e9rminos y el plan general de la colaboraci\u00f3n. Cuando se produce la coevaluaci\u00f3n del resultado de la colaboraci\u00f3n con respecto a lo especificado en el acuerdo de colaboraci\u00f3n, puede ser necesario introducir posibles revisiones del documento.",

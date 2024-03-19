@@ -89,6 +89,8 @@
     "problemprofile;org_problem_6.2;name": "Data visualization",
     "problemprofile;org_problem_6.3;description": "This problem relates to the need to support open discussion among the coproduction team members. E.g. Discussion forum where the co-creation team can discuss ideas, service features, plan actions.",
     "problemprofile;org_problem_6.3;name": "Discussion board",
+    "problemprofile;org_problem_6;description": "Co-production assets planning",
+    "problemprofile;org_problem_6;name": "Co-production assets planning",
     "problemprofile;org_problem_7;description": "This problem item addresses the need to support the co-production team in defining an agreement for not disclosing confidential information that they need to share with each other as a necessary part of co-producing a service together.",
     "problemprofile;org_problem_7;name": "Non-Disclosure Agreement Definition (NDA)",
     "problemprofile;org_problem_8;description": "This problem item addresses the need for information about good practices, templates and examples for preparing documents that define in a formal way agreements for a collaborative network of stakeholders. This need may emerge during the initial engagement of the stakeholders to write\ndown the terms and general plan for the collaboration. When co-evaluation takes\nplace on the outcome of the collaboration with respect to what was specified in the\npartnership agreement, possible revisions of the document may need to be\nintroduced.",
