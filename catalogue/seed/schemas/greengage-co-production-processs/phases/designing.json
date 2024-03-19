@@ -1,0 +1,565 @@
+{
+    "id": "phase-designing",
+    "prerequisites": [
+        {
+            "item": "phase-preparing",
+            "status": "finished"
+        }
+    ],
+    "name_translations": {
+        "en": "Designing",
+        "es": "Dise\u00F1ando",
+        "it": "Progettazione",
+        "lv": "Projekt\u0113\u0161ana",
+		"da": "Design af",
+		"nl": "Ontwerpen"
+    },
+    "description_translations": {
+        "en": "This phase ensures that the thematic co-exploration is co-designed by the core-team and the pilot owners. In this phase the following objectives are completed: a) Experiment specification; b) Tools & resources selection; c) Tools & resources customization and d) Tools & resources testing",
+        "es": "Esta fase garantiza que la coexploraci\u00F3n tem\u00E1tica sea dise\u00F1ada conjuntamente por los miembros del equipo central y los propietarios del piloto. En esta fase se completan los siguientes objetivos: a) Especificaci\u00F3n del experimento; b) Selecci\u00F3n de herramientas y recursos; c) Personalizaci\u00F3n de herramientas y recursos; y d) Prueba de herramientas y recursos.",
+        "it": "Questa fase garantisce che la co-esplorazione tematica sia co-progettata dal team centrale e dai proprietari del pilota. In questa fase vengono completati gli obiettivi seguenti: a) Specifica dell'esperimento; b) Selezione di strumenti e risorse; c) Personalizzazione di strumenti e risorse e d) Test di strumenti e risorse.",
+        "lv": "\u0160aj\u0101 f\u0101z\u0113 tiek nodro\u0161in\u0101ts, ka tematisk\u0101 kop\u012Bg\u0101 izp\u0113te tiek kop\u012Bgi izstr\u0101d\u0101ta pamata komandas un pilotu \u012Bpa\u0161nieku. \u0160aj\u0101 f\u0101z\u0113 tiek pabeigti \u0161\u0101di m\u0113r\u0137i: a) Eksperimenta specifik\u0101cija; b) R\u012Bku un resursu izv\u0113le; c) R\u012Bku un resursu piel\u0101go\u0161ana un d) R\u012Bku un resursu test\u0113\u0161ana.",
+		"da": "Denne fase sikrer, at det tematiske co-udforskning er meddesignet af kerneholdet og pilotindehavere. I denne fase gennemf\u00F8res f\u00F8lgende m\u00E5l: a) Eksperiment specifikation; b) V\u00E6rkt\u00F8jer og ressourcer valg; c) V\u00E6rkt\u00F8jer og ressourcer tilpasning og d) V\u00E6rkt\u00F8jer og ressourcer test",
+		"nl": "Deze fase zorgt ervoor dat de thematische co-exploratie wordt mede-ontworpen door het kernteam en de pilot-eigenaren. In deze fase worden de volgende doelstellingen voltooid: a) Experiment specificatie; b) Tools & resources selectie; c) Tools & resources aanpassing en d) Tools & resources testen"
+    },
+    "objectives": [
+        {
+            "name_translations": {
+                "en": "Experiment specification",
+                "es": "Especificaci\u00F3n del experimento",
+                "it": "Especificazione dell'esperimento",
+                "lv": "Eksperimenta specifik\u0101cija",
+				"da": "Eksperiment specifikation",
+				"nl": "Experiment specificatie"
+            },
+            "description_translations": {
+                "en": "This objective requires that core team members fully co-specify the final thematic co-exploration that will be realized. In this objective, the following tasks are tackled: a) Refine entry in GREENGAGE portal for this thematic co-exploration specification; b) Configure Discourse space for dialogue among thematic co-exploration's community; c) Set up a new co-production process to guide and support co-exploration; d) Discuss about indicators and metrics for thematic co-exploration; e) Revision and refinement of datasets inventory including data gaps identification; and f) Planning of activities and events for piloting",
+                "es": "Este objetivo requiere que los miembros del equipo central co-especifiquen completamente la co-exploraci\u00F3n tem\u00E1tica final que se realizar\u00E1. En este objetivo, se abordan las siguientes tareas: a) Refinar la entrada en el portal GREENGAGE para esta especificaci\u00F3n de co-exploraci\u00F3n tem\u00E1tica; b) Configurar el espacio Discourse para el di\u00E1logo entre la comunidad de co-exploraci\u00F3n tem\u00E1tica; c) Establecer un nuevo proceso de co-producci\u00F3n para guiar y apoyar la co-exploraci\u00F3n; d) Discutir sobre indicadores y m\u00E9tricas para la co-exploraci\u00F3n tem\u00E1tica; e) Revisi\u00F3n y refinamiento del inventario de conjuntos de datos, incluyendo la identificaci\u00F3n de lagunas de datos; y f) Planificaci\u00F3n de actividades y eventos para el pilotaje",
+                "it": "Questa fase garantisce che la co-esplorazione tematica sia co-progettata dal team centrale e dai proprietari del pilota. In questa fase vengono completati gli obiettivi seguenti: a) Specifica dell'esperimento; b) Selezione di strumenti e risorse; c) Personalizzazione di strumenti e risorse e d) Test di strumenti e risorse.",
+                "lv": "\u0160is m\u0113r\u0137is prasa, lai pamata komandas locek\u013Ci piln\u012Bb\u0101 kop\u012Bgi specific\u0113tu gal\u012Bgo tematisko kop\u012Bgo izp\u0113ti, kas tiks realiz\u0113ta. \u0160aj\u0101 m\u0113r\u0137\u012B tiek risin\u0101tas \u0161\u0101das uzdevumi: a) Preciz\u0113jiet ierakstu GREENGAGE port\u0101l\u0101 \u0161ai tematiskajai kop\u012Bgajai izp\u0113tei; b) Konfigur\u0113jiet diskusijas telpu starp tematisk\u0101s kop\u012Bg\u0101s izp\u0113tes kopienas locek\u013Ciem; c) Izveidojiet jaunu kopprodukcijas procesu, lai vad\u012Btu un atbalst\u012Btu kop\u012Bgo izp\u0113ti; d) Apspriediet r\u0101d\u012Bt\u0101jus un metrikas tematiskajai kop\u012Bgajai izp\u0113tei; e) P\u0101rskatiet un preciz\u0113jiet datu kopu invent\u0101ru, iek\u013Caujot datu tr\u016Bkumu identifik\u0101ciju; un f) Pl\u0101nojiet aktivit\u0101tes un pas\u0101kumus pilot\u0113\u0161anai",
+				"da": "Dette m\u00E5l kr\u00E6ver, at kerneholdets medlemmer fuldt ud co-specifiserer den endelige tematiske co-udforskning, der vil blive realiseret. I dette m\u00E5l tackles f\u00F8lgende opgaver: a) Forfine indgangen i GREENGAGE-portalen til denne tematiske co-udforskningsspecifikation; b) Konfigurer Discourse-plads til dialog mellem tematisk co-udforskningens f\u00E6llesskab; c) Ops\u00E6t en ny koproduktionsproces til at guide og st\u00F8tte co-udforskning; d) Diskuter om indikatorer og metrikker for tematisk co-udforskning; e) Revision og forbedring af datas\u00E6t-inventar, herunder identifikation af datahuller; og f) Planl\u00E6gning af aktiviteter og begivenheder til pilotering",
+				"nl": "Dit doel vereist dat de kernleden de uiteindelijke thematische co-exploratie volledig mede specificeren. In dit doel worden de volgende taken aangepakt: a) Verfijn de invoer in het GREENGAGE-portaal voor deze specificatie van thematische co-exploratie; b) Configureer de Discourse-ruimte voor dialoog tussen de gemeenschap van thematische co-exploratie; c) Stel een nieuw coproductieproces in om co-exploratie te begeleiden en te ondersteunen; d) Bespreek indicatoren en metrieken voor thematische co-exploratie; e) Herziening en verfijning van de inventaris van datasets, inclusief identificatie van gegevenslacunes; en f) Planning van activiteiten en evenementen voor pilotering"
+            },
+			"problemprofiles": [
+                "ORG_PROBLEM_2",
+                "ORG_PROBLEM_4",
+                "ORG_PROBLEM_5",
+                "ORG_PROBLEM_6.1",
+                "DEF_PROBLEM_5",
+                "CS_PROBLEM_2",
+                "VAL_PROBLEM_1"
+            ],
+            "tasks": [
+                {
+                    "name_translations": {
+                        "en": "Refine entry in GREENGAGE portal for this thematic co-exploration specification ",
+                        "es": "Refinar la entrada en el portal GREENGAGE para esta especificaci\u00F3n de co-exploraci\u00F3n tem\u00E1tica ",
+                        "it": "Raffinare l'ingresso nel portale GREENGAGE per questa specifica di co-esplorazione tematica ",
+                        "lv": "Preciz\u0113jiet ierakstu GREENGAGE port\u0101l\u0101 \u0161ai tematiskajai kop\u012Bgajai izp\u0113tei ",
+				        "da": "Forfine indgangen i GREENGAGE-portalen til denne tematiske co-udforskningsspecifikation ",
+						"nl": "Verfijn de invoer in het GREENGAGE-portaal voor deze specificatie van thematische co-exploratie "
+                    },
+                    "description_translations": {
+                        "en": "This task is carried out by the thematic co-exploration's core team supported by pilot owners. They take as baseline the earlier published in Phase 1 - PREPARING entry in Wordpress about the thematic co-exploration. Now, they co-refine such specification along with the enhancement and refinement of the thematic co-exploration template. Remember this document serves to cross link the specification of the experiment with the intermediary results during its co-production.",
+                        "es": "Esta tarea la lleva a cabo el equipo central de la co-exploraci\u00F3n tem\u00E1tica con el apoyo de los propietarios de los pilotos. Toman como base lo publicado anteriormente en la Fase 1 - PREPARACI\u00D3N de la entrada en Wordpress sobre la co-exploraci\u00F3n tem\u00E1tica. A continuaci\u00F3n, refinan dicha especificaci\u00F3n junto con la mejora y el perfeccionamiento de la plantilla de coexploraci\u00F3n tem\u00E1tica. Recuerde que este documento sirve para cruzar la especificaci\u00F3n del experimento con los resultados intermedios durante su co-producci\u00F3n. ",                        
+						"it": "Questa attivit\u00E0 \u00E8 svolta dal team centrale della co-esplorazione tematica con il supporto dei proprietari del pilota. Prendono come base la precedente pubblicazione nella Fase 1 - PREPARAZIONE dell'ingresso in Wordpress sulla co-esplorazione tematica. Ora, raffinano tale specifica insieme al miglioramento e al perfezionamento del modello di co-esplorazione tematica. Ricorda che questo documento serve per collegare la specifica dell'esperimento con i risultati intermedi durante la sua co-produzione. ",
+                        "lv": "\u0160o uzdevumu veic tematisk\u0101s kop\u012Bg\u0101s izp\u0113tes pamata komandas locek\u013Ci ar pilotu \u012Bpa\u0161nieku atbalstu. Vi\u0146i \u0146em par pamatu agr\u0101k public\u0113to 1. f\u0101z\u0113 - SAGATAVO\u0160ANA Wordpress ierakstu par tematisko kop\u012Bgo izp\u0113ti. Tagad vi\u0146i kop\u0101 ar uzlabojumiem un preciz\u0113jumiem tematisk\u0101s kop\u012Bg\u0101s izp\u0113tes veidlapas ietvaros preciz\u0113 \u0161\u0101du specifik\u0101ciju. Atcerieties, ka \u0161is dokuments kalpo, lai saist\u012Btu eksperimenta specifik\u0101ciju ar starprezult\u0101tiem t\u0101 kopprodukcijas laik\u0101. ",
+				        "da": "Denne opgave udf\u00F8res af den tematiske co-udforskningens kernehold med st\u00F8tte fra pilotindehavere. De tager som udgangspunkt det tidligere offentliggjorte i Fase 1 - FORBEREDELSE indgang i Wordpress om den tematiske co-udforskning. Nu forfine de en s\u00E5dan specifikation sammen med forbedring og forfining af den tematiske co-udforskningsskabelon. Husk, at dette dokument tjener til at krydshenvise specifikationen af eksperimentet med de mellemliggende resultater under dets koproduktion. ",
+						"nl": "Deze taak wordt uitgevoerd door het kernteam van de thematische co-exploratie met ondersteuning van pilot-eigenaren. Ze nemen als basis de eerder gepubliceerde in Fase 1 - VOORBEREIDING invoer in Wordpress over de thematische co-exploratie. Nu verfijnen ze deze specificatie samen met de verb"
+                    },
+                    "problemprofiles": [
+                        "DEF_PROBLEM_5",
+                        "CS_PROBLEM_2"
+                    ],
+                    "id": "task-refine-entry-greengage-portal",
+                    "prerequisites": []
+                },
+				{
+                    "name_translations": {
+                        "en": "Configure Discourse space for dialogue among thematic co-exploration's community",
+                        "es": "Configurar el espacio del discurso para el di\u00E1logo entre la comunidad de la coexploraci\u00F3n tem\u00E1tica",
+                        "it": "Configurare lo spazio del discorso per il dialogo tra la comunit\u00E0 di co-esplorazione tematica",
+                        "lv": "Konfigur\u0113jiet diskusijas telpu starp tematisk\u0101s kop\u012Bg\u0101s izp\u0113tes kopienas locek\u013Ciem",
+				        "da": "Konfigurer Discourse-plads til dialog mellem tematisk co-udforskningens f\u00E6llesskab",
+						"nl": "Configureer de Discourse-ruimte voor dialoog tussen de gemeenschap van thematische co-exploratie"
+                    },
+                    "description_translations": {
+                        "en": "This task is carried out by the thematic co-exploration's core team supported by pilot owners. A new community dialogue space in Discourse tool is set up for this thematic co-exploration.",
+                        "es": "Esta tarea la lleva a cabo el equipo central de la co-exploraci\u00F3n tem\u00E1tica con el apoyo de los propietarios de los pilotos. Se crea un nuevo espacio de di\u00E1logo comunitario en la herramienta Discourse para esta coexploraci\u00F3n tem\u00E1tica.",                        
+						"it": "Questa attivit\u00E0 \u00E8 svolta dal team centrale della co-esplorazione tematica con il supporto dei proprietari del pilota. Viene allestito un nuovo spazio di dialogo comunitario nella strumento Discourse per questa co-esplorazione tematica.",
+                        "lv": "\u0160o uzdevumu veic tematisk\u0101s kop\u012Bg\u0101s izp\u0113tes pamata komandas locek\u013Ci ar pilotu \u012Bpa\u0161nieku atbalstu. Discourse r\u012Bk\u0101 tiek izveidots jauns kopienas dialoga telpa \u0161ai tematiskajai kop\u012Bgajai izp\u0113tei.",
+				        "da": "Denne opgave udf\u00F8res af den tematiske co-udforskningens kernehold med st\u00F8tte fra pilotindehavere. Der oprettes et nyt f\u00E6llesskabsdialogrum i Discourse-v\u00E6rkt\u00F8jet til denne tematiske co-udforskning.",
+						"nl": "Deze taak wordt uitgevoerd door het kernteam van de thematische co-exploratie met ondersteuning van pilot-eigenaren. Er wordt een nieuwe gemeenschapsdialoogruimte in het Discourse-instrument opgezet voor deze thematische co-exploratie."
+                    },
+                    "problemprofiles": [
+                        "ORG_PROBLEM_4",
+                        "ORG_PROBLEM_5"
+                    ],
+                    "id": "task-configure-discourse-thematic-area",
+                    "prerequisites": []
+                },
+				{
+                    "name_translations": {
+                        "en": "Set up a new co-production process to guide and support co-exploration",
+                        "es": "Establecer un nuevo proceso de coproducci\u00F3n para orientar y apoyar la exploraci\u00F3n conjunta.",
+                        "it": "Impostare un nuovo processo di coproduzione per guidare e supportare la co-esplorazione",
+                        "lv": "Iestatiet jaunu kopprodukcijas procesu, lai vad\u012Btu un atbalst\u012Btu kop\u012Bgo izp\u0113ti",
+				        "da": "Ops\u00E6t en ny koproduktionsproces til at guide og st\u00F8tte co-udforskning",
+						"nl": "Stel een nieuw coproductieproces in om co-exploratie te begeleiden en te ondersteunen"
+                    },
+                    "description_translations": {
+                        "en": "This task sets up a new co-production process in Collaborative Environment to guide and support co-exploration",
+                        "es": "Esta tarea establece un nuevo proceso de coproducci\u00F3n en el Entorno Colaborativo para guiar y apoyar la exploraci\u00F3n conjunta.",                        
+						"it": "Questa attivit\u00E0 imposta un nuovo processo di coproduzione nell'Ambiente Collaborativo per guidare e supportare la co-esplorazione",
+                        "lv": "\u0160\u012B uzdevuma ietvaros tiek izveidots jauns kopprodukcijas process sadarb\u012Bbas vid\u0113, lai vad\u012Btu un atbalst\u012Btu kop\u012Bgo izp\u0113ti",
+				        "da": "Denne opgave opretter en ny koproduktionsproces i samarbejdsmilj\u00F8et for at guide og st\u00F8tte co-udforskning",
+						"nl": "Deze taak stelt een nieuw coproductieproces in het Collaborative Environment in om co-exploratie te begeleiden en te ondersteunen"
+                    },
+                    "problemprofiles": [
+                        "ORG_PROBLEM_2",
+                        "ORG_PROBLEM_4",
+                        "ORG_PROBLEM_6.1"
+                    ],
+                    "id": "task-setup-coproduction-process",
+                    "prerequisites": []
+                },
+				{
+                    "name_translations": {
+                        "en": "Define indicators and metrics for thematic co-exploration",
+                        "es": "Definir indicadores y m\u00E9tricas para la co-exploraci\u00F3n tem\u00E1tica",
+                        "it": "Definire indicatori e metriche per la co-esplorazione tematica",
+                        "lv": "Defin\u0113jiet r\u0101d\u012Bt\u0101jus un metrikas tematiskajai kop\u012Bgajai izp\u0113tei",
+				        "da": "Definer indikatorer og metrikker for tematisk co-udforskning",
+						"nl": "Definieer indicatoren en metrieken voor thematische co-exploratie"
+                    },
+                    "description_translations": {
+                        "en": "This task ensures that discussion, planning and definition of indicators and metrics for a thematic co-exploration is carried out.",
+                        "es": "Esta tarea garantiza la discusi\u00F3n, planificaci\u00F3n y definici\u00F3n de indicadores y m\u00E9tricas para una co-exploraci\u00F3n tem\u00E1tica.",                        
+						"it": "Questa attivit\u00E0 garantisce che la discussione, la pianificazione e la definizione di indicatori e metriche per una co-esplorazione tematica venga effettuata.",
+                        "lv": "\u0160\u012B uzdevuma ietvaros tiek nodro\u0161in\u0101ta diskusija, pl\u0101no\u0161ana un r\u0101d\u012Bt\u0101ju un metriku defin\u012Bcija tematiskajai kop\u012Bgajai izp\u0113tei.",
+				        "da": "Denne opgave sikrer, at diskussion, planl\u00E6gning og definition af indikatorer og metrikker for en tematisk co-udforskning udf\u00F8res.",
+						"nl": "Deze taak zorgt ervoor dat discussie, planning en definitie van indicatoren en metrieken voor een thematische co-exploratie wordt uitgevoerd."
+                    },
+                    "problemprofiles": [
+                        "ORG_PROBLEM_6.1",
+                        "DEF_PROBLEM_5",
+                        "CS_PROBLEM_2",
+                        "VAL_PROBLEM_1"
+                    ],
+                    "id": "task-decide-indicators",
+                    "prerequisites": []
+                },
+				{
+                    "name_translations": {
+                        "en": "Revision and refinement of datasets inventory including data gaps identification",
+                        "es": "Revisi\u00F3n y perfeccionamiento del inventario de conjuntos de datos, incluida la identificaci\u00F3n de lagunas de datos",
+                        "it": "Revisione e perfezionamento dell'inventario dei dataset, inclusa l'identificazione delle lacune dei dati",
+                        "lv": "Datu kopu invent\u0101ra p\u0101rskat\u012B\u0161ana un pilnveido\u0161ana, iek\u013Caujot datu tr\u016Bkumu identifik\u0101ciju",
+				        "da": "Revision og forbedring af datas\u00E6t-inventar, inklusive identifikation af datahuller",
+						"nl": "Herziening en verfijning van de inventaris van datasets, inclusief identificatie van gegevenslacunes"
+                    },
+                    "description_translations": {
+                        "en": "This task involves core team members in the revision and refinement of the datasets that were specified by pilot owners in PREPARING stage.",
+                        "es": "Esta tarea implica a los miembros del equipo central en la revisi\u00F3n y el perfeccionamiento de los conjuntos de datos especificados por los propietarios del piloto en la fase de PREPARACI\u00D3N.",                        
+						"it": "Questa attivit\u00E0 coinvolge i membri del team centrale nella revisione e perfezionamento dei dataset specificati dai proprietari del pilota nella fase di PREPARAZIONE.",
+                        "lv": "\u0160\u012B uzdevuma ietvaros pamata komandas locek\u013Ci tiek iesaist\u012Bti datu kopu p\u0101rskat\u012B\u0161an\u0101 un pilnveido\u0161an\u0101, ko nor\u0101d\u012Bja pilotu \u012Bpa\u0161nieki SAGATAVO\u0160ANAS posm\u0101.",
+				        "da": "Denne opgave involverer kerneholdets medlemmer i revision og forbedring af datas\u00E6t, der blev specificeret af pilotindehavere i FORBEREDELSESfasen.",
+						"nl": "Deze taak betrekt de kernleden bij de herziening en verfijning van de datasets die door pilot-eigenaren in de VOORBEREIDING-fase zijn gespecificeerd."
+                    },
+                    "problemprofiles": [
+                        "DEF_PROBLEM_5",
+                        "CS_PROBLEM_2"
+                    ],
+                    "id": "task-refine-datasets",
+                    "prerequisites": []
+                },
+				{
+                    "name_translations": {
+                        "en": "Planning of activities and events for piloting",
+                        "es": "Planificaci\u00F3n de actividades y eventos para el pilotaje",
+                        "it": "Pianificazione di attivit\u00E0 ed eventi per il pilotaggio",
+                        "lv": "Aktivit\u0101\u0161u un pas\u0101kumu pl\u0101no\u0161ana pilot\u0113\u0161anai",
+				        "da": "Planl\u00E6gning af aktiviteter og begivenheder til pilotering",
+						"nl": "Planning van activiteiten en evenementen voor pilotering"
+                    },
+                    "description_translations": {
+                        "en": "This task involves core team members in the decision and planning of activities and events for piloting",
+                        "es": "Esta tarea implica a los miembros del equipo central en la decisi\u00F3n y planificaci\u00F3n de actividades y eventos para el pilotaje",                        
+						"it": "Questa attivit\u00E0 coinvolge i membri del team centrale nella decisione e pianificazione di attivit\u00E0 ed eventi per il pilotaggio",
+                        "lv": "\u0160\u012B uzdevuma ietvaros pamata komandas locek\u013Ci tiek iesaist\u012Bti aktivit\u0101\u0161u un pas\u0101kumu izv\u0113l\u0113 un pl\u0101no\u0161an\u0101 pilot\u0113\u0161anai",
+				        "da": "Denne opgave involverer kerneholdets medlemmer i beslutning og planl\u00E6gning af aktiviteter og begivenheder til pilotering",
+						"nl": "Deze taak betrekt de kernleden bij de beslissing en planning van activiteiten en evenementen voor pilotering"
+                    },
+                    "problemprofiles": [
+                        "ORG_PROBLEM_2",
+                        "ORG_PROBLEM_5"
+                    ],
+                    "id": "task-planning-activities",
+                    "prerequisites": []
+                }
+            ],
+            "id": "objective-experiment-specification",
+            "prerequisites": []
+        },
+        {
+            "name_translations": {
+                "en": "Tools and resources selection",
+                "es": "Selecci\u00F3n de herramientas y recursos",
+                "it": "Selezione di strumenti e risorse",
+                "lv": "R\u012Bku un resursu izv\u0113le",
+				"da": "V\u00E6rkt\u00F8jer og ressourcer valg",
+				"nl": "Tools en resources selectie"
+            },
+            "description_translations": {
+                "en": "The core team members supported by pilot owners need to select the GREENGAGE and external tools, devices and knowledge assets that will be used during the co-production of the thematic co-exploration. This selection is based on the documentation made available by GREENGAGE and on the advice given by pilot owners and members of the pilot's PST. ",
+                "es": "Los miembros del equipo central, apoyados por los propietarios del piloto, deben seleccionar las herramientas, dispositivos y activos de conocimiento GREENGAGE y externos que se utilizar\u00E1n durante la coproducci\u00F3n de la coexploraci\u00F3n tem\u00E1tica. Esta selecci\u00F3n se basa en la documentaci\u00F3n puesta a disposici\u00F3n por GREENGAGE y en los consejos dados por los propietarios del piloto y los miembros del PST del piloto. ",
+                "it": "I membri del team centrale supportati dai proprietari del pilota devono selezionare gli strumenti, i dispositivi e gli asset di conoscenza GREENGAGE ed esterni che verranno utilizzati durante la coproduzione della co-esplorazione tematica. Questa selezione si basa sulla documentazione resa disponibile da GREENGAGE e sui consigli forniti dai proprietari del pilota e dai membri del PST del pilota. ",
+                "lv": "Pamata komandas locek\u013Ciem, kuriem ir atbalsts no pilotu \u012Bpa\u0161niekiem, j\u0101izv\u0113las GREENGAGE un \u0101r\u0113jie r\u012Bki, ier\u012Bces un zin\u0101\u0161anu resursi, kas tiks izmantoti tematisk\u0101s kop\u012Bg\u0101s izp\u0113tes kopprodukcijas laik\u0101. \u0160\u012B izv\u0113le balst\u0101s uz dokument\u0101ciju, ko nodro\u0161ina GREENGAGE, un uz padomiem, ko sniedz pilotu \u012Bpa\u0161nieki un pilotu PST locek\u013Ci. ",
+				"da": "Kerneholdets medlemmer med st\u00F8tte fra pilotindehavere skal v\u00E6lge GREENGAGE og eksterne v\u00E6rkt\u00F8jer, enheder og videnressourcer, der vil blive brugt under koproduktionen af den tematiske co-udforskning. Dette valg er baseret p\u00E5 dokumentation, der er stillet til r\u00E5dighed af GREENGAGE, og p\u00E5 de r\u00E5d, der gives af pilotindehavere og medlemmer af pilotens PST. ",
+				"nl": "De kernleden ondersteund door pilot-eigenaren moeten de GREENGAGE en externe tools, apparaten en kennisbronnen selecteren die zullen worden gebruikt tijdens de coproductie van de thematische co-exploratie. Deze selectie is gebaseerd op de documentatie die beschikbaar is gesteld door GREENGAGE en op het advies dat wordt gegeven door pilot-eigenaren en leden van de pilot's PST. "
+            },
+            "problemprofiles": [
+                "CS_PROBLEM_1",
+				"ORG_PROBLEM_6.1",
+				"DEF_PROBLEM_5",
+				"CS_PROBLEM_8"
+            ],
+            "tasks": [
+                {
+                    "name_translations": {
+                        "en": "Select tools and knowledge assets to co-produce thematic co-exploration",
+                        "es": "Seleccionar herramientas y activos de conocimiento para coproducir la coexploraci\u00F3n tem\u00E1tica",
+                        "it": "Selezionare strumenti e asset di conoscenza per coprodurre la co-esplorazione tematica",
+                        "lv": "Izv\u0113lieties r\u012Bkus un zin\u0101\u0161anu resursus, lai kopproduktu tematisko kop\u012Bgo izp\u0113ti",
+						"da": "V\u00E6lg v\u00E6rkt\u00F8jer og videnressourcer til at koproducere tematisk co-udforskning",
+						"nl": "Selecteer tools en kennisbronnen om thematische co-exploratie te coproduceren"
+                    },
+                    "description_translations": {
+                        "en": "This task guides core team members selecting the tools and knowledge assets to co-produce thematic co-exploration",
+                        "es": "Esta tarea gu\u00EDa a los miembros del equipo central en la selecci\u00F3n de las herramientas y los recursos de conocimiento para la co-producci\u00F3n de la co-exploraci\u00F3n tem\u00E1tica.",
+                        "it": "Questa attivit\u00E0 guida i membri del team centrale nella selezione degli strumenti e degli asset di conoscenza per coprodurre la co-esplorazione tematica.",
+                        "lv": "\u0160\u012B uzdevuma ietvaros pamata komandas locek\u013Ci tiek vad\u012Bti, izv\u0113loties r\u012Bkus un zin\u0101\u0161anu resursus, lai kopproduktu tematisko kop\u012Bgo izp\u0113ti",
+						"da": "Denne opgave guider kerneholdets medlemmer i valg af v\u00E6rkt\u00F8jer og videnressourcer til at koproducere tematisk co-udforskning",
+						"nl": "Deze taak begeleidt de kernleden bij het selecteren van de tools en kennisbronnen om thematische co-exploratie te coproduceren"
+                    },
+                    "problemprofiles": [
+                        "ORG_PROBLEM_6.1",
+						"DEF_PROBLEM_5"
+                    ],
+                    "id": "task-select-tools-co-produce-thematic-exploration",
+                    "prerequisites": []
+                },
+				{
+                    "name_translations": {
+                        "en": "Define data protocol to be used in thematic co-exploration",
+                        "es": "Definir el protocolo de datos que se utilizar\u00E1 en la coexploraci\u00F3n tem\u00E1tica",
+                        "it": "Definire il protocollo dati da utilizzare nella co-esplorazione tematica",
+                        "lv": "Defin\u0113jiet datu protokolu, kas tiks izmantots tematiskaj\u0101 kop\u012Bgaj\u0101 izp\u0113t\u0113",
+						"da": "Definer data-protokol til brug i tematisk co-udforskning",
+						"nl": "Definieer het gegevensprotocol dat zal worden gebruikt in de thematische co-exploratie"
+                    },
+                    "description_translations": {
+                        "en": "This task guides core team members defining the data protocol to be used in the thematic co-exploration",
+                        "es": "Esta tarea gu\u00EDa a los miembros del equipo central en la definici\u00F3n del protocolo de datos que se utilizar\u00E1 en la exploraci\u00F3n tem\u00E1tica conjunta.",
+                        "it": "Questa attivit\u00E0 guida i membri del team centrale nella definizione del protocollo dati da utilizzare nella co-esplorazione tematica.",
+                        "lv": "\u0160\u012B uzdevuma ietvaros pamata komandas locek\u013Ci tiek vad\u012Bti, defin\u0113jot datu protokolu, kas tiks izmantots tematiskaj\u0101 kop\u012Bgaj\u0101 izp\u0113t\u0113",
+						"da": "Denne opgave guider kerneholdets medlemmer i definitionen af data-protokollen, der skal bruges i den tematiske co-udforskning",
+						"nl": "Deze taak begeleidt de kernleden bij het defini\u00EBren van het gegevensprotocol dat zal worden gebruikt in de thematische co-exploratie"
+                    },
+                    "problemprofiles": [
+                        "DEF_PROBLEM_5",
+						"CS_PROBLEM_8"
+                    ],
+                    "id": "task-define-data-protocol-thematic-coexploration",
+                    "prerequisites": []
+                }
+            ],
+            "prerequisites": [
+                {
+                    "item": "objective-experiment-specification",
+                    "type": "previous"
+                }
+            ],
+            "id": "objective-tools-resources-selection"
+        }, 
+        {
+            "name_translations": {
+                "en": "Tools & resources customization",
+                "es": "Personalizaci\u00F3n de herramientas y recursos",
+                "it": "Personalizzazione di strumenti e risorse",
+                "lv": "R\u012Bku un resursu piel\u0101go\u0161ana",
+				"da": "Tilpasning af v\u00E6rkt\u00F8jer og ressourcer",
+				"nl": "Tools en resources aanpassing"
+            },
+            "description_translations": {
+                "en": "This objective tackles the following aspects: a)Adapt selected tools for thematic co-exploration; b) Adapt selected communication and evaluation materials and c) Prepare new evaluation materials and instruments",
+                "es": "Este objetivo aborda los siguientes aspectos: a)Adaptar las herramientas seleccionadas para la co-exploraci\u00F3n tem\u00E1tica; b) Adaptar los materiales de comunicaci\u00F3n y evaluaci\u00F3n seleccionados y c) Preparar nuevos materiales e instrumentos de evaluaci\u00F3n",
+                "it": "Questo obiettivo affronta i seguenti aspetti: a) Adattare gli strumenti selezionati per la co-esplorazione tematica; b) Adattare i materiali di comunicazione e valutazione selezionati e c) Preparare nuovi materiali e strumenti di valutazione",
+                "lv": "\u0160is m\u0113r\u0137is risina \u0161\u0101das jomas: a) Piel\u0101got izv\u0113l\u0113tos r\u012Bkus tematiskajai kop\u012Bgajai izp\u0113tei; b) Piel\u0101got izv\u0113l\u0113tos komunik\u0101cijas un nov\u0113rt\u0113\u0161anas materi\u0101lus un c) Sagatavot jaunus nov\u0113rt\u0113\u0161anas materi\u0101lus un instrumentus",
+				"da": "Dette m\u00E5l tackler f\u00F8lgende aspekter: a) Tilpas udvalgte v\u00E6rkt\u00F8jer til tematisk co-udforskning; b) Tilpas udvalgte kommunikations- og evalueringsmaterialer og c) Forbered nye evalueringsmaterialer og instrumenter",
+				"nl": "Dit doel pakt de volgende aspecten aan: a) Pas geselecteerde tools aan voor thematische co-exploratie; b) Pas geselecteerde communicatie- en evaluatiematerialen aan en c) Bereid nieuwe evaluatiematerialen en instrumenten voor"
+            },
+            "problemprofiles": [
+                "BUILD_PROBLEM_8",
+				"VAL_PROBLEM_3"
+            ],
+            "tasks": [
+                {
+                    "name_translations": {
+						"en": "Adapt selected tools for thematic co-exploration",
+						"es": "Adaptar las herramientas seleccionadas para la co-exploraci\u00F3n tem\u00E1tica",
+                        "it": "Adattare gli strumenti selezionati per la co-esplorazione tematica",
+                        "lv": "Piel\u0101got izv\u0113l\u0113tos r\u012Bkus tematiskajai kop\u012Bgajai izp\u0113tei",
+						"da": "Tilpas udvalgte v\u00E6rkt\u00F8jer til tematisk co-udforskning",
+						"nl": "Pas geselecteerde tools aan voor thematische co-exploratie"
+                    },
+                    "description_translations": {
+ 						"en": "This task guides core team members to liaise with PST technical partners for the adaptation of the selected tools to this specific thematic co-exploration",
+						"es": "Esta tarea gu\u00EDa a los miembros del equipo central para que se pongan en contacto con los socios t\u00E9cnicos del PST a fin de adaptar las herramientas seleccionadas a esta coexploraci\u00F3n tem\u00E1tica espec\u00EDfica.",
+                        "it": "Questa attivit\u00E0 guida i membri del team centrale a mettersi in contatto con i partner tecnici del PST per l'adattamento degli strumenti selezionati a questa specifica co-esplorazione tematica",
+                        "lv": "\u0160\u012B uzdevuma ietvaros pamata komandas locek\u013Ci tiek vad\u012Bti, lai sazin\u0101tos ar PST tehniskajiem partneriem, lai piel\u0101gotu izv\u0113l\u0113tos r\u012Bkus \u0161ai konkr\u0113tajai tematiskajai kop\u012Bgajai izp\u0113tei",
+						"da": "Denne opgave guider kerneholdets medlemmer til at samarbejde med PST's tekniske partnere om tilpasning af de udvalgte v\u00E6rkt\u00F8jer til denne specifikke tematiske co-udforskning",
+						"nl": "Deze taak begeleidt de kernleden om contact op te nemen met PST-technische partners voor de aanpassing van de geselecteerde tools voor deze specifieke thematische co-exploratie"
+                    },
+                    "problemprofiles": [
+                        "BUILD_PROBLEM_8",
+						"VAL_PROBLEM_3"
+                    ],
+                    "id": "task-adapt-tools-thematic-coexploration",
+                    "prerequisites": []
+                },
+				{
+                    "name_translations": {
+                        "en": "Adapt selected communication and evaluation materials",
+                        "es": "Adaptar los materiales de comunicaci\u00F3n y evaluaci\u00F3n seleccionados",
+                        "it": "Adattare i materiali di comunicazione e valutazione selezionati",
+                        "lv": "Piel\u0101got izv\u0113l\u0113tos komunik\u0101cijas un nov\u0113rt\u0113\u0161anas materi\u0101lus",
+						"da": "Tilpas udvalgte kommunikations- og evalueringsmaterialer",
+						"nl": "Pas geselecteerde communicatie- en evaluatiematerialen aan"
+                    },
+                    "description_translations": {
+                        "en": "This task guides core team members to adapt existing communication and evaluation materials",
+                        "es": "Esta tarea orienta a los miembros del equipo central para que adapten los materiales de comunicaci\u00F3n y evaluaci\u00F3n existentes",
+                        "it": "Questa attivit\u00E0 guida i membri del team centrale ad adattare i materiali di comunicazione e valutazione esistenti",
+                        "lv": "\u0160\u012B uzdevuma ietvaros pamata komandas locek\u013Ci tiek vad\u012Bti, lai piel\u0101gotu eso\u0161os komunik\u0101cijas un nov\u0113rt\u0113\u0161anas materi\u0101lus",
+						"da": "Denne opgave guider kerneholdets medlemmer til at tilpasse eksisterende kommunikations- og evalueringsmaterialer",
+						"nl": "Deze taak begeleidt de kernleden om bestaande communicatie- en evaluatiematerialen aan te passen"
+                    },
+                    "problemprofiles": [
+                        "BUILD_PROBLEM_8", 
+						"VAL_PROBLEM_3"
+                    ],
+                    "id": "task-adapt-communication-evaluation-materials",
+                    "prerequisites": []
+                },
+				{
+                    "name_translations": {
+                        "en": "Prepare new evaluation materials and instruments",
+                        "es": "Preparar nuevos materiales e instrumentos de evaluaci\u00F3n",
+                        "it": "Preparare nuovi materiali e strumenti di valutazione",
+                        "lv": "Sagatavot jaunus nov\u0113rt\u0113\u0161anas materi\u0101lus un instrumentus",
+						"da": "Forbered nye evalueringsmaterialer og instrumenter",
+						"nl": "Bereid nieuwe evaluatiematerialen en instrumenten voor"
+                    },
+                    "description_translations": {
+                        "en": "This task guides core team members to create new communication and evaluation materials",
+                        "es": "Esta tarea orienta a los miembros del equipo central en la creaci\u00F3n de nuevos materiales de comunicaci\u00F3n y evaluaci\u00F3n",
+                        "it": "Questa attivit\u00E0 guida i membri del team centrale nella creazione di nuovi materiali di comunicazione e valutazione",
+                        "lv": "\u0160\u012B uzdevuma ietvaros pamata komandas locek\u013Ci tiek vad\u012Bti, lai izveidotu jaunus komunik\u0101cijas un nov\u0113rt\u0113\u0161anas materi\u0101lus",
+						"da": "Denne opgave guider kerneholdets medlemmer til at oprette nye kommunikations- og evalueringsmaterialer",
+						"nl": "Deze taak begeleidt de kernleden om nieuwe communicatie- en evaluatiematerialen te maken"
+                    },
+                    "problemprofiles": [
+                        "BUILD_PROBLEM_8",
+                        "VAL_PROBLEM_3"
+                    ],
+                    "id": "task-prepare-new-communication-evaluation-materials",
+                    "prerequisites": []
+                }
+            ],
+            "prerequisites": [
+                {
+                    "item": "objective-tools-resources-selection",
+                    "type": "previous"
+                }
+            ],
+            "id": "objective-tools-resources-customization"
+        }, 
+        {
+            "name_translations": {
+                "en": "Testing tools & resources",
+                "es": "Probar herramientas y recursos",
+                "it": "Test di strumenti e risorse",
+                "lv": "R\u012Bku un resursu test\u0113\u0161ana",
+				"da": "Test af v\u00E6rkt\u00F8jer og ressourcer",
+				"nl": "Testen van tools en resources"
+            },
+            "description_translations": {
+                "en": "This objective supports core team members and pilot owners testing the tools and resources put in place in order to launch the thematic co-exploration",
+                "es": "Este objetivo ayuda a los miembros del equipo central y a los propietarios de los proyectos piloto a poner a prueba las herramientas y los recursos creados para lanzar la coexploraci\u00F3n tem\u00E1tica.",
+                "it": "Questo obiettivo supporta i membri del team centrale e i proprietari del pilota nel testare gli strumenti e le risorse messe in atto per lanciare la co-esplorazione tematica",
+                "lv": "\u0160is m\u0113r\u0137is atbalsta pamata komandas locek\u013Cus un pilotu \u012Bpa\u0161niekus, test\u0113jot r\u012Bkus un resursus, kas izveidoti, lai uzs\u0101ktu tematisko kop\u012Bgo izp\u0113ti",
+				"da": "Dette m\u00E5l st\u00F8tter kerneholdets medlemmer og pilotindehavere i at teste de v\u00E6rkt\u00F8jer og ressourcer, der er sat i gang for at lancere den tematiske co-udforskning",
+				"nl": "Dit doel ondersteunt de kernleden en pilot-eigenaren bij het testen van de tools en resources die zijn opgezet om de thematische co-exploratie te lanceren"
+            },
+            "problemprofiles": [
+                "VAL_PROBLEM_3",
+                "VAL_PROBLEM_4"
+            ],
+            "tasks": [
+                {
+                    "name_translations": {
+						"en": "Test process and community management tools",
+						"es": "Probar el proceso y las herramientas de gesti\u00F3n comunitaria",
+                        "it": "Testare strumenti di gestione del processo e della comunit\u00E0",
+                        "lv": "Test\u0113t procesa un kopienas p\u0101rvald\u012Bbas r\u012Bkus",
+						"da": "Test proces- og f\u00E6llesskabsstyringsv\u00E6rkt\u00F8jer",
+						"nl": "Test proces- en communitybeheertools"
+                    },
+                    "description_translations": {
+ 						"en": "This task guides core team members testing the process set up in the Collaborative Environment and the communication space set up in Discourse",
+						"es": "Esta tarea gu\u00EDa a los miembros del equipo central para probar el proceso establecido en el Entorno Colaborativo y el espacio de comunicaci\u00F3n establecido en Discourse",
+                        "it": "Questa attivit\u00E0 guida i membri del team centrale nella verifica del processo impostato nell'Ambiente Collaborativo e dello spazio di comunicazione impostato in Discourse",
+                        "lv": "\u0160\u012B uzdevuma ietvaros pamata komandas locek\u013Ci test\u0113 procesu, kas ir izveidots sadarb\u012Bbas vid\u0113, un komunik\u0101cijas telpu, kas ir izveidota Discourse",
+						"da": "Denne opgave guider kerneholdets medlemmer i test af processen, der er oprettet i samarbejdsmilj\u00F8et, og kommunikationsrummet, der er oprettet i Discourse",
+						"nl": "Deze taak begeleidt de kernleden bij het testen van het proces dat is opgezet in de Collaborative Environment en de communicatieruimte die is opgezet in Discourse"
+                    },
+                    "problemprofiles": [
+                        "VAL_PROBLEM_3",
+                        "VAL_PROBLEM_4"
+                    ],
+                    "id": "task-test-process-community-tools",
+                    "prerequisites": []
+                },
+				{
+                    "name_translations": {
+                        "en": "Test data capture tools and instruments",
+                        "es": "Probar las herramientas e instrumentos de captura de datos",
+                        "it": "Testare strumenti e strumenti di acquisizione dati",
+                        "lv": "Test\u0113t datu ieg\u016B\u0161anas r\u012Bkus un instrumentus",
+						"da": "Test datafangstv\u00E6rkt\u00F8jer og instrumenter",
+						"nl": "Test gegevensvastleggingstools en -instrumenten"
+                    },
+                    "description_translations": {
+                        "en": "This task guides core team members testing data capture tools and instruments",
+                        "es": "Esta tarea gu\u00EDa a los miembros del equipo central que prueban las herramientas e instrumentos de captura de datos",
+                        "it": "Questa attivit\u00E0 guida i membri del team centrale nella verifica degli strumenti e degli strumenti di acquisizione dati",
+                        "lv": "\u0160\u012B uzdevuma ietvaros pamata komandas locek\u013Ci test\u0113 datu ieg\u016B\u0161anas r\u012Bkus un instrumentus",
+						"da": "Denne opgave guider kerneholdets medlemmer i test af datafangstv\u00E6rkt\u00F8jer og instrumenter",
+						"nl": "Deze taak begeleidt de kernleden bij het testen van gegevensvastleggingstools en -instrumenten"
+                    },
+                    "problemprofiles": [
+                        "VAL_PROBLEM_3",
+                        "VAL_PROBLEM_4"
+                    ],
+                    "id": "task-test-datacapture-tools-instruments",
+                    "prerequisites": []
+                },
+				{
+                    "name_translations": {
+                        "en": "Test data analysis tools and visualizations",
+                        "es": "Probar herramientas de an\u00E1lisis de datos y visualizaciones",
+                        "it": "Testare strumenti di analisi dei dati e visualizzazioni",
+                        "lv": "Test\u0113t datu anal\u012Bzes r\u012Bkus un vizualiz\u0101cijas",
+						"da": "Test dataanalysev\u00E6rkt\u00F8jer og visualiseringer",
+						"nl": "Test gegevensanalysetools en visualisaties"
+                    },
+                    "description_translations": {
+                        "en": "This task guides core team members testing data analysis tools and visualizations",
+                        "es": "Esta tarea gu\u00EDa a los miembros del equipo central que prueban las herramientas de an\u00E1lisis de datos y las visualizaciones",
+                        "it": "Questa attivit\u00E0 guida i membri del team centrale nella verifica degli strumenti di analisi dei dati e delle visualizzazioni",
+                        "lv": "\u0160\u012B uzdevuma ietvaros pamata komandas locek\u013Ci test\u0113 datu anal\u012Bzes r\u012Bkus un vizualiz\u0101cijas",
+						"da": "Denne opgave guider kerneholdets medlemmer i test af dataanalysev\u00E6rkt\u00F8jer og visualiseringer",
+						"nl": "Deze taak begeleidt de kernleden bij het testen van gegevensanalysetools en visualisaties"
+                    },
+                    "problemprofiles": [
+                        "VAL_PROBLEM_3",
+                        "VAL_PROBLEM_4"
+                    ],
+                    "id": "task-test-dataanalysis-tools-visualizations",
+                    "prerequisites": []
+                },
+				{
+                    "name_translations": {
+                        "en": "Test monitoring and evaluation instruments ",
+                        "es": "Probar instrumentos de seguimiento y evaluaci\u00F3n",
+                        "it": "Testare strumenti di monitoraggio e valutazione",
+                        "lv": "Test\u0113t uzraudz\u012Bbas un nov\u0113rt\u0113\u0161anas instrumentus",
+						"da": "Test overv\u00E5gnings- og evalueringsinstrumenter",
+						"nl": "Test monitoring- en evaluatie-instrumenten"
+                    },
+                    "description_translations": {
+                        "en": "This task guides core team members testing monitoring and evaluation instruments",
+                        "es": "Esta tarea gu\u00EDa a los miembros del equipo central en la puesta a prueba de los instrumentos de seguimiento y evaluaci\u00F3n",
+                        "it": "Questa attivit\u00E0 guida i membri del team centrale nella verifica degli strumenti di monitoraggio e valutazione",
+                        "lv": "\u0160\u012B uzdevuma ietvaros pamata komandas locek\u013Ci test\u0113 uzraudz\u012Bbas un nov\u0113rt\u0113\u0161anas instrumentus",
+						"da": "Denne opgave guider kerneholdets medlemmer i test af overv\u00E5gnings- og evalueringsinstrumenter",
+						"nl": "Deze taak begeleidt de kernleden bij het testen van monitoring- en evaluatie-instrumenten"
+                    },
+                    "problemprofiles": [
+                        "VAL_PROBLEM_3",
+                        "VAL_PROBLEM_4"
+                    ],
+                    "id": "task-test-monitoring-evaluation-instruments",
+                    "prerequisites": []
+                },
+				{
+                    "name_translations": {
+                        "en": "Test support mechanisms",
+                        "es": "Probar los mecanismos de apoyo",
+                        "it": "Testare i meccanismi di supporto",
+                        "lv": "Test\u0113t atbalsta meh\u0101nismus",
+						"da": "Test supportmekanismer",
+						"nl": "Test ondersteuningsmechanismen"
+                    },
+                    "description_translations": {
+                        "en": "This task guides core team members testing support mechanisms",
+                        "es": "Esta tarea gu\u00EDa a los miembros del equipo central en la prueba de los mecanismos de apoyo",
+                        "it": "Questa attivit\u00E0 guida i membri del team centrale nella verifica dei meccanismi di supporto",
+                        "lv": "\u0160\u012B uzdevuma ietvaros pamata komandas locek\u013Ci test\u0113 atbalsta meh\u0101nismus",
+						"da": "Denne opgave guider kerneholdets medlemmer i test af supportmekanismer",
+						"nl": "Deze taak begeleidt de kernleden bij het testen van ondersteuningsmechanismen"
+                    },
+                    "problemprofiles": [
+                        "VAL_PROBLEM_3",
+                        "VAL_PROBLEM_4"
+                    ],
+                    "id": "task-test-support-mechanisms",
+                    "prerequisites": []
+                },
+				{
+                    "name_translations": {
+                        "en": "Report lessons learnt and improvements needed",
+                        "es": "Informar sobre las lecciones aprendidas y las mejoras necesarias",
+                        "it": "Segnalare le lezioni apprese e le migliorie necessarie",
+                        "lv": "Zi\u0146ot par m\u0101c\u012Bb\u0101m, kas ir j\u0101apg\u016Bst, un uzlabojumiem, kas ir nepiecie\u0161ami",
+						"da": "Rapport\u00E9r lektioner l\u00E6rt og forbedringer, der er n\u00F8dvendige",
+						"nl": "Rapporteer lessen die zijn geleerd en verbeteringen die nodig zijn"
+                    },
+                    "description_translations": {
+                        "en": "This task guides core team members reporting lessons learnt and improvements needed",
+                        "es": "Esta tarea orienta a los miembros del equipo central sobre las lecciones aprendidas y las mejoras necesarias.",
+                        "it": "Questo compito guida i membri del team centrale nella segnalazione delle lezioni apprese e delle migliorie necessarie.",
+                        "lv": "\u0160is uzdevums pamata komandas locek\u013Cus nor\u0101da uz m\u0101c\u012Bb\u0101m, kas ir j\u0101apg\u016Bst, un uz uzlabojumiem, kas ir nepiecie\u0161ami.",
+						"da": "Denne opgave guider kerneholdets medlemmer i rapportering af lektioner l\u00E6rt og forbedringer, der er n\u00F8dvendige.",
+						"nl": "Deze taak begeleidt de kernleden bij het rapporteren van lessen die zijn geleerd en verbeteringen die nodig zijn."
+                    },
+                    "problemprofiles": [
+                        "VAL_PROBLEM_3",
+                        "VAL_PROBLEM_4"
+                    ],
+                    "id": "task-report-lessons-learnt-improvements-needed",
+                    "prerequisites": []
+                }
+            ],
+            "prerequisites": [
+                {
+                    "item": "objective-tools-resources-customization",
+                    "type": "previous"
+                }
+            ],
+            "id": "objective-testing-tools-resources"
+        }
+    ],
+    "is_part_of_codelivery": false
+}
