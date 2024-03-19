@@ -96,6 +96,25 @@
     },
     {
         "description_translations": {
+            "en": "Co-production assets planning",
+            "es": "",
+            "it": "",
+            "lv": ""
+        },
+        "functionality_translations": {
+            "en": "Co-production assets planning",
+            "es": ""
+        },
+        "id": "ORG_PROBLEM_6",
+        "name_translations": {
+            "en": "Co-production assets planning",
+            "es": "Planificaci\u00f3n de activos de coproducci\u00f3n",
+            "it": "Pianificazione delle risorse di co-produzione",
+            "lv": "Kopra\u017eojuma resursu pl\u0101no\u0161ana"
+        }
+    },
+    {
+        "description_translations": {
             "en": "This problem addresses the need that might emerge at different stages of a coproduction initiative to collaboratively produce and share documents. Tasks may include the need to organize and manage documents among the coproduction team members, share documents among stakeholders, and help multiple people in the team work together on files to achieve a single final version.",
             "es": "Este problema aborda la necesidad que puede surgir en diferentes etapas de una iniciativa de coproducci\u00f3n para producir y compartir documentos de forma colaborativa. Las tareas pueden incluir la necesidad de organizar y gestionar los documentos entre los miembros del equipo de coproducci\u00f3n, compartir documentos entre las partes interesadas y ayudar a varias personas del equipo a trabajar juntas en los archivos para lograr una \u00fanica versi\u00f3n final.",
             "it": "Questo problema si riferisce alla necessit\u00e0 che pu\u00f2 emergere in diverse fasi di una iniziativa di co-produzione di produrre documenti in modo collaborativo e condividerli. Le attivit\u00e0 possono includere l'organizzazione e gestione di documenti visibili da pi\u00f9 persone, la condivisione con altri stakeholder, il supporto al lavoro collaborativo di pi\u00f9 persone sullo stesso file per raggiungere un'unica versione finale.",
