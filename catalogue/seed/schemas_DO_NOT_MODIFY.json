@@ -4762,7 +4762,7 @@
                         ],
                         "problemprofiles": [
                             "CS_PROBLEM_1",
-                            "ORG_PROBLEM_6.1",
+                            "ORG_PROBLEM_6",
                             "DEF_PROBLEM_5",
                             "CS_PROBLEM_8"
                         ],
@@ -4787,7 +4787,7 @@
                                 },
                                 "prerequisites": [],
                                 "problemprofiles": [
-                                    "ORG_PROBLEM_6.1",
+                                    "ORG_PROBLEM_6",
                                     "DEF_PROBLEM_5"
                                 ]
                             },
