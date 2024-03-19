@@ -245,7 +245,7 @@
             },
             "problemprofiles": [
                 "CS_PROBLEM_1",
-                "ORG_PROBLEM_6.1",
+                "ORG_PROBLEM_6",
                 "DEF_PROBLEM_5",
                 "CS_PROBLEM_8"
             ],
@@ -268,7 +268,7 @@
                         "nl": "Deze taak begeleidt de kernleden bij het selecteren van de tools en kennisbronnen om thematische co-exploratie te coproduceren"
                     },
                     "problemprofiles": [
-                        "ORG_PROBLEM_6.1",
+                        "ORG_PROBLEM_6",
                         "DEF_PROBLEM_5"
                     ],
                     "id": "task-select_tools_and_knowledge_assets_to_co_produce_thematic_co_exploration",
