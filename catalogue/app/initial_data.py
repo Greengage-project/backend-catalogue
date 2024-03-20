@@ -385,7 +385,6 @@ async def create_coproductionschema(db, schema_data):
                     list(objective_data["problemprofiles"])
                 await crud.treeitems.sync_problemprofiles(db=db, treeitem=db_task, problemprofiles=sum, commit=False)
                
-                print(f"{bcolors.OKCYAN}Analysing prerequisites on {task_data}, {db_task.id} {bcolors.ENDC}")
                 items_resume[task_data["id"]] = {
                     "db_id": db_task.id,
                     "prerequisites": task_data.get("prerequisites", [])
