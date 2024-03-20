@@ -4515,6 +4515,242 @@
             },
             {
                 "description_translations": {
+                    "da": "Denne fase handler om at dele resultaterne af den tematiske co-udforskning og s\u00f8ge dens replikerbarhed og b\u00e6redygtighed. Det tager fat p\u00e5 f\u00f8lgende m\u00e5l: a) Fort\u00e6lling (fra resultater); b) Overs\u00e6ttelse til politikker og c) Eksperiment b\u00e6redygtighed. Dette arbejde udf\u00f8res af hele det tematiske co-udforskningshold, herunder pilotindehavere.",
+                    "en": "This phase is about sharing the results of the thematic co-exploration and seeking its replicability and sustainability. It tackles the following objectives: a) Storytelling (from findings); b) Translating into policies and c) Experiment sustainability. This work is carried out by the whole thematic co-exploration team including pilot owners.",
+                    "es": "Esta fase consiste en compartir los resultados de la coexploraci\u00f3n tem\u00e1tica y buscar su replicabilidad y sostenibilidad. Aborda los siguientes objetivos: a) Contar historias (a partir de los hallazgos); b) Traducir en pol\u00edticas y c) Experimentar la sostenibilidad. Este trabajo lo lleva a cabo todo el equipo de co-exploraci\u00f3n tem\u00e1tica, incluidos los propietarios de los pilotos.",
+                    "it": "Questa fase riguarda la condivisione dei risultati della co-esplorazione tematica e la ricerca della replicabilit\u00e0 e della sostenibilit\u00e0. Affronta i seguenti obiettivi: a) Narrazione (dai risultati); b) Traduzione in politiche e c) Sostenibilit\u00e0 dell'esperimento. Questo lavoro \u00e8 svolto da tutto il team di co-esplorazione tematica, compresi i proprietari dei piloti.",
+                    "lv": "\u0160\u012b f\u0101ze ir par rezult\u0101tu kop\u012bgo\u0161anu tematiskaj\u0101 kop\u012bgo\u0161an\u0101 un t\u0101s atk\u0101rtojam\u012bbas un ilgtsp\u0113jas mekl\u0113\u0161anu. T\u0101 risina \u0161\u0101dus m\u0113r\u0137us: a) St\u0101st\u012b\u0161ana (no atkl\u0101jumiem); b) Tulkot politik\u0101s un c) Eksperimenta ilgtsp\u0113ja. \u0160o darbu veic visa tematisk\u0101s kop\u012bgo\u0161anas komanda, ieskaitot pilotu \u012bpa\u0161niekus.",
+                    "nl": "Deze fase gaat over het delen van de resultaten van de thematische co-exploratie en het zoeken naar de replicatie en duurzaamheid ervan. Het pakt de volgende doelstellingen aan: a) Storytelling (vanuit bevindingen); b) Vertalen naar beleid en c) Experiment duurzaamheid. Dit werk wordt uitgevoerd door het hele thematische co-exploratieteam, inclusief pilot-eigenaren."
+                },
+                "id": "phase-sharing",
+                "is_part_of_codelivery": false,
+                "name_translations": {
+                    "da": "Deling",
+                    "en": "Sharing",
+                    "es": "Compartiendo",
+                    "it": "Condivisione",
+                    "lv": "Dal\u012b\u0161an\u0101s",
+                    "nl": "Delen"
+                },
+                "objectives": [
+                    {
+                        "description_translations": {
+                            "da": "Dette m\u00e5l sigter mod at skabe tiltalende og letforst\u00e5elige, bredt tilg\u00e6ngelige historier, der kan udbredes bredt, s\u00e5 samfundet er opm\u00e6rksomt og forst\u00e5r behovet for samfundsadf\u00e6rdstransformation mod en mere milj\u00f8bevidst livsstil.",
+                            "en": "This objective aims to create appealing and easily understandable, widely accessible stories that can be widely disseminated for society to be aware and comprehend the need for societal behaviour transformation towards a more environmentally aware way of life. ",
+                            "es": "Este objetivo pretende crear historias atractivas, f\u00e1cilmente comprensibles y ampliamente accesibles que puedan difundirse ampliamente para que la sociedad sea consciente y comprenda la necesidad de transformar el comportamiento social hacia un modo de vida m\u00e1s sostenible.",
+                            "it": "Questo obiettivo mira a creare storie accattivanti e facilmente comprensibili, ampiamente accessibili, che possano essere ampiamente diffuse affinch\u00e9 la societ\u00e0 sia consapevole e comprenda la necessit\u00e0 di trasformare il comportamento sociale verso uno stile di vita pi\u00f9 sostenibile.",
+                            "lv": "\u0160is m\u0113r\u0137is ir v\u0113rsts uz pievilc\u012bgu un viegli saprotamu, pla\u0161i pieejamu st\u0101stu rad\u012b\u0161anu, kas var tikt pla\u0161i izplat\u012bti, lai sabiedr\u012bba b\u016btu inform\u0113ta un saprastu nepiecie\u0161am\u012bbu p\u0113c sabiedr\u012bbas uzved\u012bbas p\u0101rveido\u0161anas uz vides zi\u0146\u0101 apzin\u012bg\u0101ku dz\u012bvesveidu.",
+                            "nl": "Dit doel is gericht op het cre\u00ebren van aantrekkelijke en gemakkelijk te begrijpen, breed toegankelijke verhalen die breed verspreid kunnen worden, zodat de samenleving zich bewust wordt van en begrijpt waarom het gedrag van de samenleving moet veranderen naar een meer milieubewuste levensstijl."
+                        },
+                        "id": "objective-storytelling_from_findings",
+                        "name_translations": {
+                            "da": "Fort\u00e6lling (fra resultater)",
+                            "en": "Storytelling (from findings)",
+                            "es": "Narraci\u00f3n de historias (a partir de los resultados)",
+                            "it": "Narrazione (dai risultati)",
+                            "lv": "St\u0101st\u012b\u0161ana (no atkl\u0101jumiem)",
+                            "nl": "Storytelling (vanuit bevindingen)"
+                        },
+                        "prerequisites": [],
+                        "problemprofiles": [
+                            "CS_PROBLEM_12",
+                            "CS_PROBLEM_13",
+                            "SUS_PROBLEM_1",
+                            "SUS_PROBLEM_2",
+                            "SUS_PROBLEM_3",
+                            "SUS_PROBLEM_4",
+                            "CS_PROBLEM_5"
+                        ],
+                        "tasks": [
+                            {
+                                "description_translations": {
+                                    "da": "Denne opgave foresl\u00e5r tilgange og skabeloner, der kan bruges til at guide udarbejdelsen af fort\u00e6llingsmaterialer til bred udbredelse af projektet.",
+                                    "en": "This task suggests approaches and templates that could be used to guide the elaboration of storytelling materials for wide dissemination of the project.",
+                                    "es": "Esta tarea sugiere enfoques y plantillas que podr\u00edan utilizarse para orientar la elaboraci\u00f3n de materiales narrativos para una amplia difusi\u00f3n del proyecto.",
+                                    "it": "Questo compito suggerisce approcci e modelli che potrebbero essere utilizzati per guidare l'elaborazione di materiali narrativi per una vasta diffusione del progetto.",
+                                    "lv": "\u0160\u012b uzdevuma m\u0113r\u0137is ir ierosin\u0101t pieejas un veidnes, kas var\u0113tu tikt izmantotas, lai vad\u012btu st\u0101stu materi\u0101lu izstr\u0101di pla\u0161ai projekta izplat\u012b\u0161anai.",
+                                    "nl": "Deze taak suggereert benaderingen en sjablonen die kunnen worden gebruikt om de uitwerking van verhalende materialen te begeleiden voor brede verspreiding van het project."
+                                },
+                                "id": "task-generation_of_storylines_for_wide_dissemination",
+                                "name_translations": {
+                                    "da": "Generering af historier til bred udbredelse",
+                                    "en": "Generation of storylines for wide dissemination",
+                                    "es": "Generaci\u00f3n de historias para su amplia difusi\u00f3n",
+                                    "it": "Generazione di trame per una vasta diffusione",
+                                    "lv": "St\u0101stu l\u012bniju \u0123ener\u0113\u0161ana pla\u0161ai izplat\u012b\u0161anai",
+                                    "nl": "Genereren van verhaallijnen voor brede verspreiding"
+                                },
+                                "prerequisites": [],
+                                "problemprofiles": [
+                                    "SUS_PROBLEM_2",
+                                    "SUS_PROBLEM_3",
+                                    "SUS_PROBLEM_4",
+                                    "CS_PROBLEM_5"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "description_translations": {
+                            "da": "Dette m\u00e5l sigter mod at generere en r\u00e6kke politiske retningslinjer for politikere",
+                            "en": "This objective aims to generate an assortment of policy briefs' inputs for policy makers",
+                            "es": "Este objetivo pretende generar una serie de documentos de orientaci\u00f3n pol\u00edtica para los responsables pol\u00edticos",
+                            "it": "Questo obiettivo mira a generare una serie di documenti di orientamento politico per i responsabili politici",
+                            "lv": "\u0160is m\u0113r\u0137is ir v\u0113rsts uz politikas pamatnost\u0101d\u0146u ievades veido\u0161anu politikas veidot\u0101jiem",
+                            "nl": "Dit doel is gericht op het genereren van een assortiment van beleidsrichtlijnen voor beleidsmakers"
+                        },
+                        "id": "objective-translating_into_policies",
+                        "name_translations": {
+                            "da": "Overs\u00e6ttelse til politikker",
+                            "en": "Translating into policies",
+                            "es": "Generar nuevas pol\u00edticas",
+                            "it": "Traduzione in politiche",
+                            "lv": "Tulkot politik\u0101s",
+                            "nl": "Vertalen naar beleid"
+                        },
+                        "prerequisites": [
+                            {
+                                "item": "objective-storytelling_from_findings",
+                                "type": "previous"
+                            }
+                        ],
+                        "problemprofiles": [
+                            "SUS_PROBLEM_2",
+                            "SUS_PROBLEM_3",
+                            "SUS_PROBLEM_4",
+                            "CS_PROBLEM_5"
+                        ],
+                        "tasks": [
+                            {
+                                "description_translations": {
+                                    "da": "Denne opgave s\u00f8ger at generere en r\u00e6kke politiske retningslinjer for politikere",
+                                    "en": "This task seeks to generate an assortment of policy briefs' inputs for policy makers",
+                                    "es": "El objetivo de esta tarea es generar una serie de documentos informativos para los responsables pol\u00edticos.",
+                                    "it": "Questo compito mira a generare una serie di input per i responsabili politici",
+                                    "lv": "\u0160is uzdevums ir v\u0113rsts uz politikas pamatnost\u0101d\u0146u ievades veido\u0161anu politikas veidot\u0101jiem",
+                                    "nl": "Deze taak is gericht op het genereren van een assortiment van beleidsrichtlijnen voor beleidsmakers"
+                                },
+                                "id": "task-generation_of_policy_briefs_inputs_for_policy_makers",
+                                "name_translations": {
+                                    "da": "Generering af politiske retningslinjer for politikere",
+                                    "en": "Generation of policy briefs' inputs for policy makers",
+                                    "es": "Elaboraci\u00f3n de informes pol\u00edticos para los responsables pol\u00edticos",
+                                    "it": "Generazione di input per i responsabili politici",
+                                    "lv": "Politikas pamatnost\u0101d\u0146u ievades veido\u0161ana politikas veidot\u0101jiem",
+                                    "nl": "Genereren van beleidsrichtlijnen voor beleidsmakers"
+                                },
+                                "prerequisites": [],
+                                "problemprofiles": [
+                                    "CS_PROBLEM_12",
+                                    "CS_PROBLEM_13",
+                                    "SUS_PROBLEM_1",
+                                    "CS_PROBLEM_5"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "description_translations": {
+                            "da": "Dette m\u00e5l handler om frigivelse og udbredelse af resultaterne af den tematiske co-udforskning. Det h\u00e5ndterer ogs\u00e5 offentligg\u00f8relsen i \u00e5bne forskningsplatforme af de designede datas\u00e6t og analyser.",
+                            "en": "This objective deals with the release and disssemination of thematic co-exploration outcomes. It also copes with the publication in Open Research platforms of the datasets and analysis processed designed.",
+                            "es": "Este objetivo se refiere a la publicaci\u00f3n y difusi\u00f3n de los resultados de la coexploraci\u00f3n tem\u00e1tica. Tambi\u00e9n se ocupa de la publicaci\u00f3n en plataformas de Investigaci\u00f3n Abierta de los conjuntos de datos y procesamientos de an\u00e1lisis dise\u00f1ados.",
+                            "it": "Questo obiettivo riguarda la pubblicazione e la diffusione dei risultati della co-esplorazione tematica. Si occupa anche della pubblicazione in piattaforme di ricerca aperta dei set di dati e degli analisi progettati.",
+                            "lv": "\u0160is m\u0113r\u0137is risina tematisk\u0101s kop\u012bgo\u0161anas rezult\u0101tu izdo\u0161anu un izplat\u012b\u0161anu. Tas ar\u012b nodarbojas ar datu kopu un anal\u012b\u017eu izstr\u0101d\u0101\u0161anas public\u0113\u0161anu Atv\u0113rt\u0101s p\u0113tniec\u012bbas platform\u0101s.",
+                            "nl": "Dit doel gaat over het vrijgeven en verspreiden van de resultaten van de thematische co-exploratie. Het houdt ook rekening met de publicatie in Open Research platforms van de ontworpen datasets en analyses."
+                        },
+                        "id": "objective-experiment_sustainability",
+                        "name_translations": {
+                            "da": "Eksperiment b\u00e6redygtighed",
+                            "en": "Experiment sustainability",
+                            "es": "Sostenibilidad del experimento",
+                            "it": "Sostenibilit\u00e0 dell'esperimento",
+                            "lv": "Eksperimenta ilgtsp\u0113ja",
+                            "nl": "Experiment duurzaamheid"
+                        },
+                        "prerequisites": [
+                            {
+                                "item": "objective-translating_into_policies",
+                                "type": "previous"
+                            }
+                        ],
+                        "problemprofiles": [
+                            "CS_PROBLEM_12",
+                            "CS_PROBLEM_13",
+                            "SUS_PROBLEM_1",
+                            "SUS_PROBLEM_2",
+                            "SUS_PROBLEM_3",
+                            "SUS_PROBLEM_4",
+                            "CS_PROBLEM_5"
+                        ],
+                        "tasks": [
+                            {
+                                "description_translations": {
+                                    "da": "Denne opgave samler allerede tilg\u00e6ngelige data fra Copernicus eller Open Data Portals, som kan v\u00e6re afg\u00f8rende for at danne et fugleperspektiv af den tematiske co-udforskning.",
+                                    "en": "This task gathers already available data from Copernicus or Open Data Portals which can be essential to form the bird's eye view of the thematic co-exploration.",
+                                    "es": "Publicaci\u00f3n y difusi\u00f3n de los resultados de la co-exploraci\u00f3n tem\u00e1tica",
+                                    "it": "Questo compito raccoglie dati gi\u00e0 disponibili da Copernicus o Open Data Portals che possono essere essenziali per formare una visione d'insieme della co-esplorazione tematica.",
+                                    "lv": "\u0160is uzdevums apkopo jau pieejamos datus no Copernicus vai Open Data Portals, kas var b\u016bt b\u016btiski, lai veidotu t\u0113mas kop\u012bgo\u0161anas p\u0101rskatu.",
+                                    "nl": "Deze taak verzamelt reeds beschikbare gegevens van Copernicus of Open Data Portals die essentieel kunnen zijn om een overzicht te vormen van de them"
+                                },
+                                "id": "task-release_and_disssemination_of_thematic_co_exploration_outcomes",
+                                "name_translations": {
+                                    "da": "Udgivelse og udbredelse af resultaterne af den tematiske co-udforskning",
+                                    "en": "Release and disssemination of thematic co-exploration outcomes",
+                                    "es": "Recopilar datos fidedignos ya disponibles",
+                                    "it": "Rilascio e diffusione dei risultati della co-esplorazione tematica",
+                                    "lv": "Tematisk\u0101s kop\u012bgo\u0161anas rezult\u0101tu izdo\u0161ana un izplat\u012b\u0161ana",
+                                    "nl": "Vrijgeven en verspreiden van de resultaten van de thematische co-exploratie"
+                                },
+                                "prerequisites": [],
+                                "problemprofiles": [
+                                    "SUS_PROBLEM_2",
+                                    "SUS_PROBLEM_4",
+                                    "CS_PROBLEM_5"
+                                ]
+                            },
+                            {
+                                "description_translations": {
+                                    "da": "Denne opgave er ansvarlig for at offentligg\u00f8re de datas\u00e6t og analyser, der er udf\u00f8rt over de aggregerede data, s\u00e5 andre forskere og observat\u00f8rer kan bruge de resultater, der er opn\u00e5et af projektet.",
+                                    "en": "This task is in charge of publishing the datasets and analyses performed over the aggregated data so that other researchers and observers may use the results obtained by the project.",
+                                    "es": "Esta tarea se encarga de publicar los conjuntos de datos y los an\u00e1lisis realizados sobre los datos agregados para que otros investigadores y observadores puedan utilizar los resultados obtenidos por el proyecto.",
+                                    "it": "Questo compito \u00e8 incaricato di pubblicare i set di dati e le analisi eseguite sui dati aggregati in modo che altri ricercatori e osservatori possano utilizzare i risultati ottenuti dal progetto.",
+                                    "lv": "\u0160is uzdevums ir atbild\u012bgs par datu kopu un anal\u012b\u017eu public\u0113\u0161anu, kas veiktas p\u0101r apkopotajiem datiem, lai citi p\u0113tnieki un nov\u0113rot\u0101ji var\u0113tu izmantot projekt\u0101 ieg\u016btos rezult\u0101tus.",
+                                    "nl": "Deze taak is verantwoordelijk voor het publiceren van de datasets en analyses die zijn uitgevoerd over de geaggregeerde gegevens, zodat andere onderzoekers en waarnemers de resultaten die door het project zijn verkregen, kunnen gebruiken."
+                                },
+                                "id": "task-publication_in_open_research_platforms",
+                                "name_translations": {
+                                    "da": "Offentligg\u00f8relse i \u00e5bne forskningsplatforme",
+                                    "en": "Publication in Open Research platforms ",
+                                    "es": "Publicaci\u00f3n en plataformas de investigaci\u00f3n abiertas",
+                                    "it": "Pubblicazione in piattaforme di ricerca aperte",
+                                    "lv": "Public\u0113\u0161ana Atv\u0113rt\u0101s p\u0113tniec\u012bbas platform\u0101s",
+                                    "nl": "Publicatie in Open Research platforms"
+                                },
+                                "prerequisites": [
+                                    {
+                                        "item": "task-release_and_disssemination_of_thematic_co_exploration_outcomes",
+                                        "type": "previous"
+                                    }
+                                ],
+                                "problemprofiles": [
+                                    "CS_PROBLEM_12",
+                                    "CS_PROBLEM_13",
+                                    "SUS_PROBLEM_1",
+                                    "CS_PROBLEM_3"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "prerequisites": [
+                    {
+                        "item": "phase-experimenting",
+                        "status": "finished"
+                    }
+                ]
+            },
+            {
+                "description_translations": {
                     "da": "Denne fase sikrer, at det tematiske co-udforskning er meddesignet af kerneholdet og pilotindehavere. I denne fase gennemf\u00f8res f\u00f8lgende m\u00e5l: a) Eksperiment specifikation; b) V\u00e6rkt\u00f8jer og ressourcer valg; c) V\u00e6rkt\u00f8jer og ressourcer tilpasning og d) V\u00e6rkt\u00f8jer og ressourcer test",
                     "en": "This phase ensures that the thematic co-exploration is co-designed by the core-team and the pilot owners. In this phase the following objectives are completed: a) Experiment specification; b) Tools & resources selection; c) Tools & resources customization and d) Tools & resources testing",
                     "es": "Esta fase garantiza que la coexploraci\u00f3n tem\u00e1tica sea dise\u00f1ada conjuntamente por los miembros del equipo central y los propietarios del piloto. En esta fase se completan los siguientes objetivos: a) Especificaci\u00f3n del experimento; b) Selecci\u00f3n de herramientas y recursos; c) Personalizaci\u00f3n de herramientas y recursos; y d) Prueba de herramientas y recursos.",
@@ -4556,7 +4792,7 @@
                             "ORG_PROBLEM_2",
                             "ORG_PROBLEM_4",
                             "ORG_PROBLEM_5",
-                            "ORG_PROBLEM_6",
+                            "ORG_PROBLEM_6.1",
                             "DEF_PROBLEM_5",
                             "CS_PROBLEM_2",
                             "VAL_PROBLEM_1"
@@ -4642,7 +4878,7 @@
                                 "problemprofiles": [
                                     "ORG_PROBLEM_2",
                                     "ORG_PROBLEM_4",
-                                    "ORG_PROBLEM_6"
+                                    "ORG_PROBLEM_6.1"
                                 ]
                             },
                             {
@@ -4670,7 +4906,7 @@
                                     }
                                 ],
                                 "problemprofiles": [
-                                    "ORG_PROBLEM_6",
+                                    "ORG_PROBLEM_6.1",
                                     "DEF_PROBLEM_5",
                                     "CS_PROBLEM_2",
                                     "VAL_PROBLEM_1"
@@ -4762,7 +4998,7 @@
                         ],
                         "problemprofiles": [
                             "CS_PROBLEM_1",
-                            "ORG_PROBLEM_6",
+                            "ORG_PROBLEM_6.1",
                             "DEF_PROBLEM_5",
                             "CS_PROBLEM_8"
                         ],
@@ -4787,7 +5023,7 @@
                                 },
                                 "prerequisites": [],
                                 "problemprofiles": [
-                                    "ORG_PROBLEM_6",
+                                    "ORG_PROBLEM_6.1",
                                     "DEF_PROBLEM_5"
                                 ]
                             },
@@ -5139,6 +5375,699 @@
                 "prerequisites": [
                     {
                         "item": "phase-preparing",
+                        "status": "finished"
+                    }
+                ]
+            },
+            {
+                "description_translations": {
+                    "da": "Denne fase er central, da den er ansvarlig for den faktiske drift og evaluering af det tematiske samarbejde. Den omfatter f\u00f8lgende m\u00e5l: a) Observat\u00f8rers onboarding; b) Observat\u00f8rers tr\u00e6ning og support; c) Dataindsamling; d) Datakombination, analyse og visualisering; e) Eksperimentevaluering",
+                    "en": "This phase is core since it is the one responsible for the actual operation and evaluation of the thematic co-exploration. It comprises the following objectives: a) Observers onboarding; b) Observers training & support; c) Data collection; d) Data combination, analysis & visualization and e) Experiment evaluation",
+                    "es": "Esta fase es fundamental, ya que es la responsable del funcionamiento real y de la evaluaci\u00f3n de la coexploraci\u00f3n tem\u00e1tica. Comprende los siguientes objetivos: a) Incorporaci\u00f3n de los observadores; b) Formaci\u00f3n y apoyo a los observadores; c) Recogida de datos; d) Combinaci\u00f3n, an\u00e1lisis y visualizaci\u00f3n de datos; y e) Evaluaci\u00f3n del experimento. Evaluaci\u00f3n del experimento",
+                    "it": "Questa fase \u00e8 fondamentale in quanto \u00e8 responsabile dell'effettivo funzionamento e della valutazione della co-esplorazione tematica. Comprende i seguenti obiettivi: a) Onboarding degli osservatori; b) Formazione e supporto degli osservatori; c) Raccolta dati; d) Combinazione, analisi e visualizzazione dei dati; e) Valutazione dell'esperimento",
+                    "lv": "\u0160\u012b f\u0101ze ir b\u016btiska, jo t\u0101 ir atbild\u012bga par faktisko darb\u012bbu un tematisk\u0101s kop\u012bgas izp\u0113tes nov\u0113rt\u0113\u0161anu. T\u0101 ietver \u0161\u0101dus m\u0113r\u0137us: a) V\u0113rot\u0101ju iek\u013cau\u0161ana; b) V\u0113rot\u0101ju apm\u0101c\u012bba un atbalsts; c) Datu apkopo\u0161ana; d) Datu apvieno\u0161ana, anal\u012bze un vizualiz\u0101cija; e) Eksperimenta nov\u0113rt\u0113jums",
+                    "nl": "Deze fase is essentieel omdat het verantwoordelijk is voor de daadwerkelijke werking en evaluatie van de thematische co-exploratie. Het omvat de volgende doelstellingen: a) Observatoren onboarding; b) Observatoren training & ondersteuning; c) Gegevensverzameling; d) Gegevenscombinatie, analyse & visualisatie en e) Experimentevaluatie"
+                },
+                "id": "phase-experimenting",
+                "is_part_of_codelivery": false,
+                "name_translations": {
+                    "da": "Eksperimentering",
+                    "en": "Experimenting",
+                    "es": "Experimentando",
+                    "it": "Esperimentando",
+                    "lv": "Eksperiment\u0113\u0161ana",
+                    "nl": "Experimenten"
+                },
+                "objectives": [
+                    {
+                        "description_translations": {
+                            "da": "Dette m\u00e5l kr\u00e6ver, at kerneholdmedlemmer p\u00e5tager sig f\u00f8lgende opgaver for at sikre, at observat\u00f8rsamfundet for denne tematiske samarbejde er samlet: a) Fremme og offentligg\u00f8re tematisk samarbejde; b) Onboard yderligere borgerobservat\u00f8rer og c) Sikre, at etikprotokollen overholdes",
+                            "en": "This objective requires that core team members embark on the following tasks to ensure that the community of observers for this thematic co-exploration is assembled: a) Promote and publicize thematic co-exploration; b) Onboard further Citizen Observers and c) Ensure ethics protocol are followed",
+                            "es": "Este objetivo requiere que los miembros del equipo central se embarquen en las siguientes tareas para asegurar que se re\u00fane la comunidad de observadores para esta co-exploraci\u00f3n tem\u00e1tica: a) Promover y publicitar la co-exploraci\u00f3n tem\u00e1tica; b) Incorporar m\u00e1s Observadores Ciudadanos y c) Garantizar el cumplimiento del protocolo \u00e9tico",
+                            "it": "Questo obiettivo richiede che i membri del team centrale si impegnino nelle seguenti attivit\u00e0 per garantire che la comunit\u00e0 di osservatori per questa co-esplorazione tematica sia assemblata: a) Promuovere e pubblicizzare la co-esplorazione tematica; b) Incorporare ulteriori osservatori cittadini e c) Garantire il rispetto del protocollo etico",
+                            "lv": "\u0160is m\u0113r\u0137is prasa, lai kodola komandas locek\u013ci uzs\u0101ktu \u0161\u0101das darb\u012bbas, lai nodro\u0161in\u0101tu, ka \u0161\u012bs tematisk\u0101s kop\u012bgas izp\u0113tes nov\u0113ro\u0161anas kopiena ir sapulcin\u0101ta: a) Veicin\u0101t un public\u0113t tematisko kop\u012bgo izp\u0113ti; b) Iek\u013caut papildus pilso\u0146u nov\u0113rot\u0101jus un c) Nodro\u0161in\u0101t, ka tiek iev\u0113roti etikas protokoli",
+                            "nl": "Dit doel vereist dat kerneteamleden de volgende taken op zich nemen om ervoor te zorgen dat de gemeenschap van observatoren voor deze thematische co-exploratie wordt samengesteld: a) Promoten en publiceren van thematische co-exploratie; b) Onboard verdere burgerobservatoren en c) Zorg ervoor dat ethische protocollen worden gevolgd"
+                        },
+                        "id": "objective-observers_onboarding",
+                        "name_translations": {
+                            "da": "Observat\u00f8rers onboarding",
+                            "en": "Observers onboarding",
+                            "es": "Incorporaci\u00f3n de los observadores",
+                            "it": "Incorporazione degli osservatori",
+                            "lv": "V\u0113rot\u0101ju iek\u013cau\u0161ana",
+                            "nl": "Observatoren onboarding"
+                        },
+                        "prerequisites": [],
+                        "problemprofiles": [
+                            "ORG_PROBLEM_5",
+                            "ORG_PROBLEM_6.3",
+                            "ORG_PROBLEM_10",
+                            "ORG_PROBLEM_14",
+                            "UND_PROBLEM_2",
+                            "UND_PROBLEM_6",
+                            "DEF_PROBLEM_8"
+                        ],
+                        "tasks": [
+                            {
+                                "description_translations": {
+                                    "da": "Denne opgave indeb\u00e6rer fremme og offentligg\u00f8relse af detaljer om den forestillede tematiske samarbejde og lanceringen af opfordringen til deltagelse af borgere og andre interessenter i det.",
+                                    "en": "This task entails the promotion and publication of details about the envisaged thematic co-exploration and the launch of the call for participation of citizens and other stakeholders in it.",
+                                    "es": "Esta tarea implica la promoci\u00f3n y publicaci\u00f3n de detalles sobre la coexploraci\u00f3n tem\u00e1tica prevista y el lanzamiento de la convocatoria de participaci\u00f3n de ciudadanos y otras partes interesadas en ella.",
+                                    "it": "Questa attivit\u00e0 comporta la promozione e la pubblicazione di dettagli sulla co-esplorazione tematica prevista e il lancio della chiamata alla partecipazione di cittadini e altre parti interessate.",
+                                    "lv": "\u0160\u012b uzdevuma m\u0113r\u0137is ir veicin\u0101t un public\u0113t inform\u0101ciju par paredzamo tematisko kop\u012bgo izp\u0113ti un aicin\u0101jumu pilso\u0146iem un citiem ieinteres\u0113tajiem taj\u0101 piedal\u012bties.",
+                                    "nl": "Deze taak omvat de promotie en publicatie van details over de beoogde thematische co-exploratie en de lancering van de oproep tot deelname van burgers en andere belanghebbenden daaraan."
+                                },
+                                "id": "task-promote_and_publicize_thematic_co_exploration",
+                                "name_translations": {
+                                    "da": "Fremme og offentligg\u00f8re tematisk samarbejde",
+                                    "en": "Promote and publicize thematic co-exploration",
+                                    "es": "Promover y dar a conocer la coexploraci\u00f3n tem\u00e1tica",
+                                    "it": "Promuovere e pubblicizzare la co-esplorazione tematica",
+                                    "lv": "Veicin\u0101t un public\u0113t tematisko kop\u012bgo izp\u0113ti",
+                                    "nl": "Promoten en publiceren van thematische co-exploratie"
+                                },
+                                "prerequisites": [],
+                                "problemprofiles": [
+                                    "ORG_PROBLEM_5",
+                                    "ORG_PROBLEM_6.3",
+                                    "ORG_PROBLEM_10",
+                                    "ORG_PROBLEM_14",
+                                    "UND_PROBLEM_2",
+                                    "UND_PROBLEM_6"
+                                ]
+                            },
+                            {
+                                "description_translations": {
+                                    "da": "Denne opgave giver mulighed for at registrere detaljerne om de observat\u00f8rer, der har deltaget takket v\u00e6re den tidligere lancerede kampagne.",
+                                    "en": "This task allows to register the details of the observers that have got involved thanks to the earlier launched promotion campaign.",
+                                    "es": "Esta tarea permite registrar los datos de los observadores que han participado gracias a la campa\u00f1a de promoci\u00f3n lanzada anteriormente.",
+                                    "it": "Questa attivit\u00e0 consente di registrare i dettagli degli osservatori che si sono coinvolti grazie alla campagna di promozione lanciata in precedenza.",
+                                    "lv": "\u0160\u012b uzdevuma m\u0113r\u0137is ir re\u0123istr\u0113t nov\u0113rot\u0101ju datus, kas ir iesaist\u012bju\u0161ies pateicoties iepriek\u0161\u0113jai veiktajai veicin\u0101\u0161anas kampa\u0146ai.",
+                                    "nl": "Deze taak maakt het mogelijk om de details van de observatoren die betrokken zijn geraakt dankzij de eerder gelanceerde promotiecampagne te registreren."
+                                },
+                                "id": "task-onboard_further_citizen_observers",
+                                "name_translations": {
+                                    "da": "Onboard yderligere borgerobservat\u00f8rer",
+                                    "en": "Onboard further Citizen Observers",
+                                    "es": "Incorporar m\u00e1s observadores ciudadanos",
+                                    "it": "Incorporare ulteriori osservatori cittadini",
+                                    "lv": "Iek\u013caut papildus pilso\u0146u nov\u0113rot\u0101jus",
+                                    "nl": "Onboard verdere burgerobservatoren"
+                                },
+                                "prerequisites": [
+                                    {
+                                        "item": "task-promote_and_publicize_thematic_co_exploration",
+                                        "type": "previous"
+                                    }
+                                ],
+                                "problemprofiles": [
+                                    "ORG_PROBLEM_5",
+                                    "ORG_PROBLEM_6.3",
+                                    "ORG_PROBLEM_10",
+                                    "ORG_PROBLEM_14",
+                                    "UND_PROBLEM_2",
+                                    "UND_PROBLEM_6"
+                                ]
+                            },
+                            {
+                                "description_translations": {
+                                    "da": "Denne opgave opretter en ny samproduktionsproces i samarbejdsmilj\u00f8et for at guide og st\u00f8tte samarbejdet",
+                                    "en": "This task sets up a new co-production process in Collaborative Environment to guide and support co-exploration",
+                                    "es": "Esta tarea establece un nuevo proceso de coproducci\u00f3n en un entorno colaborativo para guiar y apoyar la coexploraci\u00f3n",
+                                    "it": "Questa attivit\u00e0 istituisce un nuovo processo di coproduzione in un ambiente collaborativo per guidare e supportare la co-esplorazione",
+                                    "lv": "\u0160\u012b uzdevuma m\u0113r\u0137is ir izveidot jaunu kopraodukcijas procesu sadarb\u012bbas vid\u0113, lai vad\u012btu un atbalst\u012btu kop\u012bgo izp\u0113ti",
+                                    "nl": "Deze taak stelt een nieuw coproductieproces in een samenwerkingsomgeving in om de samenwerking te begeleiden en te ondersteunen"
+                                },
+                                "id": "task-ensure_ethics_protocol_are_followed",
+                                "name_translations": {
+                                    "da": "Sikre, at etikprotokollen overholdes",
+                                    "en": "Ensure ethics protocol are followed",
+                                    "es": "Garantizar el cumplimiento del protocolo \u00e9tico",
+                                    "it": "Garantire il rispetto del protocollo etico",
+                                    "lv": "Nodro\u0161in\u0101t, ka tiek iev\u0113roti etikas protokoli",
+                                    "nl": "Zorg ervoor dat ethische protocollen worden gevolgd"
+                                },
+                                "prerequisites": [
+                                    {
+                                        "item": "task-onboard_further_citizen_observers",
+                                        "type": "previous"
+                                    }
+                                ],
+                                "problemprofiles": [
+                                    "ORG_PROBLEM_5",
+                                    "ORG_PROBLEM_6.3",
+                                    "ORG_PROBLEM_10",
+                                    "ORG_PROBLEM_14",
+                                    "UND_PROBLEM_2",
+                                    "UND_PROBLEM_6",
+                                    "DEF_PROBLEM_8"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "description_translations": {
+                            "da": "Dette m\u00e5l besk\u00e6ftiger sig med f\u00f8lgende aspekter forbundet med tr\u00e6ning og st\u00f8tte til deltagere i en tematisk samarbejde: a) Organisere praktisk tr\u00e6ning i metodologi, v\u00e6rkt\u00f8jer og ressourcer; b) Overveje tematisk samarbejde specifikke nye tr\u00e6ningsbehov og c) Organisere dataindsamling og analyseproces",
+                            "en": "This objective deals with the following aspects associated to training and supporting participants in a thematic co-exploration: a) Organise hands on training for methodology, tools and assets; b) Consider thematic co-exploration specific new training needs and c) Organize data collection and analysis process",
+                            "es": "Este objetivo aborda los siguientes aspectos relacionados con la formaci\u00f3n y el apoyo a los participantes en una coexploraci\u00f3n tem\u00e1tica: a) Organizar formaci\u00f3n pr\u00e1ctica sobre metodolog\u00eda, herramientas y recursos; b) Considerar las nuevas necesidades de formaci\u00f3n espec\u00edficas de la coexploraci\u00f3n tem\u00e1tica y c) Organizar el proceso de recogida y an\u00e1lisis de datos",
+                            "it": "Questo obiettivo tratta gli aspetti seguenti associati alla formazione e al supporto dei partecipanti in una co-esplorazione tematica: a) Organizzare una formazione pratica per metodologia, strumenti e risorse; b) Considerare le nuove esigenze di formazione specifiche della co-esplorazione tematica e c) Organizzare il processo di raccolta e analisi dei dati",
+                            "lv": "\u0160is m\u0113r\u0137is risina sekojo\u0161os aspektus, kas saist\u012bti ar tematisk\u0101s kop\u012bgas izp\u0113tes dal\u012bbnieku apm\u0101c\u012bbu un atbalstu: a) Organiz\u0113t praktisku apm\u0101c\u012bbu metodolo\u0123ijas, r\u012bku un resursu jom\u0101; b) \u0145emt v\u0113r\u0101 tematisk\u0101s kop\u012bgas izp\u0113tes specifisk\u0101s jaun\u0101s apm\u0101c\u012bbas vajadz\u012bbas un c) Organiz\u0113t datu apkopo\u0161anas un anal\u012bzes procesu",
+                            "nl": "Dit doel heeft betrekking op de volgende aspecten die verband houden met training en ondersteuning van deelnemers aan een thematische co-exploratie: a) Organiseer praktische training voor methodologie, tools en assets; b) Overweeg nieuwe trainingsbehoeften specifiek voor thematische co-exploratie en c) Organiseer het proces van gegevensverzameling en -analyse"
+                        },
+                        "id": "objective-observers_training_support",
+                        "name_translations": {
+                            "da": "Observat\u00f8rers tr\u00e6ning og support",
+                            "en": "Observers training & support",
+                            "es": "Formaci\u00f3n y apoyo a los observadores",
+                            "it": "Formazione e supporto degli osservatori",
+                            "lv": "V\u0113rot\u0101ju apm\u0101c\u012bba un atbalsts",
+                            "nl": "Observatoren training & ondersteuning"
+                        },
+                        "prerequisites": [
+                            {
+                                "item": "objective-observers_onboarding",
+                                "type": "previous"
+                            }
+                        ],
+                        "problemprofiles": [
+                            "CS_PROBLEM_1",
+                            "CS_PROBLEM_2",
+                            "CS_PROBLEM_6",
+                            "CS_PROBLEM_8",
+                            "CS_PROBLEM_9",
+                            "ORG_PROBLEM_6.1",
+                            "DEF_PROBLEM_5",
+                            "DEF_PROBLEM_7"
+                        ],
+                        "tasks": [
+                            {
+                                "description_translations": {
+                                    "da": "Denne opgave guider kerneholdmedlemmerne i at organisere praktisk tr\u00e6ning i metodologi, v\u00e6rkt\u00f8jer og ressourcer med alle tematiske samarbejdsdeltagere",
+                                    "en": "This task guides core team members organizing hands on training for methodology, tools and assets with all thematic co-exploration participants",
+                                    "es": "Esta tarea gu\u00eda a los miembros del equipo central en la organizaci\u00f3n de la formaci\u00f3n pr\u00e1ctica sobre metodolog\u00eda, herramientas y recursos con todos los participantes en la exploraci\u00f3n tem\u00e1tica conjunta.",
+                                    "it": "Questa attivit\u00e0 guida i membri del team centrale nell'organizzazione di una formazione pratica per metodologia, strumenti e risorse con tutti i partecipanti alla co-esplorazione tematica",
+                                    "lv": "\u0160is uzdevums vad\u012bs kodola komandas locek\u013cus, organiz\u0113jot praktisku apm\u0101c\u012bbu metodolo\u0123ijas, r\u012bku un resursu jom\u0101 ar visiem tematisk\u0101s kop\u012bgas izp\u0113tes dal\u012bbniekiem",
+                                    "nl": "Deze taak begeleidt kerneteamleden bij het organiseren van praktische training voor methodologie, tools en assets met alle deelnemers aan de thematische co-exploratie"
+                                },
+                                "id": "task-organise_hands_on_training_for_methodology_tools_and_assets",
+                                "name_translations": {
+                                    "da": "Organisere praktisk tr\u00e6ning i metodologi, v\u00e6rkt\u00f8jer og ressourcer",
+                                    "en": "Organise hands on training for methodology, tools and assets",
+                                    "es": "Organizar formaci\u00f3n pr\u00e1ctica sobre metodolog\u00eda, herramientas y recursos",
+                                    "it": "Organizzare una formazione pratica per metodologia, strumenti e risorse",
+                                    "lv": "Organiz\u0113t praktisku apm\u0101c\u012bbu metodolo\u0123ijas, r\u012bku un resursu jom\u0101",
+                                    "nl": "Organiseer praktische training voor methodologie, tools en assets"
+                                },
+                                "prerequisites": [],
+                                "problemprofiles": [
+                                    "CS_PROBLEM_6",
+                                    "DEF_PROBLEM_7",
+                                    "CS_PROBLEM_1",
+                                    "CS_PROBLEM_2"
+                                ]
+                            },
+                            {
+                                "description_translations": {
+                                    "da": "Denne opgave opretter et specifikt tr\u00e6ningsprogram for tematiske samarbejdsdeltagere for at forst\u00e5 dom\u00e6net, hvor det tematiske samarbejde er organiseret.",
+                                    "en": "This task creates a specific training programme for thematic co-exploration participants to understand the domain where the thematic co-exploration is organized. ",
+                                    "es": "Esta tarea crea un programa de formaci\u00f3n espec\u00edfico para que los participantes en la coexploraci\u00f3n tem\u00e1tica comprendan el \u00e1mbito en el que se organiza la coexploraci\u00f3n tem\u00e1tica.",
+                                    "it": "Questa attivit\u00e0 crea un programma di formazione specifico per i partecipanti alla co-esplorazione tematica per comprendere il dominio in cui \u00e8 organizzata la co-esplorazione tematica.",
+                                    "lv": "\u0160is uzdevums izveidos specifisku apm\u0101c\u012bbas programmu tematisk\u0101s kop\u012bgas izp\u0113tes dal\u012bbniekiem, lai saprastu jomu, kur\u0101 ir organiz\u0113ta tematisk\u0101 kop\u012bg\u0101 izp\u0113te.",
+                                    "nl": "Deze taak cre\u00ebert een specifiek trainingsprogramma voor deelnemers aan de thematische co-exploratie om het domein te begrijpen waar de thematische co-exploratie is georganiseerd."
+                                },
+                                "id": "task-consider_thematic_co_exploration_specific_new_training_needs",
+                                "name_translations": {
+                                    "da": "Overveje tematisk samarbejde specifikke nye tr\u00e6ningsbehov",
+                                    "en": "Consider thematic co-exploration specific new training needs",
+                                    "es": "Considerar las nuevas necesidades de formaci\u00f3n espec\u00edficas de la coexploraci\u00f3n tem\u00e1tica",
+                                    "it": "Considerare le nuove esigenze di formazione specifiche della co-esplorazione tematica",
+                                    "lv": "\u0145emt v\u0113r\u0101 tematisk\u0101s kop\u012bgas izp\u0113tes specifisk\u0101s jaun\u0101s apm\u0101c\u012bbas vajadz\u012bbas",
+                                    "nl": "Overweeg nieuwe trainingsbehoeften specifiek voor thematische co-exploratie"
+                                },
+                                "prerequisites": [
+                                    {
+                                        "item": "task-organise_hands_on_training_for_methodology_tools_and_assets",
+                                        "type": "previous"
+                                    }
+                                ],
+                                "problemprofiles": [
+                                    "CS_PROBLEM_6",
+                                    "DEF_PROBLEM_7",
+                                    "CS_PROBLEM_1",
+                                    "CS_PROBLEM_2"
+                                ]
+                            },
+                            {
+                                "description_translations": {
+                                    "da": "Denne opgave besk\u00e6ftiger sig med organisationen af dataindsamling og analyseprocessen",
+                                    "en": "This task deals with the organization of the data collection and analysis process",
+                                    "es": "Esta tarea se ocupa de la organizaci\u00f3n del proceso de recogida y an\u00e1lisis de datos",
+                                    "it": "Questa attivit\u00e0 si occupa dell'organizzazione del processo di raccolta e analisi dei dati",
+                                    "lv": "\u0160is uzdevums risina datu apkopo\u0161anas un anal\u012bzes procesa organiz\u0101ciju",
+                                    "nl": "Deze taak houdt zich bezig met de organisatie van het proces van gegevensverzameling en -analyse"
+                                },
+                                "id": "task-organize_data_collection_and_analysis_process",
+                                "name_translations": {
+                                    "da": "Organisere dataindsamling og analyseproces",
+                                    "en": "Organize data collection and analysis process",
+                                    "es": "Organizar el proceso de recogida y an\u00e1lisis de datos",
+                                    "it": "Organizzare il processo di raccolta e analisi dei dati",
+                                    "lv": "Organiz\u0113t datu apkopo\u0161anas un anal\u012bzes procesu",
+                                    "nl": "Organiseer het proces van gegevensverzameling en -analyse"
+                                },
+                                "prerequisites": [
+                                    {
+                                        "item": "task-consider_thematic_co_exploration_specific_new_training_needs",
+                                        "type": "previous"
+                                    }
+                                ],
+                                "problemprofiles": [
+                                    "CS_PROBLEM_8",
+                                    "CS_PROBLEM_9"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "description_translations": {
+                            "da": "Dette m\u00e5l tackler (vejleder og sporer) dataindsamlingsprocessen for den tematiske samarbejde. Det omfatter f\u00f8lgende opgaver: a) Indsamle allerede tilg\u00e6ngelige autoritative data; b) Indsamle ikke tilg\u00e6ngelige crowdsourced data; c) Indsamle kvalitative data (unders\u00f8gelser, interviews, fokusgrupper, lokale g\u00e5ture)",
+                            "en": "This objective tackles (guides and tracks) the data collection process of the thematic co-exploration. It encompasses the following tasks: a) Collect already available authorative data; b) Collect not available crowdsourced data; c) Collect qualitative data (surveys, interviews, focus groups, local walks)",
+                            "es": "Este objetivo aborda (gu\u00eda y sigue) el proceso de recogida de datos de la coexploraci\u00f3n tem\u00e1tica. Abarca las siguientes tareas: a) Recopilaci\u00f3n de datos fidedignos ya disponibles; b) Recopilaci\u00f3n de datos no disponibles obtenidos por crowdsourcing; c) Recopilar datos cualitativos (encuestas, entrevistas, grupos de discusi\u00f3n, paseos locales).",
+                            "it": "Questo obiettivo affronta (guida e traccia) il processo di raccolta dati della co-esplorazione tematica. Comprende le seguenti attivit\u00e0: a) Raccolta di dati gi\u00e0 disponibili e autorevoli; b) Raccolta di dati non disponibili ottenuti tramite crowdsourcing; c) Raccolta di dati qualitativi (indagini, interviste, gruppi di discussione, passeggiate locali)",
+                            "lv": "\u0160is m\u0113r\u0137is risina (vada un seko) tematisk\u0101s kop\u012bgas izp\u0113tes datu apkopo\u0161anas procesu. Tas ietver sekojo\u0161us uzdevumus: a) Apkopot jau pieejamos autoritat\u012bvos datus; b) Apkopot nav pieejamos datu, kas ieg\u016bti ar crowdsourcing pal\u012bdz\u012bbu; c) Apkopot kvalitat\u012bvos datus (aptaujas, intervijas, fokusa grupas, viet\u0113jie pastaigas)",
+                            "nl": "Dit doel pakt (begeleidt en volgt) het proces van gegevensverzameling van de thematische co-exploratie aan. Het omvat de volgende taken: a) Verzamel al beschikbare gezaghebbende gegevens; b) Verzamel niet beschikbare crowdsourced gegevens; c) Verzamel kwalitatieve gegevens (enqu\u00eates, interviews, focusgroepen, lokale wandelingen)"
+                        },
+                        "id": "objective-data_collection",
+                        "name_translations": {
+                            "da": "Dataindsamling",
+                            "en": "Data collection",
+                            "es": "Recogida de datos",
+                            "it": "Raccolta dati",
+                            "lv": "Datu apkopo\u0161ana",
+                            "nl": "Gegevensverzameling"
+                        },
+                        "prerequisites": [
+                            {
+                                "item": "objective-observers_training_support",
+                                "type": "previous"
+                            }
+                        ],
+                        "problemprofiles": [
+                            "CS_PROBLEM_8",
+                            "CS_PROBLEM_9",
+                            "UND_PROBLEM_3"
+                        ],
+                        "tasks": [
+                            {
+                                "description_translations": {
+                                    "da": "Denne opgave indsamler allerede tilg\u00e6ngelige data fra Copernicus eller Open Data Portals, som kan v\u00e6re afg\u00f8rende for at danne fugleperspektivet af den tematiske samarbejde.",
+                                    "en": "This task gathers already available data from Copernicus or Open Data Portals which can be essential to form the bird's eye view of the thematic co-exploration.",
+                                    "es": "Esta tarea recopila datos ya disponibles de Copernicus o Portales de Datos Abiertos que pueden ser esenciales para formar la vista de p\u00e1jaro de la co-exploraci\u00f3n tem\u00e1tica.",
+                                    "it": "Questa attivit\u00e0 raccoglie dati gi\u00e0 disponibili da Copernicus o Open Data Portals che possono essere essenziali per formare la vista a volo d'uccello della co-esplorazione tematica.",
+                                    "lv": "\u0160is uzdevums apkopo jau pieejamos datus no Copernicus vai Open Data Portals, kas var b\u016bt b\u016btiski, lai veidotu tematisk\u0101s kop\u012bgas izp\u0113tes putna acu skatu.",
+                                    "nl": "Deze taak verzamelt al beschikbare gegevens van Copernicus of Open Data Portals die essentieel kunnen zijn om het vogelperspectief van de thematische co-exploratie te vormen."
+                                },
+                                "id": "task-collect_already_available_authorative_data",
+                                "name_translations": {
+                                    "da": "Indsamle allerede tilg\u00e6ngelige autoritative data",
+                                    "en": "Collect already available authorative data",
+                                    "es": "Recopilar datos fidedignos ya disponibles",
+                                    "it": "Raccogliere dati gi\u00e0 disponibili e autorevoli",
+                                    "lv": "Aptaujas, intervijas, fokusa grupas, viet\u0113jie pastaigas",
+                                    "nl": "Verzamel al beschikbare gezaghebbende gegevens"
+                                },
+                                "prerequisites": [],
+                                "problemprofiles": [
+                                    "CS_PROBLEM_8",
+                                    "CS_PROBLEM_9"
+                                ]
+                            },
+                            {
+                                "description_translations": {
+                                    "da": "Denne opgave indsamler ikke tilg\u00e6ngelige data med st\u00f8tte fra borgerobservat\u00f8rer, dvs. deltagere i den tematiske samarbejde, der er blevet onboardet. Disse data vil tillade at danne et ormehuls perspektiv p\u00e5 problemet, der tackles af projektet.",
+                                    "en": "This task gathers not available data with the support of the Citizen Observers, i.e. participants in the thematic co-exploration that have been onboarded. These data will allow to form a worm's eyes view of the problem tackled by the project.",
+                                    "es": "Esta tarea recopila datos no disponibles con la ayuda de los Ciudadanos Observadores, es decir, los participantes en la co-exploraci\u00f3n tem\u00e1tica que se han embarcado. Estos datos permitir\u00e1n formarse una visi\u00f3n de gusano del problema abordado por el proyecto.",
+                                    "it": "Questa attivit\u00e0 raccoglie dati non disponibili con il supporto degli Osservatori Cittadini, cio\u00e8 i partecipanti alla co-esplorazione tematica che sono stati imbarcati. Questi dati permetteranno di formare una visione degli occhi del verme del problema affrontato dal progetto.",
+                                    "lv": "\u0160is uzdevums apkopo nav pieejamos datus ar Pilso\u0146u nov\u0113rot\u0101ju atbalstu, t.i., tematisk\u0101s kop\u012bgas izp\u0113tes dal\u012bbniekus, kas ir iek\u013cauti. \u0160ie dati \u013caus veidot projekta risin\u0101t\u0101 probl\u0113mas t\u0101rpu acu skatu.",
+                                    "nl": "Deze taak verzamelt niet beschikbare gegevens met de steun van de burgerobservatoren, d.w.z. deelnemers aan de thematische co-exploratie die zijn ingeschakeld. Deze gegevens zullen het mogelijk maken om een wormoogperspectief te vormen van het probleem dat door het project wordt aangepakt."
+                                },
+                                "id": "task-collect_not_available_crowdsourced_data",
+                                "name_translations": {
+                                    "da": "Indsamle ikke tilg\u00e6ngelige crowdsourced data",
+                                    "en": "Collect not available crowdsourced data",
+                                    "es": "Recopilar datos crowdsourced no disponibles ",
+                                    "it": "Raccogliere dati crowdsourced non disponibili",
+                                    "lv": "Aptaujas, intervijas, fokusa grupas, viet\u0113jie pastaigas",
+                                    "nl": "Verzamel niet beschikbare crowdsourced gegevens"
+                                },
+                                "prerequisites": [
+                                    {
+                                        "item": "task-collect_already_available_authorative_data",
+                                        "type": "previous"
+                                    }
+                                ],
+                                "problemprofiles": [
+                                    "CS_PROBLEM_8",
+                                    "CS_PROBLEM_9"
+                                ]
+                            },
+                            {
+                                "description_translations": {
+                                    "da": "Denne opgave indsamler kvalitative data gennem unders\u00f8gelser, interviews, fokusgrupper eller lokale g\u00e5ture for at indsamle opfattelser, meninger og refleksioner fra dem, der deltager i den tematiske samarbejde eller er p\u00e5virket af resultaterne af dens udf\u00f8relse.",
+                                    "en": "This task gathers qualitative data through surveys, interviews, focus groups or local walks to gather the perceptions, opinions and reflections of those taking part in the thematic co-exploration or affected by the results of its execution.",
+                                    "es": "Esta tarea recopila datos cualitativos mediante encuestas, entrevistas, grupos focales o paseos locales para recoger las percepciones, opiniones y reflexiones de quienes participan en la coexploraci\u00f3n tem\u00e1tica o se ven afectados por los resultados de su ejecuci\u00f3n.",
+                                    "it": "Questa attivit\u00e0 raccoglie dati qualitativi attraverso indagini, interviste, gruppi di discussione o passeggiate locali per raccogliere le percezioni, opinioni e riflessioni di coloro che partecipano alla co-esplorazione tematica o sono interessati dai risultati della sua esecuzione.",
+                                    "lv": "\u0160is uzdevums apkopo kvalitat\u012bvus datus, izmantojot aptaujas, intervijas, fokusa grupas vai viet\u0113j\u0101s pastaigas, lai apkopotu to cilv\u0113ku uztveres, viedok\u013cus un atspogu\u013cojumus, kas piedal\u0101s tematiskaj\u0101 kop\u012bgaj\u0101 izp\u0113t\u0113 vai ir ietekm\u0113ti no t\u0101s rezult\u0101tiem.",
+                                    "nl": "Deze taak verzamelt kwalitatieve gegevens via enqu\u00eates, interviews, focusgroepen of lokale wandelingen om de percepties, meningen en reflecties van degenen die deelnemen aan de thematische co-exploratie of getroffen worden door de resultaten van de uitvoering ervan te verzamelen."
+                                },
+                                "id": "task-collect_qualitative_data_surveys_interviews_focus_groups_local_walks",
+                                "name_translations": {
+                                    "da": "Indsamle kvalitative data (unders\u00f8gelser, interviews, fokusgrupper, lokale g\u00e5ture)",
+                                    "en": "Collect qualitative data (surveys, interviews, focus groups, local walks)",
+                                    "es": "Recopilaci\u00f3n de datos cualitativos (encuestas, entrevistas, grupos de discusi\u00f3n, paseos locales)",
+                                    "it": "Raccolta dati qualitativi (indagini, interviste, gruppi di discussione, passeggiate locali)",
+                                    "lv": "Kvalitat\u012bvos datu apkopo\u0161ana (aptaujas, intervijas, fokusa grupas, viet\u0113jie pastaigas)",
+                                    "nl": "Verzamel kwalitatieve gegevens (enqu\u00eates, interviews, focusgroepen, lokale wandelingen)"
+                                },
+                                "prerequisites": [
+                                    {
+                                        "item": "task-collect_not_available_crowdsourced_data",
+                                        "type": "previous"
+                                    }
+                                ],
+                                "problemprofiles": [
+                                    "CS_PROBLEM_8",
+                                    "CS_PROBLEM_9",
+                                    "UND_PROBLEM_3"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "description_translations": {
+                            "da": "Dette m\u00e5l sigter mod at hj\u00e6lpe tematiske samarbejde deltagere med at udf\u00f8re den indsamlede datakombination, analyse og visualisering. Det omfatter f\u00f8lgende aktiviteter: a) Kombinere og harmonisere heterogene data, der er indsamlet; b) Indtage og lagre data; c) Dataanalyse og visualisering i instrumentbr\u00e6tter; d) Katalogisere data og visualiseringer; og e) Indsigtsgenerering og rapportering",
+                            "en": "This objective aims to aid thematic co-exploration participants to perform the collected data combination, analysis and visualization. It comprises the following activities: a) Combine and harmonize heterogenous data collected; b) Ingest and store data; c) Data analysis and visualization in dashboards; d) Catalogue data and visualizations; and e) Insights generation and reporting",
+                            "es": "Este objetivo pretende ayudar a los participantes en la co-exploraci\u00f3n tem\u00e1tica a realizar la combinaci\u00f3n, el an\u00e1lisis y la visualizaci\u00f3n de los datos recogidos. Comprende las siguientes actividades: a) Combinar y armonizar datos heterog\u00e9neos recopilados; b) Ingerir y almacenar datos; c) An\u00e1lisis y visualizaci\u00f3n de datos en cuadros de mando; d) Catalogar datos y visualizaciones; y e) Generaci\u00f3n de informaci\u00f3n y elaboraci\u00f3n de informes",
+                            "it": "Questo obiettivo mira ad aiutare i partecipanti alla co-esplorazione tematica a eseguire la combinazione, l'analisi e la visualizzazione dei dati raccolti. Comprende le seguenti attivit\u00e0: a) Combinare e armonizzare dati eterogenei raccolti; b) Ingesta e archiviazione dei dati; c) Analisi e visualizzazione dei dati nei cruscotti; d) Catalogazione dei dati e delle visualizzazioni; e) Generazione di idee e redazione di relazioni",
+                            "lv": "\u0160is m\u0113r\u0137is ir v\u0113rsts uz tematisk\u0101s kop\u012bgas izp\u0113tes dal\u012bbnieku atbalstu, lai veiktu apkopoto datu apvieno\u0161anu, anal\u012bzi un vizualiz\u0101ciju. Tas ietver sekojo\u0161as darb\u012bbas: a) Apkopot un saska\u0146ot apkopotos heterog\u0113nos datus; b) Datu ieg\u016b\u0161ana un uzglab\u0101\u0161ana; c) Datu anal\u012bze un vizualiz\u0101cija instrumentu panelos; d) Datu un vizualiz\u0101ciju katalogiz\u0101cija; un e) Ideju \u0123ener\u0113\u0161ana un zi\u0146ojumu sagatavo\u0161ana",
+                            "nl": "Dit doel heeft tot doel deelnemers aan de thematische co-exploratie te helpen bij het uitvoeren van de verzamelde gegevenscombinatie, -analyse en -visualisatie. Het omvat de volgende activiteiten: a) Combineer en harmoniseer heterogene gegevens die zijn verzameld; b) Ingesta en opslag van gegevens; c) Gegevensanalyse en visualisatie in dashboards; d) Catalogiseer gegevens en visualisaties; en e) Generatie van inzichten en rapportage"
+                        },
+                        "id": "objective-data_combination_analysis_visualization",
+                        "name_translations": {
+                            "da": "Datakombination, analyse og visualisering",
+                            "en": "Data combination, analysis & visualization",
+                            "es": "Combinaci\u00f3n, an\u00e1lisis y visualizaci\u00f3n de datos",
+                            "it": "Combinazione, analisi e visualizzazione dei dati",
+                            "lv": "Datu apvieno\u0161ana, anal\u012bze un vizualiz\u0101cija",
+                            "nl": "Gegevenscombinatie, -analyse en -visualisatie"
+                        },
+                        "prerequisites": [
+                            {
+                                "item": "objective-data_collection",
+                                "type": "previous"
+                            }
+                        ],
+                        "problemprofiles": [
+                            "CS_PROBLEM_9",
+                            "CS_PROBLEM_11",
+                            "ORG_PROBLEM_6.2",
+                            "BUILD_PROBLEM_7"
+                        ],
+                        "tasks": [
+                            {
+                                "description_translations": {
+                                    "da": "Denne opgave st\u00f8tter tematiske samarbejde deltagere i at kombinere og harmonisere heterogene data, der er indsamlet",
+                                    "en": "This task supports thematic co-exploration participants combining and harmonizing heterogenous data collected",
+                                    "es": "Esta tarea ayuda a los participantes en la exploraci\u00f3n tem\u00e1tica conjunta a combinar y armonizar los datos heterog\u00e9neos recopilados",
+                                    "it": "Questa attivit\u00e0 supporta i partecipanti alla co-esplorazione tematica nella combinazione e armonizzazione dei dati eterogenei raccolti",
+                                    "lv": "\u0160is uzdevums atbalsta tematisk\u0101s kop\u012bgas izp\u0113tes dal\u012bbniekus, apkopojot un saska\u0146ojot apkopotos heterog\u0113nos datus",
+                                    "nl": "Deze taak ondersteunt deelnemers aan de thematische co-exploratie bij het combineren en harmoniseren van heterogene gegevens die zijn verzameld"
+                                },
+                                "id": "task-combine_and_harmonize_heterogenous_data_collected",
+                                "name_translations": {
+                                    "da": "Kombinere og harmonisere heterogene data, der er indsamlet",
+                                    "en": "Combine and harmonize heterogenous data collected",
+                                    "es": "Combinar y armonizar los datos heterog\u00e9neos recopilados",
+                                    "it": "Combinare e armonizzare dati eterogenei raccolti",
+                                    "lv": "Apkopot un saska\u0146ot apkopotos heterog\u0113nos datus",
+                                    "nl": "Combineer en harmoniseer heterogene gegevens die zijn verzameld"
+                                },
+                                "prerequisites": [],
+                                "problemprofiles": [
+                                    "CS_PROBLEM_9",
+                                    "CS_PROBLEM_11",
+                                    "ORG_PROBLEM_6.2"
+                                ]
+                            },
+                            {
+                                "description_translations": {
+                                    "da": "Denne opgave st\u00f8tter tematiske samarbejde deltagere i at indtage og lagre de tidligere aggregerede data",
+                                    "en": "This task supports thematic co-exploration participants ingesting and storing the previously aggregated data",
+                                    "es": "Esta tarea ayuda a los participantes en la coexploraci\u00f3n tem\u00e1tica a introducir y almacenar los datos previamente agregados.",
+                                    "it": "Questa attivit\u00e0 supporta i partecipanti alla co-esplorazione tematica nell'ingerire e archiviare i dati precedentemente aggregati",
+                                    "lv": "\u0160is uzdevums atbalsta tematisk\u0101s kop\u012bgas izp\u0113tes dal\u012bbniekus, ieg\u016bstot un uzglab\u0101jot iepriek\u0161 apkopotos datus",
+                                    "nl": "Deze taak ondersteunt deelnemers aan de thematische co-exploratie bij het opnemen en opslaan van de eerder geaggregeerde gegevens"
+                                },
+                                "id": "task-ingest_and_store_data",
+                                "name_translations": {
+                                    "da": "Indtage og lagre data",
+                                    "en": "Ingest and store data",
+                                    "es": "Ingesta y almacenamiento de datos",
+                                    "it": "Ingesta e archiviazione dei dati",
+                                    "lv": "Datu ieg\u016b\u0161ana un uzglab\u0101\u0161ana",
+                                    "nl": "Ingesta en opslag van gegevens"
+                                },
+                                "prerequisites": [
+                                    {
+                                        "item": "task-combine_and_harmonize_heterogenous_data_collected",
+                                        "type": "previous"
+                                    }
+                                ],
+                                "problemprofiles": [
+                                    "CS_PROBLEM_9",
+                                    "CS_PROBLEM_11",
+                                    "ORG_PROBLEM_6.2"
+                                ]
+                            },
+                            {
+                                "description_translations": {
+                                    "da": "Denne opgave st\u00f8tter tematiske samarbejde deltagere i dataanalyseprocessen og genereringen af visualiseringer i instrumentbr\u00e6tter",
+                                    "en": "This task supports thematic co-exploration participants in the data analysis process and the generation of visualizations in dashboards",
+                                    "es": "Esta tarea ayuda a los participantes en la coexploraci\u00f3n tem\u00e1tica en el proceso de an\u00e1lisis de datos y la generaci\u00f3n de visualizaciones en cuadros de mando",
+                                    "it": "Questa attivit\u00e0 supporta i partecipanti alla co-esplorazione tematica nel processo di analisi dei dati e nella generazione di visualizzazioni nei cruscotti",
+                                    "lv": "\u0160is uzdevums atbalsta tematisk\u0101s kop\u012bgas izp\u0113tes dal\u012bbniekus datu anal\u012bzes proces\u0101 un vizualiz\u0101cijas \u0123ener\u0113\u0161an\u0101 instrumentu panelos",
+                                    "nl": "Deze taak ondersteunt deelnemers aan de thematische co-exploratie bij het proces van gegevensanalyse en de generatie van visualisaties in dashboards"
+                                },
+                                "id": "task-data_analysis_and_visualization_in_dashboards",
+                                "name_translations": {
+                                    "da": "Dataanalyse og visualisering i instrumentbr\u00e6tter",
+                                    "en": "Data analysis and visualization in dashboards",
+                                    "es": "An\u00e1lisis de datos y visualizaci\u00f3n en cuadros de mando",
+                                    "it": "Analisi e visualizzazione dei dati nei cruscotti",
+                                    "lv": "Datu anal\u012bze un vizualiz\u0101cija instrumentu panelos",
+                                    "nl": "Gegevensanalyse en visualisatie in dashboards"
+                                },
+                                "prerequisites": [
+                                    {
+                                        "item": "task-ingest_and_store_data",
+                                        "type": "previous"
+                                    }
+                                ],
+                                "problemprofiles": [
+                                    "CS_PROBLEM_9",
+                                    "CS_PROBLEM_11",
+                                    "ORG_PROBLEM_6.2"
+                                ]
+                            },
+                            {
+                                "description_translations": {
+                                    "da": "Denne opgave st\u00f8tter tematiske samarbejde deltagere i at katalogisere resultaterne af datafangst- og analyseprocessen, s\u00e5 de let kan gennemg\u00e5s af enten tematiske samarbejde deltagere eller interessenter.",
+                                    "en": "This task supports thematic co-exploration participants to catalogue the data capture and analysis process outcomes so that they can be easily reviewed by either thematic co-exploration participants or stakeholders. ",
+                                    "es": "Esta tarea ayuda a los participantes de la co-exploraci\u00f3n tem\u00e1tica a catalogar los resultados del proceso de captura y an\u00e1lisis de datos para que puedan ser revisados f\u00e1cilmente por los participantes de la co-exploraci\u00f3n tem\u00e1tica o por las partes interesadas.",
+                                    "it": "Questa attivit\u00e0 supporta i partecipanti alla co-esplorazione tematica a catalogare i risultati del processo di acquisizione e analisi dei dati in modo che possano essere facilmente esaminati sia dai partecipanti alla co-esplorazione tematica che dagli stakeholder.",
+                                    "lv": "\u0160is uzdevums atbalsta tematisk\u0101s kop\u012bgas izp\u0113tes dal\u012bbniekus, lai katalogiz\u0113tu datu ieg\u016b\u0161anas un anal\u012bzes procesa rezult\u0101tus, lai tos var\u0113tu viegli p\u0101rskat\u012bt gan tematisk\u0101s kop\u012bgas izp\u0113tes dal\u012bbnieki, gan iesaist\u012bt\u0101s personas.",
+                                    "nl": "Deze taak ondersteunt deelnemers aan de thematische co-exploratie bij het catalogiseren van de resultaten van het proces van gegevensverzameling en -analyse, zodat ze gemakkelijk kunnen worden beoordeeld door deelnemers aan de thematische co-exploratie of belanghebbenden."
+                                },
+                                "id": "task-catalogue_data_and_visualizations",
+                                "name_translations": {
+                                    "da": "Katalogisere data og visualiseringer",
+                                    "en": "Catalogue data and visualizations",
+                                    "es": "Catalogar datos y visualizaciones",
+                                    "it": "Catalogare dati e visualizzazioni",
+                                    "lv": "Datu un vizualiz\u0101ciju katalogiz\u0101cija",
+                                    "nl": "Catalogiseer gegevens en visualisaties"
+                                },
+                                "prerequisites": [
+                                    {
+                                        "item": "task-data_analysis_and_visualization_in_dashboards",
+                                        "type": "previous"
+                                    }
+                                ],
+                                "problemprofiles": [
+                                    "CS_PROBLEM_9",
+                                    "CS_PROBLEM_11",
+                                    "ORG_PROBLEM_6.2",
+                                    "BUILD_PROBLEM_7"
+                                ]
+                            },
+                            {
+                                "description_translations": {
+                                    "da": "Denne opgave st\u00f8tter tematiske samarbejde deltagere i at generere indsigter og producere rapporter med resultaterne af den tematiske samarbejde.",
+                                    "en": "This task supports thematic co-exploration participants to generate insights and produce reports with the results of the thematic co-exploration.",
+                                    "es": "Esta tarea ayuda a los participantes de la co-exploraci\u00f3n tem\u00e1tica a generar percepciones y elaborar informes con los resultados de la co-exploraci\u00f3n tem\u00e1tica.",
+                                    "it": "Questa attivit\u00e0 supporta i partecipanti alla co-esplorazione tematica a generare idee e produrre relazioni con i risultati della co-esplorazione tematica.",
+                                    "lv": "\u0160is uzdevums atbalsta tematisk\u0101s kop\u012bgas izp\u0113tes dal\u012bbniekus, lai \u0123ener\u0113tu idejas un sagatavotu zi\u0146ojumus ar tematisk\u0101s kop\u012bgas izp\u0113tes rezult\u0101tiem.",
+                                    "nl": "Deze taak ondersteunt deelnemers aan de thematische co-exploratie bij het genereren van inzichten en het produceren van rapporten met de resultaten van de thematische co-exploratie."
+                                },
+                                "id": "task-insights_generation_and_reporting",
+                                "name_translations": {
+                                    "da": "Indsigtsgenerering og rapportering",
+                                    "en": "Insights generation and reporting",
+                                    "es": "Generaci\u00f3n de ideas y elaboraci\u00f3n de informes",
+                                    "it": "Generazione di idee e redazione di relazioni",
+                                    "lv": "Ideju \u0123ener\u0113\u0161ana un zi\u0146ojumu sagatavo\u0161ana",
+                                    "nl": "Generatie van inzichten en rapportage"
+                                },
+                                "prerequisites": [
+                                    {
+                                        "item": "task-catalogue_data_and_visualizations",
+                                        "type": "previous"
+                                    }
+                                ],
+                                "problemprofiles": [
+                                    "CS_PROBLEM_9",
+                                    "CS_PROBLEM_11",
+                                    "ORG_PROBLEM_6.2",
+                                    "BUILD_PROBLEM_7"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "description_translations": {
+                            "da": "Dette m\u00e5l har til form\u00e5l at hj\u00e6lpe borgerobservat\u00f8rer med at udf\u00f8re deres eksperiment-evaluering. Det omfatter f\u00f8lgende opgaver: a) KPI'er og evaluering; b) F\u00e6lles refleksion over resultater og erfaringer; c) Beslutte, om man vil gentage baseret p\u00e5 analyse af fremskridt eller afslutte med takeaways.",
+                            "en": "This objective aims to help citizen observers carrying out their experiment evaluation. It comprises the following tasks: a) KPIs population and evaluation; b) Collaborative reflection about results and experience; c) Decide whether to reiterate based on analysis of progress or wrap up with takeaways",
+                            "es": "Este objetivo pretende ayudar a los ciudadanos observadores a llevar a cabo la evaluaci\u00f3n de su experimento. Comprende las siguientes tareas: a) Poblaci\u00f3n y evaluaci\u00f3n de los KPI; b) Reflexi\u00f3n colaborativa sobre los resultados y la experiencia; c) Decidir si se reitera sobre la base del an\u00e1lisis de los progresos o si se concluye con las conclusiones.",
+                            "it": "Questo obiettivo mira ad aiutare gli osservatori cittadini a svolgere la valutazione del loro esperimento. Comprende le seguenti attivit\u00e0: a) Pianificazione e valutazione dei KPI; b) Riflessione collaborativa sui risultati e sull'esperienza; c) Decidere se ripetere in base all'analisi dei progressi o concludere con le conclusioni",
+                            "lv": "\u0160is m\u0113r\u0137is ir v\u0113rsts uz pilso\u0146u nov\u0113rot\u0101ju eksperimenta nov\u0113rt\u0113\u0161anas atbalstu. Tas ietver sekojo\u0161us uzdevumus: a) KPI popul\u0101cija un nov\u0113rt\u0113\u0161ana; b) Kop\u012bga atspogu\u013co\u0161an\u0101s par rezult\u0101tiem un pieredzi; c) Izlemt, vai atk\u0101rtot, pamatojoties uz progresu anal\u012bzi, vai nosl\u0113gt ar secin\u0101jumiem",
+                            "nl": "Dit doel heeft tot doel om burgerobservatoren te helpen bij het uitvoeren van hun experimentevaluatie. Het omvat de volgende taken: a) KPI's populatie en evaluatie; b) Samenwerkende reflectie over resultaten en ervaring; c) Beslissen of op basis van de analyse van de voortgang moet worden herhaald of moet worden afgesloten met conclusies"
+                        },
+                        "id": "objective-experiment_evaluation",
+                        "name_translations": {
+                            "da": "Eksperimentevaluering",
+                            "en": "Experiment evaluation",
+                            "es": "Evaluaci\u00f3n del experimento",
+                            "it": "Evaluazione dell'esperimento",
+                            "lv": "Eksperimenta nov\u0113rt\u0113\u0161ana",
+                            "nl": "Experimentevaluatie"
+                        },
+                        "prerequisites": [
+                            {
+                                "item": "objective-data_combination_analysis_visualization",
+                                "type": "previous"
+                            }
+                        ],
+                        "problemprofiles": [
+                            "VAL_PROBLEM_1",
+                            "VAL_PROBLEM_2",
+                            "VAL_PROBLEM_5",
+                            "SUS_PROBLEM_3",
+                            "CS_PROBLEM_11"
+                        ],
+                        "tasks": [
+                            {
+                                "description_translations": {
+                                    "da": "Denne opgave handler om at analysere de crowdsourcede data og sp\u00f8rgeskemaer og unders\u00f8gelser for at befolke den tematiske samarbejdes KPI'er og deres evaluering.",
+                                    "en": "This task is about analysing the data crowdsourced and the questionnaires and surveys in order to populate the thematic co-exploration's KPIs and their evaluation.",
+                                    "es": "Esta tarea consiste en analizar los datos obtenidos mediante crowdsourcing y los cuestionarios y encuestas con el fin de poblar los KPI de la co-exploraci\u00f3n tem\u00e1tica y su evaluaci\u00f3n.",
+                                    "it": "Questa attivit\u00e0 consiste nell'analizzare i dati ottenuti tramite crowdsourcing e i questionari e le indagini al fine di popolare i KPI della co-esplorazione tematica e la loro valutazione.",
+                                    "lv": "\u0160is uzdevums ir par datu crowdsourced un aptauju un izp\u0113t\u0113m analiz\u0113\u0161anu, lai popul\u0113tu tematisk\u0101s kop\u012bgas izp\u0113tes KPI un to nov\u0113rt\u0113jumu.",
+                                    "nl": "Deze taak gaat over het analyseren van de crowdsourced gegevens en de vragenlijsten en enqu\u00eates om de KPI's van de thematische co-exploratie en hun evaluatie te bevolken."
+                                },
+                                "id": "task-kpis_population_and_evaluation",
+                                "name_translations": {
+                                    "da": "KPI'er og evaluering",
+                                    "en": "KPIs population and evaluation",
+                                    "es": "Poblaci\u00f3n y evaluaci\u00f3n de KPIs",
+                                    "it": "Popolazione e valutazione dei KPI",
+                                    "lv": "KPI popul\u0101cija un nov\u0113rt\u0113\u0161ana",
+                                    "nl": "KPI's populatie en evaluatie"
+                                },
+                                "prerequisites": [],
+                                "problemprofiles": [
+                                    "VAL_PROBLEM_1",
+                                    "VAL_PROBLEM_2",
+                                    "VAL_PROBLEM_5",
+                                    "SUS_PROBLEM_3",
+                                    "CS_PROBLEM_11"
+                                ]
+                            },
+                            {
+                                "description_translations": {
+                                    "da": "Denne opgave handler om at reflektere samarbejdende om resultaterne af den tematiske samarbejde og deltagernes erfaring i den",
+                                    "en": "This task is about collaboratively reflecting about the results of the thematic co-exploration and the participants' experience in it",
+                                    "es": "Esta tarea consiste en reflexionar de forma colaborativa sobre los resultados de la co-exploraci\u00f3n tem\u00e1tica y la experiencia de los participantes en la misma.",
+                                    "it": "Questa attivit\u00e0 consiste nella riflessione collaborativa sui risultati della co-esplorazione tematica e sull'esperienza dei partecipanti in essa",
+                                    "lv": "\u0160is uzdevums ir par kop\u012bgu atspogu\u013co\u0161anos par tematisk\u0101s kop\u012bgas izp\u0113tes rezult\u0101tiem un dal\u012bbnieku pieredzi taj\u0101",
+                                    "nl": "Deze taak gaat over het gezamenlijk reflecteren over de resultaten van de thematische co-exploratie en de ervaring van de deelnemers daarin"
+                                },
+                                "id": "task-collaborative_reflection_about_results_and_experience",
+                                "name_translations": {
+                                    "da": "Samarbejdende refleksion om resultater og erfaring",
+                                    "en": "Collaborative reflection about results and experience",
+                                    "es": "Reflexi\u00f3n colaborativa sobre los resultados y la experiencia",
+                                    "it": "Riflessione collaborativa sui risultati e sull'esperienza",
+                                    "lv": "Kop\u012bga atspogu\u013co\u0161an\u0101s par rezult\u0101tiem un pieredzi",
+                                    "nl": "Samenwerkende reflectie over resultaten en ervaring"
+                                },
+                                "prerequisites": [
+                                    {
+                                        "item": "task-kpis_population_and_evaluation",
+                                        "type": "previous"
+                                    }
+                                ],
+                                "problemprofiles": [
+                                    "VAL_PROBLEM_5",
+                                    "SUS_PROBLEM_3",
+                                    "CS_PROBLEM_11"
+                                ]
+                            },
+                            {
+                                "description_translations": {
+                                    "da": "Denne opgave serverer tematiske samarbejde deltagere til at beslutte, om de vil forts\u00e6tte med dataindsamling og analyseprocessen eller ej. Hvis der forts\u00e6ttes, kan nogle justeringer til data-protokollen, indsamling, analyse, visualisering og fortolkning defineres af deltagere inden for dette stadie.",
+                                    "en": "This task servers the thematic co-exploration's participants to decide whether to continue with the data gathering and analysis process or not. In case of continuing, some readjustments to the data protocol, collection, analysis, visualization and interpretation process may be defined by participants within this stage.",
+                                    "es": "Esta tarea sirve para que los participantes en la coexploraci\u00f3n tem\u00e1tica decidan si contin\u00faan o no con el proceso de recopilaci\u00f3n y an\u00e1lisis de datos. En caso de continuar, los participantes pueden definir en esta fase algunos reajustes en el protocolo de datos y en el proceso de recogida, an\u00e1lisis, visualizaci\u00f3n e interpretaci\u00f3n. ",
+                                    "it": "Questa attivit\u00e0 serve ai partecipanti alla co-esplorazione tematica per decidere se continuare o meno con il processo di raccolta e analisi dei dati. In caso di continuazione, alcuni riaggiustamenti al protocollo dei dati, alla raccolta, all'analisi, alla visualizzazione e all'interpretazione dei dati possono essere definiti dai partecipanti in questa fase.",
+                                    "lv": "\u0160is uzdevums kalpo tematisk\u0101s kop\u012bgas izp\u0113tes dal\u012bbniekiem, lai izlemtu, vai turpin\u0101t datu apkopo\u0161anas un anal\u012bzes procesu vai n\u0113. Ja turpin\u0101\u0161ana, \u0161aj\u0101 posm\u0101 dal\u012bbnieki var defin\u0113t da\u017eas p\u0101rstruktur\u0113\u0161anas datu protokol\u0101, apkopo\u0161anas, anal\u012bzes, vizualiz\u0101cijas un interpret\u0101cijas proces\u0101.",
+                                    "nl": "Deze taak dient de deelnemers aan de thematische co-exploratie om te beslissen of ze al dan niet doorgaan met het proces van gegevensverzameling en -analyse. In geval van voortzetting kunnen sommige aanpassingen aan het dataprotocol, de verzameling, analyse, visualisatie en interpretatie door de deelnemers binnen deze fase worden gedefinieerd."
+                                },
+                                "id": "task-decide_whether_to_reiterate_based_on_analysis_of_progress_or_wrap_up_with_takeaways",
+                                "name_translations": {
+                                    "da": "Beslut, om du vil gentage baseret p\u00e5 analyse af fremskridt eller afslutte med takeaways",
+                                    "en": "Decide whether to reiterate based on analysis of progress or wrap up with takeaways",
+                                    "es": "Decidir si se reitera bas\u00e1ndose en el an\u00e1lisis de los progresos o si se concluye con las conclusiones",
+                                    "it": "Decidere se ripetere in base all'analisi dei progressi o concludere con le conclusioni",
+                                    "lv": "Izlemt, vai atk\u0101rtot, pamatojoties uz progresu anal\u012bzi, vai nosl\u0113gt ar secin\u0101jumiem",
+                                    "nl": "Beslissen of op basis van de analyse van de voortgang moet worden herhaald of moet worden afgesloten met conclusies"
+                                },
+                                "prerequisites": [
+                                    {
+                                        "item": "task-collaborative_reflection_about_results_and_experience",
+                                        "type": "previous"
+                                    }
+                                ],
+                                "problemprofiles": [
+                                    "VAL_PROBLEM_1",
+                                    "VAL_PROBLEM_2",
+                                    "VAL_PROBLEM_5"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "prerequisites": [
+                    {
+                        "item": "phase-designing",
                         "status": "finished"
                     }
                 ]
