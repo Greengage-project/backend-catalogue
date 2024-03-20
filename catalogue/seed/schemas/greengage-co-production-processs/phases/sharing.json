@@ -1,0 +1,232 @@
+{
+    "id": "phase-sharing",
+    "prerequisites": [
+        {
+            "item": "phase-experimenting",
+            "status": "finished"
+        }
+    ],
+    "name_translations": {
+        "en": "Sharing",
+        "es": "Compartiendo",
+        "it": "Condivisione",
+        "lv": "Dalīšanās",
+        "da": "Deling",
+        "nl": "Delen"
+    },
+    "description_translations": {
+        "en": "This phase is about sharing the results of the thematic co-exploration and seeking its replicability and sustainability. It tackles the following objectives: a) Storytelling (from findings); b) Translating into policies and c) Experiment sustainability. This work is carried out by the whole thematic co-exploration team including pilot owners.",
+        "es": "Esta fase consiste en compartir los resultados de la coexploración temática y buscar su replicabilidad y sostenibilidad. Aborda los siguientes objetivos: a) Contar historias (a partir de los hallazgos); b) Traducir en políticas y c) Experimentar la sostenibilidad. Este trabajo lo lleva a cabo todo el equipo de co-exploración temática, incluidos los propietarios de los pilotos.",
+        "it": "Questa fase riguarda la condivisione dei risultati della co-esplorazione tematica e la ricerca della replicabilità e della sostenibilità. Affronta i seguenti obiettivi: a) Narrazione (dai risultati); b) Traduzione in politiche e c) Sostenibilità dell'esperimento. Questo lavoro è svolto da tutto il team di co-esplorazione tematica, compresi i proprietari dei piloti.",
+        "lv": "Šī fāze ir par rezultātu kopīgošanu tematiskajā kopīgošanā un tās atkārtojamības un ilgtspējas meklēšanu. Tā risina šādus mērķus: a) Stāstīšana (no atklājumiem); b) Tulkot politikās un c) Eksperimenta ilgtspēja. Šo darbu veic visa tematiskās kopīgošanas komanda, ieskaitot pilotu īpašniekus.",
+        "da": "Denne fase handler om at dele resultaterne af den tematiske co-udforskning og søge dens replikerbarhed og bæredygtighed. Det tager fat på følgende mål: a) Fortælling (fra resultater); b) Oversættelse til politikker og c) Eksperiment bæredygtighed. Dette arbejde udføres af hele det tematiske co-udforskningshold, herunder pilotindehavere.",
+        "nl": "Deze fase gaat over het delen van de resultaten van de thematische co-exploratie en het zoeken naar de replicatie en duurzaamheid ervan. Het pakt de volgende doelstellingen aan: a) Storytelling (vanuit bevindingen); b) Vertalen naar beleid en c) Experiment duurzaamheid. Dit werk wordt uitgevoerd door het hele thematische co-exploratieteam, inclusief pilot-eigenaren."
+    },
+    "objectives": [
+        {
+            "name_translations": {
+                "en": "Storytelling (from findings)",
+                "es": "Narración de historias (a partir de los resultados)",
+                "it": "Narrazione (dai risultati)",
+                "lv": "Stāstīšana (no atklājumiem)",
+                "da": "Fortælling (fra resultater)",
+                "nl": "Storytelling (vanuit bevindingen)"
+            },
+            "description_translations": {
+                "en": "This objective aims to create appealing and easily understandable, widely accessible stories that can be widely disseminated for society to be aware and comprehend the need for societal behaviour transformation towards a more environmentally aware way of life. ",
+                "es": "Este objetivo pretende crear historias atractivas, fácilmente comprensibles y ampliamente accesibles que puedan difundirse ampliamente para que la sociedad sea consciente y comprenda la necesidad de transformar el comportamiento social hacia un modo de vida más sostenible.",
+                "it": "Questo obiettivo mira a creare storie accattivanti e facilmente comprensibili, ampiamente accessibili, che possano essere ampiamente diffuse affinché la società sia consapevole e comprenda la necessità di trasformare il comportamento sociale verso uno stile di vita più sostenibile.",
+                "lv": "Šis mērķis ir vērsts uz pievilcīgu un viegli saprotamu, plaši pieejamu stāstu radīšanu, kas var tikt plaši izplatīti, lai sabiedrība būtu informēta un saprastu nepieciešamību pēc sabiedrības uzvedības pārveidošanas uz vides ziņā apzinīgāku dzīvesveidu.",
+                "da": "Dette mål sigter mod at skabe tiltalende og letforståelige, bredt tilgængelige historier, der kan udbredes bredt, så samfundet er opmærksomt og forstår behovet for samfundsadfærdstransformation mod en mere miljøbevidst livsstil.",
+                "nl": "Dit doel is gericht op het creëren van aantrekkelijke en gemakkelijk te begrijpen, breed toegankelijke verhalen die breed verspreid kunnen worden, zodat de samenleving zich bewust wordt van en begrijpt waarom het gedrag van de samenleving moet veranderen naar een meer milieubewuste levensstijl."
+            },
+            "problemprofiles": [
+                "CS_PROBLEM_12",
+                "CS_PROBLEM_13",
+                "SUS_PROBLEM_1",
+                "SUS_PROBLEM_2",
+                "SUS_PROBLEM_3",
+                "SUS_PROBLEM_4",
+                "CS_PROBLEM_5"
+            ],
+            "tasks": [
+                {
+                    "name_translations": {
+                        "en": "Generation of storylines for wide dissemination",
+                        "es": "Generación de historias para su amplia difusión",
+                        "it": "Generazione di trame per una vasta diffusione",
+                        "lv": "Stāstu līniju ģenerēšana plašai izplatīšanai",
+                        "da": "Generering af historier til bred udbredelse",
+                        "nl": "Genereren van verhaallijnen voor brede verspreiding"
+                    },
+                    "description_translations": {
+                        "en": "This task suggests approaches and templates that could be used to guide the elaboration of storytelling materials for wide dissemination of the project.",
+                        "es": "Esta tarea sugiere enfoques y plantillas que podrían utilizarse para orientar la elaboración de materiales narrativos para una amplia difusión del proyecto.",
+                        "it": "Questo compito suggerisce approcci e modelli che potrebbero essere utilizzati per guidare l'elaborazione di materiali narrativi per una vasta diffusione del progetto.",
+                        "lv": "Šī uzdevuma mērķis ir ierosināt pieejas un veidnes, kas varētu tikt izmantotas, lai vadītu stāstu materiālu izstrādi plašai projekta izplatīšanai.",
+                        "da": "Denne opgave foreslår tilgange og skabeloner, der kan bruges til at guide udarbejdelsen af fortællingsmaterialer til bred udbredelse af projektet.",
+                        "nl": "Deze taak suggereert benaderingen en sjablonen die kunnen worden gebruikt om de uitwerking van verhalende materialen te begeleiden voor brede verspreiding van het project."
+                    },
+                    "problemprofiles": [
+                        "SUS_PROBLEM_2",
+                        "SUS_PROBLEM_3",
+                        "SUS_PROBLEM_4",
+                        "CS_PROBLEM_5"
+                    ],
+                    "id": "task-generate-storylines",
+                    "prerequisites": []
+                }
+            ],
+            "id": "objective-storytelling",
+            "prerequisites": []
+        },
+        {
+            "name_translations": {
+                "en": "Translating into policies",
+                "es": "Generar nuevas políticas",
+                "it": "",
+                "lv": "",
+                "da": "",
+                "nl": ""
+            },
+            "description_translations": {
+                "en": "This objective aims to generate an assortment of policy briefs' inputs for policy makers",
+                "es": "Este objetivo pretende generar una serie de documentos de orientación política para los responsables políticos",
+                "it": "",
+                "lv": "",
+                "da": "",
+                "nl": ""
+            },
+            "problemprofiles": [
+                "SUS_PROBLEM_2",
+                "SUS_PROBLEM_3",
+                "SUS_PROBLEM_4",
+                "CS_PROBLEM_5"
+            ],
+            "tasks": [
+                {
+                    "name_translations": {
+                        "en": "Generation of policy briefs' inputs for policy makers",
+                        "es": "Elaboración de informes políticos para los responsables políticos",
+                        "it": "",
+                        "lv": "",
+                        "da": "",
+                        "nl": ""
+                    },
+                    "description_translations": {
+                        "en": "This task seeks to generate an assortment of policy briefs' inputs for policy makers",
+                        "es": "El objetivo de esta tarea es generar una serie de documentos informativos para los responsables políticos.",
+                        "it": "",
+                        "lv": "",
+                        "da": "",
+                        "nl": ""
+                    },
+                    "problemprofiles": [
+                        "CS_PROBLEM_12",
+                        "CS_PROBLEM_13",
+                        "SUS_PROBLEM_1",
+                        "CS_PROBLEM_5"
+                    ],
+                    "id": "task-generate-policy-briefs",
+                    "prerequisites": []
+                }
+            ],
+            "prerequisites": [
+                {
+                    "item": "objective-storytelling",
+                    "type": "previous"
+                }
+            ],
+            "id": "objective-translating-policies"
+        },
+        {
+            "name_translations": {
+                "en": "Experiment sustainability",
+                "es": "Sostenibilidad del experimento",
+                "it": "",
+                "lv": "",
+                "da": "",
+                "nl": ""
+            },
+            "description_translations": {
+                "en": "This objective deals with the release and disssemination of thematic co-exploration outcomes. It also copes with the publication in Open Research platforms of the datasets and analysis processed designed.",
+                "es": "Este objetivo se refiere a la publicación y difusión de los resultados de la coexploración temática. También se ocupa de la publicación en plataformas de Investigación Abierta de los conjuntos de datos y procesamientos de análisis diseñados.",
+                "it": "",
+                "lv": "",
+                "da": "",
+                "nl": ""
+            },
+            "problemprofiles": [
+                "CS_PROBLEM_12",
+                "CS_PROBLEM_13",
+                "SUS_PROBLEM_1",
+                "SUS_PROBLEM_2",
+                "SUS_PROBLEM_3",
+                "SUS_PROBLEM_4",
+                "CS_PROBLEM_5"
+            ],
+            "tasks": [
+                {
+                    "name_translations": {
+                        "en": "Release and disssemination of thematic co-exploration outcomes",
+                        "es": "Recopilar datos fidedignos ya disponibles",
+                        "it": "",
+                        "lv": "",
+                        "da": "",
+                        "nl": ""
+                    },
+                    "description_translations": {
+                        "en": "This task gathers already available data from Copernicus or Open Data Portals which can be essential to form the bird's eye view of the thematic co-exploration.",
+                        "es": "Publicación y difusión de los resultados de la co-exploración temática",
+                        "it": "",
+                        "lv": "",
+                        "da": "",
+                        "nl": ""
+                    },
+                    "problemprofiles": [
+                        "SUS_PROBLEM_2",
+                        "SUS_PROBLEM_4",
+                        "CS_PROBLEM_5"
+"
+                    ],
+                    "id": "task-release-disseminate-thematic-coexploration-outcomes",
+                    "prerequisites": []
+                },
+                {
+                    "name_translations": {
+                        "en": "Publication in Open Research platforms ",
+                        "es": "Publicación en plataformas de investigación abiertas",
+                        "it": "",
+                        "lv": "",
+                        "da": "",
+                        "nl": ""
+                    },
+                    "description_translations": {
+                        "en": "This task is in charge of publishing the datasets and analyses performed over the aggregated data so that other researchers and observers may use the results obtained by the project.",
+                        "es": "Esta tarea se encarga de publicar los conjuntos de datos y los análisis realizados sobre los datos agregados para que otros investigadores y observadores puedan utilizar los resultados obtenidos por el proyecto.",
+                        "it": "",
+                        "lv": "",
+                        "da": "",
+                        "nl": ""
+                    },
+                    "problemprofiles": [
+                        "CS_PROBLEM_12",
+                        "CS_PROBLEM_13",
+                        "SUS_PROBLEM_1",
+                        "CS_PROBLEM_3"
+                    ],
+                    "id": "task-publication-open-research",
+                    "prerequisites": []
+                }
+            ],
+            "prerequisites": [
+                {
+                    "item": "objective-translating-policies",
+                    "type": "previous"
+                }
+            ],
+            "id": "objective-experiment-sustainability"
+        }
+    ],
+    "is_part_of_codelivery": true
+}

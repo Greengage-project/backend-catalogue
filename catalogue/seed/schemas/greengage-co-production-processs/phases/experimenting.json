@@ -1,0 +1,602 @@
+{
+    "id": "phase-experimenting",
+    "prerequisites": [
+        {
+            "item": "phase-designing",
+            "status": "finished"
+        }
+    ],
+    "name_translations": {
+        "en": "Experimenting",
+        "es": "Experimentando",
+        "it": "Esperimentando",
+        "lv": "Eksperimentēšana",
+		"da": "Eksperimentering",
+		"nl": "Experimenten"
+    },
+    "description_translations": {
+        "en": "This phase is core since it is the one responsible for the actual operation and evaluation of the thematic co-exploration. It comprises the following objectives: a) Observers onboarding; b) Observers training & support; c) Data collection; d) Data combination, analysis & visualization and e) Experiment evaluation",
+        "es": "Esta fase es fundamental, ya que es la responsable del funcionamiento real y de la evaluación de la coexploración temática. Comprende los siguientes objetivos: a) Incorporación de los observadores; b) Formación y apoyo a los observadores; c) Recogida de datos; d) Combinación, análisis y visualización de datos; y e) Evaluación del experimento. Evaluación del experimento",
+        "it": "Questa fase è fondamentale in quanto è responsabile dell'effettivo funzionamento e della valutazione della co-esplorazione tematica. Comprende i seguenti obiettivi: a) Onboarding degli osservatori; b) Formazione e supporto degli osservatori; c) Raccolta dati; d) Combinazione, analisi e visualizzazione dei dati; e) Valutazione dell'esperimento",
+        "lv": "Šī fāze ir būtiska, jo tā ir atbildīga par faktisko darbību un tematiskās kopīgas izpētes novērtēšanu. Tā ietver šādus mērķus: a) Vērotāju iekļaušana; b) Vērotāju apmācība un atbalsts; c) Datu apkopošana; d) Datu apvienošana, analīze un vizualizācija; e) Eksperimenta novērtējums",
+		"da": "Denne fase er central, da den er ansvarlig for den faktiske drift og evaluering af det tematiske samarbejde. Den omfatter følgende mål: a) Observatørers onboarding; b) Observatørers træning og support; c) Dataindsamling; d) Datakombination, analyse og visualisering; e) Eksperimentevaluering",
+		"nl": "Deze fase is essentieel omdat het verantwoordelijk is voor de daadwerkelijke werking en evaluatie van de thematische co-exploratie. Het omvat de volgende doelstellingen: a) Observatoren onboarding; b) Observatoren training & ondersteuning; c) Gegevensverzameling; d) Gegevenscombinatie, analyse & visualisatie en e) Experimentevaluatie"
+    },
+    "objectives": [
+        {
+            "name_translations": {
+                "en": "Observers onboarding",
+                "es": "Incorporación de los observadores",
+                "it": "",
+                "lv": "",
+				"da": "",
+				"nl": ""
+            },
+            "description_translations": {
+                "en": "This objective requires that core team members embark on the following tasks to ensure that the community of observers for this thematic co-exploration is assembled: a) Promote and publicize thematic co-exploration; b) Onboard further Citizen Observers and c) Ensure ethics protocol are followed",
+                "es": "Este objetivo requiere que los miembros del equipo central se embarquen en las siguientes tareas para asegurar que se reúne la comunidad de observadores para esta co-exploración temática: a) Promover y publicitar la co-exploración temática; b) Incorporar más Observadores Ciudadanos y c) Garantizar el cumplimiento del protocolo ético",
+                "it": "",
+                "lv": "",
+				"da": "",
+				"nl": ""
+            },
+			"problemprofiles": ["ORG_PROBLEM_5", 
+								"ORG_PROBLEM_6.3",
+								"ORG_PROBLEM_10", 
+								"ORG_PROBLEM_14", 
+								"UND_PROBLEM_2", 
+								"UND_PROBLEM_6",
+								"DEF_PROBLEM_8"
+								],
+            
+			"tasks": [
+                {
+                    "name_translations": {
+                        "en": "Promote and publicize thematic co-exploration",
+                        "es": "Promover y dar a conocer la coexploración temática",
+                        "it": "",
+                        "lv": "",
+				        "da": "",
+						"nl": ""
+                    },
+                    "description_translations": {
+                        "en": "This task entails the promotion and publication of details about the envisaged thematic co-exploration and the launch of the call for participation of citizens and other stakeholders in it.",
+                        "es": "Esta tarea implica la promoción y publicación de detalles sobre la coexploración temática prevista y el lanzamiento de la convocatoria de participación de ciudadanos y otras partes interesadas en ella.",                        
+						"it": "",
+                        "lv": "",
+				        "da": "",
+						"nl": ""
+                    },
+                    "problemprofiles": [
+                        "ORG_PROBLEM_5",
+						"ORG_PROBLEM_6.3", 
+						"ORG_PROBLEM_10", 
+						"ORG_PROBLEM_14", 
+						"UND_PROBLEM_2", 
+						"UND_PROBLEM_6"
+                    ],
+                    "id": "task-promote-publicize-thematic-coexploration",
+                    "prerequisites": []
+                },
+				{
+                    "name_translations": {
+                        "en": "Onboard further Citizen Observers",
+                        "es": "Incorporar más observadores ciudadanos",
+                        "it": "",
+                        "lv": "",
+				        "da": "",
+						"nl": ""
+                    },
+                    "description_translations": {
+                        "en": "This task allows to register the details of the observers that have got involved thanks to the earlier launched promotion campaign.",
+                        "es": "Esta tarea permite registrar los datos de los observadores que han participado gracias a la campaña de promoción lanzada anteriormente.",                        
+						"it": "",
+                        "lv": "",
+				        "da": "",
+						"nl": ""
+                    },
+                    "problemprofiles": [
+                        "ORG_PROBLEM_5",
+						"ORG_PROBLEM_6.3", 
+						"ORG_PROBLEM_10", 
+						"ORG_PROBLEM_14", 
+						"UND_PROBLEM_2", 
+						"UND_PROBLEM_6"
+                    ],
+                    "id": "task-onboard-further-citizens",
+                    "prerequisites": []
+                },
+				{
+                    "name_translations": {
+                        "en": "Ensure ethics protocol are followed",
+                        "es": "Garantizar el cumplimiento del protocolo ético",
+                        "it": "",
+                        "lv": "",
+				        "da": "",
+						"nl": ""
+                    },
+                    "description_translations": {
+                        "en": "This task sets up a new co-production process in Collaborative Environment to guide and support co-exploration",
+                        "es": "This task ensures that the ethical protocols established by GREENGAGE and aware of the local context are applied within the thematic co-exploration",                        
+						"it": "",
+                        "lv": "",
+				        "da": "",
+						"nl": ""
+                    },
+                    "problemprofiles": [
+                        "ORG_PROBLEM_5", 
+						"ORG_PROBLEM_6.3",
+						"ORG_PROBLEM_10", 
+						"ORG_PROBLEM_14", 
+						"UND_PROBLEM_2", 
+						"UND_PROBLEM_6",
+						"DEF_PROBLEM_8"
+                    ],
+                    "id": "task-setup-coproduction-process",
+                    "prerequisites": []
+                }
+            ],
+            "id": "objective-observers-onboarding",
+            "prerequisites": []
+        },
+        {
+            "name_translations": {
+                "en": "Observers training & support",
+                "es": "Formación y apoyo a los observadores",
+                "it": "",
+                "lv": "",
+				"da": "",
+				"nl": ""
+            },
+            "description_translations": {
+                "en": "This objective deals with the following aspects associated to training and supporting participants in a thematic co-exploration: a) Organise hands on training for methodology, tools and assets; b) Consider thematic co-exploration specific new training needs and c) Organize data collection and analysis process",
+                "es": "Este objetivo aborda los siguientes aspectos relacionados con la formación y el apoyo a los participantes en una coexploración temática: a) Organizar formación práctica sobre metodología, herramientas y recursos; b) Considerar las nuevas necesidades de formación específicas de la coexploración temática y c) Organizar el proceso de recogida y análisis de datos",
+                "it": "",
+                "lv": "",
+				"da": "",
+				"nl": ""
+            },
+            "problemprofiles": [
+                "CS_PROBLEM_1",
+				"CS_PROBLEM_2",
+				"CS_PROBLEM_6",
+				"CS_PROBLEM_8",
+				"CS_PROBLEM_9",
+				"ORG_PROBLEM_6.1",
+				"DEF_PROBLEM_5",
+				"DEF_PROBLEM_7"	
+            ],
+            "tasks": [
+                {
+                    "name_translations": {
+                        "en": "Organise hands on training for methodology, tools and assets",
+                        "es": "Organizar formación práctica sobre metodología, herramientas y recursos",
+                        "it": "",
+                        "lv": "",
+						"da": "",
+						"nl": ""
+                    },
+                    "description_translations": {
+                        "en": "This task guides core team members organizing hands on training for methodology, tools and assets with all thematic co-exploration participants",
+                        "es": "Esta tarea guía a los miembros del equipo central en la organización de la formación práctica sobre metodología, herramientas y recursos con todos los participantes en la exploración temática conjunta.",
+                        "it": "",
+                        "lv": "",
+						"da": "",
+						"nl": ""
+                    },
+                    "problemprofiles": [
+                        "CS_PROBLEM_6", "DEF_PROBLEM_7", "CS_PROBLEM_1", "CS_PROBLEM_2"
+                    ],
+                    "id": "task-organize-handson-training-participants",
+                    "prerequisites": []
+                },
+				{
+                    "name_translations": {
+                        "en": "Consider thematic co-exploration specific new training needs",
+                        "es": "Considerar las nuevas necesidades de formación específicas de la coexploración temática",
+                        "it": "",
+                        "lv": "",
+						"da": "",
+						"nl": ""
+                    },
+                    "description_translations": {
+                        "en": "This task creates a specific training programme for thematic co-exploration participants to understand the domain where the thematic co-exploration is organized. ",
+                        "es": "Esta tarea crea un programa de formación específico para que los participantes en la coexploración temática comprendan el ámbito en el que se organiza la coexploración temática.",
+                        "it": "",
+                        "lv": "",
+						"da": "",
+						"nl": ""
+                    },
+                    "problemprofiles": [
+                        "CS_PROBLEM_6", "DEF_PROBLEM_7", "CS_PROBLEM_1", "CS_PROBLEM_2"
+
+                    ],
+                    "id": "task-create-specific-training-thematic-coexploration",
+                    "prerequisites": []
+                },
+				{
+                    "name_translations": {
+                        "en": "Organize data collection and analysis process",
+                        "es": "Organizar el proceso de recogida y análisis de datos",
+                        "it": "",
+                        "lv": "",
+						"da": "",
+						"nl": ""
+                    },
+                    "description_translations": {
+                        "en": "This task deals with the organization of the data collection and analysis process",
+                        "es": "Esta tarea se ocupa de la organización del proceso de recogida y análisis de datos",
+                        "it": "",
+                        "lv": "",
+						"da": "",
+						"nl": ""
+                    },
+                    "problemprofiles": [
+                        "CS_PROBLEM_8", "CS_PROBLEM_9"
+                    ],
+                    "id": "task-organize-data-collection-analysis-process",
+                    "prerequisites": []
+                }
+            ],
+            "prerequisites": [
+                {
+                    "item": "objective-observers-onboarding",
+                    "type": "previous"
+                }
+            ],
+            "id": "objective-observers-training-support"
+        }, 
+        {
+            "name_translations": {
+                "en": "Data collection",
+                "es": "Recogida de datos",
+                "it": "",
+                "lv": "",
+				"da": "",
+				"nl": ""
+            },
+            "description_translations": {
+                "en": "This objective tackles (guides and tracks) the data collection process of the thematic co-exploration. It encompasses the following tasks: a) Collect already available authorative data; b) Collect not available crowdsourced data; c) Collect qualitative data (surveys, interviews, focus groups, local walks)",
+                "es": "Este objetivo aborda (guía y sigue) el proceso de recogida de datos de la coexploración temática. Abarca las siguientes tareas: a) Recopilación de datos fidedignos ya disponibles; b) Recopilación de datos no disponibles obtenidos por crowdsourcing; c) Recopilar datos cualitativos (encuestas, entrevistas, grupos de discusión, paseos locales).",
+                "it": "",
+                "lv": "",
+				"da": "",
+				"nl": ""
+            },
+            "problemprofiles": [
+                "CS_PROBLEM_8", "CS_PROBLEM_9", "UND_PROBLEM_3"
+            ],
+            "tasks": [
+                {
+                    "name_translations": {
+						"en": "Collect already available authorative data",
+						"es": "Recopilar datos fidedignos ya disponibles",
+                        "it": "",
+                        "lv": "",
+						"da": "",
+						"nl": ""
+                    },
+                    "description_translations": {
+ 						"en": "This task gathers already available data from Copernicus or Open Data Portals which can be essential to form the bird's eye view of the thematic co-exploration.",
+						"es": "Esta tarea recopila datos ya disponibles de Copernicus o Portales de Datos Abiertos que pueden ser esenciales para formar la vista de pájaro de la co-exploración temática.",
+                        "it": "",
+                        "lv": "",
+						"da": "",
+						"nl": ""
+                    },
+                    "problemprofiles": [
+                        "CS_PROBLEM_8", "CS_PROBLEM_9"
+                    ],
+                    "id": "task-collect-available-authorative-data",
+                    "prerequisites": []
+                },
+				{
+                    "name_translations": {
+                        "en": "Collect not available crowdsourced data",
+                        "es": "Recopilar datos crowdsourced no disponibles ",
+                        "it": "",
+                        "lv": "",
+						"da": "",
+						"nl": ""
+                    },
+                    "description_translations": {
+                        "en": "This task gathers not available data with the support of the Citizen Observers, i.e. participants in the thematic co-exploration that have been onboarded. These data will allow to form a worm's eyes view of the problem tackled by the project.",
+                        "es": "Esta tarea recopila datos no disponibles con la ayuda de los Ciudadanos Observadores, es decir, los participantes en la co-exploración temática que se han embarcado. Estos datos permitirán formarse una visión de gusano del problema abordado por el proyecto.",
+                        "it": "",
+                        "lv": "",
+						"da": "",
+						"nl": ""
+                    },
+                    "problemprofiles": [
+                        "CS_PROBLEM_8", "CS_PROBLEM_9"
+                    ],
+                    "id": "task-gather-crowdsourced-data",
+                    "prerequisites": []
+                },
+				{
+                    "name_translations": {
+                        "en": "Collect qualitative data (surveys, interviews, focus groups, local walks)",
+                        "es": "Recopilación de datos cualitativos (encuestas, entrevistas, grupos de discusión, paseos locales)",
+                        "it": "",
+                        "lv": "",
+						"da": "",
+						"nl": ""
+                    },
+                    "description_translations": {
+                        "en": "This task gathers qualitative data through surveys, interviews, focus groups or local walks to gather the perceptions, opinions and reflections of those taking part in the thematic co-exploration or affected by the results of its execution.",
+                        "es": "Esta tarea recopila datos cualitativos mediante encuestas, entrevistas, grupos focales o paseos locales para recoger las percepciones, opiniones y reflexiones de quienes participan en la coexploración temática o se ven afectados por los resultados de su ejecución.",
+                        "it": "",
+                        "lv": "",
+						"da": "",
+						"nl": ""
+                    },
+                    "problemprofiles": [
+                        "CS_PROBLEM_8", "CS_PROBLEM_9", "UND_PROBLEM_3"
+                    ],
+                    "id": "task-gather-qualitative-data",
+                    "prerequisites": []
+                }
+            ],
+            "prerequisites": [
+                {
+                    "item": "objective-observers-training-support",
+                    "type": "previous"
+                }
+            ],
+            "id": "objective-data-collection"
+        }, 
+        {
+            "name_translations": {
+                "en": "Data combination, analysis & visualization",
+                "es": "Combinación, análisis y visualización de datos",
+                "it": "",
+                "lv": "",
+				"da": "",
+				"nl": ""
+            },
+            "description_translations": {
+                "en": "This objective aims to aid thematic co-exploration participants to perform the collected data combination, analysis and visualization. It comprises the following activities: a) Combine and harmonize heterogenous data collected; b) Ingest and store data; c) Data analysis and visualization in dashboards; d) Catalogue data and visualizations; and e) Insights generation and reporting",
+                "es": "Este objetivo pretende ayudar a los participantes en la co-exploración temática a realizar la combinación, el análisis y la visualización de los datos recogidos. Comprende las siguientes actividades: a) Combinar y armonizar datos heterogéneos recopilados; b) Ingerir y almacenar datos; c) Análisis y visualización de datos en cuadros de mando; d) Catalogar datos y visualizaciones; y e) Generación de información y elaboración de informes",
+                "it": "",
+                "lv": "",
+				"da": "",
+				"nl": ""
+            },
+            "problemprofiles": [
+                "CS_PROBLEM_9",
+                "CS_PROBLEM_11",
+                "ORG_PROBLEM_6.2",
+                "BUILD_PROBLEM_7"
+            ],
+            "tasks": [
+                {
+                    "name_translations": {
+						"en": "Combine and harmonize heterogenous data collected",
+						"es": "Combinar y armonizar los datos heterogéneos recopilados",
+                        "it": "",
+                        "lv": "",
+						"da": "",
+						"nl": ""
+                    },
+                    "description_translations": {
+ 						"en": "This task supports thematic co-exploration participants combining and harmonizing heterogenous data collected",
+						"es": "Esta tarea ayuda a los participantes en la exploración temática conjunta a combinar y armonizar los datos heterogéneos recopilados",
+                        "it": "",
+                        "lv": "",
+						"da": "",
+						"nl": ""
+                    },
+                    "problemprofiles": [
+                        "CS_PROBLEM_9", 
+						"CS_PROBLEM_11", 
+						"ORG_PROBLEM_6.2"
+                    ],
+                    "id": "task-combine-harmonize-collected-data",
+                    "prerequisites": []
+                },
+				{
+                    "name_translations": {
+                        "en": "Ingest and store data",
+                        "es": "Ingesta y almacenamiento de datos",
+                        "it": "",
+                        "lv": "",
+						"da": "",
+						"nl": ""
+                    },
+                    "description_translations": {
+                        "en": "This task supports thematic co-exploration participants ingesting and storing the previously aggregated data",
+                        "es": "Esta tarea ayuda a los participantes en la coexploración temática a introducir y almacenar los datos previamente agregados.",
+                        "it": "",
+                        "lv": "",
+						"da": "",
+						"nl": ""
+                    },
+                    "problemprofiles": [
+                        "CS_PROBLEM_9",
+                        "CS_PROBLEM_11",
+                        "ORG_PROBLEM_6.2"
+                    ],
+                    "id": "task-ingest-store-data",
+                    "prerequisites": []
+                },
+				{
+                    "name_translations": {
+                        "en": "Data analysis and visualization in dashboards",
+                        "es": "Análisis de datos y visualización en cuadros de mando",
+                        "it": "",
+                        "lv": "",
+						"da": "",
+						"nl": ""
+                    },
+                    "description_translations": {
+                        "en": "This task supports thematic co-exploration participants in the data analysis process and the generation of visualizations in dashboards",
+                        "es": "Esta tarea ayuda a los participantes en la coexploración temática en el proceso de análisis de datos y la generación de visualizaciones en cuadros de mando",
+                        "it": "",
+                        "lv": "",
+						"da": "",
+						"nl": ""
+                    },
+                    "problemprofiles": [
+                        "CS_PROBLEM_9", "CS_PROBLEM_11", "ORG_PROBLEM_6.2"
+                    ],
+                    "id": "task-data-analysis-visualization",
+                    "prerequisites": []
+                },
+				{
+                    "name_translations": {
+                        "en": "Catalogue data and visualizations",
+                        "es": "Catalogar datos y visualizaciones",
+                        "it": "",
+                        "lv": "",
+						"da": "",
+						"nl": ""
+                    },
+                    "description_translations": {
+                        "en": "This task supports thematic co-exploration participants to catalogue the data capture and analysis process outcomes so that they can be easily reviewed by either thematic co-exploration participants or stakeholders. ",
+                        "es": "Esta tarea ayuda a los participantes de la co-exploración temática a catalogar los resultados del proceso de captura y análisis de datos para que puedan ser revisados fácilmente por los participantes de la co-exploración temática o por las partes interesadas.",
+                        "it": "",
+                        "lv": "",
+						"da": "",
+						"nl": ""
+                    },
+                    "problemprofiles": [
+                        "CS_PROBLEM_9", "CS_PROBLEM_11", "ORG_PROBLEM_6.2", "BUILD_PROBLEM_7"
+                    ],
+                    "id": "task-catalogue-data-visualizations",
+                    "prerequisites": []
+                },
+				{
+                    "name_translations": {
+                        "en": "Insights generation and reporting",
+                        "es": "Generación de ideas y elaboración de informes",
+                        "it": "",
+                        "lv": "",
+						"da": "",
+						"nl": ""
+                    },
+                    "description_translations": {
+                        "en": "This task supports thematic co-exploration participants to generate insights and produce reports with the results of the thematic co-exploration.",
+                        "es": "Esta tarea ayuda a los participantes de la co-exploración temática a generar percepciones y elaborar informes con los resultados de la co-exploración temática.",
+                        "it": "",
+                        "lv": "",
+						"da": "",
+						"nl": ""
+                    },
+                    "problemprofiles": [
+                        "CS_PROBLEM_9", "CS_PROBLEM_11", "ORG_PROBLEM_6.2", "BUILD_PROBLEM_7"
+                    ],
+                    "id": "task-insights-generation-reporting",
+                    "prerequisites": []
+                }
+            ],
+            "prerequisites": [
+                {
+                    "item": "objective-data-collection",
+                    "type": "previous"
+                }
+            ],
+            "id": "objective-data-combination-analysis-visualization"
+        } , 
+        {
+            "name_translations": {
+                "en": "Experiment evaluation",
+                "es": "Evaluación del experimento",
+                "it": "",
+                "lv": "",
+				"da": "",
+				"nl": ""
+            },
+            "description_translations": {
+                "en": "This objective aims to help citizen observers carrying out their experiment evaluation. It comprises the following tasks: a) KPIs population and evaluation; b) Collaborative reflection about results and experience; c) Decide whether to reiterate based on analysis of progress or wrap up with takeaways",
+                "es": "Este objetivo pretende ayudar a los ciudadanos observadores a llevar a cabo la evaluación de su experimento. Comprende las siguientes tareas: a) Población y evaluación de los KPI; b) Reflexión colaborativa sobre los resultados y la experiencia; c) Decidir si se reitera sobre la base del análisis de los progresos o si se concluye con las conclusiones.",
+                "it": "",
+                "lv": "",
+				"da": "",
+				"nl": ""
+            },
+            "problemprofiles": [
+                "VAL_PROBLEM_1", "VAL_PROBLEM_2", "VAL_PROBLEM_5", "SUS_PROBLEM_3", "CS_PROBLEM_11"
+            ],
+            "tasks": [
+                {
+                    "name_translations": {
+						"en": "KPIs population and evaluation",
+						"es": "Población y evaluación de KPIs",
+                        "it": "",
+                        "lv": "",
+						"da": "",
+						"nl": ""
+                    },
+                    "description_translations": {
+ 						"en": "This task is about analysing the data crowdsourced and the questionnaires and surveys in order to populate the thematic co-exploration's KPIs and their evaluation.",
+						"es": "Esta tarea consiste en analizar los datos obtenidos mediante crowdsourcing y los cuestionarios y encuestas con el fin de poblar los KPI de la co-exploración temática y su evaluación.",
+                        "it": "",
+                        "lv": "",
+						"da": "",
+						"nl": ""
+                    },
+                    "problemprofiles": [
+						"VAL_PROBLEM_1", "VAL_PROBLEM_2", "VAL_PROBLEM_5", "SUS_PROBLEM_3", "CS_PROBLEM_11"
+
+                    ],
+                    "id": "task-kpis-population-evaluation",
+                    "prerequisites": []
+                },
+				{
+                    "name_translations": {
+                        "en": "Collaborative reflection about results and experience",
+                        "es": "Reflexión colaborativa sobre los resultados y la experiencia",
+                        "it": "",
+                        "lv": "",
+						"da": "",
+						"nl": ""
+                    },
+                    "description_translations": {
+                        "en": "This task is about collaboratively reflecting about the results of the thematic co-exploration and the participants' experience in it",
+                        "es": "Esta tarea consiste en reflexionar de forma colaborativa sobre los resultados de la co-exploración temática y la experiencia de los participantes en la misma.",
+                        "it": "",
+                        "lv": "",
+						"da": "",
+						"nl": ""
+                    },
+                    "problemprofiles": [
+                        "VAL_PROBLEM_5", "SUS_PROBLEM_3", "CS_PROBLEM_11"
+                    ],
+                    "id": "task-collaborative-reflection-results-experience",
+                    "prerequisites": []
+                },
+				{
+                    "name_translations": {
+                        "en": "Decide whether to reiterate based on analysis of progress or wrap up with takeaways",
+                        "es": "Decidir si se reitera basándose en el análisis de los progresos o si se concluye con las conclusiones",
+                        "it": "",
+                        "lv": "",
+						"da": "",
+						"nl": ""
+                    },
+                    "description_translations": {
+                        "en": "This task servers the thematic co-exploration's participants to decide whether to continue with the data gathering and analysis process or not. In case of continuing, some readjustments to the data protocol, collection, analysis, visualization and interpretation process may be defined by participants within this stage.",
+                        "es": "Esta tarea sirve para que los participantes en la coexploración temática decidan si continúan o no con el proceso de recopilación y análisis de datos. En caso de continuar, los participantes pueden definir en esta fase algunos reajustes en el protocolo de datos y en el proceso de recogida, análisis, visualización e interpretación. ",
+                        "it": "",
+                        "lv": "",
+						"da": "",
+						"nl": ""
+                    },
+                    "problemprofiles": [
+                        "VAL_PROBLEM_1", "VAL_PROBLEM_2", "VAL_PROBLEM_5"
+                    ],
+                    "id": "task-reiterate-or-not-decision",
+                    "prerequisites": []
+                }
+            ],
+            "prerequisites": [
+                {
+                    "item": "objective-data-combination-analysis-visualization",
+                    "type": "previous"
+                }
+            ],
+            "id": "objective-experiment-evaluation"
+        }
+    ],
+    "is_part_of_codelivery": true
+}
