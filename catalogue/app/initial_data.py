@@ -316,6 +316,7 @@ async def create_coproductionschema(db, schema_data):
         if phase_in_db := await crud.treeitems.get_by_names(db=db, name_translations=phase_data["name_translations"], coproductionschema_id=SCHEMA.id):
             print(f"{bcolors.WARNING}Updating existing phase {phase_in_db.name}{bcolors.ENDC}")
             db_phase = await crud.treeitems.update(db=db, db_obj=phase_in_db, obj_in=schemas.TreeItemPatch(**phase_data))
+            phase_name = db_phase.name
         else:
             phase_name = phase_data.get("name_translations", {}).get("en", "undefined")
             print(f"{bcolors.OKGREEN}Creating {phase_name}{bcolors.ENDC}")
@@ -364,7 +365,6 @@ async def create_coproductionschema(db, schema_data):
                 if task_in_db := await crud.treeitems.get_by_names(db=db, name_translations=task_data["name_translations"], parent_id=db_objective.id):
                     print(
                         f"{bcolors.WARNING}Updating existing task {task_in_db.name}{bcolors.ENDC}")
-                    print(task_in_db.id)
                     db_task = await crud.treeitems.update(db=db, db_obj=task_in_db, obj_in=schemas.TreeItemPatch(**task_data))
                 else:
                     task_name = task_data.get(
@@ -400,7 +400,6 @@ async def create_coproductionschema(db, schema_data):
                 print(f"{bcolors.FAIL}Removing objective {child.name}{bcolors.ENDC}")
                 await crud.treeitems.remove(db=db, id=child.id)
 
-    print(items_resume.items())
     for key, resume in items_resume.items():
         db_treeitem = await crud.treeitems.get(db=db, id=resume["db_id"])
         await crud.treeitems.clear_prerequisites(db=db, treeitem=db_treeitem, commit=False)
