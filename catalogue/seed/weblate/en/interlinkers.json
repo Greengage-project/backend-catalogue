@@ -92,6 +92,8 @@
     "knowledgeinterlinker;citizen_science_problem_statement_questionnaire;name": "Citizen Science problem statement questionnaire",
     "knowledgeinterlinker;co_producers_perceptions_questionnaire;description": "<p>This is a model of a questionnaire aimed to measure co-producer's perceptions on user-based quality, value-based quality, trust and acceptance. This questionnaire is thought to be answered by those who take part in the co-production of a public service or reuse artefacts (public services & INTERLINKERs) made available through INTERLINK co-production tools (Collaborative Environment and Catalogue).</p>",
     "knowledgeinterlinker;co_producers_perceptions_questionnaire;name": "Co-producers' perceptions questionnaire",
+    "knowledgeinterlinker;co_production_and_cs_process_nature_s_checklist;description": "<p>Questionnaire to help you deciding whether a certain problem can be addressed through co-production and Citizen Science or not</p>",
+    "knowledgeinterlinker;co_production_and_cs_process_nature_s_checklist;name": "Co-production and CS process nature's checklist",
     "knowledgeinterlinker;collaborative_problem_refinement;description": "<p>This resource will support you to refine the problem to be addresses by the co-production team as an important step to creating an effective and efficient solution.</p>",
     "knowledgeinterlinker;collaborative_problem_refinement;name": "Collaborative problem refinement",
     "knowledgeinterlinker;consent_form_for_interlink_project;description": "<p>Form to collect consent from participants engaged in INTERLINK research activities about the use of their personal data</p>",

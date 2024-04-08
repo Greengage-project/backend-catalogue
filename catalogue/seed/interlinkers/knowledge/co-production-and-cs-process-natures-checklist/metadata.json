@@ -23,7 +23,7 @@
     },
     "form": "document_template",
     "format": "editable_source_document",
-    "id": "co-production-and-cs-process-natures-checklist",
+    "id": "co_production_and_cs_process_nature_s_checklist",
     "instructions_translations": {
         "en": "./interlinkers/knowledge/co-production-and-cs-process-natures-checklist/instructions.md"
     },
