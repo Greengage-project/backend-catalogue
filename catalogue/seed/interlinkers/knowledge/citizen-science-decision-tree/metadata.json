@@ -1,0 +1,72 @@
+{
+    "administrative_scopes": [
+        "eu"
+    ],
+    "constraints_and_limitations_translations": {
+        "en": "No special constraints apply"
+    },
+    "description_translations": {
+        "en": "<p>Guideline which allows you to decide whether a project should be tackled through Citizen Science or not</p>",
+        "es": "<p></p>",
+        "it": "<p></p>",
+        "lv": "<p></p>"
+    },
+    "difficulty": "easy",
+    "domain": "",
+    "environments": [
+        "varam",
+        "mef",
+        "zgz"
+    ],
+    "file_translations": {
+        "en": "./interlinkers/knowledge/citizen-science-decision-tree/document.pdf"
+    },
+    "form": "guidelines",
+    "format": "pdf",
+    "id": "citizen-science-decision-tree",
+    "instructions_translations": {
+        "en": "./interlinkers/knowledge/citizen-science-decision-tree/instructions.md"
+    },
+    "is_sustainability_related": false,
+    "languages": [
+        "lv",
+        "en",
+        "es",
+        "it",
+        "da",
+        "nl"
+    ],
+    "licence": "public_domain",
+    "name_translations": {
+        "da": "Borgerforskning beslutningstr\u00E6",
+        "en": "Citizen Science Decision tree",
+        "es": "\u00C1rbol de decisi\u00F3n de la ciencia ciudadana",
+        "it": "Albero decisionale della scienza cittadina",
+        "lv": "Pilotskolas l\u0113mumu koks",
+        "nl": "Burgerwetenschap beslissingsboom"
+    },
+    "problemprofiles": [
+        "ORG_PROBLEM_1",
+        "CS_PROBLEM_2"
+    ],
+    "process": "",
+    "regulations_and_standards_translations": {
+        "en": ""
+    },
+    "softwareinterlinker": "googledrive",
+    "tags_translations": {
+        "en": [
+            "citizen",
+            "science",
+            "decision",
+            "tree"
+        ]
+    },
+    "targets": [
+        "all"
+    ],
+    "type": "knowledge",
+    "types": [
+        "enhancing_services"
+    ]
+}

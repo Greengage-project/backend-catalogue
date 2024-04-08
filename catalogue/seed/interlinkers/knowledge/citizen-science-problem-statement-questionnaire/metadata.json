@@ -1,0 +1,72 @@
+{
+    "administrative_scopes": [
+        "eu"
+    ],
+    "constraints_and_limitations_translations": {
+        "en": "No special constraints apply"
+    },
+    "description_translations": {
+        "en": "<p>Questionnaire to guide you in the specification of the problem to be addressed through Citizen Science</p>",
+        "es": "<p></p>",
+        "it": "<p></p>",
+        "lv": "<p></p>"
+    },
+    "difficulty": "easy",
+    "domain": "",
+    "environments": [
+        "varam",
+        "mef",
+        "zgz"
+    ],
+    "file_translations": {
+        "en": "./interlinkers/knowledge/citizen-science-problem-statement-questionnaire/ProblemStatementQuestionnaire.xlsx"
+    },
+    "form": "document_template",
+    "format": "editable_source_document",
+    "id": "citizen-science-problem-statement-questionnaire",
+    "instructions_translations": {
+        "en": "./interlinkers/knowledge/citizen-science-problem-statement-questionnaire/instructions.md"
+    },
+    "is_sustainability_related": false,
+    "languages": [
+        "lv",
+        "en",
+        "es",
+        "it",
+        "da",
+        "nl"
+    ],
+    "licence": "public_domain",
+    "name_translations": {
+        "da": "Sp\u00F8rgeskema til problemformulering i borgerforskning",
+        "en": "Citizen Science problem statement questionnaire",
+        "es": "Cuestionario de declaraci\u00F3n de problemas de ciencia ciudadana",
+        "it": "Questionario per la dichiarazione del problema di Citizen Science",
+        "lv": "Pilso\u0146a zin\u0101tnes probl\u0113mu pazi\u0146ojuma anketes",
+        "nl": "Vragenlijst voor het specificeren van het probleem dat moet worden aangepakt via burgerwetenschap"
+    },
+    "problemprofiles": [
+        "ORG_PROBLEM_1",
+        "CS_PROBLEM_2"
+    ],
+    "process": "",
+    "regulations_and_standards_translations": {
+        "en": ""
+    },
+    "softwareinterlinker": "googledrive",
+    "tags_translations": {
+        "en": [
+            "citizen",
+            "science",
+            "problem",
+            "statement"
+        ]
+    },
+    "targets": [
+        "all"
+    ],
+    "type": "knowledge",
+    "types": [
+        "enhancing_services"
+    ]
+}
