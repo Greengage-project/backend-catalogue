@@ -23,7 +23,7 @@
     },
     "form": "guidelines",
     "format": "pdf",
-    "id": "citizen-science-decision-tree",
+    "id": "citizen_science_decision_tree",
     "instructions_translations": {
         "en": "./interlinkers/knowledge/citizen-science-decision-tree/instructions.md"
     },
@@ -38,9 +38,9 @@
     ],
     "licence": "public_domain",
     "name_translations": {
-        "da": "Borgerforskning beslutningstr\u00E6",
+        "da": "Borgerforskning beslutningstr\u00e6",
         "en": "Citizen Science Decision tree",
-        "es": "\u00C1rbol de decisi\u00F3n de la ciencia ciudadana",
+        "es": "\u00c1rbol de decisi\u00f3n de la ciencia ciudadana",
         "it": "Albero decisionale della scienza cittadina",
         "lv": "Pilotskolas l\u0113mumu koks",
         "nl": "Burgerwetenschap beslissingsboom"

@@ -23,7 +23,7 @@
     },
     "form": "document_template",
     "format": "editable_source_document",
-    "id": "citizen-science-problem-statement-questionnaire",
+    "id": "citizen_science_problem_statement_questionnaire",
     "instructions_translations": {
         "en": "./interlinkers/knowledge/citizen-science-problem-statement-questionnaire/instructions.md"
     },
@@ -38,9 +38,9 @@
     ],
     "licence": "public_domain",
     "name_translations": {
-        "da": "Sp\u00F8rgeskema til problemformulering i borgerforskning",
+        "da": "Sp\u00f8rgeskema til problemformulering i borgerforskning",
         "en": "Citizen Science problem statement questionnaire",
-        "es": "Cuestionario de declaraci\u00F3n de problemas de ciencia ciudadana",
+        "es": "Cuestionario de declaraci\u00f3n de problemas de ciencia ciudadana",
         "it": "Questionario per la dichiarazione del problema di Citizen Science",
         "lv": "Pilso\u0146a zin\u0101tnes probl\u0113mu pazi\u0146ojuma anketes",
         "nl": "Vragenlijst voor het specificeren van het probleem dat moet worden aangepakt via burgerwetenschap"
