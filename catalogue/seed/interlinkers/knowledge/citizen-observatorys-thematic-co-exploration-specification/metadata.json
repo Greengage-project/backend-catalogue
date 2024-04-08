@@ -1,0 +1,70 @@
+{
+    "administrative_scopes": [
+        "eu"
+    ],
+    "constraints_and_limitations_translations": {
+        "en": "No special constraints apply"
+    },
+    "description_translations": {
+        "en": "<p>This template helps Pilot Owners and a given thematic co-exploration core team to fully specify a thematic co-exploration, answering the questions WHY, WHAT, WHO, WHERE, WHEN and with WHICH.</p>",
+        "es": "<p></p>",
+        "it": "<p></p>",
+        "lv": "<p></p>"
+    },
+    "difficulty": "easy",
+    "domain": "",
+    "environments": [
+        "varam",
+        "mef",
+        "zgz"
+    ],
+    "file_translations": {
+        "en": "./interlinkers/knowledge/citizen-observatorys-thematic-co-exploration-specification/ThematicCoExplorationSpec.docx"
+    },
+    "form": "guidelines",
+    "format": "editable_source_document",
+    "id": "citizen-observatorys-thematic-co-exploration-specification",
+    "instructions_translations": {
+        "en": "./interlinkers/knowledge/citizen-observatorys-thematic-co-exploration-specification/instructions.md"
+    },
+    "is_sustainability_related": false,
+    "languages": [
+        "lv",
+        "en",
+        "es",
+        "it",
+        "da",
+        "nl"
+    ],
+    "licence": "public_domain",
+    "name_translations": {
+        "en": "Citizen Observatory's thematic co-exploration specification",
+        "es": "Especificaci\u00f3n de la co-exploraci\u00f3n tem\u00e1tica de un observatorio ciudadano",
+        "it": "Specifiche di co-esplorazione tematica dell'osservatorio dei cittadini",
+        "lv": "Pilso\u0146u novērojumu tematiskās kop\u0101 izpētes specifikācija",
+        "da": "Borgernes observatoriums tematiske co-udforskningsspecifikation",
+        "nl": "Specificatie van thematische co-exploratie van een burgerobservatorium"
+    },
+    "problemprofiles": [
+        "ORG_PROBLEM_1",
+        "CS_PROBLEM_2"
+    ],
+    "process": "",
+    "regulations_and_standards_translations": {
+        "en": ""
+    },
+    "softwareinterlinker": "googledrive",
+    "tags_translations": {
+        "en": [
+            "thematic",
+            "co-exploration"
+        ]
+    },
+    "targets": [
+        "all"
+    ],
+    "type": "knowledge",
+    "types": [
+        "enhancing_services"
+    ]
+}

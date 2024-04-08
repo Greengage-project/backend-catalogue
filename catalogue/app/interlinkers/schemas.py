@@ -30,7 +30,7 @@ AdministrativeScopes = choice(["eu", "national", "local"])
 FormTypes = choice(["visual_template", "document_template", "canvas", "best_practices",
                    "guidelines", "checklist", "survey_template", "legal_agreement_template", "other"])
 Formats = choice(["pdf", "editable_source_document",
-                 "open_document", "structured_format"])
+                 "open_document", "structured_format", "interactive_resource (website)"])
 
 Themes = choice(["Introduction to CS", "Best Practices", "Project Management", 
                  "Research design and methods", "Engagement", "Co-creation", "Communication",

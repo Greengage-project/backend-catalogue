@@ -1,0 +1,77 @@
+{
+    "administrative_scopes": [
+        "national",
+        "local"
+    ],
+    "asset_name_translations": {
+        "en": "Apache Druid documentation"
+    },
+    "constraints_and_limitations_translations": {
+        "en": "No special constraints apply"
+    },
+    "description_translations": {
+        "en": "<p>HOWTO for tool to load data into the project's database</p>",
+        "es": "<p></p>",
+        "it": "<p></p>",
+        "lv": "<p></p>",
+        "da": "<p></p>",
+        "nl": "<p></p>"
+    },
+    "difficulty": "easy",
+    "environments": [
+        "varam",
+        "mef",
+        "zgz"
+    ],
+    "form": "guidelines",
+    "format": "interactive_resource (website)",
+    "id": "apache-druid-documentation",
+    "instructions_translations": {
+        "en": "./interlinkers/externalknowledge/apache-druid-documentation/instructions.md"
+    },
+    "is_sustainability_related": false,
+    "languages": [
+        "lv",
+        "en",
+        "es",
+        "it",
+        "da",
+        "nl"
+    ],
+    "licence": "permissive",
+    "name_translations": {
+        "en": "Apache Druid documentation",
+        "es": "Documentaci\u00f3n de Apache Druid",
+        "it": "Documentazione di Apache Druid",
+        "lv": "Apache Druid dokument\u0101cija",
+        "da": "Apache Druid dokumentation",
+        "nl": "Apache Druid-documentatie"
+    },
+    "problemprofiles": [
+        "CS_PROBLEM_8",
+        "CS_PROBLEM_9",
+        "ORG_PROBLEM_6.2",
+        "BUILD_PROBLEM_7"
+    ],
+    "regulations_and_standards_translations": {
+        "en": ""
+    },
+    "tags_translations": {
+        "en": [
+            "apache",
+            "druid",
+            "documentation"
+        ]
+    },
+    "targets": [
+        "all"
+    ],
+    "type": "knowledge",
+    "types": [
+        "enabling_services",
+        "enabling_services;implementing_software_and_artifacts"
+    ],
+    "uri_translations": {
+        "en": "https://druid.apache.org/docs/latest/design/"
+    }
+}
