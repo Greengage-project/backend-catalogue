@@ -1,0 +1,72 @@
+{
+    "administrative_scopes": [
+        "eu"
+    ],
+    "constraints_and_limitations_translations": {
+        "en": "No special constraints apply"
+    },
+    "description_translations": {
+        "en": "<p>Questionnaire to help you deciding whether a certain problem can be addressed through co-production and Citizen Science or not</p>",
+        "es": "<p></p>",
+        "it": "<p></p>",
+        "lv": "<p></p>"
+    },
+    "difficulty": "easy",
+    "domain": "",
+    "environments": [
+        "varam",
+        "mef",
+        "zgz"
+    ],
+    "file_translations": {
+        "en": "./interlinkers/knowledge/co-production-and-cs-process-natures-checklist/CoProductionCSProjectQuestionnaire.xlsx"
+    },
+    "form": "document_template",
+    "format": "editable_source_document",
+    "id": "co-production-and-cs-process-natures-checklist",
+    "instructions_translations": {
+        "en": "./interlinkers/knowledge/co-production-and-cs-process-natures-checklist/instructions.md"
+    },
+    "is_sustainability_related": false,
+    "languages": [
+        "lv",
+        "en",
+        "es",
+        "it",
+        "da",
+        "nl"
+    ],
+    "licence": "public_domain",
+    "name_translations": {
+        "da": "Sp\u00f8rgeskema til problemformulering i borgerforskning",
+        "en": "Co-production and CS process nature's checklist",
+        "es": "Cuestionario para la declaraci\u00f3n del problema de Citizen Science",
+        "it": "Questionario per la dichiarazione del problema di Citizen Science",
+        "lv": "Jaut\u0101jumu lapa pilso\u0146u pazi\u0146o\u0161anai pilso\u0146u zin\u0101tn\u0113",
+        "nl": "Vragenlijst voor het formuleren van een probleem in burgerwetenschap"
+    },
+    "problemprofiles": [
+        "ORG_PROBLEM_1"
+    ],
+    "process": "",
+    "regulations_and_standards_translations": {
+        "en": ""
+    },
+    "softwareinterlinker": "googledrive",
+    "tags_translations": {
+        "en": [
+            "citizen",
+            "science",
+            "production",
+            "process",
+            "nature"
+        ]
+    },
+    "targets": [
+        "all"
+    ],
+    "type": "knowledge",
+    "types": [
+        "enhancing_services"
+    ]
+}
