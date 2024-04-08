@@ -23,7 +23,7 @@
     },
     "form": "guidelines",
     "format": "editable_source_document",
-    "id": "citizen-observatorys-thematic-co-exploration-specification",
+    "id": "citizen_observatory_s_thematic_co_exploration_specification",
     "instructions_translations": {
         "en": "./interlinkers/knowledge/citizen-observatorys-thematic-co-exploration-specification/instructions.md"
     },
@@ -38,11 +38,11 @@
     ],
     "licence": "public_domain",
     "name_translations": {
+        "da": "Borgernes observatoriums tematiske co-udforskningsspecifikation",
         "en": "Citizen Observatory's thematic co-exploration specification",
         "es": "Especificaci\u00f3n de la co-exploraci\u00f3n tem\u00e1tica de un observatorio ciudadano",
         "it": "Specifiche di co-esplorazione tematica dell'osservatorio dei cittadini",
-        "lv": "Pilso\u0146u novērojumu tematiskās kop\u0101 izpētes specifikācija",
-        "da": "Borgernes observatoriums tematiske co-udforskningsspecifikation",
+        "lv": "Pilso\u0146u nov\u0113rojumu tematisk\u0101s kop\u0101 izp\u0113tes specifik\u0101cija",
         "nl": "Specificatie van thematische co-exploratie van een burgerobservatorium"
     },
     "problemprofiles": [

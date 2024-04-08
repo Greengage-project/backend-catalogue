@@ -10,11 +10,11 @@
         "en": "No special constraints apply"
     },
     "description_translations": {
+        "da": "<p></p>",
         "en": "<p>HOWTO for tool to create preprocessing flows</p>",
         "es": "<p></p>",
         "it": "<p></p>",
         "lv": "<p></p>",
-        "da": "<p></p>",
         "nl": "<p></p>"
     },
     "difficulty": "easy",
@@ -25,7 +25,7 @@
     ],
     "form": "guidelines",
     "format": "interactive_resource (website)",
-    "id": "apache-nifi-documentation",
+    "id": "apache_nifi_documentation",
     "instructions_translations": {
         "en": "./interlinkers/externalknowledge/apache-nifi-documentation/instructions.md"
     },
@@ -40,11 +40,11 @@
     ],
     "licence": "permissive",
     "name_translations": {
+        "da": "Apache NiFi dokumentation",
         "en": "Apache NiFi documentation",
         "es": "Documentaci\u00f3n de Apache NiFi",
         "it": "Documentazione di Apache NiFi",
         "lv": "Apache NiFi dokument\u0101cija",
-        "da": "Apache NiFi dokumentation",
         "nl": "Apache NiFi-documentatie"
     },
     "problemprofiles": [

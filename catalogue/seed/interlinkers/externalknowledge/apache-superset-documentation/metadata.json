@@ -10,11 +10,11 @@
         "en": "No special constraints apply"
     },
     "description_translations": {
+        "da": "<p></p>",
         "en": "<p>HOWTO for tool to create dashboards and visualizations</p>",
         "es": "<p></p>",
         "it": "<p></p>",
         "lv": "<p></p>",
-        "da": "<p></p>",
         "nl": "<p></p>"
     },
     "difficulty": "easy",
@@ -25,7 +25,7 @@
     ],
     "form": "guidelines",
     "format": "interactive_resource (website)",
-    "id": "apache-superset-documentation",
+    "id": "apache_superset_documentation",
     "instructions_translations": {
         "en": "./interlinkers/externalknowledge/apache-superset-documentation/instructions.md"
     },
@@ -40,11 +40,11 @@
     ],
     "licence": "permissive",
     "name_translations": {
+        "da": "Apache Superset dokumentation",
         "en": "Apache Superset documentation",
         "es": "Documentaci\u00f3n de Apache Superset",
         "it": "Documentazione di Apache Superset",
         "lv": "Apache Superset dokument\u0101cija",
-        "da": "Apache Superset dokumentation",
         "nl": "Apache Superset-documentatie"
     },
     "problemprofiles": [

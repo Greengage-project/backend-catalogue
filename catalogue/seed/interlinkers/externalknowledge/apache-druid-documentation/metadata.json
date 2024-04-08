@@ -10,11 +10,11 @@
         "en": "No special constraints apply"
     },
     "description_translations": {
+        "da": "<p></p>",
         "en": "<p>HOWTO for tool to load data into the project's database</p>",
         "es": "<p></p>",
         "it": "<p></p>",
         "lv": "<p></p>",
-        "da": "<p></p>",
         "nl": "<p></p>"
     },
     "difficulty": "easy",
@@ -25,7 +25,7 @@
     ],
     "form": "guidelines",
     "format": "interactive_resource (website)",
-    "id": "apache-druid-documentation",
+    "id": "apache_druid_documentation",
     "instructions_translations": {
         "en": "./interlinkers/externalknowledge/apache-druid-documentation/instructions.md"
     },
@@ -40,11 +40,11 @@
     ],
     "licence": "permissive",
     "name_translations": {
+        "da": "Apache Druid dokumentation",
         "en": "Apache Druid documentation",
         "es": "Documentaci\u00f3n de Apache Druid",
         "it": "Documentazione di Apache Druid",
         "lv": "Apache Druid dokument\u0101cija",
-        "da": "Apache Druid dokumentation",
         "nl": "Apache Druid-documentatie"
     },
     "problemprofiles": [
