@@ -17,6 +17,8 @@
     "externalknowledge;cloud_enablement_kit_in_italian;name": "M\u0101ko\u0146datu iesp\u0113jo\u0161anas komplekts (it\u0101\u013cu valod\u0101)",
     "externalknowledge;collaborative_environment_s_user_manual;description": "<p></p>",
     "externalknowledge;collaborative_environment_s_user_manual;name": "Sadarb\u012bbas vides lietot\u0101ja rokasgr\u0101mata",
+    "externalknowledge;configure_discourse_space_documentation;description": "<p></p>",
+    "externalknowledge;configure_discourse_space_documentation;name": "Konfigur\u0113t Discourse telpas dokument\u0101ciju",
     "externalknowledge;edpb_data_protection_guidelines;description": "<p>\u0160\u012bs vadl\u012bnijas sniedz visp\u0101r\u0113ju ieskatu GDPR 25. pant\u0101 izkl\u0101st\u012btaj\u0101s integr\u0113t\u0101s datu aizsardz\u012bbas un datu aizsardz\u012bbas p\u0113c noklus\u0113juma (turpm\u0101k \"DPbDD\") saist\u012bb\u0101s.</p>",
     "externalknowledge;edpb_data_protection_guidelines;name": "EDPB Datu aizsardz\u012bbas vadl\u012bnijas",
     "externalknowledge;eidas_standard;description": "<p>eIDAS risin\u0101jums lauj citu dal\u012bbvalstu pilso\u0146iem pier\u0101d\u012bt un p\u0101rbaud\u012bt vi\u0146u identit\u0101ti, piek\u013c\u016bstot citu dal\u012bbvalstu tie\u0161saistes pakalpojumiem. Tas \u013cauj pilso\u0146iem autentific\u0113ties, izmantojot eID un savienojoties ar vi\u0146u valsts identit\u0101tes pakalpojuma sniedz\u0113ju (IdP).</p>",

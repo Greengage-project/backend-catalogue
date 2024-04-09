@@ -17,6 +17,8 @@
     "externalknowledge;cloud_enablement_kit_in_italian;name": "Cloud Enablement Kit (in Italian)",
     "externalknowledge;collaborative_environment_s_user_manual;description": "<p>This documentation summarizes how the different stakeholders that intervene in the co-production process behind every thematic co-exploration can collaborate with each other, empowered by the CO enablers or INTERLINKERs with which the Collaborative Environment is populated.</p>",
     "externalknowledge;collaborative_environment_s_user_manual;name": "Collaborative Environment's User Manual",
+    "externalknowledge;configure_discourse_space_documentation;description": "<p>This documentation illustrates how to use Discourse, both as a community administrator and as a community members, i.e. observer</p>",
+    "externalknowledge;configure_discourse_space_documentation;name": "Configure Discourse space documentation",
     "externalknowledge;edpb_data_protection_guidelines;description": "<p>These Guidelines give general guidance on the obligation of Data Protection by Design and by Default (henceforth \u201cDPbDD\u201d) set forth in Article 25 in the GDPR.</p>",
     "externalknowledge;edpb_data_protection_guidelines;name": "EDPB Data Protection Guidelines",
     "externalknowledge;eidas_standard;description": "<p>The eIDAS solution allows citizens from Member States to prove and verify their identification when accessing on-line services in other Member States. It allows citizens to authenticate themselves by using their eIDs and connecting with their Identity Provider (IdP) from their country. </p>",
