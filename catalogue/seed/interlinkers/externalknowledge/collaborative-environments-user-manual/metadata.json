@@ -25,7 +25,7 @@
     ],
     "form": "guidelines",
     "format": "interactive_resource (website)",
-    "id": "collaborative-environments-user-manual",
+    "id": "collaborative_environment_s_user_manual",
     "instructions_translations": {
         "en": "./interlinkers/externalknowledge/collaborative-environments-user-manual/instructions.md"
     },
@@ -40,11 +40,11 @@
     ],
     "licence": "permissive",
     "name_translations": {
-        "da": "Brugervejledning til samarbejdsmilj\u00F8",
+        "da": "Brugervejledning til samarbejdsmilj\u00f8",
         "en": "Collaborative Environment's User Manual",
         "es": "Manual de usuario del entorno colaborativo",
         "it": "Manuale utente dell'ambiente collaborativo",
-        "lv": "Sadarb\u012Bbas vides lietot\u0101ja rokasgr\u0101mata",
+        "lv": "Sadarb\u012bbas vides lietot\u0101ja rokasgr\u0101mata",
         "nl": "Gebruikershandleiding van de samenwerkingsomgeving"
     },
     "problemprofiles": [
