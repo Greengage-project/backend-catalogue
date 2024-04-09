@@ -19,7 +19,7 @@
         "zgz"
     ],
     "file_translations": {
-        "en": "./interlinkers/knowledge/contact-list-template/CommunityBuildingPlan.xlsx"
+        "en": "./interlinkers/knowledge/contact-list-template/ContactsList.xlsx"
     },
     "form": "document_template",
     "format": "editable_source_document",
