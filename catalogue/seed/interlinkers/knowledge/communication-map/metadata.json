@@ -23,7 +23,7 @@
     },
     "form": "document_template",
     "format": "editable_source_document",
-    "id": "communication-map",
+    "id": "communication_map",
     "instructions_translations": {
         "en": "./interlinkers/knowledge/citizen-science-problem-statement-questionnaire/instructions.md"
     },
