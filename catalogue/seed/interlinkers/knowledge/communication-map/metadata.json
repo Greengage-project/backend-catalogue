@@ -25,7 +25,7 @@
     "format": "editable_source_document",
     "id": "communication_map",
     "instructions_translations": {
-        "en": "./interlinkers/knowledge/citizen-science-problem-statement-questionnaire/instructions.md"
+        "en": "./interlinkers/knowledge/communication-map/instructions.md"
     },
     "is_sustainability_related": false,
     "languages": [
