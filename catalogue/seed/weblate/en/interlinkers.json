@@ -106,6 +106,8 @@
     "knowledgeinterlinker;consent_form_for_interlink_project;name": "Consent Form for INTERLINK project",
     "knowledgeinterlinker;consent_form_template;description": "<p>Template to prepare a form to collect consent from participants engaged in research activities about the use of their personal data</p>",
     "knowledgeinterlinker;consent_form_template;name": "Consent Form Template",
+    "knowledgeinterlinker;contact_list_template;description": "<p>Spreadsheet where contact details of recruited participants in a thematic co-exploration can be collected</p>",
+    "knowledgeinterlinker;contact_list_template;name": "Contact list template",
     "knowledgeinterlinker;demographic_and_activity_satisfaction_questionnaire;description": "<p>This is a model of a questionnaire aimed to collect demographics and activity satisfaction scores from participants to project events and activities.</p>",
     "knowledgeinterlinker;demographic_and_activity_satisfaction_questionnaire;name": "Demographic and activity satisfaction questionnaire",
     "knowledgeinterlinker;final_end_user_s_questionnaire_quality_of_service;description": "This is a model of End Users' Perceptions Questionnaire. It aims to measure end-users' perceptions on user-based quality, value-based quality, trust and acceptance. This questionnaire is thought to be answered by users of traditional e-services and also those who co-produced them through INTERLINK.",

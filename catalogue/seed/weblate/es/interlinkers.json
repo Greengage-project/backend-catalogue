@@ -106,6 +106,8 @@
     "knowledgeinterlinker;consent_form_for_interlink_project;name": "Formulario de consentimiento para el proyecto INTERLINK",
     "knowledgeinterlinker;consent_form_template;description": "<p>Plantilla para preparar un formulario para recoger el consentimiento de los participantes en actividades de investigaci\u00f3n sobre el uso de sus datos personales</p>",
     "knowledgeinterlinker;consent_form_template;name": "Modelo de formulario de consentimiento",
+    "knowledgeinterlinker;contact_list_template;description": "<p></p>",
+    "knowledgeinterlinker;contact_list_template;name": "Plantilla de lista de contactos",
     "knowledgeinterlinker;demographic_and_activity_satisfaction_questionnaire;description": "<p>Este es un modelo de cuestionario destinado a recoger datos demogr\u00e1ficos y puntuaciones de satisfacci\u00f3n de los participantes en los eventos y actividades del proyecto.</p>",
     "knowledgeinterlinker;demographic_and_activity_satisfaction_questionnaire;name": "Cuestionario demogr\u00e1fico y de satisfacci\u00f3n de la actividad",
     "knowledgeinterlinker;final_end_user_s_questionnaire_quality_of_service;description": "Se trata de un modelo de Cuestionario de Percepci\u00f3n de los Usuarios Finales. Su objetivo es medir las percepciones de los usuarios finales sobre la calidad basada en el usuario, la calidad basada en el valor, la confianza y la aceptaci\u00f3n. Este cuestionario est\u00e1 pensado para que lo contesten los usuarios de los servicios electr\u00f3nicos tradicionales y tambi\u00e9n los que los coproducen a trav\u00e9s de INTERLINK.",

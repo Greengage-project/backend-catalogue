@@ -23,7 +23,7 @@
     },
     "form": "document_template",
     "format": "editable_source_document",
-    "id": "contact-list-template",
+    "id": "contact_list_template",
     "instructions_translations": {
         "en": "./interlinkers/knowledge/contact-list-template/instructions.md"
     },
