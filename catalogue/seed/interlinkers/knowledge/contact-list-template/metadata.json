@@ -1,0 +1,72 @@
+{
+    "administrative_scopes": [
+        "eu"
+    ],
+    "constraints_and_limitations_translations": {
+        "en": "No special constraints apply"
+    },
+    "description_translations": {
+        "en": "<p>Spreadsheet where contact details of recruited participants in a thematic co-exploration can be collected</p>",
+        "es": "<p></p>",
+        "it": "<p></p>",
+        "lv": "<p></p>"
+    },
+    "difficulty": "easy",
+    "domain": "",
+    "environments": [
+        "varam",
+        "mef",
+        "zgz"
+    ],
+    "file_translations": {
+        "en": "./interlinkers/knowledge/contact-list-template/CommunityBuildingPlan.xlsx"
+    },
+    "form": "document_template",
+    "format": "editable_source_document",
+    "id": "contact-list-template",
+    "instructions_translations": {
+        "en": "./interlinkers/knowledge/contact-list-template/instructions.md"
+    },
+    "is_sustainability_related": false,
+    "languages": [
+        "lv",
+        "en",
+        "es",
+        "it",
+        "da",
+        "nl"
+    ],
+    "licence": "public_domain",
+    "name_translations": {
+        "da": "Kontaktliste skabelon",
+        "en": "Contact list template",
+        "es": "Plantilla de lista de contactos",
+        "it": "Modello di elenco contatti",
+        "lv": "Kontaktu saraksta veidne",
+        "nl": "Contactenlijst sjabloon"
+    },
+    "problemprofiles": [
+        "ORG_PROBLEM_4",
+        "CS_PROBLEM_4",
+        "CS_PROBLEM_6"
+    ],
+    "process": "",
+    "regulations_and_standards_translations": {
+        "en": ""
+    },
+    "softwareinterlinker": "googledrive",
+    "tags_translations": {
+        "en": [
+            "contact",
+            "list",
+            "template"
+        ]
+    },
+    "targets": [
+        "all"
+    ],
+    "type": "knowledge",
+    "types": [
+        "enhancing_services"
+    ]
+}
