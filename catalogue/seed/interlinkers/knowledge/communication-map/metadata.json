@@ -1,0 +1,71 @@
+{
+    "administrative_scopes": [
+        "eu"
+    ],
+    "constraints_and_limitations_translations": {
+        "en": "No special constraints apply"
+    },
+    "description_translations": {
+        "en": "<p>This template helps you planning WHO, WHEN, HOW, WHY and with WHAT should be approached to make it part of the citizen observers community or because they may be important stakeholders of the thematic co-exploration's outcomes.</p>",
+        "es": "<p></p>",
+        "it": "<p></p>",
+        "lv": "<p></p>"
+    },
+    "difficulty": "easy",
+    "domain": "",
+    "environments": [
+        "varam",
+        "mef",
+        "zgz"
+    ],
+    "file_translations": {
+        "en": "./interlinkers/knowledge/communication-map/Communication_map_Table.pptx"
+    },
+    "form": "document_template",
+    "format": "editable_source_document",
+    "id": "communication-map",
+    "instructions_translations": {
+        "en": "./interlinkers/knowledge/citizen-science-problem-statement-questionnaire/instructions.md"
+    },
+    "is_sustainability_related": false,
+    "languages": [
+        "lv",
+        "en",
+        "es",
+        "it",
+        "da",
+        "nl"
+    ],
+    "licence": "public_domain",
+    "name_translations": {
+        "da": "Kommunikationskort",
+        "en": "Communication map",
+        "es": "Mapa de comunicaci\u00f3n",
+        "it": "Mappa della comunicazione",
+        "lv": "Sazi\u0146u karte",
+        "nl": "Communicatiekaart"
+    },
+    "problemprofiles": [
+        "ORG_PROBLEM_4",
+        "CS_PROBLEM_4",
+        "CS_PROBLEM_6"
+    ],
+    "process": "",
+    "regulations_and_standards_translations": {
+        "en": ""
+    },
+    "softwareinterlinker": "googledrive",
+    "tags_translations": {
+        "en": [
+            "communication",
+            "map"
+        ]
+    },
+    "targets": [
+        "all"
+    ],
+    "type": "knowledge",
+    "types": [
+        "enhancing_services"
+    ]
+}
