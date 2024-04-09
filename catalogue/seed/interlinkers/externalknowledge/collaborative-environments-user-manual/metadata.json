@@ -1,0 +1,76 @@
+{
+    "administrative_scopes": [
+        "national",
+        "local"
+    ],
+    "asset_name_translations": {
+        "en": "Collaborative Environment's User Manual"
+    },
+    "constraints_and_limitations_translations": {
+        "en": "No special constraints apply"
+    },
+    "description_translations": {
+        "da": "<p></p>",
+        "en": "<p>This documentation summarizes how the different stakeholders that intervene in the co-production process behind every thematic co-exploration can collaborate with each other, empowered by the CO enablers or INTERLINKERs with which the Collaborative Environment is populated.</p>",
+        "es": "<p></p>",
+        "it": "<p></p>",
+        "lv": "<p></p>",
+        "nl": "<p></p>"
+    },
+    "difficulty": "easy",
+    "environments": [
+        "varam",
+        "mef",
+        "zgz"
+    ],
+    "form": "guidelines",
+    "format": "interactive_resource (website)",
+    "id": "collaborative-environments-user-manual",
+    "instructions_translations": {
+        "en": "./interlinkers/externalknowledge/collaborative-environments-user-manual/instructions.md"
+    },
+    "is_sustainability_related": false,
+    "languages": [
+        "lv",
+        "en",
+        "es",
+        "it",
+        "da",
+        "nl"
+    ],
+    "licence": "permissive",
+    "name_translations": {
+        "da": "Brugervejledning til samarbejdsmilj\u00F8",
+        "en": "Collaborative Environment's User Manual",
+        "es": "Manual de usuario del entorno colaborativo",
+        "it": "Manuale utente dell'ambiente collaborativo",
+        "lv": "Sadarb\u012Bbas vides lietot\u0101ja rokasgr\u0101mata",
+        "nl": "Gebruikershandleiding van de samenwerkingsomgeving"
+    },
+    "problemprofiles": [
+        "ORG_PROBLEM_2",
+        "ORG_PROBLEM_4",
+        "ORG_PROBLEM_6"
+    ],
+    "regulations_and_standards_translations": {
+        "en": ""
+    },
+    "tags_translations": {
+        "en": [
+            "collaborative",
+            "environment",
+            "documentation"
+        ]
+    },
+    "targets": [
+        "all"
+    ],
+    "type": "knowledge",
+    "types": [
+        "enabling_services",
+        "enabling_services;implementing_software_and_artifacts"
+    ],
+    "uri_translations": {
+        "en": "https://superset.apache.org/docs/intro/"
+    }
+}
