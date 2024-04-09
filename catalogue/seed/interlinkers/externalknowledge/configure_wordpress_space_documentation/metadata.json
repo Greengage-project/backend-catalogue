@@ -1,0 +1,76 @@
+{
+    "administrative_scopes": [
+        "national",
+        "local"
+    ],
+    "asset_name_translations": {
+        "en": "Configure Discourse space documentation"
+    },
+    "constraints_and_limitations_translations": {
+        "en": "No special constraints apply"
+    },
+    "description_translations": {
+        "da": "<p></p>",
+        "en": "<p>Documentation on how to use Wordpress to configure a page with contents about a given thematic co-exploration</p>",
+        "es": "<p></p>",
+        "it": "<p></p>",
+        "lv": "<p></p>",
+        "nl": "<p></p>"
+    },
+    "difficulty": "easy",
+    "environments": [
+        "varam",
+        "mef",
+        "zgz"
+    ],
+    "form": "guidelines",
+    "format": "interactive_resource (website)",
+    "id": "configure_wordpress_space_documentation",
+    "instructions_translations": {
+        "en": "./interlinkers/externalknowledge/configure_wordpress_space_documentation/instructions.md"
+    },
+    "is_sustainability_related": false,
+    "languages": [
+        "lv",
+        "en",
+        "es",
+        "it",
+        "da",
+        "nl"
+    ],
+    "licence": "permissive",
+    "name_translations": {
+        "da": "Konfigurer Wordpress-rum dokumentation",
+        "en": "Configure Wordpress space documentation",
+        "es": "Configurar la documentaci\u00f3n del espacio de Wordpress",
+        "it": "Configura la documentazione dello spazio di Wordpress",
+        "lv": "Konfigur\u0113t Wordpress telpas dokument\u0101ciju",
+        "nl": "Configureer Wordpress ruimte documentatie"
+    },
+    "problemprofiles": [
+        "ORG_PROBLEM_4",
+        "CS_PROBLEM_4",
+        "CS_PROBLEM_6"
+    ],
+    "regulations_and_standards_translations": {
+        "en": ""
+    },
+    "tags_translations": {
+        "en": [
+            "configure",
+            "wordpress",
+            "space"
+        ]
+    },
+    "targets": [
+        "all"
+    ],
+    "type": "knowledge",
+    "types": [
+        "enabling_services",
+        "enabling_services;implementing_software_and_artifacts"
+    ],
+    "uri_translations": {
+        "en": "https://greengage-project.github.io/Documentation/tools/Wordpress/"
+    }
+}
