@@ -1,0 +1,72 @@
+{
+    "administrative_scopes": [
+        "eu"
+    ],
+    "constraints_and_limitations_translations": {
+        "en": "No special constraints apply"
+    },
+    "description_translations": {
+        "en": "<p>This PDF provides a toolkit to be used to ensure data ethics are applied in participatory sciences.</p>",
+        "es": "<p></p>",
+        "it": "<p></p>",
+        "lv": "<p></p>"
+    },
+    "difficulty": "easy",
+    "domain": "",
+    "environments": [
+        "varam",
+        "mef",
+        "zgz"
+    ],
+    "file_translations": {
+        "en": "./interlinkers/knowledge/data-ethics-toolkit/Data_Ethics_Toolkit.pdf"
+    },
+    "form": "best_practices",
+    "format": "pdf",
+    "id": "data-ethics-toolkit",
+    "instructions_translations": {
+        "en": "./interlinkers/knowledge/data-ethics-toolkit/instructions.md"
+    },
+    "is_sustainability_related": false,
+    "languages": [
+        "lv",
+        "en",
+        "es",
+        "it",
+        "da",
+        "nl"
+    ],
+    "licence": "public_domain",
+    "name_translations": {
+        "da": "V\u00E6rkt\u00F8jskasse til dataetik",
+        "en": "Data ethics toolkit",
+        "es": "Herramientas de \u00E9tica de datos",
+        "it": "Strumenti di etica dei dati",
+        "lv": "Datu \u0113tikas r\u012Bkkopas",
+        "nl": "Data-ethiek toolkit"
+    },
+    "problemprofiles": [
+        "DEF_PROBLEM_7",
+        "DEF_PROBLEM_8",
+        "CS_PROBLEM_1"
+    ],
+    "process": "",
+    "regulations_and_standards_translations": {
+        "en": ""
+    },
+    "softwareinterlinker": "googledrive",
+    "tags_translations": {
+        "en": [
+            "data",
+            "ethics",
+            "toolkit"
+        ]
+    },
+    "targets": [
+        "all"
+    ],
+    "type": "knowledge",
+    "types": [
+        "enhancing_services"
+    ]
+}

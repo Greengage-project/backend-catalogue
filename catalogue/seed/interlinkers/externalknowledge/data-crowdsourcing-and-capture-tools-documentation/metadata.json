@@ -1,0 +1,75 @@
+{
+    "administrative_scopes": [
+        "national",
+        "local"
+    ],
+    "asset_name_translations": {
+        "en": "Data crowdsourcing and capture tools documentation"
+    },
+    "constraints_and_limitations_translations": {
+        "en": "No special constraints apply"
+    },
+    "description_translations": {
+        "da": "<p></p>",
+        "en": "<p>This section of the GREENGAGE documentation illustrates how to use the GREENGAGE app, MindView app, Atmotube sensors and MODE transport mode detection library, for data capture and crowdsourcing duties.</p>",
+        "es": "<p></p>",
+        "it": "<p></p>",
+        "lv": "<p></p>",
+        "nl": "<p></p>"
+    },
+    "difficulty": "easy",
+    "environments": [
+        "varam",
+        "mef",
+        "zgz"
+    ],
+    "form": "guidelines",
+    "format": "interactive_resource (website)",
+    "id": "data-crowdsourcing-and-capture-tools-documentation",
+    "instructions_translations": {
+        "en": "./interlinkers/externalknowledge/data-crowdsourcing-and-capture-tools-documentation/instructions.md"
+    },
+    "is_sustainability_related": false,
+    "languages": [
+        "lv",
+        "en",
+        "es",
+        "it",
+        "da",
+        "nl"
+    ],
+    "licence": "permissive",
+    "name_translations": {
+        "da": "Data crowdsourcing og dokumentation af opsamlingsv\u00E6rkt\u00F8jer",
+        "en": "Data crowdsourcing and capture tools documentation",
+        "es": "Crowdsourcing y captura de datos",
+        "it": "Documentazione degli strumenti di crowdsourcing e cattura dei dati",
+        "lv": "Datu masu kop\u0113\u0161anas un ieg\u016B\u0161anas r\u012Bku dokument\u0101cija",
+        "nl": "Documentatie van gegevenscrowdsourcing en -verzamelingshulpmiddelen"
+    },
+    "problemprofiles": [
+        "VAL_PROBLEM_3",
+        "VAL_PROBLEM_4"
+    ],
+    "regulations_and_standards_translations": {
+        "en": ""
+    },
+    "tags_translations": {
+        "en": [
+            "data",
+            "crowdsourcing",
+            "capture"
+        ]
+    },
+    "targets": [
+        "all"
+    ],
+    "type": "knowledge",
+    "types": [
+        "enabling_services",
+        "enabling_services;implementing_software_and_artifacts"
+    ],
+    "uri_translations": {
+        "en": "https://greengage-project.github.io/Documentation/thematic_coexploration_example/"
+    }
+}

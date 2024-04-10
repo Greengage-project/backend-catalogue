@@ -1,0 +1,73 @@
+{
+    "administrative_scopes": [
+        "eu"
+    ],
+    "constraints_and_limitations_translations": {
+        "en": "No special constraints apply"
+    },
+    "description_translations": {
+        "en": "<p>Guide offering a basic set of principles to support open and interoperable citizen-science data</p>",
+        "es": "<p></p>",
+        "it": "<p></p>",
+        "lv": "<p></p>"
+    },
+    "difficulty": "easy",
+    "domain": "",
+    "environments": [
+        "varam",
+        "mef",
+        "zgz"
+    ],
+    "file_translations": {
+        "en": "./interlinkers/knowledge/data-charter-for-citizen-science/data_charter_for_citizen_science.pdf"
+    },
+    "form": "best_practices",
+    "format": "pdf",
+    "id": "data-charter-for-citizen-science",
+    "instructions_translations": {
+        "en": "./interlinkers/knowledge/data-charter-for-citizen-science/instructions.md"
+    },
+    "is_sustainability_related": false,
+    "languages": [
+        "lv",
+        "en",
+        "es",
+        "it",
+        "da",
+        "nl"
+    ],
+    "licence": "public_domain",
+    "name_translations": {
+        "da": "Datacharter for borgervidenskab",
+        "en": "Data charter for Citizen Science",
+        "es": "Carta de datos para la ciencia ciudadana",
+        "it": "Carta dei dati per la scienza cittadina",
+        "lv": "Datu harta pilso\u0146u zin\u0101tn\u0113",
+        "nl": "Data charter voor burgerwetenschap"
+    },
+    "problemprofiles": [
+        "ORG_PROBLEM_9",
+        "DEF_PROBLEM_7",
+        "CS_PROBLEM_1"
+    ],
+    "process": "",
+    "regulations_and_standards_translations": {
+        "en": ""
+    },
+    "softwareinterlinker": "googledrive",
+    "tags_translations": {
+        "en": [
+            "data",
+            "charter",
+            "citizen",
+            "science"
+        ]
+    },
+    "targets": [
+        "all"
+    ],
+    "type": "knowledge",
+    "types": [
+        "enhancing_services"
+    ]
+}
