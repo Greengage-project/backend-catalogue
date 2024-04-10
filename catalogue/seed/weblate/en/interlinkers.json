@@ -120,6 +120,8 @@
     "knowledgeinterlinker;data_charter_for_citizen_science;name": "Data charter for Citizen Science",
     "knowledgeinterlinker;data_ethics_toolkit;description": "<p>This PDF provides a toolkit to be used to ensure data ethics are applied in participatory sciences.</p>",
     "knowledgeinterlinker;data_ethics_toolkit;name": "Data ethics toolkit",
+    "knowledgeinterlinker;data_management_plan_template;description": "<p>Simple spreadsheet to reflect on data management aspects for a Citizen Science (CS) campaign</p>",
+    "knowledgeinterlinker;data_management_plan_template;name": "Data management plan template",
     "knowledgeinterlinker;demographic_and_activity_satisfaction_questionnaire;description": "<p>This is a model of a questionnaire aimed to collect demographics and activity satisfaction scores from participants to project events and activities.</p>",
     "knowledgeinterlinker;demographic_and_activity_satisfaction_questionnaire;name": "Demographic and activity satisfaction questionnaire",
     "knowledgeinterlinker;final_end_user_s_questionnaire_quality_of_service;description": "This is a model of End Users' Perceptions Questionnaire. It aims to measure end-users' perceptions on user-based quality, value-based quality, trust and acceptance. This questionnaire is thought to be answered by users of traditional e-services and also those who co-produced them through INTERLINK.",

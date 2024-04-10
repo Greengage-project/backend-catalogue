@@ -23,7 +23,7 @@
     },
     "form": "document_template",
     "format": "editable_source_document",
-    "id": "data-management-plan-template",
+    "id": "data_management_plan_template",
     "instructions_translations": {
         "en": "./interlinkers/knowledge/data-management-plan-template/instructions.md"
     },
@@ -38,11 +38,11 @@
     ],
     "licence": "public_domain",
     "name_translations": {
-        "da": "Datah\u00E5ndteringsplan skabelon",
+        "da": "Datah\u00e5ndteringsplan skabelon",
         "en": "Data management plan template",
-        "es": "Plantilla de plan de gesti\u00F3n de datos",
+        "es": "Plantilla de plan de gesti\u00f3n de datos",
         "it": "Modello di piano di gestione dei dati",
-        "lv": "Datu p\u0101rvald\u012Bbas pl\u0101na veidne",
+        "lv": "Datu p\u0101rvald\u012bbas pl\u0101na veidne",
         "nl": "Sjabloon voor gegevensbeheerplan"
     },
     "problemprofiles": [
