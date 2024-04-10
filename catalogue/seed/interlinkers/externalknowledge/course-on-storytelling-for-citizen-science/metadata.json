@@ -25,7 +25,7 @@
     ],
     "form": "best_practices",
     "format": "interactive_resource (website)",
-    "id": "course-on-storytelling-for-citizen-science",
+    "id": "course_on_storytelling_for_citizen_science",
     "instructions_translations": {
         "en": "./interlinkers/externalknowledge/course-on-storytelling-for-citizen-science/instructions.md"
     },
@@ -40,11 +40,11 @@
     ],
     "licence": "permissive",
     "name_translations": {
-        "da": "Kursus i historiefort\u00E6lling til Citizen Science",
+        "da": "Kursus i historiefort\u00e6lling til Citizen Science",
         "en": "Course on Storytelling for Citizen Science",
-        "es": "Curso sobre narraci\u00F3n para proyectos de ciencia ciudadana",
+        "es": "Curso sobre narraci\u00f3n para proyectos de ciencia ciudadana",
         "it": "Corso sulla narrazione per progetti di Citizen Science",
-        "lv": "Kurss par st\u0101stu st\u0101st\u012B\u0161anu pilsoniskajai zin\u0101tnei",
+        "lv": "Kurss par st\u0101stu st\u0101st\u012b\u0161anu pilsoniskajai zin\u0101tnei",
         "nl": "Cursus verhalen vertellen voor Citizen Science"
     },
     "problemprofiles": [

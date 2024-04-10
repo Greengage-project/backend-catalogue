@@ -25,7 +25,7 @@
     ],
     "form": "guidelines",
     "format": "interactive_resource (website)",
-    "id": "data-analysis-and-insights-generation-tools",
+    "id": "data_analysis_and_insights_generation_tools",
     "instructions_translations": {
         "en": "./interlinkers/externalknowledge/data-analysis-and-insights-generation-tools/instructions.md"
     },
