@@ -23,7 +23,7 @@
     },
     "form": "best_practices",
     "format": "pdf",
-    "id": "data-charter-for-citizen-science",
+    "id": "data_charter_for_citizen_science",
     "instructions_translations": {
         "en": "./interlinkers/knowledge/data-charter-for-citizen-science/instructions.md"
     },

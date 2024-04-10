@@ -23,7 +23,7 @@
     },
     "form": "best_practices",
     "format": "pdf",
-    "id": "data-ethics-toolkit",
+    "id": "data_ethics_toolkit",
     "instructions_translations": {
         "en": "./interlinkers/knowledge/data-ethics-toolkit/instructions.md"
     },
@@ -38,11 +38,11 @@
     ],
     "licence": "public_domain",
     "name_translations": {
-        "da": "V\u00E6rkt\u00F8jskasse til dataetik",
+        "da": "V\u00e6rkt\u00f8jskasse til dataetik",
         "en": "Data ethics toolkit",
-        "es": "Herramientas de \u00E9tica de datos",
+        "es": "Herramientas de \u00e9tica de datos",
         "it": "Strumenti di etica dei dati",
-        "lv": "Datu \u0113tikas r\u012Bkkopas",
+        "lv": "Datu \u0113tikas r\u012bkkopas",
         "nl": "Data-ethiek toolkit"
     },
     "problemprofiles": [

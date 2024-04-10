@@ -25,7 +25,7 @@
     ],
     "form": "guidelines",
     "format": "interactive_resource (website)",
-    "id": "data-crowdsourcing-and-capture-tools-documentation",
+    "id": "data_crowdsourcing_and_capture_tools_documentation",
     "instructions_translations": {
         "en": "./interlinkers/externalknowledge/data-crowdsourcing-and-capture-tools-documentation/instructions.md"
     },
@@ -40,11 +40,11 @@
     ],
     "licence": "permissive",
     "name_translations": {
-        "da": "Data crowdsourcing og dokumentation af opsamlingsv\u00E6rkt\u00F8jer",
+        "da": "Data crowdsourcing og dokumentation af opsamlingsv\u00e6rkt\u00f8jer",
         "en": "Data crowdsourcing and capture tools documentation",
         "es": "Crowdsourcing y captura de datos",
         "it": "Documentazione degli strumenti di crowdsourcing e cattura dei dati",
-        "lv": "Datu masu kop\u0113\u0161anas un ieg\u016B\u0161anas r\u012Bku dokument\u0101cija",
+        "lv": "Datu masu kop\u0113\u0161anas un ieg\u016b\u0161anas r\u012bku dokument\u0101cija",
         "nl": "Documentatie van gegevenscrowdsourcing en -verzamelingshulpmiddelen"
     },
     "problemprofiles": [
