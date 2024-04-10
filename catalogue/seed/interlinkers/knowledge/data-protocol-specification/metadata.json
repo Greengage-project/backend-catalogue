@@ -6,7 +6,7 @@
         "en": "No special constraints apply"
     },
     "description_translations": {
-        "en": "<p>This spreadsheet template guides those willing to achieve community establishment within a thematic co-exploration. It suggests the organization and planning of the different types of activities: INFORM, GUIDE, CONSULT and WORK WITH.</p>",
+        "en": "<p>This document guides core team members in the identifification of the data capture, analysis and visualization needs of a given thematic co-exploration.</p>",
         "es": "<p></p>",
         "it": "<p></p>",
         "lv": "<p></p>"
@@ -19,13 +19,13 @@
         "zgz"
     ],
     "file_translations": {
-        "en": "./interlinkers/knowledge/community-building-plan-template/CommunityBuildingPlan.xlsx"
+        "en": "./interlinkers/knowledge/data-protocol-specification/DataProtocolSpecification.docx"
     },
     "form": "document_template",
     "format": "editable_source_document",
-    "id": "communication_map",
+    "id": "data-protocol-specification",
     "instructions_translations": {
-        "en": "./interlinkers/knowledge/community-building-plan-template/instructions.md"
+        "en": "./interlinkers/knowledge/data-protocol-specification/instructions.md"
     },
     "is_sustainability_related": false,
     "languages": [
@@ -38,16 +38,18 @@
     ],
     "licence": "public_domain",
     "name_translations": {
-        "da": "Kommunikationskort",
-        "en": "Communication map",
-        "es": "Mapa de comunicaci\u00f3n",
-        "it": "Mappa della comunicazione",
-        "lv": "Sazi\u0146u karte",
-        "nl": "Communicatiekaart"
+        "da": "Data-protokolspecifikation",
+        "en": "Data protocol specification",
+        "es": "Especificaci\u00f3n del protocolo de datos",
+        "it": "Specifiche del protocollo dati",
+        "lv": "Datu protokola specifik\u0101cija",
+        "nl": "Data-protocolspecificatie"
     },
     "problemprofiles": [
-        "ORG_PROBLEM_2",
-        "ORG_PROBLEM_5"
+        "DEF_PROBLEM_5",
+        "CS_PROBLEM_8",
+        "VAL_PROBLEM_3",
+        "VAL_PROBLEM_4"
     ],
     "process": "",
     "regulations_and_standards_translations": {
@@ -56,10 +58,8 @@
     "softwareinterlinker": "googledrive",
     "tags_translations": {
         "en": [
-            "community",
-            "building",
-            "plan",
-            "template"
+            "data",
+            "protocol"
         ]
     },
     "targets": [

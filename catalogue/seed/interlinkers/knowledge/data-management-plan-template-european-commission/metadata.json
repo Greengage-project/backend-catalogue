@@ -1,0 +1,72 @@
+{
+    "administrative_scopes": [
+        "eu"
+    ],
+    "constraints_and_limitations_translations": {
+        "en": "No special constraints apply"
+    },
+    "description_translations": {
+        "en": "<p>This is the officia template defined by the EU to create a Data Management plan. The document includes guidelines and instructions about the different steps to carry out.</p>",
+        "es": "<p></p>",
+        "it": "<p></p>",
+        "lv": "<p></p>"
+    },
+    "difficulty": "easy",
+    "domain": "",
+    "environments": [
+        "varam",
+        "mef",
+        "zgz"
+    ],
+    "file_translations": {
+        "en": "./interlinkers/knowledge/data-management-plan-template-european-commission/data-management-plan_he_en.docx"
+    },
+    "form": "document_template",
+    "format": "editable_source_document",
+    "id": "data-management-plan-template-european-commission",
+    "instructions_translations": {
+        "en": "./interlinkers/knowledge/data-management-plan-template-european-commission/instructions.md"
+    },
+    "is_sustainability_related": true,
+    "languages": [
+        "lv",
+        "en",
+        "es",
+        "it",
+        "da",
+        "nl"
+    ],
+    "licence": "public_domain",
+    "name_translations": {
+        "da": "Skabelon til datamanagementplan for Europa-Kommissionen",
+        "en": "Data management plan template European Commission",
+        "es": "Plantilla de plan de gesti\u00F3n de datos de la Comisi\u00F3n Europea",
+        "it": "Modello di piano di gestione dei dati della Commissione europea",
+        "lv": "Eiropas Komisijas datu p\u0101rvald\u012Bbas pl\u0101na veidne",
+        "nl": "Sjabloon voor gegevensbeheerplan Europese Commissie"
+    },
+    "problemprofiles": [
+        "ORG_PROBLEM_9",
+        "DEF_PROBLEM_7",
+        "CS_PROBLEM_1"
+    ],
+    "process": "",
+    "regulations_and_standards_translations": {
+        "en": ""
+    },
+    "softwareinterlinker": "googledrive",
+    "tags_translations": {
+        "en": [
+            "data",
+            "management",
+            "template"
+        ]
+    },
+    "targets": [
+        "all"
+    ],
+    "type": "knowledge",
+    "types": [
+        "enhancing_services"
+    ]
+}
