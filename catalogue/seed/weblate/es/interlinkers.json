@@ -134,6 +134,8 @@
     "knowledgeinterlinker;dataset_inventory_template;name": "Plantilla de plan de gesti\u00f3n de datos",
     "knowledgeinterlinker;demographic_and_activity_satisfaction_questionnaire;description": "<p>Este es un modelo de cuestionario destinado a recoger datos demogr\u00e1ficos y puntuaciones de satisfacci\u00f3n de los participantes en los eventos y actividades del proyecto.</p>",
     "knowledgeinterlinker;demographic_and_activity_satisfaction_questionnaire;name": "Cuestionario demogr\u00e1fico y de satisfacci\u00f3n de la actividad",
+    "knowledgeinterlinker;dissemination_and_communication_plan_template;description": "<p></p>",
+    "knowledgeinterlinker;dissemination_and_communication_plan_template;name": "Plantilla de plan de difusi\u00f3n y comunicaci\u00f3n de datos",
     "knowledgeinterlinker;final_end_user_s_questionnaire_quality_of_service;description": "Se trata de un modelo de Cuestionario de Percepci\u00f3n de los Usuarios Finales. Su objetivo es medir las percepciones de los usuarios finales sobre la calidad basada en el usuario, la calidad basada en el valor, la confianza y la aceptaci\u00f3n. Este cuestionario est\u00e1 pensado para que lo contesten los usuarios de los servicios electr\u00f3nicos tradicionales y tambi\u00e9n los que los coproducen a trav\u00e9s de INTERLINK.",
     "knowledgeinterlinker;final_end_user_s_questionnaire_quality_of_service;name": "Cuestionario final del usuario final - Calidad del servicio",
     "knowledgeinterlinker;focus_group_guidelines;description": "<p>Instrucciones sobre c\u00f3mo montar una actividad de investigaci\u00f3n basada en grupos focales, para un proyecto de coproducci\u00f3n.</p>",

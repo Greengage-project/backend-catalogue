@@ -23,7 +23,7 @@
     },
     "form": "document_template",
     "format": "pdf",
-    "id": "dissemination-and-communication-plan-template",
+    "id": "dissemination_and_communication_plan_template",
     "instructions_translations": {
         "en": "./interlinkers/knowledge/dissemination-and-communication-plan-template/instructions.md"
     },
@@ -42,7 +42,7 @@
         "en": "Dissemination and communication plan template",
         "es": "Plantilla de plan de difusi\u00f3n y comunicaci\u00f3n de datos",
         "it": "Modello di piano di diffusione e comunicazione dei dati",
-        "lv": "Datu izplatīšanas un komunikācijas plāna veidne",
+        "lv": "Datu izplat\u012b\u0161anas un komunik\u0101cijas pl\u0101na veidne",
         "nl": "Sjabloon voor een verspreidings- en communicatieplan voor gegevens"
     },
     "problemprofiles": [

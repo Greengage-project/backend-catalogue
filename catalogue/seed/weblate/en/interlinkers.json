@@ -134,6 +134,8 @@
     "knowledgeinterlinker;dataset_inventory_template;name": "Dataset inventory template",
     "knowledgeinterlinker;demographic_and_activity_satisfaction_questionnaire;description": "<p>This is a model of a questionnaire aimed to collect demographics and activity satisfaction scores from participants to project events and activities.</p>",
     "knowledgeinterlinker;demographic_and_activity_satisfaction_questionnaire;name": "Demographic and activity satisfaction questionnaire",
+    "knowledgeinterlinker;dissemination_and_communication_plan_template;description": "<p>Template which guides a team in the elaboration of an effective dissemination and communication plan</p>",
+    "knowledgeinterlinker;dissemination_and_communication_plan_template;name": "Dissemination and communication plan template",
     "knowledgeinterlinker;final_end_user_s_questionnaire_quality_of_service;description": "This is a model of End Users' Perceptions Questionnaire. It aims to measure end-users' perceptions on user-based quality, value-based quality, trust and acceptance. This questionnaire is thought to be answered by users of traditional e-services and also those who co-produced them through INTERLINK.",
     "knowledgeinterlinker;final_end_user_s_questionnaire_quality_of_service;name": "Final end user's questionnaire- Quality of Service",
     "knowledgeinterlinker;focus_group_guidelines;description": "<p>Instructions on how to set up a research activity based on focus groups, for a co-production project.</p>",
