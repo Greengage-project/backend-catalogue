@@ -25,7 +25,7 @@
     ],
     "form": "guidelines",
     "format": "interactive_resource (website)",
-    "id": "data-quality-and-visualization",
+    "id": "data_quality_and_visualization_weobserve",
     "instructions_translations": {
         "en": "./interlinkers/externalknowledge/data-quality-and-visualization/instructions.md"
     },
@@ -42,8 +42,8 @@
     "name_translations": {
         "da": "Datakvalitet og visualisering (WeObserve)",
         "en": "Data quality and visualization (WeObserve)",
-        "es": "Calidad de los datos y visualizaci\u00F3n (WeObserve)",
-        "it": "Qualit\u00E0 dei dati e visualizzazione (WeObserve)",
+        "es": "Calidad de los datos y visualizaci\u00f3n (WeObserve)",
+        "it": "Qualit\u00e0 dei dati e visualizzazione (WeObserve)",
         "lv": "Datu kvalit\u0101te un vizualiz\u0101cija (WeObserve)",
         "nl": "Datakwaliteit en visualisatie (WeObserve)"
     },

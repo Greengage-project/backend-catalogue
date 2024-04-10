@@ -25,7 +25,7 @@
     ],
     "form": "guidelines",
     "format": "interactive_resource (website)",
-    "id": "data-quality-vrvis",
+    "id": "data_quality_vrvis",
     "instructions_translations": {
         "en": "./interlinkers/externalknowledge/data-quality-vrvis/instructions.md"
     },

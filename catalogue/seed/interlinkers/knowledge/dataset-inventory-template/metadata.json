@@ -23,7 +23,7 @@
     },
     "form": "document_template",
     "format": "editable_source_document",
-    "id": "dataset-inventory-template",
+    "id": "dataset_inventory_template",
     "instructions_translations": {
         "en": "./interlinkers/knowledge/dataset-inventory-template/instructions.md"
     },
