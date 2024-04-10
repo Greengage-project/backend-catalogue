@@ -1,0 +1,72 @@
+{
+    "administrative_scopes": [
+        "eu"
+    ],
+    "constraints_and_limitations_translations": {
+        "en": "No special constraints apply"
+    },
+    "description_translations": {
+        "en": "<p>Template which guides a team in the elaboration of an effective dissemination and communication plan</p>",
+        "es": "<p></p>",
+        "it": "<p></p>",
+        "lv": "<p></p>"
+    },
+    "difficulty": "easy",
+    "domain": "",
+    "environments": [
+        "varam",
+        "mef",
+        "zgz"
+    ],
+    "file_translations": {
+        "en": "./interlinkers/knowledge/dissemination-and-communication-plan-template/CommunicationEngagementPlanGuideline.PDF"
+    },
+    "form": "document_template",
+    "format": "pdf",
+    "id": "dissemination-and-communication-plan-template",
+    "instructions_translations": {
+        "en": "./interlinkers/knowledge/dissemination-and-communication-plan-template/instructions.md"
+    },
+    "is_sustainability_related": false,
+    "languages": [
+        "lv",
+        "en",
+        "es",
+        "it",
+        "da",
+        "nl"
+    ],
+    "licence": "public_domain",
+    "name_translations": {
+        "da": "Skabelon til plan for udbredelse og kommunikation af data",
+        "en": "Dissemination and communication plan template",
+        "es": "Plantilla de plan de difusi\u00f3n y comunicaci\u00f3n de datos",
+        "it": "Modello di piano di diffusione e comunicazione dei dati",
+        "lv": "Datu izplatīšanas un komunikācijas plāna veidne",
+        "nl": "Sjabloon voor een verspreidings- en communicatieplan voor gegevens"
+    },
+    "problemprofiles": [
+        "ORG_PROBLEM_4",
+        "CS_PROBLEM_4",
+        "CS_PROBLEM_6"
+    ],
+    "process": "",
+    "regulations_and_standards_translations": {
+        "en": ""
+    },
+    "softwareinterlinker": "googledrive",
+    "tags_translations": {
+        "en": [
+            "dissemination",
+            "communication",
+            "template"
+        ]
+    },
+    "targets": [
+        "all"
+    ],
+    "type": "knowledge",
+    "types": [
+        "enhancing_services"
+    ]
+}
