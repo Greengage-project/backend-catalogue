@@ -1,0 +1,72 @@
+{
+    "administrative_scopes": [
+        "eu"
+    ],
+    "constraints_and_limitations_translations": {
+        "en": "No special constraints apply"
+    },
+    "description_translations": {
+        "en": "<p>This spreadsheet details what datasets will be used in a thematic co-exploration. It fully describes the datasets available and those that should be collected to fill in data gaps.",
+        "es": "<p></p>",
+        "it": "<p></p>",
+        "lv": "<p></p>"
+    },
+    "difficulty": "easy",
+    "domain": "",
+    "environments": [
+        "varam",
+        "mef",
+        "zgz"
+    ],
+    "file_translations": {
+        "en": "./interlinkers/knowledge/dataset-inventory-template/DatasetInventory.xlsx"
+    },
+    "form": "document_template",
+    "format": "editable_source_document",
+    "id": "dataset-inventory-template",
+    "instructions_translations": {
+        "en": "./interlinkers/knowledge/dataset-inventory-template/instructions.md"
+    },
+    "is_sustainability_related": false,
+    "languages": [
+        "lv",
+        "en",
+        "es",
+        "it",
+        "da",
+        "nl"
+    ],
+    "licence": "public_domain",
+    "name_translations": {
+        "da": "Datas\u00e6toversigtsskabelon",
+        "en": "Dataset inventory template",
+        "es": "Plantilla de plan de gesti\u00f3n de datos",
+        "it": "Modello di piano di gestione dei dati",
+        "lv": "Datu inventariz\u0101cijas veidne",
+        "nl": "Sjabloon voor datasetinventaris"
+    },
+    "problemprofiles": [
+        "ORG_PROBLEM_9",
+        "CS_PROBLEM_8",
+        "CS_PROBLEM_9"
+    ],
+    "process": "",
+    "regulations_and_standards_translations": {
+        "en": ""
+    },
+    "softwareinterlinker": "googledrive",
+    "tags_translations": {
+        "en": [
+            "data",
+            "inventory",
+            "template"
+        ]
+    },
+    "targets": [
+        "all"
+    ],
+    "type": "knowledge",
+    "types": [
+        "enhancing_services"
+    ]
+}
