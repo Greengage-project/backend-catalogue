@@ -1,0 +1,3 @@
+# How to use this INTERLINKER
+
+This section of the GREENGAGE documentation illustrates how to use Apache NiFi for data aggregations, the VISAT visualization tool, DataHub cataloguing tool, Apache Superset analytics solution, Apache Druid data store and the Data Quality Dashboard for data exploration and cleaning. This set of tools conform the "data analysis and insights generation" layer of GREENGAGE.

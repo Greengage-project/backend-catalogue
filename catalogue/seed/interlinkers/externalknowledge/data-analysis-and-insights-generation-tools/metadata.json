@@ -1,0 +1,75 @@
+{
+    "administrative_scopes": [
+        "national",
+        "local"
+    ],
+    "asset_name_translations": {
+        "en": "Data analysis and insights generation tools"
+    },
+    "constraints_and_limitations_translations": {
+        "en": "No special constraints apply"
+    },
+    "description_translations": {
+        "da": "<p></p>",
+        "en": "<p>This section of the GREENGAGE documentation illustrates how to use Apache NiFi for data aggregations, the VISAT visualization tool, DataHub cataloguing tool, Apache Superset analytics solution, Apache Druid data store and the Data Quality Dashboard for data exploration and cleaning. This set of tools conform the \"data analysis and insights generation\" layer of GREENGAGE.</p>",
+        "es": "<p></p>",
+        "it": "<p></p>",
+        "lv": "<p></p>",
+        "nl": "<p></p>"
+    },
+    "difficulty": "easy",
+    "environments": [
+        "varam",
+        "mef",
+        "zgz"
+    ],
+    "form": "guidelines",
+    "format": "interactive_resource (website)",
+    "id": "data-analysis-and-insights-generation-tools",
+    "instructions_translations": {
+        "en": "./interlinkers/externalknowledge/data-analysis-and-insights-generation-tools/instructions.md"
+    },
+    "is_sustainability_related": false,
+    "languages": [
+        "lv",
+        "en",
+        "es",
+        "it",
+        "da",
+        "nl"
+    ],
+    "licence": "permissive",
+    "name_translations": {
+        "da": "Dataanalyse- og indsigtsgenereringsv\u00e6rkt\u00f8jer",
+        "en": "Data analysis and insights generation tools",
+        "es": "Herramientas de an\u00e1lisis de datos y generaci\u00f3n de conocimientos",
+        "it": "Strumenti di analisi dei dati e generazione di informazioni",
+        "lv": "Datu anal\u012bzes un atzi\u0146u \u0137ener\u0113\u0161anas r\u012bki",
+        "nl": "Data-analyse- en inzichtsgeneratietools"
+    },
+    "problemprofiles": [
+        "VAL_PROBLEM_3",
+        "VAL_PROBLEM_4"
+    ],
+    "regulations_and_standards_translations": {
+        "en": ""
+    },
+    "tags_translations": {
+        "en": [
+            "data",
+            "analysis",
+            "insights"
+        ]
+    },
+    "targets": [
+        "all"
+    ],
+    "type": "knowledge",
+    "types": [
+        "enabling_services",
+        "enabling_services;implementing_software_and_artifacts"
+    ],
+    "uri_translations": {
+        "en": "Data analysis and insights generation tools"
+    }
+}

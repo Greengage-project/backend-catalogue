@@ -1,0 +1,76 @@
+{
+    "administrative_scopes": [
+        "national",
+        "local"
+    ],
+    "asset_name_translations": {
+        "en": "Course on Storytelling for Citizen Science"
+    },
+    "constraints_and_limitations_translations": {
+        "en": "No special constraints apply"
+    },
+    "description_translations": {
+        "da": "<p></p>",
+        "en": "<p>This course gives some tips about how to perform storytelling for Citizen Science projects</p>",
+        "es": "<p></p>",
+        "it": "<p></p>",
+        "lv": "<p></p>",
+        "nl": "<p></p>"
+    },
+    "difficulty": "easy",
+    "environments": [
+        "varam",
+        "mef",
+        "zgz"
+    ],
+    "form": "best_practices",
+    "format": "interactive_resource (website)",
+    "id": "course-on-storytelling-for-citizen-science",
+    "instructions_translations": {
+        "en": "./interlinkers/externalknowledge/course-on-storytelling-for-citizen-science/instructions.md"
+    },
+    "is_sustainability_related": true,
+    "languages": [
+        "lv",
+        "en",
+        "es",
+        "it",
+        "da",
+        "nl"
+    ],
+    "licence": "permissive",
+    "name_translations": {
+        "da": "Kursus i historiefort\u00E6lling til Citizen Science",
+        "en": "Course on Storytelling for Citizen Science",
+        "es": "Curso sobre narraci\u00F3n para proyectos de ciencia ciudadana",
+        "it": "Corso sulla narrazione per progetti di Citizen Science",
+        "lv": "Kurss par st\u0101stu st\u0101st\u012B\u0161anu pilsoniskajai zin\u0101tnei",
+        "nl": "Cursus verhalen vertellen voor Citizen Science"
+    },
+    "problemprofiles": [
+        "SUS_PROBLEM_2",
+        "SUS_PROBLEM_3",
+        "SUS_PROBLEM_4"
+    ],
+    "regulations_and_standards_translations": {
+        "en": ""
+    },
+    "tags_translations": {
+        "en": [
+            "storytelling",
+            "citizen",
+            "science"
+        ]
+    },
+    "targets": [
+        "all"
+    ],
+    "type": "knowledge",
+    "types": [
+        "enabling_services",
+        "enabling_services;implementing_software_and_artifacts"
+    ],
+    "uri_translations": {
+        "en": "https://eu-citizen.science/resource/250"
+    }
+}
