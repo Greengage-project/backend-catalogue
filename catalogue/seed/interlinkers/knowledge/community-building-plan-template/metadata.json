@@ -23,7 +23,7 @@
     },
     "form": "document_template",
     "format": "editable_source_document",
-    "id": "communication_map",
+    "id": "community-building-plan-template",
     "instructions_translations": {
         "en": "./interlinkers/knowledge/community-building-plan-template/instructions.md"
     },
