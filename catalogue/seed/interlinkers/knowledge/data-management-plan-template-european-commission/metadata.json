@@ -23,7 +23,7 @@
     },
     "form": "document_template",
     "format": "editable_source_document",
-    "id": "data-management-plan-template-european-commission",
+    "id": "data_management_plan_template_european_commission",
     "instructions_translations": {
         "en": "./interlinkers/knowledge/data-management-plan-template-european-commission/instructions.md"
     },
@@ -40,9 +40,9 @@
     "name_translations": {
         "da": "Skabelon til datamanagementplan for Europa-Kommissionen",
         "en": "Data management plan template European Commission",
-        "es": "Plantilla de plan de gesti\u00F3n de datos de la Comisi\u00F3n Europea",
+        "es": "Plantilla de plan de gesti\u00f3n de datos de la Comisi\u00f3n Europea",
         "it": "Modello di piano di gestione dei dati della Commissione europea",
-        "lv": "Eiropas Komisijas datu p\u0101rvald\u012Bbas pl\u0101na veidne",
+        "lv": "Eiropas Komisijas datu p\u0101rvald\u012bbas pl\u0101na veidne",
         "nl": "Sjabloon voor gegevensbeheerplan Europese Commissie"
     },
     "problemprofiles": [

@@ -23,7 +23,7 @@
     },
     "form": "document_template",
     "format": "editable_source_document",
-    "id": "data-protocol-specification",
+    "id": "data_protocol_specification",
     "instructions_translations": {
         "en": "./interlinkers/knowledge/data-protocol-specification/instructions.md"
     },
