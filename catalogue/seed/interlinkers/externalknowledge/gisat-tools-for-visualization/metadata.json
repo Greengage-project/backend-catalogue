@@ -1,0 +1,77 @@
+{
+    "administrative_scopes": [
+        "national",
+        "local"
+    ],
+    "asset_name_translations": {
+        "en": "GISAT tools for visualization"
+    },
+    "constraints_and_limitations_translations": {
+        "en": "No special constraints apply"
+    },
+    "description_translations": {
+        "da": "<p></p>",
+        "en": "<p>HOWTO for tool designed to facilitate the seamless integration, exploration, visualization, and analysis of diverse datasets</p>",
+        "es": "<p></p>",
+        "it": "<p></p>",
+        "lv": "<p></p>",
+        "nl": "<p></p>"
+    },
+    "difficulty": "easy",
+    "environments": [
+        "varam",
+        "mef",
+        "zgz"
+    ],
+    "form": "guidelines",
+    "format": "interactive_resource (website)",
+    "id": "gisat-tools-for-visualization",
+    "instructions_translations": {
+        "en": "./interlinkers/externalknowledge/gisat-tools-for-visualization/instructions.md"
+    },
+    "is_sustainability_related": false,
+    "languages": [
+        "lv",
+        "en",
+        "es",
+        "it",
+        "da",
+        "nl"
+    ],
+    "licence": "permissive",
+    "name_translations": {
+        "da": "GISAT-v\u00e6rkt\u00f8jer til visualisering",
+        "en": "GISAT tools for visualization",
+        "es": "Herramientas GISAT para visualizaci\u00f3n",
+        "it": "Strumenti GISAT per la visualizzazione",
+        "lv": "GISAT r\u012bki vizualiz\u0101cijai",
+        "nl": "GISAT-tools voor visualisatie"
+    },
+    "problemprofiles": [
+        "CS_PROBLEM_8",
+        "CS_PROBLEM_9",
+        "ORG_PROBLEM_6.2",
+        "BUILD_PROBLEM_7"
+    ],
+    "regulations_and_standards_translations": {
+        "en": ""
+    },
+    "tags_translations": {
+        "en": [
+            "gisat",
+            "tools",
+            "visualization"
+        ]
+    },
+    "targets": [
+        "all"
+    ],
+    "type": "knowledge",
+    "types": [
+        "enabling_services",
+        "enabling_services;implementing_software_and_artifacts"
+    ],
+    "uri_translations": {
+        "en": "https://greengage-project.github.io/Documentation/tools/urbantep-visat/"
+    }
+}

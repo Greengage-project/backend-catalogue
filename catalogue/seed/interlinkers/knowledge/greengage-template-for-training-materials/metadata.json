@@ -1,0 +1,70 @@
+{
+    "administrative_scopes": [
+        "eu"
+    ],
+    "constraints_and_limitations_translations": {
+        "en": "No special constraints apply"
+    },
+    "description_translations": {
+        "en": "<p>Presentation with reference contents for training material preparation</p>",
+        "es": "<p></p>",
+        "it": "<p></p>",
+        "lv": "<p></p>"
+    },
+    "difficulty": "easy",
+    "domain": "",
+    "environments": [
+        "varam",
+        "mef",
+        "zgz"
+    ],
+    "file_translations": {
+        "en": "./interlinkers/knowledge/greengage-template-for-training-materials/template_for_training.pptx"
+    },
+    "form": "document_template",
+    "format": "editable_source_document",
+    "id": "greengage-template-for-training-materials",
+    "instructions_translations": {
+        "en": "./interlinkers/knowledge/greengage-template-for-training-materials/instructions.md"
+    },
+    "is_sustainability_related": false,
+    "languages": [
+        "lv",
+        "en",
+        "es",
+        "it",
+        "da",
+        "nl"
+    ],
+    "licence": "public_domain",
+    "name_translations": {
+        "da": "GREENGAGE skabelon til tr\u00e6ningsmateriale",
+        "en": "GREENGAGE template for training materials",
+        "es": "Plantilla de GREENGAGE para materiales de formaci\u00f3n",
+        "it": "Modello GREENGAGE per materiali di formazione",
+        "lv": "GREENGAGE veidnes apmācību materiāliem",
+        "nl": "GREENGAGE-sjabloon voor trainingsmateriaal"
+    },
+    "problemprofiles": [
+        "ORG_PROBLEM_1",
+        "DEF_PROBLEM_7"
+    ],
+    "process": "",
+    "regulations_and_standards_translations": {
+        "en": ""
+    },
+    "softwareinterlinker": "googledrive",
+    "tags_translations": {
+        "en": [
+            "template",
+            "training"
+        ]
+    },
+    "targets": [
+        "all"
+    ],
+    "type": "knowledge",
+    "types": [
+        "enhancing_services"
+    ]
+}

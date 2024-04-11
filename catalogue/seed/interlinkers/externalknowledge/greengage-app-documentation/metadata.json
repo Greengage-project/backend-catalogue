@@ -1,0 +1,76 @@
+{
+    "administrative_scopes": [
+        "national",
+        "local"
+    ],
+    "asset_name_translations": {
+        "en": "GREENGAGE app documentation"
+    },
+    "constraints_and_limitations_translations": {
+        "en": "No special constraints apply"
+    },
+    "description_translations": {
+        "da": "<p></p>",
+        "en": "<p>HOWTO for tool to collect data via campaigns</p>",
+        "es": "<p></p>",
+        "it": "<p></p>",
+        "lv": "<p></p>",
+        "nl": "<p></p>"
+    },
+    "difficulty": "easy",
+    "environments": [
+        "varam",
+        "mef",
+        "zgz"
+    ],
+    "form": "guidelines",
+    "format": "interactive_resource (website)",
+    "id": "greengage-app-documentation",
+    "instructions_translations": {
+        "en": "./interlinkers/externalknowledge/greengage-app-documentation/instructions.md"
+    },
+    "is_sustainability_related": false,
+    "languages": [
+        "lv",
+        "en",
+        "es",
+        "it",
+        "da",
+        "nl"
+    ],
+    "licence": "permissive",
+    "name_translations": {
+        "da": "GREENGAGE app dokumentation",
+        "en": "GREENGAGE app documentation",
+        "es": "Documentaci\u00f3n de la aplicaci\u00f3n GREENGAGE",
+        "it": "Documentazione dell'app GREENGAGE",
+        "lv": "GREENGAGE lietotnes dokument\u0101cija",
+        "nl": "GREENGAGE app documentatie"
+    },
+    "problemprofiles": [
+        "CS_PROBLEM_8",
+        "CS_PROBLEM_9",
+        "ORG_PROBLEM_6.2",
+        "BUILD_PROBLEM_7"
+    ],
+    "regulations_and_standards_translations": {
+        "en": ""
+    },
+    "tags_translations": {
+        "en": [
+            "greengage",
+            "documentation"
+        ]
+    },
+    "targets": [
+        "all"
+    ],
+    "type": "knowledge",
+    "types": [
+        "enabling_services",
+        "enabling_services;implementing_software_and_artifacts"
+    ],
+    "uri_translations": {
+        "en": "https://greengage-project.github.io/Documentation/tools/greengage-app-api/"
+    }
+}
