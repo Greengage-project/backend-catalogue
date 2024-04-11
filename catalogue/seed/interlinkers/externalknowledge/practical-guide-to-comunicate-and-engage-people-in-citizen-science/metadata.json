@@ -1,0 +1,76 @@
+{
+    "administrative_scopes": [
+        "national",
+        "local"
+    ],
+    "asset_name_translations": {
+        "en": "Practical guide to comunicate and engage people in Citizen Science"
+    },
+    "constraints_and_limitations_translations": {
+        "en": "No special constraints apply"
+    },
+    "description_translations": {
+        "da": "<p></p>",
+        "en": "<p>This document offers background information, ideas and resources to ensure an effective communication strategy is carried out for Citizen Science experiments</p>",
+        "es": "<p></p>",
+        "it": "<p></p>",
+        "lv": "<p></p>",
+        "nl": "<p></p>"
+    },
+    "difficulty": "easy",
+    "environments": [
+        "varam",
+        "mef",
+        "zgz"
+    ],
+    "form": "guidelines",
+    "format": "interactive_resource (website)",
+    "id": "practical-guide-to-comunicate-and-engage-people-in-citizen-science",
+    "instructions_translations": {
+        "en": "./interlinkers/externalknowledge/practical-guide-to-comunicate-and-engage-people-in-citizen-scienceinstructions.md"
+    },
+    "is_sustainability_related": true,
+    "languages": [
+        "lv",
+        "en",
+        "es",
+        "it",
+        "da",
+        "nl"
+    ],
+    "licence": "permissive",
+    "name_translations": {
+        "da": "Praktisk guide til at kommunikere og engagere folk i borgerforskning",
+        "en": "Practical guide to comunicate and engage people in Citizen Science",
+        "es": "Gu\u00EDa pr\u00E1ctica para comunicar e involucrar a las personas en la ciencia ciudadana",
+        "it": "Guida pratica per comunicare e coinvolgere le persone nella scienza cittadina",
+        "lv": "Praktisks ce\u013Cvedis, k\u0101 sazin\u0101ties un iesaist\u012Bt cilv\u0113kus pilso\u0146u zin\u0101tn\u0113",
+        "nl": "Praktische gids om mensen te betrekken en te informeren over burgerwetenschap"
+    },
+    "problemprofiles": [
+        "ORG_PROBLEM_4",
+        "CS_PROBLEM_4",
+        "CS_PROBLEM_6"
+    ],
+    "regulations_and_standards_translations": {
+        "en": ""
+    },
+    "tags_translations": {
+        "en": [
+            "policy",
+            "brief",
+            "guideline"
+        ]
+    },
+    "targets": [
+        "all"
+    ],
+    "type": "knowledge",
+    "types": [
+        "enabling_services",
+        "enabling_services;implementing_software_and_artifacts"
+    ],
+    "uri_translations": {
+        "en": "https://www.scivil.be/sites/default/files/paragraph/files/2020-01/Scivil%20Communication%20Guide.pdf"
+    }
+}

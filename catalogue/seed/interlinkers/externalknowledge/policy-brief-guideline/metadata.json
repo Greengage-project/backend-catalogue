@@ -1,0 +1,77 @@
+{
+    "administrative_scopes": [
+        "national",
+        "local"
+    ],
+    "asset_name_translations": {
+        "en": "Policy brief guideline"
+    },
+    "constraints_and_limitations_translations": {
+        "en": "No special constraints apply"
+    },
+    "description_translations": {
+        "da": "<p></p>",
+        "en": "<p>Public access web document explaining how to format a policy brief</p>",
+        "es": "<p></p>",
+        "it": "<p></p>",
+        "lv": "<p></p>",
+        "nl": "<p></p>"
+    },
+    "difficulty": "easy",
+    "environments": [
+        "varam",
+        "mef",
+        "zgz"
+    ],
+    "form": "guidelines",
+    "format": "interactive_resource (website)",
+    "id": "policy-brief-guideline",
+    "instructions_translations": {
+        "en": "./interlinkers/externalknowledge/policy-brief-guideline/instructions.md"
+    },
+    "is_sustainability_related": true,
+    "languages": [
+        "lv",
+        "en",
+        "es",
+        "it",
+        "da",
+        "nl"
+    ],
+    "licence": "permissive",
+    "name_translations": {
+        "da": "Politikbrief retningslinje",
+        "en": "Policy brief guideline",
+        "es": "Directriz pol\u00EDtica",
+        "it": "Linee guida per policy brief",
+        "lv": "Politikas \u012Bss izkl\u0101sts",
+        "nl": "Beleidsbrief richtlijn"
+    },
+    "problemprofiles": [
+        "CS_PROBLEM_12",
+        "CS_PROBLEM_13",
+        "SUS_PROBLEM_1",
+        "CS_PROBLEM_5"
+    ],
+    "regulations_and_standards_translations": {
+        "en": ""
+    },
+    "tags_translations": {
+        "en": [
+            "policy",
+            "brief",
+            "guideline"
+        ]
+    },
+    "targets": [
+        "all"
+    ],
+    "type": "knowledge",
+    "types": [
+        "enabling_services",
+        "enabling_services;implementing_software_and_artifacts"
+    ],
+    "uri_translations": {
+        "en": "https://www.quorum.us/blog/write-policy-brief/"
+    }
+}
