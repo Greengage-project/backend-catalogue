@@ -23,7 +23,7 @@
     },
     "form": "document_template",
     "format": "editable_source_document",
-    "id": "greengage-template-for-training-materials",
+    "id": "greengage_template_for_training_materials",
     "instructions_translations": {
         "en": "./interlinkers/knowledge/greengage-template-for-training-materials/instructions.md"
     },
@@ -42,7 +42,7 @@
         "en": "GREENGAGE template for training materials",
         "es": "Plantilla de GREENGAGE para materiales de formaci\u00f3n",
         "it": "Modello GREENGAGE per materiali di formazione",
-        "lv": "GREENGAGE veidnes apmācību materiāliem",
+        "lv": "GREENGAGE veidnes apm\u0101c\u012bbu materi\u0101liem",
         "nl": "GREENGAGE-sjabloon voor trainingsmateriaal"
     },
     "problemprofiles": [

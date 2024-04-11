@@ -25,7 +25,7 @@
     ],
     "form": "guidelines",
     "format": "interactive_resource (website)",
-    "id": "gisat-tools-for-visualization",
+    "id": "gisat_tools_for_visualization",
     "instructions_translations": {
         "en": "./interlinkers/externalknowledge/gisat-tools-for-visualization/instructions.md"
     },

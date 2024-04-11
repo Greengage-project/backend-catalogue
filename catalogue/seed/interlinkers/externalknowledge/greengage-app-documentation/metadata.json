@@ -25,7 +25,7 @@
     ],
     "form": "guidelines",
     "format": "interactive_resource (website)",
-    "id": "greengage-app-documentation",
+    "id": "greengage_app_documentation",
     "instructions_translations": {
         "en": "./interlinkers/externalknowledge/greengage-app-documentation/instructions.md"
     },
