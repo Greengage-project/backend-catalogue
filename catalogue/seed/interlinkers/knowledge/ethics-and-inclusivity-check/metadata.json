@@ -23,7 +23,7 @@
     },
     "form": "document_template",
     "format": "editable_source_document",
-    "id": "ethics-and-inclusivity-check",
+    "id": "ethics_and_inclusivity_check",
     "instructions_translations": {
         "en": "./interlinkers/knowledge/ethics-and-inclusivity-check/instructions.md"
     },

@@ -25,7 +25,7 @@
     ],
     "form": "guidelines",
     "format": "interactive_resource (website)",
-    "id": "documentation-on-green-engine-and-toolbox",
+    "id": "documentation_on_green_engine_and_toolbox",
     "instructions_translations": {
         "en": "./interlinkers/externalknowledge/documentation-on-green-engine-and-toolbox/instructions.md"
     },
@@ -40,11 +40,11 @@
     ],
     "licence": "permissive",
     "name_translations": {
-        "da": "Dokumentation om GREEN Engine og v\u00E6rkt\u00F8jskasse",
+        "da": "Dokumentation om GREEN Engine og v\u00e6rkt\u00f8jskasse",
         "en": "Documentation on GREEN Engine and toolbox",
-        "es": "Documentaci\u00F3n sobre GREEN Engine y toolbox",
+        "es": "Documentaci\u00f3n sobre GREEN Engine y toolbox",
         "it": "Documentazione su GREEN Engine e toolbox",
-        "lv": "Dokument\u0101cija par GREEN Engine un r\u012Bku kasti",
+        "lv": "Dokument\u0101cija par GREEN Engine un r\u012bku kasti",
         "nl": "Documentatie over GREEN Engine en toolbox"
     },
     "problemprofiles": [

@@ -23,7 +23,7 @@
     },
     "form": "survey_template",
     "format": "pdf",
-    "id": "evaluation-post-questionnaire-for-cs-campaigns",
+    "id": "evaluation_post_questionnaire_for_cs_campaigns",
     "instructions_translations": {
         "en": "./interlinkers/knowledge/evaluation-post-questionnaire-for-cs-campaigns/instructions.md"
     },
@@ -38,9 +38,9 @@
     ],
     "licence": "public_domain",
     "name_translations": {
-        "da": "Evaluering (POST) sp\u00F8rgeskema for CS-kampagner",
+        "da": "Evaluering (POST) sp\u00f8rgeskema for CS-kampagner",
         "en": "Evaluation (POST) questionnaire for CS campaigns",
-        "es": "Cuestionario de evaluaci\u00F3n (POST) para campa\u00F1as de CS",
+        "es": "Cuestionario de evaluaci\u00f3n (POST) para campa\u00f1as de CS",
         "it": "Questionario di valutazione (POST) per campagne di CS",
         "lv": "V\u0113rt\u0113\u0161anas (POST) anketas CS kampa\u0146\u0101m",
         "nl": "Evaluatie (POST) vragenlijst voor CS-campagnes"

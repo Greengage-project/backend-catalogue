@@ -25,7 +25,7 @@
     ],
     "form": "guidelines",
     "format": "interactive_resource (website)",
-    "id": "example-of-policy-brief",
+    "id": "example_of_policy_brief",
     "instructions_translations": {
         "en": "./interlinkers/externalknowledge/example-of-policy-brief/instructions.md"
     },
