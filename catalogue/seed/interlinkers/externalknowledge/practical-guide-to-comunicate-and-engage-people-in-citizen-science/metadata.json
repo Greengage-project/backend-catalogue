@@ -27,7 +27,7 @@
     "format": "interactive_resource (website)",
     "id": "practical-guide-to-comunicate-and-engage-people-in-citizen-science",
     "instructions_translations": {
-        "en": "./interlinkers/externalknowledge/practical-guide-to-comunicate-and-engage-people-in-citizen-scienceinstructions.md"
+        "en": "./interlinkers/externalknowledge/practical-guide-to-comunicate-and-engage-people-in-citizen-science/instructions.md"
     },
     "is_sustainability_related": true,
     "languages": [
@@ -57,9 +57,9 @@
     },
     "tags_translations": {
         "en": [
-            "policy",
-            "brief",
-            "guideline"
+            "guide",
+            "communication",
+            "engage"
         ]
     },
     "targets": [

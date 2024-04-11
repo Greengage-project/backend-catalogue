@@ -1,0 +1,3 @@
+# How to use this INTERLINKER
+
+This presentation describes about the value of storytelling in Citizen Science. It takes us through several viewpoints and tools you can use to tell your story, considering the needs of the audience, the human instinct for storytelling, how to use it to make your Citizen Science project exciting and meaningful to other people, and encourages you to think about ways to use these tools to reach more audiences

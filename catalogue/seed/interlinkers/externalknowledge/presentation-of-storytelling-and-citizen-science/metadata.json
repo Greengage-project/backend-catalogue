@@ -1,0 +1,75 @@
+{
+    "administrative_scopes": [
+        "national",
+        "local"
+    ],
+    "asset_name_translations": {
+        "en": "Presentation of Storytelling and Citizen Science"
+    },
+    "constraints_and_limitations_translations": {
+        "en": "No special constraints apply"
+    },
+    "description_translations": {
+        "da": "<p></p>",
+        "en": "<p>This presentation describes about the value of storytelling in Citizen Science. It takes us through several viewpoints and tools you can use to tell your story, considering the needs of the audience, the human instinct for storytelling, how to use it to make your Citizen Science project exciting and meaningful to other people, and encourages you to think about ways to use these tools to reach more audiences</p>",
+        "es": "<p></p>",
+        "it": "<p></p>",
+        "lv": "<p></p>",
+        "nl": "<p></p>"
+    },
+    "difficulty": "easy",
+    "environments": [
+        "varam",
+        "mef",
+        "zgz"
+    ],
+    "form": "guidelines",
+    "format": "interactive_resource (website)",
+    "id": "presentation-of-storytelling-and-citizen-science",
+    "instructions_translations": {
+        "en": "./interlinkers/externalknowledge/presentation-of-storytelling-and-citizen-science/instructions.md"
+    },
+    "is_sustainability_related": true,
+    "languages": [
+        "lv",
+        "en",
+        "es",
+        "it",
+        "da",
+        "nl"
+    ],
+    "licence": "permissive",
+    "name_translations": {
+        "da": "Pr\u00E6sentation af fort\u00E6lling og borgerforskning",
+        "en": "Presentation of Storytelling and Citizen Science",
+        "es": "Presentaci\u00F3n de la narraci\u00F3n y la ciencia ciudadana",
+        "it": "Presentazione della narrazione e della scienza cittadina",
+        "lv": "St\u0101st\u012B\u0161anas un pilso\u0146u zin\u0101tnes prezent\u0101cija",
+        "nl": "Presentatie van Storytelling en Citizen Science"
+    },
+    "problemprofiles": [
+        "SUS_PROBLEM_2",
+        "SUS_PROBLEM_3",
+        "SUS_PROBLEM_4"
+    ],
+    "regulations_and_standards_translations": {
+        "en": ""
+    },
+    "tags_translations": {
+        "en": [
+            "presentation",
+            "storiltelling"
+        ]
+    },
+    "targets": [
+        "all"
+    ],
+    "type": "knowledge",
+    "types": [
+        "enabling_services",
+        "enabling_services;implementing_software_and_artifacts"
+    ],
+    "uri_translations": {
+        "en": "https://eu-citizen.science/resource/282"
+    }
+}
