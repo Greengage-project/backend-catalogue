@@ -23,7 +23,7 @@
     },
     "form": "document_template",
     "format": "editable_source_document",
-    "id": "knowledge-communication-and-evaluation-assets-template",
+    "id": "knowledge_communication_and_evaluation_assets_template",
     "instructions_translations": {
         "en": "./interlinkers/knowledge/knowledge-communication-and-evaluation-assets-template/instructions.md"
     },

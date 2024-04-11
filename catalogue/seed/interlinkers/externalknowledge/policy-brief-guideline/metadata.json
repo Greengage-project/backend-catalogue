@@ -25,7 +25,7 @@
     ],
     "form": "guidelines",
     "format": "interactive_resource (website)",
-    "id": "policy-brief-guideline",
+    "id": "policy_brief_guideline",
     "instructions_translations": {
         "en": "./interlinkers/externalknowledge/policy-brief-guideline/instructions.md"
     },
@@ -42,9 +42,9 @@
     "name_translations": {
         "da": "Politikbrief retningslinje",
         "en": "Policy brief guideline",
-        "es": "Directriz pol\u00EDtica",
+        "es": "Directriz pol\u00edtica",
         "it": "Linee guida per policy brief",
-        "lv": "Politikas \u012Bss izkl\u0101sts",
+        "lv": "Politikas \u012bss izkl\u0101sts",
         "nl": "Beleidsbrief richtlijn"
     },
     "problemprofiles": [

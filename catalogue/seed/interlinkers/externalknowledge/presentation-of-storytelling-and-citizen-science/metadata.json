@@ -25,7 +25,7 @@
     ],
     "form": "guidelines",
     "format": "interactive_resource (website)",
-    "id": "presentation-of-storytelling-and-citizen-science",
+    "id": "presentation_of_storytelling_and_citizen_science",
     "instructions_translations": {
         "en": "./interlinkers/externalknowledge/presentation-of-storytelling-and-citizen-science/instructions.md"
     },
@@ -40,11 +40,11 @@
     ],
     "licence": "permissive",
     "name_translations": {
-        "da": "Pr\u00E6sentation af fort\u00E6lling og borgerforskning",
+        "da": "Pr\u00e6sentation af fort\u00e6lling og borgerforskning",
         "en": "Presentation of Storytelling and Citizen Science",
-        "es": "Presentaci\u00F3n de la narraci\u00F3n y la ciencia ciudadana",
+        "es": "Presentaci\u00f3n de la narraci\u00f3n y la ciencia ciudadana",
         "it": "Presentazione della narrazione e della scienza cittadina",
-        "lv": "St\u0101st\u012B\u0161anas un pilso\u0146u zin\u0101tnes prezent\u0101cija",
+        "lv": "St\u0101st\u012b\u0161anas un pilso\u0146u zin\u0101tnes prezent\u0101cija",
         "nl": "Presentatie van Storytelling en Citizen Science"
     },
     "problemprofiles": [
