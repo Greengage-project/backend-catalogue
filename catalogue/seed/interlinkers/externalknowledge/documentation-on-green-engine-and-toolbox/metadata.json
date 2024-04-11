@@ -1,0 +1,73 @@
+{
+    "administrative_scopes": [
+        "national",
+        "local"
+    ],
+    "asset_name_translations": {
+        "en": "Configure Discourse space documentation"
+    },
+    "constraints_and_limitations_translations": {
+        "en": "No special constraints apply"
+    },
+    "description_translations": {
+        "da": "<p></p>",
+        "en": "<p>Web portal with all the documentation of the GREEN Engine and associated tools.</p>",
+        "es": "<p></p>",
+        "it": "<p></p>",
+        "lv": "<p></p>",
+        "nl": "<p></p>"
+    },
+    "difficulty": "easy",
+    "environments": [
+        "varam",
+        "mef",
+        "zgz"
+    ],
+    "form": "guidelines",
+    "format": "interactive_resource (website)",
+    "id": "documentation-on-green-engine-and-toolbox",
+    "instructions_translations": {
+        "en": "./interlinkers/externalknowledge/documentation-on-green-engine-and-toolbox/instructions.md"
+    },
+    "is_sustainability_related": false,
+    "languages": [
+        "lv",
+        "en",
+        "es",
+        "it",
+        "da",
+        "nl"
+    ],
+    "licence": "permissive",
+    "name_translations": {
+        "da": "Dokumentation om GREEN Engine og v\u00E6rkt\u00F8jskasse",
+        "en": "Documentation on GREEN Engine and toolbox",
+        "es": "Documentaci\u00F3n sobre GREEN Engine y toolbox",
+        "it": "Documentazione su GREEN Engine e toolbox",
+        "lv": "Dokument\u0101cija par GREEN Engine un r\u012Bku kasti",
+        "nl": "Documentatie over GREEN Engine en toolbox"
+    },
+    "problemprofiles": [
+        "CS_PROBLEM_1"
+    ],
+    "regulations_and_standards_translations": {
+        "en": ""
+    },
+    "tags_translations": {
+        "en": [
+            "documentation",
+            "greenengine"
+        ]
+    },
+    "targets": [
+        "all"
+    ],
+    "type": "knowledge",
+    "types": [
+        "enabling_services",
+        "enabling_services;implementing_software_and_artifacts"
+    ],
+    "uri_translations": {
+        "en": "https://greengage-project.github.io/Documentation/"
+    }
+}

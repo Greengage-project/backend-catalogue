@@ -1,0 +1,70 @@
+{
+    "administrative_scopes": [
+        "eu"
+    ],
+    "constraints_and_limitations_translations": {
+        "en": "No special constraints apply"
+    },
+    "description_translations": {
+        "en": "<p>This is an example of a possible questionnaire which may be used for the evaluation of CS experiments. This questionnaire would be passed before the CS campaign is started (POST).</p>",
+        "es": "<p></p>",
+        "it": "<p></p>",
+        "lv": "<p></p>"
+    },
+    "difficulty": "easy",
+    "domain": "",
+    "environments": [
+        "varam",
+        "mef",
+        "zgz"
+    ],
+    "file_translations": {
+        "en": "./interlinkers/knowledge/evaluation-post-questionnaire-for-cs-campaigns/post_questionnaire.pdf"
+    },
+    "form": "survey_template",
+    "format": "pdf",
+    "id": "evaluation-post-questionnaire-for-cs-campaigns",
+    "instructions_translations": {
+        "en": "./interlinkers/knowledge/evaluation-post-questionnaire-for-cs-campaigns/instructions.md"
+    },
+    "is_sustainability_related": true,
+    "languages": [
+        "lv",
+        "en",
+        "es",
+        "it",
+        "da",
+        "nl"
+    ],
+    "licence": "public_domain",
+    "name_translations": {
+        "da": "Evaluering (POST) sp\u00F8rgeskema for CS-kampagner",
+        "en": "Evaluation (POST) questionnaire for CS campaigns",
+        "es": "Cuestionario de evaluaci\u00F3n (POST) para campa\u00F1as de CS",
+        "it": "Questionario di valutazione (POST) per campagne di CS",
+        "lv": "V\u0113rt\u0113\u0161anas (POST) anketas CS kampa\u0146\u0101m",
+        "nl": "Evaluatie (POST) vragenlijst voor CS-campagnes"
+    },
+    "problemprofiles": [
+        "BUILD_PROBLEM_8",
+        "VAL_PROBLEM_3"
+    ],
+    "process": "",
+    "regulations_and_standards_translations": {
+        "en": ""
+    },
+    "softwareinterlinker": "googledrive",
+    "tags_translations": {
+        "en": [
+            "questionnaire",
+            "post"
+        ]
+    },
+    "targets": [
+        "all"
+    ],
+    "type": "knowledge",
+    "types": [
+        "enhancing_services"
+    ]
+}

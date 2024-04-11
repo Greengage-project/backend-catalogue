@@ -1,0 +1,71 @@
+{
+    "administrative_scopes": [
+        "eu"
+    ],
+    "constraints_and_limitations_translations": {
+        "en": "No special constraints apply"
+    },
+    "description_translations": {
+        "en": "<p>Check list that helps a thematic co-exploration's organizers to ensure that there is an inclusive participation in the experiment.</p>",
+        "es": "<p></p>",
+        "it": "<p></p>",
+        "lv": "<p></p>"
+    },
+    "difficulty": "easy",
+    "domain": "",
+    "environments": [
+        "varam",
+        "mef",
+        "zgz"
+    ],
+    "file_translations": {
+        "en": "./interlinkers/knowledge/ethics-and-inclusivity-check/ethics_inclusion_checklist.xlsx"
+    },
+    "form": "document_template",
+    "format": "editable_source_document",
+    "id": "ethics-and-inclusivity-check",
+    "instructions_translations": {
+        "en": "./interlinkers/knowledge/ethics-and-inclusivity-check/instructions.md"
+    },
+    "is_sustainability_related": false,
+    "languages": [
+        "lv",
+        "en",
+        "es",
+        "it",
+        "da",
+        "nl"
+    ],
+    "licence": "public_domain",
+    "name_translations": {
+        "da": "Etik- og inklusivitetskontrol",
+        "en": "Ethics and inclusivity check",
+        "es": "Control de \u00e9tica e inclusividad",
+        "it": "Controllo etico e di inclusivit\u00e0",
+        "lv": "Etikas un iek\u013caudz\u012bbas p\u0101rbaude",
+        "nl": "Ethiek- en inclusiviteitscontrole"
+    },
+    "problemprofiles": [
+        "ORG_PROBLEM_4",
+        "CS_PROBLEM_4",
+        "CS_PROBLEM_6"
+    ],
+    "process": "",
+    "regulations_and_standards_translations": {
+        "en": ""
+    },
+    "softwareinterlinker": "googledrive",
+    "tags_translations": {
+        "en": [
+            "ethics",
+            "inclusivity"
+        ]
+    },
+    "targets": [
+        "all"
+    ],
+    "type": "knowledge",
+    "types": [
+        "enhancing_services"
+    ]
+}
