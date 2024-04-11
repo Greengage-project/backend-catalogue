@@ -1,0 +1,77 @@
+{
+    "administrative_scopes": [
+        "national",
+        "local"
+    ],
+    "asset_name_translations": {
+        "en": "HOWTO thematic co-exploration"
+    },
+    "constraints_and_limitations_translations": {
+        "en": "No special constraints apply"
+    },
+    "description_translations": {
+        "da": "<p></p>",
+        "en": "<p>Step by step example on how to co-produce a simple thematic co-exploration, using real datasets. It includes a video illustrating the usage of the different data management tools that intervene.</p>",
+        "es": "<p></p>",
+        "it": "<p></p>",
+        "lv": "<p></p>",
+        "nl": "<p></p>"
+    },
+    "difficulty": "easy",
+    "environments": [
+        "varam",
+        "mef",
+        "zgz"
+    ],
+    "form": "guidelines",
+    "format": "interactive_resource (website)",
+    "id": "howto-thematic-co-exploration",
+    "instructions_translations": {
+        "en": "./interlinkers/externalknowledge/howto-thematic-co-exploration/instructions.md"
+    },
+    "is_sustainability_related": false,
+    "languages": [
+        "lv",
+        "en",
+        "es",
+        "it",
+        "da",
+        "nl"
+    ],
+    "licence": "permissive",
+    "name_translations": {
+        "da": "HOWTO tematisk co-udforskning",
+        "en": "HOWTO thematic co-exploration",
+        "es": "C\u00f3mo hacer una co-exploraci\u00f3n tem\u00e1tica",
+        "it": "COME FARE una co-esplorazione tematica",
+        "lv": "KĀ IZDARĪT tematisku kopīgu izpēti",
+        "nl": "HOWTO thematische co-verkenning"
+    },
+    "problemprofiles": [
+        "CS_PROBLEM_1",
+        "CS_PROBLEM_9",
+        "ORG_PROBLEM_6.2",
+        "BUILD_PROBLEM_7"
+    ],
+    "regulations_and_standards_translations": {
+        "en": ""
+    },
+    "tags_translations": {
+        "en": [
+            "howto",
+            "thematic",
+            "coexploration"
+        ]
+    },
+    "targets": [
+        "all"
+    ],
+    "type": "knowledge",
+    "types": [
+        "enabling_services",
+        "enabling_services;implementing_software_and_artifacts"
+    ],
+    "uri_translations": {
+        "en": "https://greengage-project.github.io/Documentation/thematic_coexploration_example/"
+    }
+}

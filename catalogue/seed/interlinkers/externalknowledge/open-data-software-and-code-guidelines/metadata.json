@@ -1,0 +1,75 @@
+{
+    "administrative_scopes": [
+        "national",
+        "local"
+    ],
+    "asset_name_translations": {
+        "en": "Open Data, Software and Code Guidelines"
+    },
+    "constraints_and_limitations_translations": {
+        "en": "No special constraints apply"
+    },
+    "description_translations": {
+        "da": "<p></p>",
+        "en": "<p>These guidelines relate to the Open Research Europe policy on data availability</p>",
+        "es": "<p></p>",
+        "it": "<p></p>",
+        "lv": "<p></p>",
+        "nl": "<p></p>"
+    },
+    "difficulty": "easy",
+    "environments": [
+        "varam",
+        "mef",
+        "zgz"
+    ],
+    "form": "guidelines",
+    "format": "interactive_resource (website)",
+    "id": "open-data-software-and-code-guidelines",
+    "instructions_translations": {
+        "en": "./interlinkers/externalknowledge/open-data-software-and-code-guidelines/instructions.md"
+    },
+    "is_sustainability_related": true,
+    "languages": [
+        "lv",
+        "en",
+        "es",
+        "it",
+        "da",
+        "nl"
+    ],
+    "licence": "permissive",
+    "name_translations": {
+        "da": "Open Data, Software og Code Guidelines",
+        "en": "Open Data, Software and Code Guidelines",
+        "es": "Datos abiertos, software y directrices de c\u00F3digo",
+        "it": "Linee guida per dati aperti, software e codice",
+        "lv": "Atv\u0113rto datu, programmat\u016Bras un koda pamatnost\u0101dnes",
+        "nl": "Open Data, Software en Code Richtlijnen"
+    },
+    "problemprofiles": [
+        "CS_PROBLEM_12",
+        "CS_PROBLEM_13"
+    ],
+    "regulations_and_standards_translations": {
+        "en": ""
+    },
+    "tags_translations": {
+        "en": [
+            "open data",
+            "software",
+            "code"
+        ]
+    },
+    "targets": [
+        "all"
+    ],
+    "type": "knowledge",
+    "types": [
+        "enabling_services",
+        "enabling_services;implementing_software_and_artifacts"
+    ],
+    "uri_translations": {
+        "en": "https://open-research-europe.ec.europa.eu/for-authors/data-guidelines#:~:text=Data%20supporting%20Open%20Research%20Europe,license%20which%20facilitates%20data%20reuse."
+    }
+}
