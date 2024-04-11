@@ -25,7 +25,7 @@
     ],
     "form": "guidelines",
     "format": "interactive_resource (website)",
-    "id": "mindview-greengage-documentation",
+    "id": "mindview_greengage_documentation",
     "instructions_translations": {
         "en": "./interlinkers/externalknowledge/mindview-greengage-documentation/instructions.md"
     },
@@ -42,7 +42,7 @@
     "name_translations": {
         "da": "MindView GREENGAGE dokumentation",
         "en": "MindView GREENGAGE documentation",
-        "es": "Documentaci\u00F3n de MindView GREENGAGE",
+        "es": "Documentaci\u00f3n de MindView GREENGAGE",
         "it": "Documentazione di MindView GREENGAGE",
         "lv": "MindView GREENGAGE dokument\u0101cija",
         "nl": "MindView GREENGAGE documentatie"

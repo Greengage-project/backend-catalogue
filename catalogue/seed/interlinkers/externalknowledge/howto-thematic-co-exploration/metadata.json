@@ -25,7 +25,7 @@
     ],
     "form": "guidelines",
     "format": "interactive_resource (website)",
-    "id": "howto-thematic-co-exploration",
+    "id": "howto_thematic_co_exploration",
     "instructions_translations": {
         "en": "./interlinkers/externalknowledge/howto-thematic-co-exploration/instructions.md"
     },
@@ -44,7 +44,7 @@
         "en": "HOWTO thematic co-exploration",
         "es": "C\u00f3mo hacer una co-exploraci\u00f3n tem\u00e1tica",
         "it": "COME FARE una co-esplorazione tematica",
-        "lv": "KĀ IZDARĪT tematisku kopīgu izpēti",
+        "lv": "K\u0100 IZDAR\u012aT tematisku kop\u012bgu izp\u0113ti",
         "nl": "HOWTO thematische co-verkenning"
     },
     "problemprofiles": [

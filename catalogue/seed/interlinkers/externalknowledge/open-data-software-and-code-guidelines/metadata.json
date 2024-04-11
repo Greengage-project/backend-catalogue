@@ -25,7 +25,7 @@
     ],
     "form": "guidelines",
     "format": "interactive_resource (website)",
-    "id": "open-data-software-and-code-guidelines",
+    "id": "open_data_software_and_code_guidelines",
     "instructions_translations": {
         "en": "./interlinkers/externalknowledge/open-data-software-and-code-guidelines/instructions.md"
     },
@@ -42,9 +42,9 @@
     "name_translations": {
         "da": "Open Data, Software og Code Guidelines",
         "en": "Open Data, Software and Code Guidelines",
-        "es": "Datos abiertos, software y directrices de c\u00F3digo",
+        "es": "Datos abiertos, software y directrices de c\u00f3digo",
         "it": "Linee guida per dati aperti, software e codice",
-        "lv": "Atv\u0113rto datu, programmat\u016Bras un koda pamatnost\u0101dnes",
+        "lv": "Atv\u0113rto datu, programmat\u016bras un koda pamatnost\u0101dnes",
         "nl": "Open Data, Software en Code Richtlijnen"
     },
     "problemprofiles": [
