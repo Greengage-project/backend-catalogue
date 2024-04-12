@@ -1,0 +1,70 @@
+{
+    "administrative_scopes": [
+        "eu"
+    ],
+    "constraints_and_limitations_translations": {
+        "en": "No special constraints apply"
+    },
+    "description_translations": {
+        "en": "<p>This spreadsheet allows the listing and tracking of KPIs used in the evaluation of the whole GREENGAGE project</p>",
+        "es": "<p></p>",
+        "it": "<p></p>",
+        "lv": "<p></p>"
+    },
+    "difficulty": "easy",
+    "domain": "",
+    "environments": [
+        "varam",
+        "mef",
+        "zgz"
+    ],
+    "file_translations": {
+        "en": "./interlinkers/knowledge/kpis-template-to-be-considered-during-evaluation/KPIs-monitoring-table.xlsx"
+    },
+    "form": "document_template",
+    "format": "editable_source_document",
+    "id": "kpis-template-to-be-considered-during-evaluation",
+    "instructions_translations": {
+        "en": "./interlinkers/knowledge/kpis-template-to-be-considered-during-evaluation/instructions.md"
+    },
+    "is_sustainability_related": false,
+    "languages": [
+        "lv",
+        "en",
+        "es",
+        "it",
+        "da",
+        "nl"
+    ],
+    "licence": "public_domain",
+    "name_translations": {
+        "da": "KPI-skabelon, der skal overvejes under evalueringen",
+        "en": "KPIs template to be considered during evaluation",
+        "es": "Plantilla de KPIs a considerar durante la evaluaci\u00f3n",
+        "it": "Modello di KPI da considerare durante la valutazione",
+        "lv": "KPI veidne, kas j\u0101apsver v\u0113rt\u0113jot",
+        "nl": "KPI's template die tijdens evaluatie moeten worden overwogen"
+    },
+    "problemprofiles": [
+        "BUILD_PROBLEM_8",
+        "VAL_PROBLEM_3"
+    ],
+    "process": "",
+    "regulations_and_standards_translations": {
+        "en": ""
+    },
+    "softwareinterlinker": "googledrive",
+    "tags_translations": {
+        "en": [
+            "kpi",
+            "evaluation"
+        ]
+    },
+    "targets": [
+        "all"
+    ],
+    "type": "knowledge",
+    "types": [
+        "enhancing_services"
+    ]
+}

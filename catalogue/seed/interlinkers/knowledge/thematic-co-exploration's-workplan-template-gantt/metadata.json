@@ -1,0 +1,71 @@
+{
+    "administrative_scopes": [
+        "eu"
+    ],
+    "constraints_and_limitations_translations": {
+        "en": "No special constraints apply"
+    },
+    "description_translations": {
+        "en": "<p>This spreadsheet allows core team members to define the activities that will be carried in the thematic co-exploration, bearing in mind the phases, objectives and tasks defined within GREENGAGE thematic co-exploration's co-production process schema</p>",
+        "es": "<p></p>",
+        "it": "<p></p>",
+        "lv": "<p></p>"
+    },
+    "difficulty": "easy",
+    "domain": "",
+    "environments": [
+        "varam",
+        "mef",
+        "zgz"
+    ],
+    "file_translations": {
+        "en": "./interlinkers/knowledge/thematic-co-exploration's-workplan-template-gantt/thematic-co-exploration-workplan-template.xlsx"
+    },
+    "form": "document_template",
+    "format": "editable_source_document",
+    "id": "thematic-co-exploration's-workplan-template-gantt",
+    "instructions_translations": {
+        "en": "./interlinkers/knowledge/thematic-co-exploration's-workplan-template-gantt/instructions.md"
+    },
+    "is_sustainability_related": false,
+    "languages": [
+        "lv",
+        "en",
+        "es",
+        "it",
+        "da",
+        "nl"
+    ],
+    "licence": "public_domain",
+    "name_translations": {
+        "da": "Tematisk co-udforskningens arbejdsplan skabelon (Gantt)",
+        "en": "Thematic co-exploration's workplan template (Gantt)",
+        "es": "Plan de trabajo de la coexploraci\u00F3n tem\u00E1tica (Gantt)",
+        "it": "Modello di piano di lavoro per l'esplorazione tematica (Gantt)",
+        "lv": "Tematisk\u0101s kop\u012Bg\u0101s izp\u0113tes darba pl\u0101na veidne (Gantt)",
+        "nl": "Sjabloon voor het werkplan van thematische co-exploratie (Gantt)"
+    },
+    "problemprofiles": [
+        "DEF_PROBLEM_5",
+        "CS_PROBLEM_2"
+    ],
+    "process": "",
+    "regulations_and_standards_translations": {
+        "en": ""
+    },
+    "softwareinterlinker": "googledrive",
+    "tags_translations": {
+        "en": [
+            "exploration",
+            "workplan",
+            "gantt"
+        ]
+    },
+    "targets": [
+        "all"
+    ],
+    "type": "knowledge",
+    "types": [
+        "enhancing_services"
+    ]
+}

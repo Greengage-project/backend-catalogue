@@ -1,0 +1,72 @@
+{
+    "administrative_scopes": [
+        "eu"
+    ],
+    "constraints_and_limitations_translations": {
+        "en": "No special constraints apply"
+    },
+    "description_translations": {
+        "en": "<p>This spreadsheet template guides those willing to achieve community establishment within a thematic co-exploration. It suggests the organization and planning of the different types of activities: INFORM, GUIDE, CONSULT and WORK WITH.</p>",
+        "es": "<p></p>",
+        "it": "<p></p>",
+        "lv": "<p></p>"
+    },
+    "difficulty": "easy",
+    "domain": "",
+    "environments": [
+        "varam",
+        "mef",
+        "zgz"
+    ],
+    "file_translations": {
+        "en": "./interlinkers/knowledge/community-building-plan-template/CommunityBuildingPlan.xlsx"
+    },
+    "form": "document_template",
+    "format": "editable_source_document",
+    "id": "communication_map",
+    "instructions_translations": {
+        "en": "./interlinkers/knowledge/community-building-plan-template/instructions.md"
+    },
+    "is_sustainability_related": false,
+    "languages": [
+        "lv",
+        "en",
+        "es",
+        "it",
+        "da",
+        "nl"
+    ],
+    "licence": "public_domain",
+    "name_translations": {
+        "da": "Kommunikationskort",
+        "en": "Communication map",
+        "es": "Mapa de comunicaci\u00f3n",
+        "it": "Mappa della comunicazione",
+        "lv": "Sazi\u0146u karte",
+        "nl": "Communicatiekaart"
+    },
+    "problemprofiles": [
+        "ORG_PROBLEM_2",
+        "ORG_PROBLEM_5"
+    ],
+    "process": "",
+    "regulations_and_standards_translations": {
+        "en": ""
+    },
+    "softwareinterlinker": "googledrive",
+    "tags_translations": {
+        "en": [
+            "community",
+            "building",
+            "plan",
+            "template"
+        ]
+    },
+    "targets": [
+        "all"
+    ],
+    "type": "knowledge",
+    "types": [
+        "enhancing_services"
+    ]
+}
