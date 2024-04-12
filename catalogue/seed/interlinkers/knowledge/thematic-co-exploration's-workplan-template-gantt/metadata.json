@@ -23,7 +23,7 @@
     },
     "form": "document_template",
     "format": "editable_source_document",
-    "id": "thematic-co-exploration's-workplan-template-gantt",
+    "id": "thematic_co_exploration_s_workplan_template_gantt",
     "instructions_translations": {
         "en": "./interlinkers/knowledge/thematic-co-exploration's-workplan-template-gantt/instructions.md"
     },
@@ -40,9 +40,9 @@
     "name_translations": {
         "da": "Tematisk co-udforskningens arbejdsplan skabelon (Gantt)",
         "en": "Thematic co-exploration's workplan template (Gantt)",
-        "es": "Plan de trabajo de la coexploraci\u00F3n tem\u00E1tica (Gantt)",
+        "es": "Plan de trabajo de la coexploraci\u00f3n tem\u00e1tica (Gantt)",
         "it": "Modello di piano di lavoro per l'esplorazione tematica (Gantt)",
-        "lv": "Tematisk\u0101s kop\u012Bg\u0101s izp\u0113tes darba pl\u0101na veidne (Gantt)",
+        "lv": "Tematisk\u0101s kop\u012bg\u0101s izp\u0113tes darba pl\u0101na veidne (Gantt)",
         "nl": "Sjabloon voor het werkplan van thematische co-exploratie (Gantt)"
     },
     "problemprofiles": [

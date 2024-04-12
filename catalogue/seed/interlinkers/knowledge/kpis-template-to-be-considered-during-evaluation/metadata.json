@@ -23,7 +23,7 @@
     },
     "form": "document_template",
     "format": "editable_source_document",
-    "id": "kpis-template-to-be-considered-during-evaluation",
+    "id": "kpis_template_to_be_considered_during_evaluation",
     "instructions_translations": {
         "en": "./interlinkers/knowledge/kpis-template-to-be-considered-during-evaluation/instructions.md"
     },

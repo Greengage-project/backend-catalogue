@@ -25,7 +25,7 @@
     ],
     "form": "guidelines",
     "format": "interactive_resource (website)",
-    "id": "training-materials-for-citizen-observatories-created-by-greengage",
+    "id": "training_materials_for_citizen_observatories_created_by_greengage",
     "instructions_translations": {
         "en": "./interlinkers/externalknowledge/training-materials-for-citizen-observatories-created-by-greengage/instructions.md"
     },
@@ -40,11 +40,11 @@
     ],
     "licence": "permissive",
     "name_translations": {
-        "da": "Tr\u00E6ningsmaterialer til borgerobservatorier oprettet af GREENGAGE",
+        "da": "Tr\u00e6ningsmaterialer til borgerobservatorier oprettet af GREENGAGE",
         "en": "Training materials for Citizen Observatories created by GREENGAGE",
-        "es": "Materiales de formaci\u00F3n para Observatorios Ciudadanos creados por GREENGAGE",
+        "es": "Materiales de formaci\u00f3n para Observatorios Ciudadanos creados por GREENGAGE",
         "it": "Materiali di formazione per gli osservatori cittadini creati da GREENGAGE",
-        "lv": "Apm\u0101c\u012Bbas materi\u0101li pilso\u0146u nov\u0113rojumu posteniem, ko izveidojis GREENGAGE",
+        "lv": "Apm\u0101c\u012bbas materi\u0101li pilso\u0146u nov\u0113rojumu posteniem, ko izveidojis GREENGAGE",
         "nl": "Trainingsmateriaal voor burgerobservatoria gemaakt door GREENGAGE"
     },
     "problemprofiles": [

@@ -23,7 +23,7 @@
     },
     "form": "document_template",
     "format": "editable_source_document",
-    "id": "user-acceptance-test-template",
+    "id": "user_acceptance_test_template",
     "instructions_translations": {
         "en": "./interlinkers/knowledge/user-acceptance-test-template/instructions.md"
     },

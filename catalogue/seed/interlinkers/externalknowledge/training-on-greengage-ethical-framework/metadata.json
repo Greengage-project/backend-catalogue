@@ -25,7 +25,7 @@
     ],
     "form": "guidelines",
     "format": "interactive_resource (website)",
-    "id": "training-on-greengage-ethical-framework",
+    "id": "training_on_greengage_ethical_framework",
     "instructions_translations": {
         "en": "./interlinkers/externalknowledge/training-on-greengage-ethical-framework/instructions.md"
     },
@@ -40,11 +40,11 @@
     ],
     "licence": "permissive",
     "name_translations": {
-        "da": "Træning i GREENGAGE etisk ramme",
+        "da": "Tr\u00e6ning i GREENGAGE etisk ramme",
         "en": "Training on GREENGAGE ethical framework",
-        "es": "Formación sobre el marco ético de GREENGAGE",
+        "es": "Formaci\u00f3n sobre el marco \u00e9tico de GREENGAGE",
         "it": "Formazione sul quadro etico di GREENGAGE",
-        "lv": "GREENGAGE ētikas pamatu apmācība",
+        "lv": "GREENGAGE \u0113tikas pamatu apm\u0101c\u012bba",
         "nl": "GREENGAGE ethisch kader training"
     },
     "problemprofiles": [

@@ -25,7 +25,7 @@
     ],
     "form": "guidelines",
     "format": "interactive_resource (website)",
-    "id": "videos-on-technical-components",
+    "id": "videos_on_technical_components",
     "instructions_translations": {
         "en": "./interlinkers/externalknowledge/videos-on-technical-components/instructions.md"
     },
@@ -42,7 +42,7 @@
     "name_translations": {
         "da": "Videoer om tekniske komponenter",
         "en": "Videos on technical components",
-        "es": "V\u00EDdeos sobre componentes t\u00E9cnicos",
+        "es": "V\u00eddeos sobre componentes t\u00e9cnicos",
         "it": "Video sui componenti tecnici",
         "lv": "Video par tehniskajiem komponentiem",
         "nl": "Video's over technische componenten"

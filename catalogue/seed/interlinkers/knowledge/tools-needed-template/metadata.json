@@ -23,7 +23,7 @@
     },
     "form": "document_template",
     "format": "editable_source_document",
-    "id": "tools-needed-template",
+    "id": "tools_needed_template",
     "instructions_translations": {
         "en": "./interlinkers/knowledge/tools-needed-template/instructions.md"
     },
@@ -38,11 +38,11 @@
     ],
     "licence": "public_domain",
     "name_translations": {
-        "da": "V\u00E6rkt\u00F8jer der kr\u00E6ves skabelon",
+        "da": "V\u00e6rkt\u00f8jer der kr\u00e6ves skabelon",
         "en": "Tools needed template",
         "es": "Plantilla de herramientas necesarias",
         "it": "Modello di strumenti necessari",
-        "lv": "R\u012Bku nepiecie\u0161am\u0101s veidnes",
+        "lv": "R\u012bku nepiecie\u0161am\u0101s veidnes",
         "nl": "Sjabloon voor benodigde tools"
     },
     "problemprofiles": [

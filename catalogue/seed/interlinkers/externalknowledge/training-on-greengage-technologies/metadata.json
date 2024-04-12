@@ -25,7 +25,7 @@
     ],
     "form": "guidelines",
     "format": "interactive_resource (website)",
-    "id": "training-on-greengage-technologies",
+    "id": "training_on_greengage_technologies",
     "instructions_translations": {
         "en": "./interlinkers/externalknowledge/training-on-greengage-technologies/instructions.md"
     },
@@ -44,8 +44,8 @@
         "en": "Training on GREENGAGE technologies",
         "es": "Formaci\u00f3n sobre tecnolog\u00edas GREENGAGE",
         "it": "Formazione sulle tecnologie GREENGAGE",
-        "lv": "Apmācība par GREENGAGE tehnoloģijām",
-        "nl": "Training over GREENGAGE-technologieën"
+        "lv": "Apm\u0101c\u012bba par GREENGAGE tehnolo\u0123ij\u0101m",
+        "nl": "Training over GREENGAGE-technologie\u00ebn"
     },
     "problemprofiles": [
         "CS_PROBLEM_1"
