@@ -1,0 +1,71 @@
+{
+    "administrative_scopes": [
+        "eu"
+    ],
+    "constraints_and_limitations_translations": {
+        "en": "No special constraints apply"
+    },
+    "description_translations": {
+        "en": "<p>This document template guides core team members in the selection of tools that will be used in the thematic co-exploration. This very document also serves to indicate the customizations that are needed over those tools.</p>",
+        "es": "<p></p>",
+        "it": "<p></p>",
+        "lv": "<p></p>"
+    },
+    "difficulty": "easy",
+    "domain": "",
+    "environments": [
+        "varam",
+        "mef",
+        "zgz"
+    ],
+    "file_translations": {
+        "en": "./interlinkers/knowledge/tools-needed-template/ListToolsResourcesNeeded.docx"
+    },
+    "form": "document_template",
+    "format": "editable_source_document",
+    "id": "tools-needed-template",
+    "instructions_translations": {
+        "en": "./interlinkers/knowledge/tools-needed-template/instructions.md"
+    },
+    "is_sustainability_related": false,
+    "languages": [
+        "lv",
+        "en",
+        "es",
+        "it",
+        "da",
+        "nl"
+    ],
+    "licence": "public_domain",
+    "name_translations": {
+        "da": "V\u00E6rkt\u00F8jer der kr\u00E6ves skabelon",
+        "en": "Tools needed template",
+        "es": "Plantilla de herramientas necesarias",
+        "it": "Modello di strumenti necessari",
+        "lv": "R\u012Bku nepiecie\u0161am\u0101s veidnes",
+        "nl": "Sjabloon voor benodigde tools"
+    },
+    "problemprofiles": [
+        "ORG_PROBLEM_6",
+        "DEF_PROBLEM_5",
+        "BUILD_PROBLEM_8",
+        "VAL_PROBLEM_3"
+    ],
+    "process": "",
+    "regulations_and_standards_translations": {
+        "en": ""
+    },
+    "softwareinterlinker": "googledrive",
+    "tags_translations": {
+        "en": [
+            "tools"
+        ]
+    },
+    "targets": [
+        "all"
+    ],
+    "type": "knowledge",
+    "types": [
+        "enhancing_services"
+    ]
+}

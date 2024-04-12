@@ -1,0 +1,73 @@
+{
+    "administrative_scopes": [
+        "national",
+        "local"
+    ],
+    "asset_name_translations": {
+        "en": "Videos on technical components"
+    },
+    "constraints_and_limitations_translations": {
+        "en": "No special constraints apply"
+    },
+    "description_translations": {
+        "da": "<p></p>",
+        "en": "<p>Set of videos recorded with trainings about all the GREENGAGE tools and its co-production approach</p>",
+        "es": "<p></p>",
+        "it": "<p></p>",
+        "lv": "<p></p>",
+        "nl": "<p></p>"
+    },
+    "difficulty": "easy",
+    "environments": [
+        "varam",
+        "mef",
+        "zgz"
+    ],
+    "form": "guidelines",
+    "format": "interactive_resource (website)",
+    "id": "videos-on-technical-components",
+    "instructions_translations": {
+        "en": "./interlinkers/externalknowledge/videos-on-technical-components/instructions.md"
+    },
+    "is_sustainability_related": false,
+    "languages": [
+        "lv",
+        "en",
+        "es",
+        "it",
+        "da",
+        "nl"
+    ],
+    "licence": "permissive",
+    "name_translations": {
+        "da": "Videoer om tekniske komponenter",
+        "en": "Videos on technical components",
+        "es": "V\u00EDdeos sobre componentes t\u00E9cnicos",
+        "it": "Video sui componenti tecnici",
+        "lv": "Video par tehniskajiem komponentiem",
+        "nl": "Video's over technische componenten"
+    },
+    "problemprofiles": [
+        "CS_PROBLEM_1"
+    ],
+    "regulations_and_standards_translations": {
+        "en": ""
+    },
+    "tags_translations": {
+        "en": [
+            "training",
+            "technologies"
+        ]
+    },
+    "targets": [
+        "all"
+    ],
+    "type": "knowledge",
+    "types": [
+        "enabling_services",
+        "enabling_services;implementing_software_and_artifacts"
+    ],
+    "uri_translations": {
+        "en": "https://aitonline.sharepoint.com/sites/HEUGREENGAGE337/Shared%20Documents/Forms/AllItems.aspx?csf=1&web=1&e=Pfjm2U&cid=541fde3c%2D7873%2D4049%2Da437%2D83e06b14dc13&RootFolder=%2Fsites%2FHEUGREENGAGE337%2FShared%20Documents%2FWP3%20GREENGAGE%20Citizen%20Observatory%20Academy%2F06%5FTasks%2F3%2E2%20Training%20%26%20recruitment%20material%2FFinal%20Training%20Material&FolderCTID=0x012000D068D8DB75D23C4BBF17727BCFAF5F22"
+    }
+}

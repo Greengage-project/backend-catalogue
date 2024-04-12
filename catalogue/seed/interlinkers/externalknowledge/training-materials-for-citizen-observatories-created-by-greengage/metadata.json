@@ -1,0 +1,76 @@
+{
+    "administrative_scopes": [
+        "national",
+        "local"
+    ],
+    "asset_name_translations": {
+        "en": "Training materials for Citizen Observatories created by GREENGAGE"
+    },
+    "constraints_and_limitations_translations": {
+        "en": "No special constraints apply"
+    },
+    "description_translations": {
+        "da": "<p></p>",
+        "en": "<p>This folder contains the different training modules that have been organized during the first iteration of GREENGAGE project.</p>",
+        "es": "<p></p>",
+        "it": "<p></p>",
+        "lv": "<p></p>",
+        "nl": "<p></p>"
+    },
+    "difficulty": "easy",
+    "environments": [
+        "varam",
+        "mef",
+        "zgz"
+    ],
+    "form": "guidelines",
+    "format": "interactive_resource (website)",
+    "id": "training-materials-for-citizen-observatories-created-by-greengage",
+    "instructions_translations": {
+        "en": "./interlinkers/externalknowledge/training-materials-for-citizen-observatories-created-by-greengage/instructions.md"
+    },
+    "is_sustainability_related": false,
+    "languages": [
+        "lv",
+        "en",
+        "es",
+        "it",
+        "da",
+        "nl"
+    ],
+    "licence": "permissive",
+    "name_translations": {
+        "da": "Tr\u00E6ningsmaterialer til borgerobservatorier oprettet af GREENGAGE",
+        "en": "Training materials for Citizen Observatories created by GREENGAGE",
+        "es": "Materiales de formaci\u00F3n para Observatorios Ciudadanos creados por GREENGAGE",
+        "it": "Materiali di formazione per gli osservatori cittadini creati da GREENGAGE",
+        "lv": "Apm\u0101c\u012Bbas materi\u0101li pilso\u0146u nov\u0113rojumu posteniem, ko izveidojis GREENGAGE",
+        "nl": "Trainingsmateriaal voor burgerobservatoria gemaakt door GREENGAGE"
+    },
+    "problemprofiles": [
+        "DEF_PROBLEM_7",
+        "CS_PROBLEM_1"
+    ],
+    "regulations_and_standards_translations": {
+        "en": ""
+    },
+    "tags_translations": {
+        "en": [
+            "training",
+            "materials",
+            "citizen",
+            "observatory"
+        ]
+    },
+    "targets": [
+        "all"
+    ],
+    "type": "knowledge",
+    "types": [
+        "enabling_services",
+        "enabling_services;implementing_software_and_artifacts"
+    ],
+    "uri_translations": {
+        "en": "https://aitonline.sharepoint.com/sites/HEUGREENGAGE337/Shared%20Documents/Forms/AllItems.aspx?csf=1&web=1&e=GJw8CE&cid=59e8ed32%2D934e%2D4053%2Dba93%2D6dc5538b5224&RootFolder=%2Fsites%2FHEUGREENGAGE337%2FShared%20Documents%2FWP3%20GREENGAGE%20Citizen%20Observatory%20Academy%2F06%5FTasks%2F3%2E2%20Training%20%26%20recruitment%20material%2FFinal%20Training%20Material&FolderCTID=0x012000D068D8DB75D23C4BBF17727BCFAF5F22"
+    }
+}

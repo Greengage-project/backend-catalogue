@@ -1,0 +1,73 @@
+{
+    "administrative_scopes": [
+        "national",
+        "local"
+    ],
+    "asset_name_translations": {
+        "en": "Training on GREENGAGE technologies"
+    },
+    "constraints_and_limitations_translations": {
+        "en": "No special constraints apply"
+    },
+    "description_translations": {
+        "da": "<p></p>",
+        "en": "<p>Video with training materials abput all GREEENGAGE technologies</p>",
+        "es": "<p></p>",
+        "it": "<p></p>",
+        "lv": "<p></p>",
+        "nl": "<p></p>"
+    },
+    "difficulty": "easy",
+    "environments": [
+        "varam",
+        "mef",
+        "zgz"
+    ],
+    "form": "guidelines",
+    "format": "interactive_resource (website)",
+    "id": "training-on-greengage-technologies",
+    "instructions_translations": {
+        "en": "./interlinkers/externalknowledge/training-on-greengage-technologies/instructions.md"
+    },
+    "is_sustainability_related": false,
+    "languages": [
+        "lv",
+        "en",
+        "es",
+        "it",
+        "da",
+        "nl"
+    ],
+    "licence": "permissive",
+    "name_translations": {
+        "da": "Tr\u00e6ning p\u00e5 GREENGAGE teknologier",
+        "en": "Training on GREENGAGE technologies",
+        "es": "Formaci\u00f3n sobre tecnolog\u00edas GREENGAGE",
+        "it": "Formazione sulle tecnologie GREENGAGE",
+        "lv": "Apmācība par GREENGAGE tehnoloģijām",
+        "nl": "Training over GREENGAGE-technologieën"
+    },
+    "problemprofiles": [
+        "CS_PROBLEM_1"
+    ],
+    "regulations_and_standards_translations": {
+        "en": ""
+    },
+    "tags_translations": {
+        "en": [
+            "training",
+            "technologies"
+        ]
+    },
+    "targets": [
+        "all"
+    ],
+    "type": "knowledge",
+    "types": [
+        "enabling_services",
+        "enabling_services;implementing_software_and_artifacts"
+    ],
+    "uri_translations": {
+        "en": "https://aitonline.sharepoint.com/sites/HEUGREENGAGE337/Shared%20Documents/Forms/AllItems.aspx?sw=auth&id=%2Fsites%2FHEUGREENGAGE337%2FShared%20Documents%2FWP3%20GREENGAGE%20Citizen%20Observatory%20Academy%2F06%5FTasks%2F3%2E2%20Training%20%26%20recruitment%20material%2FFinal%20Training%20Material&viewid=8d5e58b2%2Da28d%2D4eae%2Dbac9%2D69afab2f27ff"
+    }
+}

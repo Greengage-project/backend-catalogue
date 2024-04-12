@@ -6,7 +6,7 @@
         "en": "No special constraints apply"
     },
     "description_translations": {
-        "en": "<p>This spreadsheet template guides those willing to achieve community establishment within a thematic co-exploration. It suggests the organization and planning of the different types of activities: INFORM, GUIDE, CONSULT and WORK WITH.</p>",
+        "en": "<p>This spreadsheet illustrates how to build a user testing script of the core functionalities offered by INTERLINK's Collaborative Environment, which has been adopted and extended for GREENGAGE project.</p>",
         "es": "<p></p>",
         "it": "<p></p>",
         "lv": "<p></p>"
@@ -19,13 +19,13 @@
         "zgz"
     ],
     "file_translations": {
-        "en": "./interlinkers/knowledge/community-building-plan-template/CommunityBuildingPlan.xlsx"
+        "en": "./interlinkers/knowledge/user-acceptance-test-template/User-Acceptance-Testing-Template.xlsx"
     },
     "form": "document_template",
     "format": "editable_source_document",
-    "id": "communication_map",
+    "id": "user-acceptance-test-template",
     "instructions_translations": {
-        "en": "./interlinkers/knowledge/community-building-plan-template/instructions.md"
+        "en": "./interlinkers/knowledge/user-acceptance-test-template/instructions.md"
     },
     "is_sustainability_related": false,
     "languages": [
@@ -38,16 +38,16 @@
     ],
     "licence": "public_domain",
     "name_translations": {
-        "da": "Kommunikationskort",
-        "en": "Communication map",
-        "es": "Mapa de comunicaci\u00f3n",
-        "it": "Mappa della comunicazione",
-        "lv": "Sazi\u0146u karte",
-        "nl": "Communicatiekaart"
+        "da": "Brugertestskabelon",
+        "en": "User acceptance test template",
+        "es": "Plantilla de prueba de aceptaci\u00f3n de usuario",
+        "it": "Modello di test di accettazione dell'utente",
+        "lv": "Lietot\u0101ja pie\u0146em\u0161anas testa veidne",
+        "nl": "Gebruiker acceptatie test sjabloon"
     },
     "problemprofiles": [
-        "ORG_PROBLEM_2",
-        "ORG_PROBLEM_5"
+        "VAL_PROBLEM_3",
+        "VAL_PROBLEM_4"
     ],
     "process": "",
     "regulations_and_standards_translations": {
@@ -56,10 +56,9 @@
     "softwareinterlinker": "googledrive",
     "tags_translations": {
         "en": [
-            "community",
-            "building",
-            "plan",
-            "template"
+            "knowledge",
+            "communication",
+            "evaluation"
         ]
     },
     "targets": [
