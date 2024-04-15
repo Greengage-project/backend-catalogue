@@ -341,7 +341,12 @@
                         "CS_PROBLEM_9"
                     ],
                     "id": "task-collect_not_available_crowdsourced_data",
-                    "prerequisites": []
+                    "prerequisites": [
+                        {
+                            "item": "task-collect_already_available_authorative_data",
+                            "type": "previous"
+                        }
+                    ]
                 },
                 {
                     "name_translations": {
