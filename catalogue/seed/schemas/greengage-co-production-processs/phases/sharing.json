@@ -169,19 +169,19 @@
                 {
                     "name_translations": {
                         "en": "Release and disssemination of thematic co-exploration outcomes",
-                        "es": "Recopilar datos fidedignos ya disponibles",
+                        "es": "Divulgaci\u00f3n de los resultados de la coexploraci\u00f3n tem\u00e1tica",
                         "it": "Rilascio e diffusione dei risultati della co-esplorazione tematica",
                         "lv": "Tematisk\u0101s kop\u012bgo\u0161anas rezult\u0101tu izdo\u0161ana un izplat\u012b\u0161ana",
                         "da": "Udgivelse og udbredelse af resultaterne af den tematiske co-udforskning",
                         "nl": "Vrijgeven en verspreiden van de resultaten van de thematische co-exploratie"
                     },
                     "description_translations": {
-                        "en": "This task gathers already available data from Copernicus or Open Data Portals which can be essential to form the bird's eye view of the thematic co-exploration.",
+                        "en": "Publication and dissemination of the results of the thematic co-exploration",
                         "es": "Publicaci\u00f3n y difusi\u00f3n de los resultados de la co-exploraci\u00f3n tem\u00e1tica",
-                        "it": "Questo compito raccoglie dati gi\u00e0 disponibili da Copernicus o Open Data Portals che possono essere essenziali per formare una visione d'insieme della co-esplorazione tematica.",
-                        "lv": "\u0160is uzdevums apkopo jau pieejamos datus no Copernicus vai Open Data Portals, kas var b\u016bt b\u016btiski, lai veidotu t\u0113mas kop\u012bgo\u0161anas p\u0101rskatu.",
-                        "da": "Denne opgave samler allerede tilg\u00e6ngelige data fra Copernicus eller Open Data Portals, som kan v\u00e6re afg\u00f8rende for at danne et fugleperspektiv af den tematiske co-udforskning.",
-                        "nl": "Deze taak verzamelt reeds beschikbare gegevens van Copernicus of Open Data Portals die essentieel kunnen zijn om een overzicht te vormen van de them"
+                        "it": "Pubblicazione e diffusione dei risultati della co-esplorazione tematica",
+                        "lv": "Tematisk\u0101s kop\u012bgo\u0161anas rezult\u0101tu public\u0113\u0161ana un izplat\u012b\u0161ana",
+                        "da": "Offentligg\u00f8relse og udbredelse af resultaterne af den tematiske co-udforskning",
+                        "nl": "Publicatie en verspreiding van de resultaten van de thematische co-exploratie"
                     },
                     "problemprofiles": [
                         "SUS_PROBLEM_2",
