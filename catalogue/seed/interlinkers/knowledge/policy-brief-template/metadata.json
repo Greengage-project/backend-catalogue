@@ -1,0 +1,72 @@
+{
+    "administrative_scopes": [
+        "eu"
+    ],
+    "constraints_and_limitations_translations": {
+        "en": "No special constraints apply"
+    },
+    "description_translations": {
+        "en": "<p>This document contains a sample template to be used to generate Policy Briefs in Citizen Science projects. Template also used in project SOCIO-BEE. </p>",
+        "es": "<p></p>",
+        "it": "<p></p>",
+        "lv": "<p></p>"
+    },
+    "difficulty": "easy",
+    "domain": "",
+    "environments": [
+        "varam",
+        "mef",
+        "zgz"
+    ],
+    "file_translations": {
+        "en": "./interlinkers/knowledge/policy-brief-template/Communication_map_Table.pptx"
+    },
+    "form": "document_template",
+    "format": "editable_source_document",
+    "id": "policy-brief-template",
+    "instructions_translations": {
+        "en": "./interlinkers/knowledge/policy-brief-template/instructions.md"
+    },
+    "is_sustainability_related": true,
+    "languages": [
+        "lv",
+        "en",
+        "es",
+        "it",
+        "da",
+        "nl"
+    ],
+    "licence": "public_domain",
+    "name_translations": {
+        "da": "Politikbrief skabelon",
+        "en": "Policy brief template",
+        "es": "Plantilla de informe de pol\u00edtica",
+        "it": "Modello di policy brief",
+        "lv": "Politikas kopsavilkuma veidne",
+        "nl": "Beleidsbrief sjabloon"
+    },
+    "problemprofiles": [
+        "CS_PROBLEM_12",
+        "CS_PROBLEM_13",
+        "SUS_PROBLEM_1",
+        "CS_PROBLEM_5"
+    ],
+    "process": "",
+    "regulations_and_standards_translations": {
+        "en": ""
+    },
+    "softwareinterlinker": "googledrive",
+    "tags_translations": {
+        "en": [
+            "policy",
+            "brief"
+        ]
+    },
+    "targets": [
+        "all"
+    ],
+    "type": "knowledge",
+    "types": [
+        "enhancing_services"
+    ]
+}

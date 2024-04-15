@@ -1,0 +1,76 @@
+{
+    "administrative_scopes": [
+        "national",
+        "local"
+    ],
+    "asset_name_translations": {
+        "en": "GREENGAGE app documentation"
+    },
+    "constraints_and_limitations_translations": {
+        "en": "No special constraints apply"
+    },
+    "description_translations": {
+        "da": "<p></p>",
+        "en": "<p>This guideline offers a digital compentencies framework to allow for more widespread different background citizens participation in Citizen Science endeaveours</p>",
+        "es": "<p></p>",
+        "it": "<p></p>",
+        "lv": "<p></p>",
+        "nl": "<p></p>"
+    },
+    "difficulty": "easy",
+    "environments": [
+        "varam",
+        "mef",
+        "zgz"
+    ],
+    "form": "guidelines",
+    "format": "interactive_resource (website)",
+    "id": "guidelines-on-competencies-for-digital-inclusion",
+    "instructions_translations": {
+        "en": "./interlinkers/externalknowledge/guidelines-on-competencies-for-digital-inclusion/instructions.md"
+    },
+    "is_sustainability_related": false,
+    "languages": [
+        "lv",
+        "en",
+        "es",
+        "it",
+        "da",
+        "nl"
+    ],
+    "licence": "permissive",
+    "name_translations": {
+        "da": "Retningslinjer for kompetencer til digital inklusion",
+        "en": "Guidelines on Competencies for Digital Inclusion",
+        "es": "Gu\u00EDa de competencias para la inclusi\u00F3n digital",
+        "it": "Guida alle competenze per l'inclusione digitale",
+        "lv": "Pamatnost\u0101dnes par digit\u0101l\u0101s iek\u013Cau\u0161anas kompetenc\u0113m",
+        "nl": "Richtlijnen voor digitale inclusiecompetenties"
+    },
+    "problemprofiles": [
+        "ORG_PROBLEM_4",
+        "CS_PROBLEM_4",
+        "CS_PROBLEM_6"
+    ],
+    "regulations_and_standards_translations": {
+        "en": ""
+    },
+    "tags_translations": {
+        "en": [
+            "guidelines",
+            "competencies",
+            "digital_inclusion"
+        ]
+    },
+    "targets": [
+        "all"
+    ],
+    "type": "knowledge",
+    "types": [
+        "enabling_services",
+        "enabling_services;implementing_software_and_artifacts"
+    ],
+    "uri_translations": {
+        "en": "https://citimeasure.eu/inclusion-guidelines/#page=1"
+    }
+}
