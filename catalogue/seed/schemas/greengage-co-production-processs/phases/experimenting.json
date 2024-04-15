@@ -297,8 +297,32 @@
             "tasks": [
                 {
                     "name_translations": {
+                        "en": "Collect already available authorative data",
+                        "es": "Recopilar datos fidedignos ya disponibles",
+                        "it": "Raccogliere dati gi\u00e0 disponibili e autorevoli",
+                        "lv": "Apkopot jau pieejamos autoritat\u012bvos datus",
+                        "da": "Indsamle allerede tilg\u00e6ngelige autoritative data",
+                        "nl": "Verzamel al beschikbare gezaghebbende gegevens"
+                    },
+                    "description_translations": {
+                        "en": "This task gathers already available data from Copernicus or Open Data Portals which can be essential to form the bird's eye view of the thematic co-exploration.",
+                        "es": "Esta tarea recopila datos ya disponibles de Copernicus o Portales de Datos Abiertos que pueden ser esenciales para formar la vista de p\u00e1jaro de la co-exploraci\u00f3n tem\u00e1tica.",
+                        "it": "Questa attivit\u00e0 raccoglie dati gi\u00e0 disponibili da Copernicus o Open Data Portals che possono essere essenziali per formare la vista a volo d'uccello della co-esplorazione tematica.",
+                        "lv": "\u0160is uzdevums apkopo jau pieejamos datus no Copernicus vai Open Data Portals, kas var b\u016bt b\u016btiski, lai veidotu tematisk\u0101s kop\u012bgas izp\u0113tes putna acu skatu.",
+                        "da": "Denne opgave indsamler allerede tilg\u00e6ngelige data fra Copernicus eller Open Data Portals, som kan v\u00e6re afg\u00f8rende for at danne fugleperspektivet af den tematiske samarbejde.",
+                        "nl": "Deze taak verzamelt al beschikbare gegevens van Copernicus of Open Data Portals die essentieel kunnen zijn om het vogelperspectief van de thematische co-exploratie te vormen."
+                    },
+                    "problemprofiles": [
+                        "CS_PROBLEM_8",
+                        "CS_PROBLEM_9"
+                    ],
+                    "id": "task-collect_already_available_authorative_data",
+                    "prerequisites": []
+                },
+                {
+                    "name_translations": {
                         "en": "Collect not available crowdsourced data",
-                        "es": "Recopilar datos crowdsourced no disponibles ",
+                        "es": "Recopilar datos crowdsourced no disponibles",
                         "it": "Raccogliere dati crowdsourced non disponibili",
                         "lv": "Aptaujas, intervijas, fokusa grupas, viet\u0113jie pastaigas",
                         "da": "Indsamle ikke tilg\u00e6ngelige crowdsourced data",

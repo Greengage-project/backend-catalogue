@@ -23,7 +23,7 @@
     },
     "form": "document_template",
     "format": "editable_source_document",
-    "id": "communication_map",
+    "id": "community-building-plan-template",
     "instructions_translations": {
         "en": "./interlinkers/knowledge/community-building-plan-template/instructions.md"
     },
@@ -38,12 +38,12 @@
     ],
     "licence": "public_domain",
     "name_translations": {
-        "da": "Kommunikationskort",
-        "en": "Communication map",
-        "es": "Mapa de comunicaci\u00f3n",
-        "it": "Mappa della comunicazione",
-        "lv": "Sazi\u0146u karte",
-        "nl": "Communicatiekaart"
+        "da": "Fællesskabsopbygningsplan skabelon",
+        "en": "Community Building Plan Template",
+        "es": "Plantilla de planificaci\u00f3n de construcci\u00f3n de la comunidad",
+        "it": "Modello di piano di costruzione della comunit\u00e0",
+        "lv": "Kopienas veido\u0161anas pl\u0101na veidne",
+        "nl": "Gemeenschapsopbouwplan sjabloon"
     },
     "problemprofiles": [
         "ORG_PROBLEM_2",
