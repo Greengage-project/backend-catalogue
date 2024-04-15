@@ -23,7 +23,7 @@
     },
     "form": "document_template",
     "format": "editable_source_document",
-    "id": "policy-brief-template",
+    "id": "policy_brief_template",
     "instructions_translations": {
         "en": "./interlinkers/knowledge/policy-brief-template/instructions.md"
     },

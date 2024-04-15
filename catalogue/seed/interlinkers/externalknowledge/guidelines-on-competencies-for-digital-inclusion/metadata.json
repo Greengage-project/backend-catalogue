@@ -25,7 +25,7 @@
     ],
     "form": "guidelines",
     "format": "interactive_resource (website)",
-    "id": "guidelines-on-competencies-for-digital-inclusion",
+    "id": "guidelines_on_competencies_for_digital_inclusion",
     "instructions_translations": {
         "en": "./interlinkers/externalknowledge/guidelines-on-competencies-for-digital-inclusion/instructions.md"
     },
@@ -42,9 +42,9 @@
     "name_translations": {
         "da": "Retningslinjer for kompetencer til digital inklusion",
         "en": "Guidelines on Competencies for Digital Inclusion",
-        "es": "Gu\u00EDa de competencias para la inclusi\u00F3n digital",
+        "es": "Gu\u00eda de competencias para la inclusi\u00f3n digital",
         "it": "Guida alle competenze per l'inclusione digitale",
-        "lv": "Pamatnost\u0101dnes par digit\u0101l\u0101s iek\u013Cau\u0161anas kompetenc\u0113m",
+        "lv": "Pamatnost\u0101dnes par digit\u0101l\u0101s iek\u013cau\u0161anas kompetenc\u0113m",
         "nl": "Richtlijnen voor digitale inclusiecompetenties"
     },
     "problemprofiles": [
