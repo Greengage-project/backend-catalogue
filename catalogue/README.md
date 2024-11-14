@@ -345,3 +345,28 @@ Extends the base with these attributes:
 * assets_clonable
 * path
 * is_subdomain
+
+
+
+### How to Create a Schema - Step-by-Step Guide
+
+1. **Duplicate an Existing Schema**  
+   Go to `backend-catalogue/catalogue/seed/schemas` and copy one of the existing schemas, such as the "default" schema.
+
+2. **Edit Schema Files**  
+   Modify the `metadata.json` file and the JSON files in the `phases` folder, adapting them to fit your requirements.
+
+3. **Run Schema Validation**  
+   In the same folder, run the schema validation script located at `backend-catalogue/catalogue/seed/schemas/validate_schemas.py`.
+
+4. **Generate the Schema**  
+   Still in the same folder, run `backend-catalogue/catalogue/seed/generate.py` to add your new schema to the existing ones.
+
+5. **Build and Integrate the Schema**  
+   - **If on a local environment**:  
+     Navigate to the `backend-catalogue` folder and run `make build`, followed by `make integrated`.
+   - **If on production**:  
+     Download the latest version of the container image.
+
+6. **Deploy the Schema in Production**  
+   Access the container where the image is deployed and run `bash seed.sh`.

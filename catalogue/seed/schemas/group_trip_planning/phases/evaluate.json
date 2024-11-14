@@ -1,0 +1,100 @@
+{
+    "id": "phase-evaluate",
+    "prerequisites": [
+        {
+            "item": "phase-co_delivery",
+            "status": "finished"
+        }
+    ],
+    "name_translations": {
+        "en": "Evaluate",
+        "es": "Evaluar",
+        "it": "Valutazione",
+        "lv": "Nov\u0113rt\u0113jums"
+    },
+    "description_translations": {
+        "en": "Assess the trip\u2019s success and gather feedback from participants. This phase involves evaluating the trip experience and documenting lessons learned to improve future planning.",
+        "es": "Evaluar el \u00e9xito del viaje y recopilar comentarios de los participantes. Esta fase implica evaluar la experiencia del viaje y documentar lecciones aprendidas para mejorar la planificaci\u00f3n futura.",
+        "it": "Valutare il successo del viaggio e raccogliere i feedback dei partecipanti. Questa fase prevede la valutazione dell'esperienza di viaggio e la documentazione delle lezioni apprese per migliorare la pianificazione futura.",
+        "lv": "Nov\u0113rt\u0113t ce\u013cojuma pan\u0101kumus un sav\u0101kt dal\u012bbnieku atsauksmes. \u0160aj\u0101 posm\u0101 ietilpst ce\u013cojuma pieredzes nov\u0113rt\u0113\u0161ana un ieg\u016bto m\u0101c\u012bbu dokument\u0113\u0161ana, lai uzlabotu n\u0101kotnes pl\u0101no\u0161anu."
+    },
+    "objectives": [
+        {
+            "name_translations": {
+                "en": "Assess trip success and gather feedback",
+                "es": "Evaluar el \u00e9xito del viaje y recopilar comentarios",
+                "it": "Valutare il successo del viaggio e raccogliere feedback",
+                "lv": "Nov\u0113rt\u0113t ce\u013cojuma pan\u0101kumus un sav\u0101kt atsauksmes"
+            },
+            "description_translations": {
+                "en": "Conduct an evaluation of the overall trip experience and collect feedback from all participants to identify areas for improvement.",
+                "es": "Realizar una evaluaci\u00f3n de la experiencia general del viaje y recopilar comentarios de todos los participantes para identificar \u00e1reas de mejora.",
+                "it": "Effettuare una valutazione dell'esperienza complessiva del viaggio e raccogliere feedback da tutti i partecipanti per identificare le aree di miglioramento.",
+                "lv": "Veiciet visp\u0101r\u0113j\u0101s ce\u013cojuma pieredzes nov\u0113rt\u0113\u0161anu un sav\u0101ciet atsauksmes no visiem dal\u012bbniekiem, lai noteiktu uzlabo\u0161anas iesp\u0113jas."
+            },
+            "problemprofiles": [
+                "UND_PROBLEM_3"
+            ],
+            "tasks": [
+                {
+                    "name_translations": {
+                        "en": "Conduct a post-trip survey",
+                        "es": "Realizar una encuesta posterior al viaje",
+                        "it": "Condurre un sondaggio post-viaggio",
+                        "lv": "Veikt p\u0113ctripa aptauju"
+                    },
+                    "description_translations": {
+                        "en": "Survey participants to gather their feedback on the trip, covering aspects like itinerary, accommodations, and overall satisfaction.",
+                        "es": "Encuestar a los participantes para recopilar sus comentarios sobre el viaje, cubriendo aspectos como el itinerario, el alojamiento y la satisfacci\u00f3n general.",
+                        "it": "Intervista i partecipanti per raccogliere i loro feedback sul viaggio, coprendo aspetti come l'itinerario, l'alloggio e la soddisfazione complessiva.",
+                        "lv": "Aptauj\u0101jiet dal\u012bbniekus, lai ieg\u016btu vi\u0146u atsauksmes par ce\u013cojumu, aptverot t\u0101dus aspektus k\u0101 mar\u0161ruts, izmitin\u0101\u0161ana un kop\u0113j\u0101 apmierin\u0101t\u012bba."
+                    },
+                    "problemprofiles": [
+                        "UND_PROBLEM_3"
+                    ],
+                    "id": "task-conduct_a_post_trip_survey",
+                    "prerequisites": []
+                },
+                {
+                    "name_translations": {
+                        "en": "Document lessons learned and provide expense report",
+                        "es": "Documentar lecciones aprendidas y proporcionar un informe de gastos",
+                        "it": "Documenta le lezioni apprese e fornisce un resoconto delle spese",
+                        "lv": "Dokument\u0113t g\u016bt\u0101s m\u0101c\u012bbas un sniegt izdevumu p\u0101rskatu"
+                    },
+                    "description_translations": {
+                        "en": "Summarize insights from the trip, document key takeaways, and provide a detailed expense report for reference in future planning.",
+                        "es": "Resumir los conocimientos obtenidos del viaje, documentar los aspectos clave y proporcionar un informe detallado de los gastos como referencia para futuras planificaciones.",
+                        "it": "Riepiloga i risultati del viaggio, documenta i punti chiave e fornisce un resoconto dettagliato delle spese come riferimento per la pianificazione futura.",
+                        "lv": "Apkopojiet ce\u013cojuma atzi\u0146as, dokument\u0113jiet galvenos secin\u0101jumus un sniedziet detaliz\u0113tu izdevumu p\u0101rskatu k\u0101 atsauci turpm\u0101kajai pl\u0101no\u0161anai."
+                    },
+                    "problemprofiles": [],
+                    "id": "task-document_lessons_learned_and_provide_expense_report",
+                    "prerequisites": [
+                        {
+                            "item": "task-conduct_a_post_trip_survey",
+                            "type": "previous"
+                        }
+                    ]
+                }
+            ],
+            "id": "objective-assess_trip_success_and_gather_feedback",
+            "prerequisites": []
+        }
+    ],
+    "interlinkers": [
+        {
+            "name": "Demographic and activity satisfaction questionnaire",
+            "description": "Tool to collect participants\u2019 feedback on their overall satisfaction and specific aspects of the trip.",
+            "problemprofiles": [
+                "UND_PROBLEM_3"
+            ]
+        },
+        {
+            "name": "Final end user's questionnaire - Quality of Service",
+            "description": "Questionnaire to measure participants' perceptions on service quality and to gather insights for improvement.",
+            "problemprofiles": []
+        }
+    ],
+    "is_part_of_codelivery": false
+}

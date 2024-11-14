@@ -1,0 +1,108 @@
+{
+    "id": "phase-engage",
+    "prerequisites": [],
+    "name_translations": {
+        "en": "Engage",
+        "es": "Involucrar",
+        "it": "Coinvolgimento",
+        "lv": "Iesaist\u012b\u0161an\u0101s"
+    },
+    "description_translations": {
+        "en": "Identify and engage the relevant stakeholders. Gather initial preferences and assign roles to each participant to ensure the process is well-coordinated from the beginning.",
+        "es": "Identificar e involucrar a las partes interesadas relevantes. Recopilar las preferencias iniciales y asignar roles a cada participante para asegurar una coordinaci\u00f3n adecuada desde el principio.",
+        "it": "Identifica e coinvolgi i partecipanti rilevanti. Raccogli le preferenze iniziali e assegna ruoli a ciascun partecipante per garantire un coordinamento efficace sin dall'inizio.",
+        "lv": "Identific\u0113jiet un iesaistiet atbilsto\u0161\u0101s ieinteres\u0113t\u0101s puses. Sav\u0101ciet s\u0101kotn\u0113j\u0101s preferences un pie\u0161\u0137iriet lomas katram dal\u012bbniekam, lai nodro\u0161in\u0101tu procesa saska\u0146otu norisi no pa\u0161a s\u0101kuma."
+    },
+    "objectives": [
+        {
+            "name_translations": {
+                "en": "Identify stakeholders and gather preferences",
+                "es": "Identificar partes interesadas y recopilar preferencias",
+                "it": "Identificare le parti interessate e raccogliere preferenze",
+                "lv": "Identific\u0113jiet ieinteres\u0113t\u0101s puses un sav\u0101ciet preferences"
+            },
+            "description_translations": {
+                "en": "Identify the participants and gather their initial preferences and constraints to build a coordinated approach to planning.",
+                "es": "Identifique a los participantes y recopile sus preferencias y limitaciones iniciales para construir un enfoque coordinado en la planificaci\u00f3n.",
+                "it": "Identifica i partecipanti e raccogli le loro preferenze e vincoli iniziali per sviluppare un approccio coordinato alla pianificazione.",
+                "lv": "Identific\u0113jiet dal\u012bbniekus un sav\u0101ciet vi\u0146u s\u0101kotn\u0113j\u0101s preferences un ierobe\u017eojumus, lai veidotu saska\u0146otu pieeju pl\u0101no\u0161anai."
+            },
+            "problemprofiles": [
+                "ORG_PROBLEM_1",
+                "UND_PROBLEM_2"
+            ],
+            "tasks": [
+                {
+                    "name_translations": {
+                        "en": "Identify participants and assign roles",
+                        "es": "Identificar participantes y asignar roles",
+                        "it": "Identifica i partecipanti e assegna i ruoli",
+                        "lv": "Identific\u0113jiet dal\u012bbniekus un pie\u0161\u0137iriet lomas"
+                    },
+                    "description_translations": {
+                        "en": "Determine the necessary roles for the trip planning and assign participants accordingly.",
+                        "es": "Determine los roles necesarios para la planificaci\u00f3n del viaje y asigne a los participantes en consecuencia.",
+                        "it": "Determina i ruoli necessari per la pianificazione del viaggio e assegna i partecipanti di conseguenza.",
+                        "lv": "Nosakiet nepiecie\u0161am\u0101s lomas ce\u013cojuma pl\u0101no\u0161anai un pie\u0161\u0137iriet dal\u012bbniekus atbilsto\u0161i."
+                    },
+                    "problemprofiles": [
+                        "ORG_PROBLEM_1"
+                    ],
+                    "id": "task-identify_participants_and_assign_roles",
+                    "prerequisites": []
+                },
+                {
+                    "name_translations": {
+                        "en": "Conduct an initial survey to understand preferences and budget constraints",
+                        "es": "Realizar una encuesta inicial para entender preferencias y limitaciones presupuestarias",
+                        "it": "Conduci un sondaggio iniziale per comprendere preferenze e vincoli di budget",
+                        "lv": "Veiciet s\u0101kotn\u0113jo aptauju, lai izprastu preferences un bud\u017eeta ierobe\u017eojumus"
+                    },
+                    "description_translations": {
+                        "en": "Collect initial preferences, budget constraints, and other relevant data from participants to guide the planning process.",
+                        "es": "Recoja las preferencias iniciales, las limitaciones presupuestarias y otros datos relevantes de los participantes para guiar el proceso de planificaci\u00f3n.",
+                        "it": "Raccogli preferenze iniziali, vincoli di budget e altri dati rilevanti dai partecipanti per guidare il processo di pianificazione.",
+                        "lv": "Sav\u0101ciet s\u0101kotn\u0113j\u0101s preferences, bud\u017eeta ierobe\u017eojumus un citus atbilsto\u0161us datus no dal\u012bbniekiem, lai virz\u012btu pl\u0101no\u0161anas procesu."
+                    },
+                    "problemprofiles": [
+                        "UND_PROBLEM_2"
+                    ],
+                    "id": "task-conduct_an_initial_survey_to_understand_preferences_and_budget_constraints",
+                    "prerequisites": [
+                        {
+                            "item": "task-identify_participants_and_assign_roles",
+                            "type": "previous"
+                        }
+                    ]
+                }
+            ],
+            "id": "objective-identify_stakeholders_and_gather_preferences",
+            "prerequisites": []
+        }
+    ],
+    "interlinkers": [
+        {
+            "name": "Doodle",
+            "description": "Online tool for time management and coordinating meetings.",
+            "problemprofiles": [
+                "ORG_PROBLEM_1"
+            ]
+        },
+        {
+            "name": "Stakeholder Engagement Plan for INTERLINK project",
+            "description": "Document for designing stakeholder engagement strategies.",
+            "problemprofiles": [
+                "UND_PROBLEM_2"
+            ]
+        },
+        {
+            "name": "Stakeholders Mapping Canvas",
+            "description": "Tool for identifying and organizing stakeholders.",
+            "problemprofiles": [
+                "ORG_PROBLEM_1",
+                "UND_PROBLEM_2"
+            ]
+        }
+    ],
+    "is_part_of_codelivery": false
+}

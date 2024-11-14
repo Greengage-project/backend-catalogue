@@ -1,0 +1,100 @@
+{
+    "id": "phase-co_decision",
+    "prerequisites": [
+        {
+            "item": "phase-co_design",
+            "status": "finished"
+        }
+    ],
+    "name_translations": {
+        "en": "Co-Decision",
+        "es": "Co-Decisi\u00f3n",
+        "it": "Co-Decisone",
+        "lv": "Kop\u012bga L\u0113mumu Pie\u0146em\u0161ana"
+    },
+    "description_translations": {
+        "en": "Finalize decisions on the itinerary, budget, and travel dates. This phase involves reaching consensus among participants to ensure a smooth and agreeable trip plan.",
+        "es": "Finalizar decisiones sobre el itinerario, presupuesto y fechas de viaje. Esta fase implica alcanzar un consenso entre los participantes para asegurar un plan de viaje fluido y consensuado.",
+        "it": "Finalizzare le decisioni su itinerario, budget e date di viaggio. Questa fase implica raggiungere un consenso tra i partecipanti per garantire un piano di viaggio fluido e condiviso.",
+        "lv": "Pabeidziet l\u0113mumu pie\u0146em\u0161anu par mar\u0161rutu, bud\u017eetu un ce\u013cojuma datumiem. \u0160aj\u0101 posm\u0101 tiek pan\u0101kta vieno\u0161an\u0101s starp dal\u012bbniekiem, lai nodro\u0161in\u0101tu vienotu un vienotu ce\u013cojuma pl\u0101nu."
+    },
+    "objectives": [
+        {
+            "name_translations": {
+                "en": "Finalize decisions on itinerary, budget, and travel dates",
+                "es": "Finalizar decisiones sobre el itinerario, presupuesto y fechas de viaje",
+                "it": "Finalizzare le decisioni su itinerario, budget e date di viaggio",
+                "lv": "Pabeigt l\u0113mumu pie\u0146em\u0161anu par mar\u0161rutu, bud\u017eetu un ce\u013cojuma datumiem"
+            },
+            "description_translations": {
+                "en": "Reach a consensus on the final itinerary, budget, and travel dates. Ensure that all participants agree on the main elements of the trip to avoid conflicts during the travel phase.",
+                "es": "Alcanzar un consenso sobre el itinerario final, el presupuesto y las fechas de viaje. Aseg\u00farese de que todos los participantes est\u00e9n de acuerdo con los elementos principales del viaje para evitar conflictos durante la fase de viaje.",
+                "it": "Raggiungi un consenso sull'itinerario finale, sul budget e sulle date di viaggio. Assicurati che tutti i partecipanti siano d'accordo sugli elementi principali del viaggio per evitare conflitti durante la fase di viaggio.",
+                "lv": "Pan\u0101ciet vieno\u0161anos par gal\u012bgo mar\u0161rutu, bud\u017eetu un ce\u013cojuma datumiem. P\u0101rliecinieties, ka visi dal\u012bbnieki ir vienispr\u0101tis par galvenajiem ce\u013cojuma elementiem, lai izvair\u012btos no konfliktiem ce\u013cojuma laik\u0101."
+            },
+            "problemprofiles": [
+                "ORG_PROBLEM_11"
+            ],
+            "tasks": [
+                {
+                    "name_translations": {
+                        "en": "Review and confirm final itinerary",
+                        "es": "Revisar y confirmar el itinerario final",
+                        "it": "Rivedere e confermare l'itinerario finale",
+                        "lv": "P\u0101rskatiet un apstipriniet gal\u012bgo mar\u0161rutu"
+                    },
+                    "description_translations": {
+                        "en": "Review the proposed itinerary with all participants and confirm final destinations, activities, and schedule.",
+                        "es": "Revise el itinerario propuesto con todos los participantes y confirme los destinos, actividades y horarios finales.",
+                        "it": "Rivedi l'itinerario proposto con tutti i partecipanti e conferma le destinazioni finali, le attivit\u00e0 e il programma.",
+                        "lv": "P\u0101rskatiet ierosin\u0101to mar\u0161rutu ar visiem dal\u012bbniekiem un apstipriniet galam\u0113r\u0137us, aktivit\u0101tes un grafiku."
+                    },
+                    "problemprofiles": [
+                        "ORG_PROBLEM_11"
+                    ],
+                    "id": "task-review_and_confirm_final_itinerary",
+                    "prerequisites": []
+                },
+                {
+                    "name_translations": {
+                        "en": "Set travel dates and finalize budget",
+                        "es": "Establecer las fechas de viaje y finalizar el presupuesto",
+                        "it": "Imposta le date di viaggio e finalizza il budget",
+                        "lv": "Noteikt ce\u013cojuma datumus un pabeigt bud\u017eetu"
+                    },
+                    "description_translations": {
+                        "en": "Agree on travel dates and confirm the final budget based on all selected destinations and activities.",
+                        "es": "Acordar las fechas de viaje y confirmar el presupuesto final en funci\u00f3n de todos los destinos y actividades seleccionados.",
+                        "it": "Concorda le date di viaggio e conferma il budget finale in base a tutte le destinazioni e attivit\u00e0 selezionate.",
+                        "lv": "Vienojieties par ce\u013cojuma datumiem un apstipriniet gal\u012bgo bud\u017eetu, pamatojoties uz visiem izv\u0113l\u0113tajiem galam\u0113r\u0137iem un aktivit\u0101t\u0113m."
+                    },
+                    "problemprofiles": [],
+                    "id": "task-set_travel_dates_and_finalize_budget",
+                    "prerequisites": [
+                        {
+                            "item": "task-review_and_confirm_final_itinerary",
+                            "type": "previous"
+                        }
+                    ]
+                }
+            ],
+            "id": "objective-finalize_decisions_on_itinerary_budget_and_travel_dates",
+            "prerequisites": []
+        }
+    ],
+    "interlinkers": [
+        {
+            "name": "Loomio",
+            "description": "A tool for decision-making, enabling participants to discuss and vote on itinerary and budget options.",
+            "problemprofiles": [
+                "ORG_PROBLEM_11"
+            ]
+        },
+        {
+            "name": "Survey editor",
+            "description": "Survey tool for collecting participant feedback on final options for the itinerary and budget.",
+            "problemprofiles": []
+        }
+    ],
+    "is_part_of_codelivery": false
+}

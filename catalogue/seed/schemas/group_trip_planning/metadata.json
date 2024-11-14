@@ -1,0 +1,42 @@
+{
+    "author": "",
+    "description_translations": {
+        "da": "",
+        "en": "Trip Planning Co-Production Process",
+        "es": "Proceso de Coproducci\u00f3n para Planificaci\u00f3n de Viaje",
+        "it": "",
+        "lv": "",
+        "nl": ""
+    },
+    "environments": [
+        "varam",
+        "mef",
+        "zgz"
+    ],
+    "id": "trip-planning",
+    "languages": [
+        "en",
+        "es",
+        "it",
+        "lv",
+        "da",
+        "nl"
+    ],
+    "licence": "permissive",
+    "name_translations": {
+        "da": "",
+        "en": "Trip Planning Co-Production Process",
+        "es": "Proceso de Coproducci\u00f3n para Planificaci\u00f3n de Viaje",
+        "it": "",
+        "lv": "",
+        "nl": ""
+    },
+    "tags_translations": {
+        "en": [
+            "trip planning",
+            "co-production",
+            "collaboration",
+            "group travel"
+        ]
+    }
+}

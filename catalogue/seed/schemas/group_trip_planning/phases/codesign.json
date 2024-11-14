@@ -1,0 +1,112 @@
+{
+    "id": "phase-co_design",
+    "prerequisites": [
+        {
+            "item": "phase-engage",
+            "status": "finished"
+        }
+    ],
+    "name_translations": {
+        "en": "Co-Design",
+        "es": "Co-Dise\u00f1o",
+        "it": "Co-Progettazione",
+        "lv": "Kop\u012bgs dizains"
+    },
+    "description_translations": {
+        "en": "Collaboratively develop a draft itinerary and budget. Engage participants in brainstorming and refining possible destinations, activities, and cost considerations.",
+        "es": "Desarrollar colaborativamente un borrador de itinerario y presupuesto. Involucrar a los participantes en la generaci\u00f3n y refinamiento de ideas sobre posibles destinos, actividades y consideraciones de costos.",
+        "it": "Sviluppa collaborativamente un itinerario e un budget di bozza. Coinvolgi i partecipanti nel brainstorming e nella definizione di possibili destinazioni, attivit\u00e0 e considerazioni sui costi.",
+        "lv": "Kop\u012bgi izstr\u0101d\u0101jiet provizorisku mar\u0161rutu un bud\u017eetu. Iesaistiet dal\u012bbniekus iesp\u0113jamo galam\u0113r\u0137u, aktivit\u0101\u0161u un izmaksu apsv\u0113rumu \u0123ener\u0113\u0161an\u0101 un pilnveido\u0161an\u0101."
+    },
+    "objectives": [
+        {
+            "name_translations": {
+                "en": "Develop a draft travel itinerary and budget",
+                "es": "Desarrollar un borrador de itinerario y presupuesto de viaje",
+                "it": "Sviluppa una bozza di itinerario e budget di viaggio",
+                "lv": "Izstr\u0101d\u0101jiet ce\u013cojuma mar\u0161ruta un bud\u017eeta projektu"
+            },
+            "description_translations": {
+                "en": "Collaboratively explore potential destinations, activities, and costs, and create an initial plan for the trip.",
+                "es": "Explorar colaborativamente posibles destinos, actividades y costos, y crear un plan inicial para el viaje.",
+                "it": "Esplora collaborativamente le possibili destinazioni, attivit\u00e0 e costi, e crea un piano iniziale per il viaggio.",
+                "lv": "Kop\u012bgi izp\u0113tiet iesp\u0113jam\u0101s galam\u0113r\u0137us, aktivit\u0101tes un izmaksas un izveidojiet s\u0101kotn\u0113jo pl\u0101nu ce\u013cojumam."
+            },
+            "problemprofiles": [
+                "ORG_PROBLEM_2",
+                "UND_PROBLEM_5"
+            ],
+            "tasks": [
+                {
+                    "name_translations": {
+                        "en": "Research and propose possible destinations and activities",
+                        "es": "Investigar y proponer posibles destinos y actividades",
+                        "it": "Ricerca e proponi possibili destinazioni e attivit\u00e0",
+                        "lv": "Izp\u0113tiet un ierosiniet iesp\u0113jam\u0101s galam\u0113r\u0137us un aktivit\u0101tes"
+                    },
+                    "description_translations": {
+                        "en": "Identify potential destinations and activities that fit participants' preferences and budget. Discuss options and select the most suitable ones.",
+                        "es": "Identificar destinos y actividades potenciales que se ajusten a las preferencias y el presupuesto de los participantes. Discutir opciones y seleccionar las m\u00e1s adecuadas.",
+                        "it": "Identifica le destinazioni e attivit\u00e0 potenziali che soddisfano le preferenze e il budget dei partecipanti. Discuta le opzioni e seleziona quelle pi\u00f9 adatte.",
+                        "lv": "Identific\u0113jiet potenci\u0101los galam\u0113r\u0137us un aktivit\u0101tes, kas atbilst dal\u012bbnieku v\u0113lm\u0113m un bud\u017eetam. Apspriediet opcijas un izv\u0113lieties vispiem\u0113rot\u0101k\u0101s."
+                    },
+                    "problemprofiles": [
+                        "ORG_PROBLEM_2"
+                    ],
+                    "id": "task-research_and_propose_possible_destinations_and_activities",
+                    "prerequisites": []
+                },
+                {
+                    "name_translations": {
+                        "en": "Draft an initial budget estimate",
+                        "es": "Redactar una estimaci\u00f3n de presupuesto inicial",
+                        "it": "Redigere una stima iniziale del budget",
+                        "lv": "Izveidojiet s\u0101kotn\u0113jo bud\u017eeta apr\u0113\u0137inu"
+                    },
+                    "description_translations": {
+                        "en": "Estimate the costs for chosen destinations and activities, considering travel, accommodation, and other expenses.",
+                        "es": "Estimar los costos de los destinos y actividades elegidos, considerando viajes, alojamiento y otros gastos.",
+                        "it": "Stima i costi per le destinazioni e attivit\u00e0 scelte, considerando viaggi, alloggio e altre spese.",
+                        "lv": "Apr\u0113\u0137iniet izv\u0113l\u0113to galam\u0113r\u0137u un aktivit\u0101\u0161u izmaksas, \u0146emot v\u0113r\u0101 ce\u013cojumu, izmitin\u0101\u0161anu un citus izdevumus."
+                    },
+                    "problemprofiles": [
+                        "UND_PROBLEM_5"
+                    ],
+                    "id": "task-draft_an_initial_budget_estimate",
+                    "prerequisites": [
+                        {
+                            "item": "task-research_and_propose_possible_destinations_and_activities",
+                            "type": "previous"
+                        }
+                    ]
+                }
+            ],
+            "id": "objective-develop_a_draft_travel_itinerary_and_budget",
+            "prerequisites": []
+        }
+    ],
+    "interlinkers": [
+        {
+            "name": "Event Co-designer (ECO)",
+            "description": "Tool for scheduling and organizing events, suitable for planning activities within the itinerary.",
+            "problemprofiles": [
+                "ORG_PROBLEM_2"
+            ]
+        },
+        {
+            "name": "Trello",
+            "description": "Project management tool for organizing tasks and tracking progress on destination and activity selection.",
+            "problemprofiles": [
+                "ORG_PROBLEM_2"
+            ]
+        },
+        {
+            "name": "Collaborative editor",
+            "description": "Real-time collaborative document editor, ideal for working on itinerary drafts and budget estimates.",
+            "problemprofiles": [
+                "UND_PROBLEM_5"
+            ]
+        }
+    ],
+    "is_part_of_codelivery": false
+}

@@ -1,0 +1,107 @@
+{
+    "id": "phase-co_delivery",
+    "prerequisites": [
+        {
+            "item": "phase-co_decision",
+            "status": "finished"
+        }
+    ],
+    "name_translations": {
+        "en": "Co-Delivery",
+        "es": "Co-Entrega",
+        "it": "Co-Consegna",
+        "lv": "Kop\u012bga Pieg\u0101de"
+    },
+    "description_translations": {
+        "en": "Coordinate the implementation of travel plans and manage any real-time issues that arise. This phase involves logistical management and real-time updates to ensure smooth trip execution.",
+        "es": "Coordinar la implementaci\u00f3n de los planes de viaje y gestionar cualquier problema en tiempo real que surja. Esta fase implica la gesti\u00f3n log\u00edstica y actualizaciones en tiempo real para garantizar la ejecuci\u00f3n fluida del viaje.",
+        "it": "Coordinare l'implementazione dei piani di viaggio e gestire eventuali problemi in tempo reale. Questa fase prevede la gestione logistica e aggiornamenti in tempo reale per garantire l'esecuzione del viaggio senza intoppi.",
+        "lv": "Koordin\u0113t ce\u013cojuma pl\u0101nu \u012bsteno\u0161anu un p\u0101rvald\u012bt jebkuras re\u0101llaika probl\u0113mas, kas rodas. \u0160is posms ietver lo\u0123istikas p\u0101rvald\u012bbu un re\u0101llaika atjaunin\u0101jumus, lai nodro\u0161in\u0101tu ce\u013cojuma veiksm\u012bgu \u012bsteno\u0161anu."
+    },
+    "objectives": [
+        {
+            "name_translations": {
+                "en": "Implement travel plans and manage real-time issues",
+                "es": "Implementar planes de viaje y gestionar problemas en tiempo real",
+                "it": "Implementare i piani di viaggio e gestire i problemi in tempo reale",
+                "lv": "\u012astenot ce\u013cojuma pl\u0101nus un p\u0101rvald\u012bt re\u0101llaika probl\u0113mas"
+            },
+            "description_translations": {
+                "en": "Ensure all travel logistics are in place and manage any issues that arise during the trip.",
+                "es": "Asegurar que toda la log\u00edstica de viaje est\u00e9 en su lugar y gestionar cualquier problema que surja durante el viaje.",
+                "it": "Assicurarsi che tutta la logistica di viaggio sia a posto e gestire eventuali problemi durante il viaggio.",
+                "lv": "Nodro\u0161iniet visu ce\u013cojuma lo\u0123istiku un p\u0101rvaldiet jebk\u0101das probl\u0113mas, kas rodas ce\u013cojuma laik\u0101."
+            },
+            "problemprofiles": [
+                "ORG_PROBLEM_4"
+            ],
+            "tasks": [
+                {
+                    "name_translations": {
+                        "en": "Coordinate travel arrangements",
+                        "es": "Coordinar los arreglos de viaje",
+                        "it": "Coordinare gli accordi di viaggio",
+                        "lv": "Koordin\u0113t ce\u013cojuma organiz\u0113\u0161anu"
+                    },
+                    "description_translations": {
+                        "en": "Ensure that all bookings, transportation, and accommodations are confirmed and ready for the trip.",
+                        "es": "Asegurarse de que todas las reservas, transportes y alojamientos est\u00e9n confirmados y listos para el viaje.",
+                        "it": "Assicurati che tutte le prenotazioni, i trasporti e gli alloggi siano confermati e pronti per il viaggio.",
+                        "lv": "P\u0101rliecinieties, ka visas rezerv\u0101cijas, transports un naktsm\u012btnes ir apstiprin\u0101tas un gatavas ce\u013cojumam."
+                    },
+                    "problemprofiles": [
+                        "ORG_PROBLEM_4"
+                    ],
+                    "id": "task-coordinate_travel_arrangements",
+                    "prerequisites": []
+                },
+                {
+                    "name_translations": {
+                        "en": "Track expenses and adjust budget as necessary",
+                        "es": "Rastrear gastos y ajustar el presupuesto seg\u00fan sea necesario",
+                        "it": "Monitora le spese e aggiusta il budget secondo necessit\u00e0",
+                        "lv": "Sekojiet l\u012bdzi izdevumiem un, ja nepiecie\u0161ams, piel\u0101gojiet bud\u017eetu"
+                    },
+                    "description_translations": {
+                        "en": "Monitor expenses during the trip and make adjustments to the budget as needed to stay within financial constraints.",
+                        "es": "Monitorear los gastos durante el viaje y hacer ajustes al presupuesto seg\u00fan sea necesario para mantenerse dentro de las limitaciones financieras.",
+                        "it": "Monitora le spese durante il viaggio e apporta modifiche al budget secondo necessit\u00e0 per rispettare i limiti finanziari.",
+                        "lv": "Ce\u013cojuma laik\u0101 uzraugiet izdevumus un nepiecie\u0161am\u012bbas gad\u012bjum\u0101 veiciet izmai\u0146as bud\u017eet\u0101, lai paliktu finan\u0161u ierobe\u017eojumu ietvaros."
+                    },
+                    "problemprofiles": [],
+                    "id": "task-track_expenses_and_adjust_budget_as_necessary",
+                    "prerequisites": [
+                        {
+                            "item": "task-coordinate_travel_arrangements",
+                            "type": "previous"
+                        }
+                    ]
+                }
+            ],
+            "id": "objective-implement_travel_plans_and_manage_real_time_issues",
+            "prerequisites": []
+        }
+    ],
+    "interlinkers": [
+        {
+            "name": "Google Drive",
+            "description": "Tool for sharing and accessing important travel documents, itineraries, and plans in real time.",
+            "problemprofiles": [
+                "ORG_PROBLEM_4"
+            ]
+        },
+        {
+            "name": "Event Organizer (EVO)",
+            "description": "Management tool for coordinating and allocating travel-related resources and services.",
+            "problemprofiles": [
+                "ORG_PROBLEM_4"
+            ]
+        },
+        {
+            "name": "Mailchimp",
+            "description": "Communication tool to provide regular updates to participants during the trip.",
+            "problemprofiles": []
+        }
+    ],
+    "is_part_of_codelivery": true
+}
