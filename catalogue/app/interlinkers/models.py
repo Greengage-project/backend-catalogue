@@ -24,6 +24,7 @@ class Supporters(enum.Enum):
     on_premise = "on_premise"
     installed_app = "installed_app"
 
+
 class Interlinker(Artefact):
     """
     Defines the interlinker model
@@ -50,7 +51,7 @@ class Interlinker(Artefact):
 
     # discriminator
     nature = Column(String)
-    
+
     instructions_translations = Column(HSTORE)
     instructions = translation_hybrid(instructions_translations)
 
@@ -60,12 +61,13 @@ class Interlinker(Artefact):
     # GREENGAGE
     authors = Column(ARRAY(String), nullable=True)
     citizen_science_description_translations = Column(HSTORE)
-    citizen_science_description = translation_hybrid(citizen_science_description_translations)
+    citizen_science_description = translation_hybrid(
+        citizen_science_description_translations)
     creation_date = Column(Date, nullable=True)
     doi = Column(String, nullable=True)
     theme = Column(String, nullable=True)
     publisher = Column(String, nullable=True)
-    external_link = Column(String, nullable=True)    
+    external_link = Column(String, nullable=True)
 
     __mapper_args__ = {
         "polymorphic_identity": "interlinker",
@@ -82,6 +84,7 @@ class Interlinker(Artefact):
 
     def __repr__(self) -> str:
         return f"<Interlinker {self.id}>"
+
 
 class SoftwareInterlinker(Interlinker):
     """
@@ -116,7 +119,8 @@ class SoftwareInterlinker(Interlinker):
     shortcut = Column(Boolean, default=False)
     supports_internationalization = Column(Boolean, default=False)
     is_responsive = Column(Boolean, default=False)
-    
+    disabled = Column(Boolean, default=False)
+
     # capabilities translations
     instantiate_text_translations = Column(HSTORE)
     view_text_translations = Column(HSTORE)
@@ -133,7 +137,7 @@ class SoftwareInterlinker(Interlinker):
     delete_text = translation_hybrid(delete_text_translations)
     download_text = translation_hybrid(download_text_translations)
     preview_text = translation_hybrid(preview_text_translations)
-    
+
     status = Column(String, default="off")
     __mapper_args__ = {
         "polymorphic_identity": "softwareinterlinker",
@@ -149,6 +153,7 @@ class SoftwareInterlinker(Interlinker):
             return f"{settings.PROTOCOL}{self.path}.{SERVER_NAME}{self.api_path}"
         return f"{settings.PROTOCOL}{SERVER_NAME}/{self.path}{self.api_path}"
 
+
 class KnowledgeInterlinker(Interlinker):
     """
     Defines the knowledge interlinker model
@@ -159,14 +164,17 @@ class KnowledgeInterlinker(Interlinker):
         primary_key=True,
         default=uuid.uuid4,
     )
-   
-    softwareinterlinker_id = Column(UUID(as_uuid=True), ForeignKey("softwareinterlinker.id", ondelete='CASCADE'))
-    softwareinterlinker = relationship("SoftwareInterlinker", backref=backref('knowledgeinterlinkers', passive_deletes=True), foreign_keys=[softwareinterlinker_id])
-    
+
+    softwareinterlinker_id = Column(UUID(as_uuid=True), ForeignKey(
+        "softwareinterlinker.id", ondelete='CASCADE'))
+    softwareinterlinker = relationship("SoftwareInterlinker", backref=backref(
+        'knowledgeinterlinkers', passive_deletes=True), foreign_keys=[softwareinterlinker_id])
+
     genesis_asset_id_translations = Column(HSTORE)
     genesis_asset_id = translation_hybrid(genesis_asset_id_translations)
-    
-    parent_id = Column(UUID(as_uuid=True), ForeignKey("knowledgeinterlinker.id"))
+
+    parent_id = Column(UUID(as_uuid=True),
+                       ForeignKey("knowledgeinterlinker.id"))
     children = relationship(
         "KnowledgeInterlinker", backref=backref("parent", remote_side=[id]), foreign_keys=[parent_id]
     )
@@ -181,7 +189,7 @@ class KnowledgeInterlinker(Interlinker):
     def link(self):
         return f"{self.softwareinterlinker.backend}/{self.genesis_asset_id}"
 
-    # not exposed in out schema
+    #  not exposed in out schema
     @property
     def internal_link(self):
         service_name = self.softwareinterlinker.service_name

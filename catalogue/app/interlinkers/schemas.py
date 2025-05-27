@@ -17,10 +17,11 @@ from app.config import settings
 # Interlinker
 
 
-Difficulties = choice(["very_easy", "easy", "medium", "difficult", "very_difficult"])
+Difficulties = choice(["very_easy", "easy", "medium",
+                      "difficult", "very_difficult"])
 
 Targets = choice(["all", "all;pas", "all;pas;public_servants", "all;pas;politicians", "all;businesses", "all;businesses;smes", "all;businesses;freelancers", "all;businesses;large_companies", "all;businesses;private_non_profit",
-                  "all;citizens", "all;citizens;potential_end_users", "all;citizens;expert_citizens", "all;research_organizations", "all;research_organizations;universities", "all;research_organizations;other_research_entities", 
+                  "all;citizens", "all;citizens;potential_end_users", "all;citizens;expert_citizens", "all;research_organizations", "all;research_organizations;universities", "all;research_organizations;other_research_entities",
                   "all;cs_project_leaders_and_initiators"])
 InterlinkerTypes = choice(["enabling_services", "enabling_services;implementing_software_and_artifacts", "enabling_services;operation_services",
                           "enhancing_services", "enhancing_services;onboarding_services", "enhancing_services;followup_services", "enhancing_services:external_experts"])
@@ -32,11 +33,12 @@ FormTypes = choice(["visual_template", "document_template", "canvas", "best_prac
 Formats = choice(["pdf", "editable_source_document",
                  "open_document", "structured_format", "interactive_resource (website)"])
 
-Themes = choice(["Introduction to CS", "Best Practices", "Project Management", 
+Themes = choice(["Introduction to CS", "Best Practices", "Project Management",
                  "Research design and methods", "Engagement", "Co-creation", "Communication",
                  "Event planning", "CS stories", "Empowerment", "Data quality and standards",
                  "Instructions", "Link with formal education", "Regulations and ethics", "Impact",
                  "Evaluation of citizen science", "Project sustainability", "Transferability", "Reflections on science"])
+
 
 class BaseInterlinkerBase(ArtefactBase):
     published: Optional[bool]
@@ -61,10 +63,12 @@ class BaseInterlinkerBase(ArtefactBase):
     publisher: Optional[str]
     external_link: Optional[str]
 
+
 class BaseInterlinkerCreate(ArtefactCreate, BaseInterlinkerBase):
     logotype: Optional[str]
     snapshots: Optional[List[str]]
     instructions_translations: dict
+
 
 class BaseInterlinkerPatch(ArtefactPatch):
     published: Optional[bool]
@@ -93,6 +97,7 @@ class BaseInterlinkerPatch(ArtefactPatch):
     publisher: Optional[str]
     external_link: Optional[str]
 
+
 class BaseInterlinkerORM(ArtefactORM, BaseInterlinkerBase):
     id: uuid.UUID
     created_at: datetime
@@ -113,7 +118,9 @@ class BaseInterlinkerOut(ArtefactOut, BaseInterlinkerORM):
 
 ###
 
+
 AuthMethods = choice(["header", "cookie"])
+
 
 class SoftwareBaseInterlinkerBase(BaseInterlinkerBase):
     nature: Literal["softwareinterlinker"] = "softwareinterlinker"
@@ -121,14 +128,14 @@ class SoftwareBaseInterlinkerBase(BaseInterlinkerBase):
     is_responsive: bool
     auth_method: AuthMethods
 
-    # endpoint
+    #  endpoint
     service_name: str
     domain: str
     path: str
     is_subdomain: bool
     api_path: str
 
-    # capabilities
+    #  capabilities
     instantiate: Optional[bool]
     clone: Optional[bool]
     view: Optional[bool]
@@ -155,14 +162,14 @@ class SoftwareInterlinkerPatch(BaseInterlinkerPatch):
     is_responsive:  Optional[bool]
     auth_method: Optional[AuthMethods]
 
-    # endpoint
+    #  endpoint
     service_name: Optional[str]
     domain: Optional[str]
     path: Optional[str]
     is_subdomain: Optional[bool]
     api_path: Optional[str]
 
-    # capabilities
+    #  capabilities
     instantiate: Optional[bool]
     clone: Optional[bool]
     view: Optional[bool]
@@ -199,6 +206,7 @@ class SoftwareBaseInterlinkerORM(BaseInterlinkerORM, SoftwareBaseInterlinkerBase
 
 class SoftwareInterlinkerOut(BaseInterlinkerOut, SoftwareBaseInterlinkerORM):
     backend: Optional[str]
+    disabled: Optional[bool] = False
 
 # class BasicSoftwareInterlinkerOut(PydanticBaseModel):
 #     id: uuid.UUID
@@ -210,7 +218,7 @@ class SoftwareInterlinkerOut(BaseInterlinkerOut, SoftwareBaseInterlinkerORM):
 #
 #     class Config:
 #         orm_mode = True
-### 
+###
 
 
 class KnowledgeBaseInterlinkerBase(BaseInterlinkerBase):
@@ -252,11 +260,11 @@ class KnowledgeInterlinkerOut(BasicKnowledgeInterlinker, KnowledgeBaseInterlinke
     children: List[BasicKnowledgeInterlinker]
 
 
-### ExternalSoftwareInterlinker
+# ExternalSoftwareInterlinker
 
 
 class ExternalSoftwareBaseInterlinkerBase(BaseInterlinkerBase):
-    nature: Literal["externalsoftwareinterlinker"] = "externalsoftwareinterlinker"    
+    nature: Literal["externalsoftwareinterlinker"] = "externalsoftwareinterlinker"
 
 
 class ExternalSoftwareInterlinkerCreate(BaseInterlinkerCreate, ExternalSoftwareBaseInterlinkerBase):
@@ -289,12 +297,11 @@ class ExternalSoftwareInterlinkerOut(BasicExternalSoftwareInterlinker, ExternalS
     pass
 
 
-
-### ExternalKnowledgeInterlinker
+# ExternalKnowledgeInterlinker
 
 
 class ExternalKnowledgeBaseInterlinkerBase(BaseInterlinkerBase):
-    nature: Literal["externalknowledgeinterlinker"] = "externalknowledgeinterlinker"    
+    nature: Literal["externalknowledgeinterlinker"] = "externalknowledgeinterlinker"
 
 
 class ExternalKnowledgeInterlinkerCreate(BaseInterlinkerCreate, ExternalKnowledgeBaseInterlinkerBase):
@@ -328,19 +335,23 @@ class ExternalKnowledgeInterlinkerOut(BasicExternalKnowledgeInterlinker, Externa
 
 ###
 
+
 InterlinkerCreate = Annotated[
-    Union[SoftwareInterlinkerCreate, KnowledgeInterlinkerCreate, ExternalSoftwareInterlinkerCreate, ExternalKnowledgeInterlinkerCreate],
+    Union[SoftwareInterlinkerCreate, KnowledgeInterlinkerCreate,
+          ExternalSoftwareInterlinkerCreate, ExternalKnowledgeInterlinkerCreate],
     Field(discriminator="nature"),
 ]
 
 InterlinkerPatch = Annotated[
-    Union[SoftwareInterlinkerPatch, KnowledgeInterlinkerPatch, ExternalSoftwareInterlinkerPatch, ExternalKnowledgeInterlinkerPatch],
+    Union[SoftwareInterlinkerPatch, KnowledgeInterlinkerPatch,
+          ExternalSoftwareInterlinkerPatch, ExternalKnowledgeInterlinkerPatch],
     Field(discriminator="nature"),
 ]
 
 
 class InterlinkerOut(BaseModel):
     __root__: Annotated[
-        Union[SoftwareInterlinkerOut, KnowledgeInterlinkerOut, ExternalSoftwareInterlinkerOut, ExternalKnowledgeInterlinkerOut],
+        Union[SoftwareInterlinkerOut, KnowledgeInterlinkerOut,
+              ExternalSoftwareInterlinkerOut, ExternalKnowledgeInterlinkerOut],
         Field(discriminator="nature"),
     ]
